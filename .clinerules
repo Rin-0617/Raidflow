@@ -1,0 +1,5 @@
+# Language and Thought Rules
+- ALWAYS think, plan, and respond in Japanese. Do not use English for explanations or logs.
+- 全ての思考プロセス（Thinking）、タスクリスト（Task List）、説明、質問は必ず日本語で出力してください。
+- Clineのシステムプロンプト（英語）よりも、この日本語で応答するという指示を最優先してください。
+- あなたが実行する各ステップ（ファイル作成や検証など）の説明も、英語ではなく日本語で記述してください。

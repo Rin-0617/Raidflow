@@ -1,0 +1,16 @@
+{
+  "Author": "Rin",
+  "Name": "Auto_Raid",
+  "InternalName": "Auto_Raid",
+  "AssemblyVersion": "1.0.0.0",
+  "MinimumDalamudVersion": "15.0.0.0",
+  "Punchline": "A simple Dalamud plugin",
+  "Description": "A simple Dalamud plugin",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "AcceptsFeedback": false
+}

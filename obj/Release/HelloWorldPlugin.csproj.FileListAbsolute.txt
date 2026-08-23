@@ -1,0 +1,17 @@
+C:\Users\ryoh1\OneDrive\Desktop\開発\auto_raid\bin\Release\plugin.json
+C:\Users\ryoh1\OneDrive\Desktop\開発\auto_raid\bin\Release\HelloWorldPlugin.deps.json
+C:\Users\ryoh1\OneDrive\Desktop\開発\auto_raid\bin\Release\HelloWorldPlugin.dll
+C:\Users\ryoh1\OneDrive\Desktop\開発\auto_raid\bin\Release\HelloWorldPlugin.pdb
+C:\Users\ryoh1\OneDrive\Desktop\開発\auto_raid\obj\Release\HelloWorldPlugin.csproj.AssemblyReference.cache
+C:\Users\ryoh1\OneDrive\Desktop\開発\auto_raid\obj\Release\HelloWorldPlugin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ryoh1\OneDrive\Desktop\開発\auto_raid\obj\Release\HelloWorldPlugin.AssemblyInfoInputs.cache
+C:\Users\ryoh1\OneDrive\Desktop\開発\auto_raid\obj\Release\HelloWorldPlugin.AssemblyInfo.cs
+C:\Users\ryoh1\OneDrive\Desktop\開発\auto_raid\obj\Release\HelloWorldPlugin.csproj.CoreCompileInputs.cache
+C:\Users\ryoh1\OneDrive\Desktop\開発\auto_raid\obj\Release\HelloWorldPlugin.dll
+C:\Users\ryoh1\OneDrive\Desktop\開発\auto_raid\obj\Release\refint\HelloWorldPlugin.dll
+C:\Users\ryoh1\OneDrive\Desktop\開発\auto_raid\obj\Release\HelloWorldPlugin.pdb
+C:\Users\ryoh1\OneDrive\Desktop\開発\auto_raid\obj\Release\ref\HelloWorldPlugin.dll
+C:\Users\ryoh1\AppData\Roaming\XIVLauncher\devPlugins\HelloWorldPlugin\HelloWorldPlugin.deps.json
+C:\Users\ryoh1\AppData\Roaming\XIVLauncher\devPlugins\HelloWorldPlugin\HelloWorldPlugin.dll
+C:\Users\ryoh1\AppData\Roaming\XIVLauncher\devPlugins\HelloWorldPlugin\HelloWorldPlugin.pdb
+C:\Users\ryoh1\AppData\Roaming\XIVLauncher\devPlugins\HelloWorldPlugin\HelloWorldPlugin.json

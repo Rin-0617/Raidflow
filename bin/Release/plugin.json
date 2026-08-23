@@ -1,0 +1,12 @@
+{
+  "Name": "HelloWorldPlugin",
+  "Description": "A simple Dalamud plugin",
+  "Version": "1.0.0",
+  "Author": "Your Name",
+  "Commands": [],
+  "Events": [],
+  "Functions": [],
+  "Services": [],
+  "Resources": [],
+  "Settings": {}
+}
