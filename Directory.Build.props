@@ -1,0 +1,5 @@
+<Project>
+  <PropertyGroup>
+    <Use_DalamudPackager Condition="'$(Use_DalamudPackager)' == ''">false</Use_DalamudPackager>
+  </PropertyGroup>
+</Project>
