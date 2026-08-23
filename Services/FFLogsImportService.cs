@@ -689,21 +689,15 @@ public static partial class FFLogsImportService
         IReadOnlyDictionary<uint, string> localizedActionNames,
         IReadOnlyDictionary<uint, ReportAbility> abilities)
     {
-        if (abilityId != 0 &&
-            localizedActionNames.TryGetValue(abilityId, out var localizedName) &&
-            FFLogsNameResolver.IsUsableAbilityName(localizedName))
-        {
-            return localizedName;
-        }
+        var metadataName = abilityId != 0 && abilities.TryGetValue(abilityId, out var ability)
+            ? ability.Name
+            : string.Empty;
 
-        if (abilityId != 0 &&
-            abilities.TryGetValue(abilityId, out var ability) &&
-            FFLogsNameResolver.IsUsableAbilityName(ability.Name))
-        {
-            return ability.Name;
-        }
-
-        return FFLogsNameResolver.IsUsableAbilityName(eventAbilityName) ? eventAbilityName : string.Empty;
+        return FFLogsNameResolver.ResolveAbilityName(
+            abilityId,
+            eventAbilityName,
+            localizedActionNames,
+            metadataName);
     }
 
     private static DamageSummary? FindDamageSummary(
