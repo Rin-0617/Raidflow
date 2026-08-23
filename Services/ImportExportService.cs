@@ -1,3 +1,4 @@
+using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using RaidFlow.Models;
@@ -6,6 +7,9 @@ namespace RaidFlow.Services;
 
 public static class ImportExportService
 {
+    public const string FileExtension = ".radflow";
+    public const string FileDialogFilter = "RaidFlow (*.radflow){.radflow},.*";
+
     private static readonly JsonSerializerOptions JsonOptions = new()
     {
         WriteIndented = true,
@@ -45,6 +49,48 @@ public static class ImportExportService
         return JsonSerializer.Serialize(export, JsonOptions);
     }
 
+    public static string DefaultFullPlanFileName(RaidFlowDocument plan)
+    {
+        return $"{SanitizeFileName(plan.ContentName)}_{SanitizeFileName(plan.Revision)}";
+    }
+
+    public static string DefaultPersonalPlanFileName(RaidFlowDocument plan, PartySlot slot)
+    {
+        var profile = plan.Party.First(member => member.Slot == slot);
+        var playerName = string.IsNullOrWhiteSpace(profile.PlayerName)
+            ? slot.ToString()
+            : profile.PlayerName;
+
+        return $"{SanitizeFileName(plan.ContentName)}_{SanitizeFileName(plan.Revision)}_{slot}_{SanitizeFileName(profile.Job)}_{SanitizeFileName(playerName)}";
+    }
+
+    public static string SaveFullPlanToFile(RaidFlowDocument plan, string filePath)
+    {
+        var exportPath = EnsureFileExtension(filePath);
+        File.WriteAllText(exportPath, ExportFullPlan(plan), Encoding.UTF8);
+        return $"{Path.GetFileName(exportPath)} に全体プランを保存しました。";
+    }
+
+    public static string SavePersonalPlanToFile(RaidFlowDocument plan, PartySlot slot, string filePath)
+    {
+        var exportPath = EnsureFileExtension(filePath);
+        File.WriteAllText(exportPath, ExportPersonal(plan, slot), Encoding.UTF8);
+        return $"{Path.GetFileName(exportPath)} に {slot} の個人プランを保存しました。";
+    }
+
+    public static ImportResult ImportFileInto(RaidFlowDocument currentPlan, string filePath)
+    {
+        try
+        {
+            var json = File.ReadAllText(filePath, Encoding.UTF8);
+            return ImportInto(currentPlan, json);
+        }
+        catch (Exception exception) when (exception is IOException or UnauthorizedAccessException or NotSupportedException)
+        {
+            return ImportResult.Failed($"ファイル読み込みに失敗しました: {exception.Message}");
+        }
+    }
+
     public static ImportResult ImportInto(RaidFlowDocument currentPlan, string json)
     {
         if (string.IsNullOrWhiteSpace(json))
@@ -70,6 +116,29 @@ public static class ImportExportService
         {
             return ImportResult.Failed($"JSONが不正です: {exception.Message}");
         }
+    }
+
+    private static string EnsureFileExtension(string filePath)
+    {
+        if (string.IsNullOrWhiteSpace(filePath))
+        {
+            return $"RaidFlow{FileExtension}";
+        }
+
+        return string.Equals(Path.GetExtension(filePath), FileExtension, StringComparison.OrdinalIgnoreCase)
+            ? filePath
+            : $"{filePath}{FileExtension}";
+    }
+
+    private static string SanitizeFileName(string value)
+    {
+        var invalidChars = Path.GetInvalidFileNameChars();
+        var sanitized = new string(value
+            .Select(character => invalidChars.Contains(character) ? '_' : character)
+            .ToArray())
+            .Trim(' ', '.', '_');
+
+        return string.IsNullOrWhiteSpace(sanitized) ? "RaidFlow" : sanitized;
     }
 
     private static ImportResult ImportFullPlan(RaidFlowDocument currentPlan, string json)

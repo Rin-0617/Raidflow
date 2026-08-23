@@ -1,5 +1,6 @@
 using System.Numerics;
 using Dalamud.Bindings.ImGui;
+using Dalamud.Interface.ImGuiFileDialog;
 using Dalamud.Interface.Windowing;
 using RaidFlow.Data;
 using RaidFlow.Models;
@@ -14,6 +15,7 @@ public sealed class MainWindow : Window
     private readonly OverlayWindow overlayWindow;
     private readonly CombatSyncService combatSyncService;
     private readonly ActionIconService actionIconService;
+    private readonly FileDialogManager fileDialogManager = new();
     private Task<FFLogsImportResult>? fflogsImportTask;
     private bool showFFLogsAccessToken;
     private string fflogsImportStatus = string.Empty;
@@ -86,6 +88,8 @@ public sealed class MainWindow : Window
 
             ImGui.EndTabBar();
         }
+
+        this.fileDialogManager.Draw();
     }
 
     private void DrawHeader()
@@ -738,7 +742,39 @@ public sealed class MainWindow : Window
 
     private void DrawImportExportTab()
     {
-        if (ImGui.Button("選択スロットをエクスポート"))
+        if (ImGui.Button("選択スロットを.radflow保存"))
+        {
+            this.OpenSavePersonalPlanDialog();
+        }
+
+        ImGui.SameLine();
+        if (ImGui.Button("全体プランを.radflow保存"))
+        {
+            this.OpenSaveFullPlanDialog();
+        }
+
+        ImGui.SameLine();
+        if (ImGui.Button(".radflowを読み込み"))
+        {
+            this.OpenImportPlanDialog();
+        }
+
+        if (!string.IsNullOrWhiteSpace(this.importStatus))
+        {
+            ImGui.Spacing();
+            ImGui.PushTextWrapPos(0);
+            ImGui.TextUnformatted(this.importStatus);
+            ImGui.PopTextWrapPos();
+        }
+
+        ImGui.Separator();
+
+        if (!ImGui.CollapsingHeader("JSON詳細"))
+        {
+            return;
+        }
+
+        if (ImGui.Button("選択スロットJSON生成"))
         {
             this.configuration.ExportBuffer = ImportExportService.ExportPersonal(
                 this.configuration.Plan,
@@ -748,7 +784,7 @@ public sealed class MainWindow : Window
         }
 
         ImGui.SameLine();
-        if (ImGui.Button("全体プランをエクスポート"))
+        if (ImGui.Button("全体プランJSON生成"))
         {
             this.configuration.ExportBuffer = ImportExportService.ExportFullPlan(this.configuration.Plan);
             ImGui.SetClipboardText(this.configuration.ExportBuffer);
@@ -778,7 +814,7 @@ public sealed class MainWindow : Window
             this.configuration.Save();
         }
 
-        if (ImGui.Button("合成/インポート"))
+        if (ImGui.Button("JSONを合成/インポート"))
         {
             var result = ImportExportService.ImportInto(this.configuration.Plan, this.configuration.ImportBuffer);
             this.importStatus = result.Message;
@@ -793,6 +829,80 @@ public sealed class MainWindow : Window
             ImGui.SameLine();
             ImGui.TextUnformatted(this.importStatus);
         }
+    }
+
+    private void OpenSavePersonalPlanDialog()
+    {
+        this.fileDialogManager.SaveFileDialog(
+            "個人プランを保存",
+            ImportExportService.FileDialogFilter,
+            ImportExportService.DefaultPersonalPlanFileName(this.configuration.Plan, this.configuration.SelectedSlot),
+            ImportExportService.FileExtension,
+            (success, filePath) =>
+            {
+                if (!success)
+                {
+                    return;
+                }
+
+                try
+                {
+                    this.importStatus = ImportExportService.SavePersonalPlanToFile(
+                        this.configuration.Plan,
+                        this.configuration.SelectedSlot,
+                        filePath);
+                }
+                catch (Exception exception) when (exception is IOException or UnauthorizedAccessException or NotSupportedException)
+                {
+                    this.importStatus = $"ファイル保存に失敗しました: {exception.Message}";
+                }
+            });
+    }
+
+    private void OpenSaveFullPlanDialog()
+    {
+        this.fileDialogManager.SaveFileDialog(
+            "全体プランを保存",
+            ImportExportService.FileDialogFilter,
+            ImportExportService.DefaultFullPlanFileName(this.configuration.Plan),
+            ImportExportService.FileExtension,
+            (success, filePath) =>
+            {
+                if (!success)
+                {
+                    return;
+                }
+
+                try
+                {
+                    this.importStatus = ImportExportService.SaveFullPlanToFile(this.configuration.Plan, filePath);
+                }
+                catch (Exception exception) when (exception is IOException or UnauthorizedAccessException or NotSupportedException)
+                {
+                    this.importStatus = $"ファイル保存に失敗しました: {exception.Message}";
+                }
+            });
+    }
+
+    private void OpenImportPlanDialog()
+    {
+        this.fileDialogManager.OpenFileDialog(
+            "RaidFlowファイルを読み込み",
+            ImportExportService.FileDialogFilter,
+            (success, filePath) =>
+            {
+                if (!success)
+                {
+                    return;
+                }
+
+                var result = ImportExportService.ImportFileInto(this.configuration.Plan, filePath);
+                this.importStatus = result.Message;
+                if (result.Success)
+                {
+                    this.configuration.Save();
+                }
+            });
     }
 
     private void DrawFFLogsTab()
