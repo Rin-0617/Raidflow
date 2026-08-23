@@ -31,6 +31,25 @@ public sealed class TimelinePresetServiceTests
     }
 
     [Fact]
+    public void ChaoticFuturesPresetOffsetsImaginaryKefkaPhase()
+    {
+        var plan = RaidFlowDocument.CreateDefault();
+
+        var result = TimelinePresetService.ApplyPreset(plan, "futures_rewritten_chaotic");
+
+        Assert.True(result.Success);
+        Assert.Contains(plan.Events, timelineEvent =>
+            timelineEvent.Name == "ケフカ (HP25% 以下)" &&
+            timelineEvent.TimeSeconds == 868);
+        Assert.Contains(plan.Events, timelineEvent =>
+            timelineEvent.Name == "ミッシング・ゼロ" &&
+            timelineEvent.TimeSeconds == 1128);
+        Assert.DoesNotContain(plan.Events, timelineEvent =>
+            timelineEvent.Name.StartsWith("ミッシング・ゼロ", StringComparison.Ordinal) &&
+            timelineEvent.TimeSeconds < 868);
+    }
+
+    [Fact]
     public void ApplyPresetReplacesTimelineAndKeepsParty()
     {
         var summaries = TimelinePresetService.LoadSummaries();
