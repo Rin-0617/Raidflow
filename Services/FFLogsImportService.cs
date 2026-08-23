@@ -405,36 +405,25 @@ public static partial class FFLogsImportService
         var seen = new HashSet<string>(StringComparer.Ordinal);
         var pageStartTime = fight.StartTime;
         var pageGuard = 0;
+        var translatedEventsSupported = true;
+        var requireDamageSummary = damageEventsByAbility.Count > 0;
 
         while (pageStartTime < fight.EndTime && pageGuard++ < 500)
         {
-            var query = $$"""
-                query ReportCasts($code: String!) {
-                  reportData {
-                    report(code: $code) {
-                      events(
-                        fightIDs: [{{fight.Id}}],
-                        startTime: {{pageStartTime}},
-                        endTime: {{fight.EndTime}},
-                        dataType: Casts,
-                        hostilityType: Enemies,
-                        limit: 10000
-                      ) {
-                        data
-                        nextPageTimestamp
-                      }
-                    }
-                  }
-                }
-                """;
-
-            using var document = await SendGraphQlAsync(
+            var page = await GetEnemyCastEventsPageAsync(
+                    reportCode,
                     accessToken,
-                    query,
-                    new Dictionary<string, object?> { ["code"] = reportCode },
+                    fight,
+                    pageStartTime,
+                    translatedEventsSupported,
                     cancellationToken)
                 .ConfigureAwait(false);
+            if (page.TranslationUnavailable)
+            {
+                translatedEventsSupported = false;
+            }
 
+            using var document = page.Document;
             var eventsElement = document.RootElement
                 .GetProperty("data")
                 .GetProperty("reportData")
@@ -443,7 +432,16 @@ public static partial class FFLogsImportService
 
             if (TryGetProperty(eventsElement, "data", out var dataElement))
             {
-                AddCastEvents(timelineEvents, seen, dataElement, reportCode, fight, metadata, localizedActionNames, damageEventsByAbility);
+                AddCastEvents(
+                    timelineEvents,
+                    seen,
+                    dataElement,
+                    reportCode,
+                    fight,
+                    metadata,
+                    localizedActionNames,
+                    damageEventsByAbility,
+                    requireDamageSummary);
             }
 
             var nextPageTimestamp = GetLong(eventsElement, "nextPageTimestamp");
@@ -459,6 +457,85 @@ public static partial class FFLogsImportService
             .OrderBy(timelineEvent => timelineEvent.TimeSeconds)
             .ThenBy(timelineEvent => timelineEvent.Name)
             .ToList();
+    }
+
+    private static async Task<EventsPage> GetEnemyCastEventsPageAsync(
+        string reportCode,
+        string accessToken,
+        ReportFight fight,
+        long pageStartTime,
+        bool tryTranslate,
+        CancellationToken cancellationToken)
+    {
+        if (!tryTranslate)
+        {
+            return new EventsPage(
+                await QueryEnemyCastEventsPageAsync(reportCode, accessToken, fight, pageStartTime, false, cancellationToken)
+                    .ConfigureAwait(false),
+                false);
+        }
+
+        try
+        {
+            return new EventsPage(
+                await QueryEnemyCastEventsPageAsync(reportCode, accessToken, fight, pageStartTime, true, cancellationToken)
+                    .ConfigureAwait(false),
+                false);
+        }
+        catch (InvalidOperationException exception) when (IsTranslateArgumentFailure(exception))
+        {
+            return new EventsPage(
+                await QueryEnemyCastEventsPageAsync(reportCode, accessToken, fight, pageStartTime, false, cancellationToken)
+                    .ConfigureAwait(false),
+                true);
+        }
+    }
+
+    private static Task<JsonDocument> QueryEnemyCastEventsPageAsync(
+        string reportCode,
+        string accessToken,
+        ReportFight fight,
+        long pageStartTime,
+        bool translate,
+        CancellationToken cancellationToken)
+    {
+        var translateArgument = translate ? "translate: true," : string.Empty;
+        var query = $$"""
+            query ReportCasts($code: String!) {
+              reportData {
+                report(code: $code) {
+                  events(
+                    {{translateArgument}}
+                    fightIDs: [{{fight.Id}}],
+                    startTime: {{pageStartTime}},
+                    endTime: {{fight.EndTime}},
+                    dataType: Casts,
+                    hostilityType: Enemies,
+                    limit: 10000
+                  ) {
+                    data
+                    nextPageTimestamp
+                  }
+                }
+              }
+            }
+            """;
+
+        return SendGraphQlAsync(
+            accessToken,
+            query,
+            new Dictionary<string, object?> { ["code"] = reportCode },
+            cancellationToken);
+    }
+
+    private static bool IsTranslateArgumentFailure(Exception exception)
+    {
+        var message = exception.Message;
+        return message.Contains("translate", StringComparison.OrdinalIgnoreCase) &&
+               (message.Contains("Unknown argument", StringComparison.OrdinalIgnoreCase) ||
+                message.Contains("Unknown field", StringComparison.OrdinalIgnoreCase) ||
+                message.Contains("does not exist", StringComparison.OrdinalIgnoreCase) ||
+                message.Contains("doesn't exist", StringComparison.OrdinalIgnoreCase));
     }
 
     private static async Task<List<DamageEvent>> TryGetEnemyDamageEventsAsync(
@@ -586,12 +663,22 @@ public static partial class FFLogsImportService
         ReportFight fight,
         ReportMetadata metadata,
         IReadOnlyDictionary<uint, string> localizedActionNames,
-        IReadOnlyDictionary<uint, List<DamageEvent>> damageEventsByAbility)
+        IReadOnlyDictionary<uint, List<DamageEvent>> damageEventsByAbility,
+        bool requireDamageSummary)
     {
         if (dataElement.ValueKind == JsonValueKind.String)
         {
             using var parsed = JsonDocument.Parse(dataElement.GetString() ?? "[]");
-            AddCastEvents(timelineEvents, seen, parsed.RootElement, reportCode, fight, metadata, localizedActionNames, damageEventsByAbility);
+            AddCastEvents(
+                timelineEvents,
+                seen,
+                parsed.RootElement,
+                reportCode,
+                fight,
+                metadata,
+                localizedActionNames,
+                damageEventsByAbility,
+                requireDamageSummary);
             return;
         }
 
@@ -630,6 +717,12 @@ public static partial class FFLogsImportService
                 abilityName = abilityId == 0 ? "Enemy Cast" : $"Enemy Cast {abilityId}";
             }
 
+            var damageSummary = FindDamageSummary(abilityId, timestamp, damageEventsByAbility, metadata.Actors);
+            if (requireDamageSummary && damageSummary is null)
+            {
+                continue;
+            }
+
             var relativeSeconds = Math.Max(0, (timestamp - fight.StartTime) / 1000f);
             var dedupeTime = (long)Math.Round(relativeSeconds * 2f);
             var dedupeKey = $"{abilityId}:{abilityName}:{dedupeTime}";
@@ -638,7 +731,6 @@ public static partial class FFLogsImportService
                 continue;
             }
 
-            var damageSummary = FindDamageSummary(abilityId, timestamp, damageEventsByAbility, metadata.Actors);
             timelineEvents.Add(new TimelineEvent
             {
                 Id = $"evt_fflogs_{reportCode}_{fight.Id}_{timelineEvents.Count}_{timestamp}",
@@ -987,4 +1079,6 @@ public static partial class FFLogsImportService
     private sealed record DamageEvent(long Timestamp, uint AbilityGameId, int TargetId);
 
     private sealed record DamageSummary(int TargetCount, int TankTargetCount);
+
+    private sealed record EventsPage(JsonDocument Document, bool TranslationUnavailable);
 }

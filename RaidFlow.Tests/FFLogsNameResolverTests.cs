@@ -28,7 +28,7 @@ public sealed class FFLogsNameResolverTests
     {
         var localizedNames = new Dictionary<uint, string>
         {
-            [47866] = "Lumina Japanese Name",
+            [47866] = "ばりばりルインガ",
         };
 
         var name = FFLogsNameResolver.ResolveAbilityName(
@@ -37,7 +37,24 @@ public sealed class FFLogsNameResolverTests
             localizedNames,
             "FFLogs Metadata English Name");
 
-        Assert.Equal("Lumina Japanese Name", name);
+        Assert.Equal("ばりばりルインガ", name);
+    }
+
+    [Fact]
+    public void ResolveAbilityNamePrefersTranslatedEventNameOverEnglishGameData()
+    {
+        var localizedNames = new Dictionary<uint, string>
+        {
+            [47866] = "Blizzard III Blowout",
+        };
+
+        var name = FFLogsNameResolver.ResolveAbilityName(
+            47866,
+            "ぶりざがインパクト",
+            localizedNames,
+            "Blizzard III Blowout");
+
+        Assert.Equal("ぶりざがインパクト", name);
     }
 
     [Fact]
@@ -45,7 +62,7 @@ public sealed class FFLogsNameResolverTests
     {
         var localizedNames = new Dictionary<uint, string>
         {
-            [47866] = "Lumina Japanese Name",
+            [47866] = "ばりばりルインガ",
         };
 
         var name = FFLogsNameResolver.ResolveAbilityName(
@@ -54,15 +71,27 @@ public sealed class FFLogsNameResolverTests
             localizedNames,
             "_rsv_47866_-1_0_0_0_SE2DC5B04_EE2DC5B04");
 
-        Assert.Equal("Lumina Japanese Name", name);
+        Assert.Equal("ばりばりルインガ", name);
     }
 
     [Fact]
-    public void ResolveAbilityNameFallsBackToTranslatedMetadataWhenLuminaIsUnavailable()
+    public void ResolveAbilityNameFallsBackToEventNameWhenLuminaIsUnavailable()
     {
         var name = FFLogsNameResolver.ResolveAbilityName(
             47866,
             "FFLogs Event English Name",
+            new Dictionary<uint, string>(),
+            "FFLogs Metadata Name");
+
+        Assert.Equal("FFLogs Event English Name", name);
+    }
+
+    [Fact]
+    public void ResolveAbilityNameFallsBackToMetadataWhenEventAndLuminaAreUnavailable()
+    {
+        var name = FFLogsNameResolver.ResolveAbilityName(
+            47866,
+            string.Empty,
             new Dictionary<uint, string>(),
             "FFLogs Metadata Name");
 

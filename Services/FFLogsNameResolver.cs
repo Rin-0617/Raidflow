@@ -8,22 +8,36 @@ public static class FFLogsNameResolver
         IReadOnlyDictionary<uint, string> localizedActionNames,
         string translatedMetadataName)
     {
-        if (TryGetLocalizedActionName(abilityId, localizedActionNames, out var localizedName))
+        var hasLocalizedName = TryGetLocalizedActionName(abilityId, localizedActionNames, out var localizedName);
+        var hasEventName = IsUsableAbilityName(eventName);
+        var hasMetadataName = IsUsableAbilityName(translatedMetadataName);
+
+        if (hasLocalizedName && ContainsJapaneseText(localizedName))
         {
             return localizedName;
         }
 
-        if (IsUsableAbilityName(translatedMetadataName))
-        {
-            return translatedMetadataName;
-        }
-
-        if (IsUsableAbilityName(eventName))
+        if (hasEventName && ContainsJapaneseText(eventName))
         {
             return eventName;
         }
 
-        return string.Empty;
+        if (hasMetadataName && ContainsJapaneseText(translatedMetadataName))
+        {
+            return translatedMetadataName;
+        }
+
+        if (hasLocalizedName)
+        {
+            return localizedName;
+        }
+
+        if (hasEventName)
+        {
+            return eventName;
+        }
+
+        return hasMetadataName ? translatedMetadataName : string.Empty;
     }
 
     public static bool IsUsableAbilityName(string value)
@@ -51,5 +65,13 @@ public static class FFLogsNameResolver
 
         localizedName = candidate;
         return true;
+    }
+
+    private static bool ContainsJapaneseText(string value)
+    {
+        return value.Any(character =>
+            character is >= '\u3040' and <= '\u30ff' ||
+            character is >= '\u3400' and <= '\u9fff' ||
+            character is >= '\uff66' and <= '\uff9d');
     }
 }
