@@ -4,8 +4,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
-    <AssemblyName>HelloWorldPlugin</AssemblyName>
-    <RootNamespace>HelloWorldPlugin</RootNamespace>
+    <AssemblyName>RaidFlow</AssemblyName>
+    <RootNamespace>RaidFlow</RootNamespace>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <DalamudLibPath>$(APPDATA)\XIVLauncher\addon\Hooks\dev</DalamudLibPath>
   </PropertyGroup>
@@ -19,9 +19,17 @@
       <HintPath>$(DalamudLibPath)\Dalamud.Bindings.ImGui.dll</HintPath>
       <Private>false</Private>
     </Reference>
+    <Reference Include="Lumina">
+      <HintPath>$(DalamudLibPath)\Lumina.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Lumina.Excel">
+      <HintPath>$(DalamudLibPath)\Lumina.Excel.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="plugin.json" CopyToOutputDirectory="PreserveNewest" TargetPath="HelloWorldPlugin.json" />
+    <Content Include="plugin.json" CopyToOutputDirectory="PreserveNewest" TargetPath="RaidFlow.json" />
   </ItemGroup>
 </Project>
