@@ -18,7 +18,7 @@ public sealed class OverlayWindow : Window
         this.configuration = configuration;
         this.pullTimer = pullTimer;
 
-        this.IsOpen = configuration.Overlay.IsOpen;
+        this.IsOpen = false;
         this.Size = new Vector2(360, 220);
         this.SizeCondition = ImGuiCond.FirstUseEver;
         this.AllowClickthrough = true;

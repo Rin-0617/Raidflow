@@ -38,7 +38,7 @@ public sealed class MainWindow : Window
         this.actionIconService = actionIconService;
         this.Size = new Vector2(1120, 720);
         this.SizeCondition = ImGuiCond.FirstUseEver;
-        this.IsOpen = true;
+        this.IsOpen = false;
     }
 
     public override void Draw()
@@ -391,11 +391,24 @@ public sealed class MainWindow : Window
             ImGui.EndPopup();
         }
 
-        ImGui.Columns(2, "TimelineColumns", true);
-        this.DrawEventList();
-        ImGui.NextColumn();
-        this.DrawEventEditor();
-        ImGui.Columns(1);
+        var available = ImGui.GetContentRegionAvail();
+        var listWidth = Math.Clamp(available.X * 0.48f, 390f, 620f);
+        var paneHeight = Math.Max(260f, available.Y);
+
+        if (ImGui.BeginChild("TimelineListPane", new Vector2(listWidth, paneHeight), false, ImGuiWindowFlags.HorizontalScrollbar))
+        {
+            this.DrawEventList();
+        }
+
+        ImGui.EndChild();
+        ImGui.SameLine(0, 8);
+
+        if (ImGui.BeginChild("TimelineEditorPane", new Vector2(0, paneHeight), false, ImGuiWindowFlags.HorizontalScrollbar))
+        {
+            this.DrawEventEditor();
+        }
+
+        ImGui.EndChild();
     }
 
     private void DrawEventList()

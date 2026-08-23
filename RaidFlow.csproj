@@ -4,12 +4,14 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
-    <Version>0.1.1.0</Version>
+    <Version>0.1.2.0</Version>
     <Author>Rin</Author>
     <Name>RaidFlow</Name>
     <MinimumDalamudVersion>15.0.0.0</MinimumDalamudVersion>
     <Punchline>固定攻略向けのタイムラインメモ/軽減計画ツール</Punchline>
     <Description>タイムライン作成、PTスロット別の軽減割り当て、ギミックメモのオーバーレイ表示、個人プランのエクスポートと固定用プランへの合成ができます。</Description>
+    <RepoUrl>https://github.com/Rin-0617/Raidflow</RepoUrl>
+    <IconUrl>https://raw.githubusercontent.com/Rin-0617/Raidflow/master/RaidFlow.png</IconUrl>
     <ApplicableVersion>any</ApplicableVersion>
     <DalamudApiLevel>15</DalamudApiLevel>
     <LoadRequiredState>0</LoadRequiredState>

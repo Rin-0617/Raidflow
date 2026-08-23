@@ -269,7 +269,21 @@ public static partial class FFLogsImportService
     {
         try
         {
-            return await GetReportMetadataAsync(reportCode, accessToken, true, cancellationToken).ConfigureAwait(false);
+            var translated = await GetReportMetadataAsync(reportCode, accessToken, true, cancellationToken).ConfigureAwait(false);
+            if (!translated.HasRsvAbilityNames)
+            {
+                return translated;
+            }
+
+            try
+            {
+                var fallback = await GetReportMetadataAsync(reportCode, accessToken, false, cancellationToken).ConfigureAwait(false);
+                return translated.WithFallbackAbilities(fallback);
+            }
+            catch
+            {
+                return translated;
+            }
         }
         catch
         {
@@ -677,19 +691,19 @@ public static partial class FFLogsImportService
     {
         if (abilityId != 0 &&
             localizedActionNames.TryGetValue(abilityId, out var localizedName) &&
-            !string.IsNullOrWhiteSpace(localizedName))
+            FFLogsNameResolver.IsUsableAbilityName(localizedName))
         {
             return localizedName;
         }
 
         if (abilityId != 0 &&
             abilities.TryGetValue(abilityId, out var ability) &&
-            !string.IsNullOrWhiteSpace(ability.Name))
+            FFLogsNameResolver.IsUsableAbilityName(ability.Name))
         {
             return ability.Name;
         }
 
-        return eventAbilityName;
+        return FFLogsNameResolver.IsUsableAbilityName(eventAbilityName) ? eventAbilityName : string.Empty;
     }
 
     private static DamageSummary? FindDamageSummary(
@@ -941,6 +955,33 @@ public static partial class FFLogsImportService
 
         public int PlayerCount => this.Actors.Values.Count(actor =>
             string.Equals(actor.Type, "Player", StringComparison.OrdinalIgnoreCase));
+
+        public bool HasRsvAbilityNames => this.Abilities.Values.Any(ability =>
+            FFLogsNameResolver.IsRsvName(ability.Name));
+
+        public ReportMetadata WithFallbackAbilities(ReportMetadata fallback)
+        {
+            var abilities = this.Abilities.ToDictionary(
+                pair => pair.Key,
+                pair => pair.Value);
+
+            foreach (var (id, fallbackAbility) in fallback.Abilities)
+            {
+                if (!FFLogsNameResolver.IsUsableAbilityName(fallbackAbility.Name))
+                {
+                    continue;
+                }
+
+                if (!abilities.TryGetValue(id, out var ability) ||
+                    !FFLogsNameResolver.IsUsableAbilityName(ability.Name))
+                {
+                    abilities[id] = fallbackAbility;
+                }
+            }
+
+            var actors = this.Actors.Count == 0 ? fallback.Actors : this.Actors;
+            return new ReportMetadata(abilities, actors);
+        }
     }
 
     private sealed record ReportAbility(uint GameId, string Name);

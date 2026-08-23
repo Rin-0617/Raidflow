@@ -4,9 +4,9 @@
     "Name": "RaidFlow",
     "Punchline": "固定攻略向けのタイムラインメモ/軽減計画ツール",
     "Description": "タイムライン作成、PTスロット別の軽減割り当て、ギミックメモのオーバーレイ表示、FFLogs URLからの下書き生成、.radflowのエクスポート/合成ができます。",
-    "IconUrl": "https://raw.githubusercontent.com/Rin-0617/Raidflow/master/RaidFlow.jpg",
+    "IconUrl": "https://raw.githubusercontent.com/Rin-0617/Raidflow/master/RaidFlow.png",
     "InternalName": "RaidFlow",
-    "AssemblyVersion": "0.1.1.0",
+    "AssemblyVersion": "0.1.2.0",
     "RepoUrl": "https://github.com/Rin-0617/Raidflow",
     "ApplicableVersion": "any",
     "Tags": [
@@ -16,9 +16,9 @@
       "mitigation"
     ],
     "DalamudApiLevel": 15,
-    "DownloadLinkInstall": "https://github.com/Rin-0617/Raidflow/releases/download/v0.1.1/RaidFlow_v0.1.1.zip",
-    "DownloadLinkUpdate": "https://github.com/Rin-0617/Raidflow/releases/download/v0.1.1/RaidFlow_v0.1.1.zip",
-    "DownloadLinkTesting": "https://github.com/Rin-0617/Raidflow/releases/download/v0.1.1/RaidFlow_v0.1.1.zip",
+    "DownloadLinkInstall": "https://github.com/Rin-0617/Raidflow/releases/download/v0.1.2/RaidFlow_v0.1.2.zip",
+    "DownloadLinkUpdate": "https://github.com/Rin-0617/Raidflow/releases/download/v0.1.2/RaidFlow_v0.1.2.zip",
+    "DownloadLinkTesting": "https://github.com/Rin-0617/Raidflow/releases/download/v0.1.2/RaidFlow_v0.1.2.zip",
     "IsHide": false,
     "IsTestingExclusive": false
   }
