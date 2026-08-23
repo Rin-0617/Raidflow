@@ -10,6 +10,7 @@ public static partial class FFLogsImportService
 {
     private const string TokenEndpoint = "https://www.fflogs.com/oauth/token";
     private const string GraphQlEndpoint = "https://www.fflogs.com/api/v2/client";
+    private const string AcceptLanguage = "ja-JP,ja;q=0.9,en;q=0.8";
     private static readonly HttpClient HttpClient = new() { Timeout = TimeSpan.FromSeconds(45) };
     private static readonly JsonSerializerOptions JsonOptions = new(JsonSerializerDefaults.Web);
 
@@ -546,6 +547,7 @@ public static partial class FFLogsImportService
     {
         using var httpRequest = new HttpRequestMessage(HttpMethod.Post, GraphQlEndpoint);
         httpRequest.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+        httpRequest.Headers.AcceptLanguage.ParseAdd(AcceptLanguage);
         httpRequest.Content = new StringContent(
             JsonSerializer.Serialize(new { query, variables }, JsonOptions),
             Encoding.UTF8,

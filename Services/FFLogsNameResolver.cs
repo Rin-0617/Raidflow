@@ -4,24 +4,24 @@ public static class FFLogsNameResolver
 {
     public static string ResolveAbilityName(
         uint abilityId,
-        string fflogsName,
+        string eventName,
         IReadOnlyDictionary<uint, string> localizedActionNames,
-        string metadataName)
+        string translatedMetadataName)
     {
-        if (IsUsableAbilityName(fflogsName))
+        if (IsUsableAbilityName(translatedMetadataName))
         {
-            return fflogsName;
+            return translatedMetadataName;
         }
 
-        if (IsRsvName(fflogsName) &&
+        if (IsRsvName(translatedMetadataName) &&
             TryGetLocalizedActionName(abilityId, localizedActionNames, out var localizedName))
         {
             return localizedName;
         }
 
-        if (IsUsableAbilityName(metadataName))
+        if (IsUsableAbilityName(eventName))
         {
-            return metadataName;
+            return eventName;
         }
 
         return TryGetLocalizedActionName(abilityId, localizedActionNames, out localizedName)
