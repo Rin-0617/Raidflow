@@ -479,7 +479,8 @@ public sealed class MainWindow : Window
         }
 
         var notes = timelineEvent.Notes;
-        if (ImGui.InputTextMultiline("メモ", ref notes, 500, new Vector2(-1, 70)))
+        ImGui.TextUnformatted("メモ");
+        if (ImGui.InputTextMultiline("##event_notes", ref notes, 500, new Vector2(-1, 78)))
         {
             timelineEvent.Notes = notes;
             this.configuration.Save();
@@ -920,6 +921,7 @@ public sealed class MainWindow : Window
             AccessTokenExpiresAtUtc = settings.AccessTokenExpiresAtUtc,
             ReportUrl = settings.ReportUrl,
             FightId = settings.FightId,
+            LocalizedActionNames = this.actionIconService.GetLocalizedActionNames(),
         });
     }
 

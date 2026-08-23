@@ -54,6 +54,7 @@ public static partial class FFLogsImportService
                 tokenResult.AccessToken,
                 fight,
                 metadata,
+                request.LocalizedActionNames,
                 damageEventsByAbility,
                 cancellationToken)
             .ConfigureAwait(false);
@@ -381,6 +382,7 @@ public static partial class FFLogsImportService
         string accessToken,
         ReportFight fight,
         ReportMetadata metadata,
+        IReadOnlyDictionary<uint, string> localizedActionNames,
         IReadOnlyDictionary<uint, List<DamageEvent>> damageEventsByAbility,
         CancellationToken cancellationToken)
     {
@@ -426,7 +428,7 @@ public static partial class FFLogsImportService
 
             if (TryGetProperty(eventsElement, "data", out var dataElement))
             {
-                AddCastEvents(timelineEvents, seen, dataElement, reportCode, fight, metadata, damageEventsByAbility);
+                AddCastEvents(timelineEvents, seen, dataElement, reportCode, fight, metadata, localizedActionNames, damageEventsByAbility);
             }
 
             var nextPageTimestamp = GetLong(eventsElement, "nextPageTimestamp");
@@ -567,12 +569,13 @@ public static partial class FFLogsImportService
         string reportCode,
         ReportFight fight,
         ReportMetadata metadata,
+        IReadOnlyDictionary<uint, string> localizedActionNames,
         IReadOnlyDictionary<uint, List<DamageEvent>> damageEventsByAbility)
     {
         if (dataElement.ValueKind == JsonValueKind.String)
         {
             using var parsed = JsonDocument.Parse(dataElement.GetString() ?? "[]");
-            AddCastEvents(timelineEvents, seen, parsed.RootElement, reportCode, fight, metadata, damageEventsByAbility);
+            AddCastEvents(timelineEvents, seen, parsed.RootElement, reportCode, fight, metadata, localizedActionNames, damageEventsByAbility);
             return;
         }
 
@@ -605,7 +608,7 @@ public static partial class FFLogsImportService
                 abilityId = abilityId == 0 ? GetUInt(abilityElement, "guid") : abilityId;
             }
 
-            abilityName = ResolveAbilityName(abilityId, abilityName, metadata.Abilities);
+            abilityName = ResolveAbilityName(abilityId, abilityName, localizedActionNames, metadata.Abilities);
             if (string.IsNullOrWhiteSpace(abilityName))
             {
                 abilityName = abilityId == 0 ? "Enemy Cast" : $"Enemy Cast {abilityId}";
@@ -626,7 +629,7 @@ public static partial class FFLogsImportService
                 TimeSeconds = relativeSeconds,
                 Name = abilityName,
                 Type = GuessEventType(abilityName, damageSummary, metadata.PlayerCount),
-                Notes = abilityId == 0 ? string.Empty : $"FFLogs ActionID: {abilityId}",
+                Notes = string.Empty,
             });
         }
     }
@@ -669,8 +672,16 @@ public static partial class FFLogsImportService
     private static string ResolveAbilityName(
         uint abilityId,
         string eventAbilityName,
+        IReadOnlyDictionary<uint, string> localizedActionNames,
         IReadOnlyDictionary<uint, ReportAbility> abilities)
     {
+        if (abilityId != 0 &&
+            localizedActionNames.TryGetValue(abilityId, out var localizedName) &&
+            !string.IsNullOrWhiteSpace(localizedName))
+        {
+            return localizedName;
+        }
+
         if (abilityId != 0 &&
             abilities.TryGetValue(abilityId, out var ability) &&
             !string.IsNullOrWhiteSpace(ability.Name))

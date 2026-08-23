@@ -11,6 +11,7 @@ public sealed class ActionIconService
     private readonly ITextureProvider textureProvider;
     private readonly Dictionary<uint, ActionGameData> actionCache = [];
     private readonly Dictionary<uint, ISharedImmediateTexture?> textureCache = [];
+    private IReadOnlyDictionary<uint, string>? localizedActionNames;
 
     public ActionIconService(IDataManager dataManager, ITextureProvider textureProvider)
     {
@@ -22,6 +23,38 @@ public sealed class ActionIconService
     {
         var gameData = this.GetActionData(action.ActionId);
         return string.IsNullOrWhiteSpace(gameData.Name) ? action.Name : gameData.Name;
+    }
+
+    public IReadOnlyDictionary<uint, string> GetLocalizedActionNames()
+    {
+        if (this.localizedActionNames is not null)
+        {
+            return this.localizedActionNames;
+        }
+
+        var names = new Dictionary<uint, string>();
+        try
+        {
+            var sheet = this.dataManager.GetExcelSheet<LuminaAction>();
+            if (sheet is not null)
+            {
+                foreach (var action in sheet)
+                {
+                    var name = action.Name.ToString();
+                    if (action.RowId != 0 && !string.IsNullOrWhiteSpace(name))
+                    {
+                        names[(uint)action.RowId] = name;
+                    }
+                }
+            }
+        }
+        catch
+        {
+            names.Clear();
+        }
+
+        this.localizedActionNames = names;
+        return this.localizedActionNames;
     }
 
     public bool TryGetIcon(MitigationActionDefinition action, out ISharedImmediateTexture texture)

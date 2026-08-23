@@ -32,6 +32,8 @@ public sealed class FFLogsImportRequest
     public string ReportUrl { get; init; } = string.Empty;
 
     public int FightId { get; init; }
+
+    public IReadOnlyDictionary<uint, string> LocalizedActionNames { get; init; } = new Dictionary<uint, string>();
 }
 
 public sealed class FFLogsImportResult
