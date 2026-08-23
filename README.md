@@ -25,20 +25,6 @@ FFXIV Dalamud向けのレイド攻略支援プラグインです。
 
 ## 導入
 
-現在は開発版です。
-
-ローカルで確認する場合は、Releaseビルド後の成果物を Dalamud の devPlugins に配置してください。
-
-```powershell
-dotnet build -c Release
-```
-
-配置先の例:
-
-```text
-%APPDATA%\XIVLauncher\devPlugins\RaidFlow
-```
-
 カスタムプラグインリポジトリ:
 
 ```text
