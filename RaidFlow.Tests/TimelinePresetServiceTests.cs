@@ -21,6 +21,16 @@ public sealed class TimelinePresetServiceTests
     }
 
     [Fact]
+    public void PresetsAreEmbeddedInPluginAssembly()
+    {
+        var resourceNames = typeof(TimelinePresetService).Assembly.GetManifestResourceNames();
+
+        Assert.Contains(resourceNames, name => name.EndsWith(
+            "the_weapon_refrain_ult.json",
+            StringComparison.Ordinal));
+    }
+
+    [Fact]
     public void ApplyPresetReplacesTimelineAndKeepsParty()
     {
         var summaries = TimelinePresetService.LoadSummaries();

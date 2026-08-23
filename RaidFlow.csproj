@@ -4,7 +4,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
-    <Version>0.1.8.0</Version>
+    <Version>0.1.9.0</Version>
     <Author>Rin</Author>
     <Name>RaidFlow</Name>
     <MinimumDalamudVersion>15.0.0.0</MinimumDalamudVersion>
@@ -28,5 +28,6 @@
   <ItemGroup>
     <Content Include="plugin.json" CopyToOutputDirectory="PreserveNewest" TargetPath="RaidFlow.json" />
     <Content Include="Data\TimelinePresets\*.json" CopyToOutputDirectory="PreserveNewest" TargetPath="Data\TimelinePresets\%(Filename)%(Extension)" />
+    <EmbeddedResource Include="Data\TimelinePresets\*.json" LogicalName="RaidFlow.Data.TimelinePresets.%(Filename)%(Extension)" />
   </ItemGroup>
 </Project>

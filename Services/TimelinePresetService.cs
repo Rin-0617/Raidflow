@@ -14,7 +14,7 @@ public static class TimelinePresetService
 
     public static IReadOnlyList<TimelinePresetSummary> LoadSummaries()
     {
-        return LoadPresetFiles()
+        return LoadPresets()
             .Select(preset => new TimelinePresetSummary(
                 preset.Id,
                 preset.ContentName,
@@ -28,7 +28,7 @@ public static class TimelinePresetService
 
     public static TimelinePresetLoadResult ApplyPreset(RaidFlowDocument plan, string presetId)
     {
-        var preset = LoadPresetFiles().FirstOrDefault(candidate =>
+        var preset = LoadPresets().FirstOrDefault(candidate =>
             string.Equals(candidate.Id, presetId, StringComparison.Ordinal));
         if (preset is null)
         {
@@ -64,39 +64,99 @@ public static class TimelinePresetService
                 preset.ContentName,
                 preset.Revision,
                 preset.ContentLevel,
-                preset.Events.Count));
+            preset.Events.Count));
     }
 
-    private static IReadOnlyList<TimelinePresetFile> LoadPresetFiles()
+    private static IReadOnlyList<TimelinePresetFile> LoadPresets()
+    {
+        var presets = new Dictionary<string, TimelinePresetFile>(StringComparer.Ordinal);
+
+        foreach (var preset in LoadEmbeddedPresets())
+        {
+            presets[preset.Id] = preset;
+        }
+
+        foreach (var preset in LoadFilePresets())
+        {
+            presets[preset.Id] = preset;
+        }
+
+        return presets.Values.ToList();
+    }
+
+    private static IEnumerable<TimelinePresetFile> LoadEmbeddedPresets()
+    {
+        var assembly = typeof(TimelinePresetService).Assembly;
+        const string resourcePrefix = "RaidFlow.Data.TimelinePresets.";
+
+        foreach (var resourceName in assembly.GetManifestResourceNames()
+                     .Where(name => name.StartsWith(resourcePrefix, StringComparison.Ordinal) &&
+                                    name.EndsWith(".json", StringComparison.OrdinalIgnoreCase)))
+        {
+            TimelinePresetFile? preset = null;
+            try
+            {
+                using var stream = assembly.GetManifestResourceStream(resourceName);
+                if (stream is null)
+                {
+                    continue;
+                }
+
+                using var reader = new StreamReader(stream);
+                preset = DeserializePreset(reader.ReadToEnd());
+            }
+            catch
+            {
+                // Ignore malformed preset resources so one bad file does not block the plugin UI.
+            }
+
+            if (preset is not null)
+            {
+                yield return preset;
+            }
+        }
+    }
+
+    private static IEnumerable<TimelinePresetFile> LoadFilePresets()
     {
         var directory = PresetDirectory();
         if (!Directory.Exists(directory))
         {
-            return [];
+            yield break;
         }
 
-        var presets = new List<TimelinePresetFile>();
         foreach (var filePath in Directory.EnumerateFiles(directory, "*.json"))
         {
+            TimelinePresetFile? preset = null;
             try
             {
                 var json = File.ReadAllText(filePath);
-                var preset = JsonSerializer.Deserialize<TimelinePresetFile>(json, JsonOptions);
-                if (preset is not null &&
-                    !string.IsNullOrWhiteSpace(preset.Id) &&
-                    !string.IsNullOrWhiteSpace(preset.ContentName) &&
-                    preset.Events.Count > 0)
-                {
-                    presets.Add(preset);
-                }
+                preset = DeserializePreset(json);
             }
             catch
             {
                 // Ignore malformed preset files so one bad file does not block the plugin UI.
             }
+
+            if (preset is not null)
+            {
+                yield return preset;
+            }
+        }
+    }
+
+    private static TimelinePresetFile? DeserializePreset(string json)
+    {
+        var preset = JsonSerializer.Deserialize<TimelinePresetFile>(json, JsonOptions);
+        if (preset is null ||
+            string.IsNullOrWhiteSpace(preset.Id) ||
+            string.IsNullOrWhiteSpace(preset.ContentName) ||
+            preset.Events.Count == 0)
+        {
+            return null;
         }
 
-        return presets;
+        return preset;
     }
 
     private static string PresetDirectory()
