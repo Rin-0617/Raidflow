@@ -13,7 +13,7 @@ public sealed class OverlayWindow : Window
     private readonly PullTimerService pullTimer;
 
     public OverlayWindow(Configuration configuration, PullTimerService pullTimer)
-        : base("RaidFlow オーバーレイ###RaidFlowOverlay", ImGuiWindowFlags.NoScrollbar | ImGuiWindowFlags.NoCollapse, true)
+        : base(VersionInfo.WindowTitle("RaidFlow オーバーレイ", "RaidFlowOverlay"), ImGuiWindowFlags.NoScrollbar | ImGuiWindowFlags.NoCollapse, true)
     {
         this.configuration = configuration;
         this.pullTimer = pullTimer;

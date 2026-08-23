@@ -29,7 +29,7 @@ public sealed class MainWindow : Window
         OverlayWindow overlayWindow,
         CombatSyncService combatSyncService,
         ActionIconService actionIconService)
-        : base("RaidFlow###RaidFlowMain")
+        : base(VersionInfo.WindowTitle("RaidFlow", "RaidFlowMain"))
     {
         this.configuration = configuration;
         this.pullTimer = pullTimer;
