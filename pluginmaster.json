@@ -6,8 +6,8 @@
     "Description": "タイムライン作成、PTスロット別の軽減割り当て、ギミックメモのオーバーレイ表示、FFLogs URLからの下書き生成、.radflowのエクスポート/合成ができます。",
     "IconUrl": "https://raw.githubusercontent.com/Rin-0617/Raidflow/master/images/icon.png",
     "InternalName": "RaidFlow",
-    "AssemblyVersion": "0.1.3.0",
-    "LastUpdate": 1787497791,
+    "AssemblyVersion": "0.1.4.0",
+    "LastUpdate": 1787498182,
     "RepoUrl": "https://github.com/Rin-0617/Raidflow",
     "ApplicableVersion": "any",
     "Tags": [
@@ -17,9 +17,9 @@
       "mitigation"
     ],
     "DalamudApiLevel": 15,
-    "DownloadLinkInstall": "https://github.com/Rin-0617/Raidflow/releases/download/v0.1.3/RaidFlow_v0.1.3.zip",
-    "DownloadLinkUpdate": "https://github.com/Rin-0617/Raidflow/releases/download/v0.1.3/RaidFlow_v0.1.3.zip",
-    "DownloadLinkTesting": "https://github.com/Rin-0617/Raidflow/releases/download/v0.1.3/RaidFlow_v0.1.3.zip",
+    "DownloadLinkInstall": "https://github.com/Rin-0617/Raidflow/releases/download/v0.1.4/RaidFlow_v0.1.4.zip",
+    "DownloadLinkUpdate": "https://github.com/Rin-0617/Raidflow/releases/download/v0.1.4/RaidFlow_v0.1.4.zip",
+    "DownloadLinkTesting": "https://github.com/Rin-0617/Raidflow/releases/download/v0.1.4/RaidFlow_v0.1.4.zip",
     "IsHide": false,
     "IsTestingExclusive": false
   }

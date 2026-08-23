@@ -50,7 +50,7 @@ public sealed class Plugin : IDalamudPlugin
         this.windowSystem.AddWindow(this.overlayWindow);
 
         this.pluginInterface.UiBuilder.Draw += this.DrawUi;
-        this.pluginInterface.UiBuilder.OpenMainUi += this.OpenMainUi;
+        this.pluginInterface.UiBuilder.OpenMainUi += this.OpenOverlayUi;
         this.pluginInterface.UiBuilder.OpenConfigUi += this.OpenMainUi;
 
         this.commandManager.AddHandler(CommandName, new CommandInfo(this.OnCommand)
@@ -65,7 +65,7 @@ public sealed class Plugin : IDalamudPlugin
         this.combatSyncService.Dispose();
 
         this.pluginInterface.UiBuilder.Draw -= this.DrawUi;
-        this.pluginInterface.UiBuilder.OpenMainUi -= this.OpenMainUi;
+        this.pluginInterface.UiBuilder.OpenMainUi -= this.OpenOverlayUi;
         this.pluginInterface.UiBuilder.OpenConfigUi -= this.OpenMainUi;
 
         this.windowSystem.RemoveAllWindows();
@@ -79,6 +79,13 @@ public sealed class Plugin : IDalamudPlugin
     private void OpenMainUi()
     {
         this.mainWindow.IsOpen = true;
+    }
+
+    private void OpenOverlayUi()
+    {
+        this.overlayWindow.IsOpen = true;
+        this.configuration.Overlay.IsOpen = true;
+        this.configuration.Save();
     }
 
     private void OnCommand(string command, string args)
