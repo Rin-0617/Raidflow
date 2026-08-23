@@ -1,0 +1,56 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Build release package
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Download Dalamud
+        shell: pwsh
+        run: |
+          $dalamudPath = Join-Path $env:RUNNER_TEMP "dalamud"
+          $zipPath = Join-Path $dalamudPath "latest.zip"
+          New-Item -ItemType Directory -Force -Path $dalamudPath | Out-Null
+          Invoke-WebRequest -Uri "https://raw.githubusercontent.com/goatcorp/dalamud-distrib/main/latest.zip" -OutFile $zipPath
+          Expand-Archive -LiteralPath $zipPath -DestinationPath $dalamudPath -Force
+          "DALAMUD_HOME=$dalamudPath" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+
+      - name: Restore
+        run: dotnet restore RaidFlow.csproj -p:Use_DalamudPackager=true --force-evaluate
+
+      - name: Build
+        run: dotnet build RaidFlow.csproj --configuration Release --no-restore -p:Use_DalamudPackager=true
+
+      - name: Rename package
+        shell: pwsh
+        run: |
+          $assetName = "RaidFlow_${{ github.ref_name }}.zip"
+          Copy-Item -LiteralPath "bin/Release/RaidFlow/latest.zip" -Destination $assetName -Force
+          "RELEASE_ASSET=$assetName" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+
+      - name: Create GitHub release
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${{ github.ref_name }}" "$env:RELEASE_ASSET" `
+            --repo "${{ github.repository }}" `
+            --title "${{ github.ref_name }}" `
+            --notes "RaidFlow ${{ github.ref_name }}"

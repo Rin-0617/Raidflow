@@ -39,7 +39,14 @@ dotnet build -c Release
 %APPDATA%\XIVLauncher\devPlugins\RaidFlow
 ```
 
-カスタムプラグインリポジトリでの配布URLは未作成です。
+カスタムプラグインリポジトリ:
+
+```text
+https://raw.githubusercontent.com/Rin-0617/Raidflow/master/pluginmaster.json
+```
+
+Dalamud設定の試験的機能からCustom Plugin Repositoriesへ上記URLを追加してください。
+リリース版はGitHub Releasesのzipを参照します。
 
 ## 初回設定
 
