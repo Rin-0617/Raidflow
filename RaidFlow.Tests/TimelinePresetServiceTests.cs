@@ -40,13 +40,13 @@ public sealed class TimelinePresetServiceTests
         Assert.True(result.Success);
         Assert.Contains(plan.Events, timelineEvent =>
             timelineEvent.Name == "ケフカ (HP25% 以下)" &&
-            timelineEvent.TimeSeconds == 868);
+            timelineEvent.TimeSeconds == 862);
         Assert.Contains(plan.Events, timelineEvent =>
             timelineEvent.Name == "ミッシング・ゼロ" &&
-            timelineEvent.TimeSeconds == 1128);
+            timelineEvent.TimeSeconds == 1122);
         Assert.DoesNotContain(plan.Events, timelineEvent =>
             timelineEvent.Name.StartsWith("ミッシング・ゼロ", StringComparison.Ordinal) &&
-            timelineEvent.TimeSeconds < 868);
+            timelineEvent.TimeSeconds < 862);
     }
 
     [Fact]
