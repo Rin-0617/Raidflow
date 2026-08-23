@@ -20,6 +20,9 @@ public sealed class MainWindow : Window
     private bool showFFLogsAccessToken;
     private string fflogsImportStatus = string.Empty;
     private string importStatus = string.Empty;
+    private readonly IReadOnlyList<TimelinePresetSummary> timelinePresets = TimelinePresetService.LoadSummaries();
+    private string timelinePresetStatus = string.Empty;
+    private int selectedTimelinePresetIndex;
     private int selectedEventIndex;
     private float timerSetSeconds;
 
@@ -127,7 +130,60 @@ public sealed class MainWindow : Window
 
         ImGui.Separator();
 
+        this.DrawTimelinePresetControls();
+
+        ImGui.Separator();
+
         this.DrawSelectedSlotControls();
+    }
+
+    private void DrawTimelinePresetControls()
+    {
+        if (this.timelinePresets.Count == 0)
+        {
+            return;
+        }
+
+        this.selectedTimelinePresetIndex = Math.Clamp(
+            this.selectedTimelinePresetIndex,
+            0,
+            this.timelinePresets.Count - 1);
+        var selectedPreset = this.timelinePresets[this.selectedTimelinePresetIndex];
+
+        ImGui.SetNextItemWidth(320);
+        if (ImGui.BeginCombo("プリセットTL", selectedPreset.DisplayName))
+        {
+            for (var index = 0; index < this.timelinePresets.Count; index++)
+            {
+                var preset = this.timelinePresets[index];
+                if (ImGui.Selectable($"{preset.DisplayName} ({preset.EventCount})", index == this.selectedTimelinePresetIndex))
+                {
+                    this.selectedTimelinePresetIndex = index;
+                }
+            }
+
+            ImGui.EndCombo();
+        }
+
+        ImGui.SameLine();
+        if (ImGui.Button("プリセットTLを読み込み"))
+        {
+            var result = TimelinePresetService.ApplyPreset(
+                this.configuration.Plan,
+                this.timelinePresets[this.selectedTimelinePresetIndex].Id);
+            this.timelinePresetStatus = result.Message;
+            if (result.Success)
+            {
+                this.selectedEventIndex = 0;
+                this.configuration.Save();
+            }
+        }
+
+        if (!string.IsNullOrWhiteSpace(this.timelinePresetStatus))
+        {
+            ImGui.SameLine();
+            ImGui.TextUnformatted(this.timelinePresetStatus);
+        }
     }
 
     private void DrawSelectedSlotControls()

@@ -1,0 +1,2780 @@
+{
+  "Id": "dragonsongs_reprise",
+  "ContentName": "絶竜詩戦争",
+  "Revision": "6.11 preset",
+  "ContentLevel": 90,
+  "Events": [
+    {
+      "Id": "evt_dragonsongs_reprise_0002",
+      "TimeSeconds": 2,
+      "Name": "アデルフェル_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0001",
+      "TimeSeconds": 2,
+      "Name": "グリノー_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0004",
+      "TimeSeconds": 5,
+      "Name": "アデルフェル_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0003",
+      "TimeSeconds": 5,
+      "Name": "グリノー_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0005",
+      "TimeSeconds": 8,
+      "Name": "グリノー_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0006",
+      "TimeSeconds": 9,
+      "Name": "ホリエストホーリー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0007",
+      "TimeSeconds": 11,
+      "Name": "グリノー_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0008",
+      "TimeSeconds": 12,
+      "Name": "アデルフェル_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0077",
+      "TimeSeconds": 13,
+      "Name": "インビジブル・アスカロンメルシー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0009",
+      "TimeSeconds": 14,
+      "Name": "グリノー_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0078",
+      "TimeSeconds": 15,
+      "Name": "アスカロンマイト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0010",
+      "TimeSeconds": 15,
+      "Name": "アデルフェル_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0079",
+      "TimeSeconds": 17,
+      "Name": "アスカロンマイト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0011",
+      "TimeSeconds": 17,
+      "Name": "グリノー_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0080",
+      "TimeSeconds": 18,
+      "Name": "アスカロンマイト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0012",
+      "TimeSeconds": 23,
+      "Name": "エンプティディメンジョン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0013",
+      "TimeSeconds": 23,
+      "Name": "ホーリーシールドバッシュ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0015",
+      "TimeSeconds": 26,
+      "Name": "グリノー_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0014",
+      "TimeSeconds": 26,
+      "Name": "ホーリーブレードダンス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0016",
+      "TimeSeconds": 27,
+      "Name": "ホーリーブレードダンス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0018",
+      "TimeSeconds": 28,
+      "Name": "ヘヴンブレイズ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0017",
+      "TimeSeconds": 28,
+      "Name": "ホーリーブレードダンス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0019",
+      "TimeSeconds": 29,
+      "Name": "グリノー_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0081",
+      "TimeSeconds": 29,
+      "Name": "蒼天の陣：雷槍",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0020",
+      "TimeSeconds": 30,
+      "Name": "アデルフェル_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0021",
+      "TimeSeconds": 32,
+      "Name": "グリノー_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0022",
+      "TimeSeconds": 33,
+      "Name": "アデルフェル_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0023",
+      "TimeSeconds": 35,
+      "Name": "グリノー_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0024",
+      "TimeSeconds": 36,
+      "Name": "アデルフェル_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0082",
+      "TimeSeconds": 42,
+      "Name": "百雷",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0025",
+      "TimeSeconds": 44,
+      "Name": "ハイパーディメンション",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0083",
+      "TimeSeconds": 48,
+      "Name": "インビジブル・アスカロンメルシー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0084",
+      "TimeSeconds": 49,
+      "Name": "ヘヴィインパクト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0026",
+      "TimeSeconds": 51,
+      "Name": "ハイパーディメンション",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0085",
+      "TimeSeconds": 57,
+      "Name": "ディメンションクラッシュ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0086",
+      "TimeSeconds": 57,
+      "Name": "邪竜の魔炎",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0087",
+      "TimeSeconds": 58,
+      "Name": "スカイワードリープ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0088",
+      "TimeSeconds": 58,
+      "Name": "ホーリーシールドバッシュ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0027",
+      "TimeSeconds": 59,
+      "Name": "フェイスアンムーブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0028",
+      "TimeSeconds": 60,
+      "Name": "ホリエストホーリー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0089",
+      "TimeSeconds": 61,
+      "Name": "ホーリーブレードダンス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0029",
+      "TimeSeconds": 62,
+      "Name": "グリノー_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0091",
+      "TimeSeconds": 62,
+      "Name": "コンヴィクション",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0090",
+      "TimeSeconds": 62,
+      "Name": "ホーリーブレードダンス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0092",
+      "TimeSeconds": 63,
+      "Name": "ホーリーブレードダンス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0030",
+      "TimeSeconds": 64,
+      "Name": "シャイニングブレード",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0093",
+      "TimeSeconds": 64,
+      "Name": "ホーリーブレードダンス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0031",
+      "TimeSeconds": 65,
+      "Name": "グリノー_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0032",
+      "TimeSeconds": 66,
+      "Name": "シャイニングブレード",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0033",
+      "TimeSeconds": 68,
+      "Name": "エクスキューション",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0034",
+      "TimeSeconds": 68,
+      "Name": "グリノー_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0094",
+      "TimeSeconds": 69,
+      "Name": "エンシェントクエイガ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0035",
+      "TimeSeconds": 70,
+      "Name": "アデルフェル_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0036",
+      "TimeSeconds": 74,
+      "Name": "グリノー_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0037",
+      "TimeSeconds": 77,
+      "Name": "アデルフェル_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0038",
+      "TimeSeconds": 77,
+      "Name": "グリノー_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0095",
+      "TimeSeconds": 79,
+      "Name": "ヘヴンリーヒール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0039",
+      "TimeSeconds": 80,
+      "Name": "アデルフェル_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0040",
+      "TimeSeconds": 80,
+      "Name": "グリノー_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0096",
+      "TimeSeconds": 83,
+      "Name": "アスカロンマイト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0041",
+      "TimeSeconds": 83,
+      "Name": "アデルフェル_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0097",
+      "TimeSeconds": 84,
+      "Name": "アスカロンマイト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0042",
+      "TimeSeconds": 85,
+      "Name": "フェイスアンムーブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0098",
+      "TimeSeconds": 86,
+      "Name": "アスカロンマイト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0043",
+      "TimeSeconds": 87,
+      "Name": "アデルフェル_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0045",
+      "TimeSeconds": 88,
+      "Name": "グリノー_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0044",
+      "TimeSeconds": 88,
+      "Name": "ヘヴンフレイム",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0046",
+      "TimeSeconds": 94,
+      "Name": "グリノー_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0047",
+      "TimeSeconds": 95,
+      "Name": "アデルフェル_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0048",
+      "TimeSeconds": 97,
+      "Name": "グリノー_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0099",
+      "TimeSeconds": 97,
+      "Name": "蒼天の陣：聖杖",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0049",
+      "TimeSeconds": 101,
+      "Name": "ホリエストホーリー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0050",
+      "TimeSeconds": 103,
+      "Name": "フルディメンション or エンプティディメンション",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0051",
+      "TimeSeconds": 105,
+      "Name": "アデルフェル_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0053",
+      "TimeSeconds": 109,
+      "Name": "アデルフェル_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0052",
+      "TimeSeconds": 109,
+      "Name": "グリノー_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0100",
+      "TimeSeconds": 110,
+      "Name": "竜の邪眼 / 邪竜の眼光",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0101",
+      "TimeSeconds": 111,
+      "Name": "セイクリッドセイバー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0102",
+      "TimeSeconds": 112,
+      "Name": "セイクリッドセイバー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0103",
+      "TimeSeconds": 114,
+      "Name": "セイクリッドセイバー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0055",
+      "TimeSeconds": 115,
+      "Name": "アデルフェル_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0054",
+      "TimeSeconds": 115,
+      "Name": "グリノー_AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0104",
+      "TimeSeconds": 116,
+      "Name": "セイクリッドセイバー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0060",
+      "TimeSeconds": 121,
+      "Name": "ディメンションジェイル",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0057",
+      "TimeSeconds": 121,
+      "Name": "フルディメンション or エンプティディメンション",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0056",
+      "TimeSeconds": 121,
+      "Name": "ホリエストホーリー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0058",
+      "TimeSeconds": 121,
+      "Name": "戦狂の覚悟",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0059",
+      "TimeSeconds": 121,
+      "Name": "美剣の覚悟",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0105",
+      "TimeSeconds": 129,
+      "Name": "ハイマルストーム",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0106",
+      "TimeSeconds": 133,
+      "Name": "コンヴィクション",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0061",
+      "TimeSeconds": 133,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0107",
+      "TimeSeconds": 134,
+      "Name": "ホーリーコメット",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0062",
+      "TimeSeconds": 134,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0063",
+      "TimeSeconds": 135,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0108",
+      "TimeSeconds": 136,
+      "Name": "ホーリーコメット",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0064",
+      "TimeSeconds": 136,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0109",
+      "TimeSeconds": 137,
+      "Name": "ホーリーコメット",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0065",
+      "TimeSeconds": 137,
+      "Name": "光翼閃",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0066",
+      "TimeSeconds": 137,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0110",
+      "TimeSeconds": 139,
+      "Name": "ホーリーコメット",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0067",
+      "TimeSeconds": 139,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0111",
+      "TimeSeconds": 140,
+      "Name": "ホーリーコメット",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0068",
+      "TimeSeconds": 140,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0112",
+      "TimeSeconds": 142,
+      "Name": "ホーリーコメット",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0069",
+      "TimeSeconds": 142,
+      "Name": "光翼閃",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0114",
+      "TimeSeconds": 143,
+      "Name": "フェイスアンムーブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0113",
+      "TimeSeconds": 143,
+      "Name": "ホーリーコメット",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0070",
+      "TimeSeconds": 145,
+      "Name": "蒼天の刻印",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0115",
+      "TimeSeconds": 146,
+      "Name": "コンヴィクション",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0071",
+      "TimeSeconds": 147,
+      "Name": "光翼閃",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0072",
+      "TimeSeconds": 150,
+      "Name": "蒼天の刻印",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0073",
+      "TimeSeconds": 152,
+      "Name": "光翼閃",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0074",
+      "TimeSeconds": 155,
+      "Name": "蒼天の刻印",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0075",
+      "TimeSeconds": 157,
+      "Name": "ピュア・オブ・ハート",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0076",
+      "TimeSeconds": 160,
+      "Name": "蒼天の刻印",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0116",
+      "TimeSeconds": 164,
+      "Name": "アルティメットエンド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0117",
+      "TimeSeconds": 177,
+      "Name": "大振り",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0118",
+      "TimeSeconds": 185,
+      "Name": "大振り",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0119",
+      "TimeSeconds": 190,
+      "Name": "エーテルバースト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0120",
+      "TimeSeconds": 190,
+      "Name": "トールダン没",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0121",
+      "TimeSeconds": 198,
+      "Name": "終焉の竜詩",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0122",
+      "TimeSeconds": 217,
+      "Name": "堕天のドラゴンダイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0123",
+      "TimeSeconds": 226,
+      "Name": "尾牙の連旋 or 牙尾の連旋",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0125",
+      "TimeSeconds": 227,
+      "Name": "アイオブタイラント",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0124",
+      "TimeSeconds": 227,
+      "Name": "各ダークジャンプ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0126",
+      "TimeSeconds": 230,
+      "Name": "大車輪・邪尾 or 大車輪・咬牙",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0127",
+      "TimeSeconds": 233,
+      "Name": "ダークドラゴンダイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0128",
+      "TimeSeconds": 233,
+      "Name": "大車輪・邪尾 or 大車輪・咬牙",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0129",
+      "TimeSeconds": 236,
+      "Name": "各ダークジャンプ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0130",
+      "TimeSeconds": 240,
+      "Name": "ゲイルスコグル",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0131",
+      "TimeSeconds": 243,
+      "Name": "ダークドラゴンダイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0134",
+      "TimeSeconds": 248,
+      "Name": "アイオブタイラント",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0133",
+      "TimeSeconds": 248,
+      "Name": "各ダークジャンプ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0132",
+      "TimeSeconds": 248,
+      "Name": "尾牙の連旋 or 牙尾の連旋",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0135",
+      "TimeSeconds": 250,
+      "Name": "ゲイルスコグル",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0136",
+      "TimeSeconds": 251,
+      "Name": "大車輪・邪尾 or 大車輪・咬牙",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0137",
+      "TimeSeconds": 254,
+      "Name": "ダークドラゴンダイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0138",
+      "TimeSeconds": 255,
+      "Name": "大車輪・邪尾 or 大車輪・咬牙",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0139",
+      "TimeSeconds": 261,
+      "Name": "ゲイルスコグル",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0140",
+      "TimeSeconds": 267,
+      "Name": "ドラッケンランス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0141",
+      "TimeSeconds": 273,
+      "Name": "ダークドラゴンダイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0143",
+      "TimeSeconds": 280,
+      "Name": "ゲイルスコグル",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0142",
+      "TimeSeconds": 280,
+      "Name": "ソウルテザー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0144",
+      "TimeSeconds": 305,
+      "Name": "ドラッケンランス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0145",
+      "TimeSeconds": 317,
+      "Name": "最後の咆哮",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0146",
+      "TimeSeconds": 346,
+      "Name": "苦悶の咆哮",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0147",
+      "TimeSeconds": 363,
+      "Name": "フレアディザスター",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0148",
+      "TimeSeconds": 370,
+      "Name": "フレアスター",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0149",
+      "TimeSeconds": 382,
+      "Name": "ミラージュダイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0150",
+      "TimeSeconds": 387,
+      "Name": "ミラージュダイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0151",
+      "TimeSeconds": 392,
+      "Name": "ミラージュダイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0152",
+      "TimeSeconds": 397,
+      "Name": "ミラージュダイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0153",
+      "TimeSeconds": 407,
+      "Name": "憤怒の波動",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0154",
+      "TimeSeconds": 426,
+      "Name": "最後の咆哮",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0155",
+      "TimeSeconds": 426,
+      "Name": "邪眼没",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0156",
+      "TimeSeconds": 444,
+      "Name": "ディメンションジェイル",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0157",
+      "TimeSeconds": 454,
+      "Name": "スピア・オブ・ハルオーネ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0158",
+      "TimeSeconds": 455,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0159",
+      "TimeSeconds": 456,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0160",
+      "TimeSeconds": 458,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0161",
+      "TimeSeconds": 459,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0162",
+      "TimeSeconds": 460,
+      "Name": "光翼閃",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0163",
+      "TimeSeconds": 460,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0164",
+      "TimeSeconds": 461,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0165",
+      "TimeSeconds": 462,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0166",
+      "TimeSeconds": 463,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0167",
+      "TimeSeconds": 464,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0168",
+      "TimeSeconds": 465,
+      "Name": "光翼閃",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0169",
+      "TimeSeconds": 465,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0170",
+      "TimeSeconds": 466,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0172",
+      "TimeSeconds": 467,
+      "Name": "蒼天の刻印",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0171",
+      "TimeSeconds": 467,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0173",
+      "TimeSeconds": 468,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0174",
+      "TimeSeconds": 469,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0175",
+      "TimeSeconds": 470,
+      "Name": "光翼閃",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0176",
+      "TimeSeconds": 470,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0177",
+      "TimeSeconds": 471,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0179",
+      "TimeSeconds": 473,
+      "Name": "蒼天の刻印",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0178",
+      "TimeSeconds": 473,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0180",
+      "TimeSeconds": 474,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0181",
+      "TimeSeconds": 475,
+      "Name": "光翼閃",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0182",
+      "TimeSeconds": 475,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0183",
+      "TimeSeconds": 476,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0184",
+      "TimeSeconds": 477,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0185",
+      "TimeSeconds": 478,
+      "Name": "蒼天の刻印",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0186",
+      "TimeSeconds": 479,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0187",
+      "TimeSeconds": 480,
+      "Name": "ピュア・オブ・ハート",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0188",
+      "TimeSeconds": 480,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0189",
+      "TimeSeconds": 482,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0190",
+      "TimeSeconds": 483,
+      "Name": "蒼天の刻印",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0191",
+      "TimeSeconds": 483,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0193",
+      "TimeSeconds": 484,
+      "Name": "オルシュファン救出",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0192",
+      "TimeSeconds": 484,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0194",
+      "TimeSeconds": 518,
+      "Name": "聖徒化",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0195",
+      "TimeSeconds": 524,
+      "Name": "竜の眼",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0196",
+      "TimeSeconds": 543,
+      "Name": "至天の陣：風槍",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0197",
+      "TimeSeconds": 552,
+      "Name": "チェインライトニング",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0199",
+      "TimeSeconds": 555,
+      "Name": "スカイワードリープ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0200",
+      "TimeSeconds": 555,
+      "Name": "スパイラルピアス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0198",
+      "TimeSeconds": 555,
+      "Name": "ツイスターダイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0201",
+      "TimeSeconds": 557,
+      "Name": "ツイスター",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0203",
+      "TimeSeconds": 561,
+      "Name": "ヘヴンリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0202",
+      "TimeSeconds": 561,
+      "Name": "レベレーション・アスカロンメルシー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0204",
+      "TimeSeconds": 562,
+      "Name": "ヘヴンリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0205",
+      "TimeSeconds": 563,
+      "Name": "ヘヴンリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0206",
+      "TimeSeconds": 564,
+      "Name": "アルターフレア",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0207",
+      "TimeSeconds": 564,
+      "Name": "ヘヴンリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0209",
+      "TimeSeconds": 566,
+      "Name": "アルターフレア",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0208",
+      "TimeSeconds": 566,
+      "Name": "ヘヴンリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0211",
+      "TimeSeconds": 568,
+      "Name": "アルターフレア",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0212",
+      "TimeSeconds": 568,
+      "Name": "エンプティディメンション",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0210",
+      "TimeSeconds": 568,
+      "Name": "カータライズ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0213",
+      "TimeSeconds": 569,
+      "Name": "アルターフレア",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0214",
+      "TimeSeconds": 575,
+      "Name": "エンシェントクエイガ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0215",
+      "TimeSeconds": 586,
+      "Name": "ヘヴンリーヒール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0216",
+      "TimeSeconds": 590,
+      "Name": "アスカロンマイト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0217",
+      "TimeSeconds": 591,
+      "Name": "アスカロンマイト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0218",
+      "TimeSeconds": 592,
+      "Name": "アスカロンマイト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0219",
+      "TimeSeconds": 603,
+      "Name": "至天の陣：死刻",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0220",
+      "TimeSeconds": 610,
+      "Name": "死の宣告",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0221",
+      "TimeSeconds": 618,
+      "Name": "ヘヴィインパクト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0225",
+      "TimeSeconds": 620,
+      "Name": "カータライズ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0223",
+      "TimeSeconds": 620,
+      "Name": "スピア・オブ・ハルオーネ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0224",
+      "TimeSeconds": 620,
+      "Name": "ツイスターダイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0226",
+      "TimeSeconds": 620,
+      "Name": "ヘヴィインパクト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0222",
+      "TimeSeconds": 620,
+      "Name": "百雷",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0227",
+      "TimeSeconds": 630,
+      "Name": "サルベーション",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0228",
+      "TimeSeconds": 633,
+      "Name": "フェイスアンムーブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0229",
+      "TimeSeconds": 633,
+      "Name": "竜の眼",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0230",
+      "TimeSeconds": 633,
+      "Name": "竜の邪眼",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0231",
+      "TimeSeconds": 636,
+      "Name": "ヘヴンフレイム",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0232",
+      "TimeSeconds": 653,
+      "Name": "ホーリーメテオ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0233",
+      "TimeSeconds": 667,
+      "Name": "エンシェントクエイガ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0234",
+      "TimeSeconds": 676,
+      "Name": "ヘヴンリーヒール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0235",
+      "TimeSeconds": 679,
+      "Name": "アスカロンマイト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0236",
+      "TimeSeconds": 680,
+      "Name": "アスカロンマイト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0237",
+      "TimeSeconds": 681,
+      "Name": "アスカロンマイト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0238",
+      "TimeSeconds": 693,
+      "Name": "エーテルバースト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0239",
+      "TimeSeconds": 693,
+      "Name": "トールダン逃走",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0240",
+      "TimeSeconds": 711,
+      "Name": "ニーズ_AA(ウィルムクロウ)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0241",
+      "TimeSeconds": 711,
+      "Name": "フレーズ_AA(ウィルムクロウ)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0242",
+      "TimeSeconds": 714,
+      "Name": "ニーズ_AA(ウィルムクロウ)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0243",
+      "TimeSeconds": 714,
+      "Name": "フレーズ_AA(ウィルムクロウ)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0245",
+      "TimeSeconds": 723,
+      "Name": "聖竜の息吹",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0244",
+      "TimeSeconds": 723,
+      "Name": "邪竜の息吹",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0250",
+      "TimeSeconds": 724,
+      "Name": "コールドブレス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0247",
+      "TimeSeconds": 724,
+      "Name": "スタッガーブレス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0249",
+      "TimeSeconds": 724,
+      "Name": "ダークオーブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0251",
+      "TimeSeconds": 724,
+      "Name": "フレイムブレス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0246",
+      "TimeSeconds": 724,
+      "Name": "ブリザードサークル",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0248",
+      "TimeSeconds": 724,
+      "Name": "ホーリーオーブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0252",
+      "TimeSeconds": 727,
+      "Name": "ニーズ_AA(ウィルムクロウ)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0253",
+      "TimeSeconds": 727,
+      "Name": "フレーズ_AA(ウィルムクロウ)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0254",
+      "TimeSeconds": 730,
+      "Name": "フレーズ_AA(ウィルムクロウ)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0255",
+      "TimeSeconds": 731,
+      "Name": "滅殺の誓い",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0256",
+      "TimeSeconds": 743,
+      "Name": "アク・アファー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0257",
+      "TimeSeconds": 756,
+      "Name": "ホーリーウィング",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0259",
+      "TimeSeconds": 757,
+      "Name": "カータライズ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0258",
+      "TimeSeconds": 757,
+      "Name": "ホーリーフェザー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0260",
+      "TimeSeconds": 762,
+      "Name": "ニーズ_AA(ウィルムクロウ)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0261",
+      "TimeSeconds": 762,
+      "Name": "フレーズ_AA(ウィルムクロウ)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0262",
+      "TimeSeconds": 765,
+      "Name": "ニーズ_AA(ウィルムクロウ)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0263",
+      "TimeSeconds": 765,
+      "Name": "フレーズ_AA(ウィルムクロウ)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0264",
+      "TimeSeconds": 765,
+      "Name": "滅殺の誓い",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0265",
+      "TimeSeconds": 768,
+      "Name": "フレーズ_AA(ウィルムクロウ)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0266",
+      "TimeSeconds": 771,
+      "Name": "邪念の炎",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0267",
+      "TimeSeconds": 782,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0268",
+      "TimeSeconds": 782,
+      "Name": "カータライズ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0269",
+      "TimeSeconds": 783,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0270",
+      "TimeSeconds": 785,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0271",
+      "TimeSeconds": 786,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0272",
+      "TimeSeconds": 788,
+      "Name": "フレーズ_AA(ウィルムクロウ)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0273",
+      "TimeSeconds": 791,
+      "Name": "フレーズ_AA(ウィルムクロウ)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0274",
+      "TimeSeconds": 794,
+      "Name": "フレーズ_AA(ウィルムクロウ)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0275",
+      "TimeSeconds": 795,
+      "Name": "ヒートテイル or ヒートウィング",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0277",
+      "TimeSeconds": 795,
+      "Name": "復讐の炎",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0276",
+      "TimeSeconds": 795,
+      "Name": "道連れの炎",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0278",
+      "TimeSeconds": 797,
+      "Name": "ニーズ_AA(ウィルムクロウ)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0279",
+      "TimeSeconds": 797,
+      "Name": "フレーズ_AA(ウィルムクロウ)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0280",
+      "TimeSeconds": 799,
+      "Name": "滅殺の誓い",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0281",
+      "TimeSeconds": 801,
+      "Name": "ニーズ_AA(ウィルムクロウ)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0282",
+      "TimeSeconds": 801,
+      "Name": "フレーズ_AA(ウィルムクロウ)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0283",
+      "TimeSeconds": 812,
+      "Name": "アク・アファー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0284",
+      "TimeSeconds": 824,
+      "Name": "ホーリーウィング",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0286",
+      "TimeSeconds": 825,
+      "Name": "ヒートテイル or ヒートウィング",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0285",
+      "TimeSeconds": 825,
+      "Name": "ホーリーフェザー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0287",
+      "TimeSeconds": 832,
+      "Name": "ニーズ_AA(ウィルムクロウ)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0288",
+      "TimeSeconds": 832,
+      "Name": "フレーズ_AA(ウィルムクロウ)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0289",
+      "TimeSeconds": 833,
+      "Name": "滅殺の誓い",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0290",
+      "TimeSeconds": 835,
+      "Name": "ニーズ_AA(ウィルムクロウ)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0291",
+      "TimeSeconds": 835,
+      "Name": "フレーズ_AA(ウィルムクロウ)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0298",
+      "TimeSeconds": 844,
+      "Name": "コールドブレス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0295",
+      "TimeSeconds": 844,
+      "Name": "スタッガーブレス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0297",
+      "TimeSeconds": 844,
+      "Name": "ダークオーブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0299",
+      "TimeSeconds": 844,
+      "Name": "フレイムブレス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0294",
+      "TimeSeconds": 844,
+      "Name": "ブリザードサークル",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0296",
+      "TimeSeconds": 844,
+      "Name": "ホーリーオーブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0293",
+      "TimeSeconds": 844,
+      "Name": "聖竜の息吹",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0292",
+      "TimeSeconds": 844,
+      "Name": "邪竜の息吹",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0300",
+      "TimeSeconds": 847,
+      "Name": "ニーズ_AA(ウィルムクロウ)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0301",
+      "TimeSeconds": 847,
+      "Name": "フレーズ_AA(ウィルムクロウ)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0302",
+      "TimeSeconds": 857,
+      "Name": "カータライズ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0303",
+      "TimeSeconds": 864,
+      "Name": "タッチダウン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0305",
+      "TimeSeconds": 890,
+      "Name": "二天竜没",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0304",
+      "TimeSeconds": 890,
+      "Name": "最後の咆哮",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0306",
+      "TimeSeconds": 907,
+      "Name": "苦悶の咆哮",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0307",
+      "TimeSeconds": 924,
+      "Name": "衝撃波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0308",
+      "TimeSeconds": 940,
+      "Name": "アルティメットエンド・オルタナ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0310",
+      "TimeSeconds": 960,
+      "Name": "ダイナモ or チャリオット",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0309",
+      "TimeSeconds": 960,
+      "Name": "騎竜剣エクサフレア",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0311",
+      "TimeSeconds": 968,
+      "Name": "トリニティ(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0312",
+      "TimeSeconds": 968,
+      "Name": "トリニティ(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0313",
+      "TimeSeconds": 973,
+      "Name": "トリニティ(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0314",
+      "TimeSeconds": 973,
+      "Name": "トリニティ(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0317",
+      "TimeSeconds": 981,
+      "Name": "ダイナモ or チャリオット",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0315",
+      "TimeSeconds": 981,
+      "Name": "騎竜剣アク・モーン(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0316",
+      "TimeSeconds": 981,
+      "Name": "騎竜剣アク・モーン(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0318",
+      "TimeSeconds": 983,
+      "Name": "騎竜剣アク・モーン(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0319",
+      "TimeSeconds": 983,
+      "Name": "騎竜剣アク・モーン(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0320",
+      "TimeSeconds": 984,
+      "Name": "騎竜剣アク・モーン(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0321",
+      "TimeSeconds": 984,
+      "Name": "騎竜剣アク・モーン(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0322",
+      "TimeSeconds": 985,
+      "Name": "騎竜剣アク・モーン(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0323",
+      "TimeSeconds": 985,
+      "Name": "騎竜剣アク・モーン(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0324",
+      "TimeSeconds": 986,
+      "Name": "騎竜剣アク・モーン(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0325",
+      "TimeSeconds": 986,
+      "Name": "騎竜剣アク・モーン(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0326",
+      "TimeSeconds": 993,
+      "Name": "トリニティ(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0327",
+      "TimeSeconds": 993,
+      "Name": "トリニティ(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0328",
+      "TimeSeconds": 997,
+      "Name": "トリニティ(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0329",
+      "TimeSeconds": 997,
+      "Name": "トリニティ(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0331",
+      "TimeSeconds": 1008,
+      "Name": "ダイナモ or チャリオット",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0330",
+      "TimeSeconds": 1008,
+      "Name": "騎竜剣ギガフレア",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0332",
+      "TimeSeconds": 1012,
+      "Name": "騎竜剣ギガフレア",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0333",
+      "TimeSeconds": 1016,
+      "Name": "騎竜剣ギガフレア",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0334",
+      "TimeSeconds": 1026,
+      "Name": "トリニティ(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0335",
+      "TimeSeconds": 1026,
+      "Name": "トリニティ(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0336",
+      "TimeSeconds": 1030,
+      "Name": "トリニティ(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0337",
+      "TimeSeconds": 1030,
+      "Name": "トリニティ(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0339",
+      "TimeSeconds": 1039,
+      "Name": "ダイナモ or チャリオット",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0338",
+      "TimeSeconds": 1039,
+      "Name": "騎竜剣エクサフレア",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0340",
+      "TimeSeconds": 1047,
+      "Name": "トリニティ(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0341",
+      "TimeSeconds": 1047,
+      "Name": "トリニティ(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0342",
+      "TimeSeconds": 1051,
+      "Name": "トリニティ(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0343",
+      "TimeSeconds": 1051,
+      "Name": "トリニティ(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0346",
+      "TimeSeconds": 1060,
+      "Name": "ダイナモ or チャリオット",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0344",
+      "TimeSeconds": 1060,
+      "Name": "騎竜剣アク・モーン(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0345",
+      "TimeSeconds": 1060,
+      "Name": "騎竜剣アク・モーン(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0347",
+      "TimeSeconds": 1062,
+      "Name": "騎竜剣アク・モーン(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0348",
+      "TimeSeconds": 1062,
+      "Name": "騎竜剣アク・モーン(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0349",
+      "TimeSeconds": 1063,
+      "Name": "騎竜剣アク・モーン(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0350",
+      "TimeSeconds": 1063,
+      "Name": "騎竜剣アク・モーン(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0351",
+      "TimeSeconds": 1064,
+      "Name": "騎竜剣アク・モーン(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0352",
+      "TimeSeconds": 1064,
+      "Name": "騎竜剣アク・モーン(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0353",
+      "TimeSeconds": 1065,
+      "Name": "騎竜剣アク・モーン(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0354",
+      "TimeSeconds": 1065,
+      "Name": "騎竜剣アク・モーン(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0355",
+      "TimeSeconds": 1066,
+      "Name": "騎竜剣アク・モーン(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0356",
+      "TimeSeconds": 1066,
+      "Name": "騎竜剣アク・モーン(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0357",
+      "TimeSeconds": 1073,
+      "Name": "トリニティ(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0358",
+      "TimeSeconds": 1073,
+      "Name": "トリニティ(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0359",
+      "TimeSeconds": 1077,
+      "Name": "トリニティ(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0360",
+      "TimeSeconds": 1077,
+      "Name": "トリニティ(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0362",
+      "TimeSeconds": 1088,
+      "Name": "ダイナモ or チャリオット",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0361",
+      "TimeSeconds": 1088,
+      "Name": "騎竜剣ギガフレア",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0363",
+      "TimeSeconds": 1092,
+      "Name": "騎竜剣ギガフレア",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0364",
+      "TimeSeconds": 1096,
+      "Name": "騎竜剣ギガフレア",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0365",
+      "TimeSeconds": 1106,
+      "Name": "トリニティ(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0366",
+      "TimeSeconds": 1106,
+      "Name": "トリニティ(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0367",
+      "TimeSeconds": 1110,
+      "Name": "トリニティ(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0368",
+      "TimeSeconds": 1110,
+      "Name": "トリニティ(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0370",
+      "TimeSeconds": 1119,
+      "Name": "ダイナモ or チャリオット",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0369",
+      "TimeSeconds": 1119,
+      "Name": "騎竜剣エクサフレア",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0371",
+      "TimeSeconds": 1127,
+      "Name": "トリニティ(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0372",
+      "TimeSeconds": 1127,
+      "Name": "トリニティ(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0373",
+      "TimeSeconds": 1131,
+      "Name": "トリニティ(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0374",
+      "TimeSeconds": 1131,
+      "Name": "トリニティ(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0377",
+      "TimeSeconds": 1140,
+      "Name": "ダイナモ or チャリオット",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0375",
+      "TimeSeconds": 1140,
+      "Name": "騎竜剣アク・モーン(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0376",
+      "TimeSeconds": 1140,
+      "Name": "騎竜剣アク・モーン(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0378",
+      "TimeSeconds": 1142,
+      "Name": "騎竜剣アク・モーン(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0379",
+      "TimeSeconds": 1142,
+      "Name": "騎竜剣アク・モーン(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0380",
+      "TimeSeconds": 1143,
+      "Name": "騎竜剣アク・モーン(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0381",
+      "TimeSeconds": 1143,
+      "Name": "騎竜剣アク・モーン(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0382",
+      "TimeSeconds": 1144,
+      "Name": "騎竜剣アク・モーン(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0383",
+      "TimeSeconds": 1144,
+      "Name": "騎竜剣アク・モーン(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0384",
+      "TimeSeconds": 1145,
+      "Name": "騎竜剣アク・モーン(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0385",
+      "TimeSeconds": 1145,
+      "Name": "騎竜剣アク・モーン(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0386",
+      "TimeSeconds": 1146,
+      "Name": "騎竜剣アク・モーン(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0387",
+      "TimeSeconds": 1146,
+      "Name": "騎竜剣アク・モーン(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0388",
+      "TimeSeconds": 1147,
+      "Name": "騎竜剣アク・モーン(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0389",
+      "TimeSeconds": 1147,
+      "Name": "騎竜剣アク・モーン(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0390",
+      "TimeSeconds": 1154,
+      "Name": "トリニティ(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0391",
+      "TimeSeconds": 1154,
+      "Name": "トリニティ(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0392",
+      "TimeSeconds": 1158,
+      "Name": "トリニティ(DPS)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0393",
+      "TimeSeconds": 1158,
+      "Name": "トリニティ(タンク)",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0394",
+      "TimeSeconds": 1171,
+      "Name": "騎竜剣モーン・アファー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0395",
+      "TimeSeconds": 1174,
+      "Name": "騎竜剣モーン・アファー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_dragonsongs_reprise_0396",
+      "TimeSeconds": 1177,
+      "Name": "騎竜剣モーン・アファー",
+      "Type": "Mechanic",
+      "Notes": ""
+    }
+  ]
+}

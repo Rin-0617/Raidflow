@@ -1,0 +1,2780 @@
+{
+  "Id": "the_unending_coil_of_bahamut",
+  "ContentName": "絶バハムート討滅戦",
+  "Revision": "4.11 preset",
+  "ContentLevel": 70,
+  "Events": [
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0001",
+      "TimeSeconds": 6,
+      "Name": "プラメット",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0002",
+      "TimeSeconds": 12,
+      "Name": "ツイスター",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0003",
+      "TimeSeconds": 15,
+      "Name": "ファイアボール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0004",
+      "TimeSeconds": 24,
+      "Name": "デスセンテンス",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0005",
+      "TimeSeconds": 27,
+      "Name": "プラメット",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0006",
+      "TimeSeconds": 32,
+      "Name": "ツイスター",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0007",
+      "TimeSeconds": 35,
+      "Name": "ファイアボール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0008",
+      "TimeSeconds": 47,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0009",
+      "TimeSeconds": 48,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0010",
+      "TimeSeconds": 49,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0011",
+      "TimeSeconds": 50,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0012",
+      "TimeSeconds": 51,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0013",
+      "TimeSeconds": 55,
+      "Name": "魔力錬成",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0014",
+      "TimeSeconds": 59,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0016",
+      "TimeSeconds": 60,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0015",
+      "TimeSeconds": 60,
+      "Name": "魔力爆散",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0017",
+      "TimeSeconds": 61,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0018",
+      "TimeSeconds": 62,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0019",
+      "TimeSeconds": 63,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0020",
+      "TimeSeconds": 71,
+      "Name": "デスセンテンス",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0021",
+      "TimeSeconds": 78,
+      "Name": "魔力錬成",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0022",
+      "TimeSeconds": 81,
+      "Name": "ツイスター",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0023",
+      "TimeSeconds": 83,
+      "Name": "魔力爆散",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0024",
+      "TimeSeconds": 87,
+      "Name": "プラメット",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0025",
+      "TimeSeconds": 100,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0026",
+      "TimeSeconds": 101,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0027",
+      "TimeSeconds": 102,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0028",
+      "TimeSeconds": 103,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0029",
+      "TimeSeconds": 104,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0030",
+      "TimeSeconds": 109,
+      "Name": "魔力錬成",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0031",
+      "TimeSeconds": 112,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0032",
+      "TimeSeconds": 113,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0033",
+      "TimeSeconds": 113,
+      "Name": "魔力爆散",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0034",
+      "TimeSeconds": 114,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0035",
+      "TimeSeconds": 116,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0036",
+      "TimeSeconds": 117,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0037",
+      "TimeSeconds": 119,
+      "Name": "ファイアボール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0038",
+      "TimeSeconds": 128,
+      "Name": "デスセンテンス",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0039",
+      "TimeSeconds": 131,
+      "Name": "プラメット",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0040",
+      "TimeSeconds": 138,
+      "Name": "魔力錬成",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0041",
+      "TimeSeconds": 142,
+      "Name": "ツイスター",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0042",
+      "TimeSeconds": 143,
+      "Name": "魔力爆散",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0043",
+      "TimeSeconds": 147,
+      "Name": "プラメット",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0044",
+      "TimeSeconds": 149,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0045",
+      "TimeSeconds": 150,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0046",
+      "TimeSeconds": 151,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0047",
+      "TimeSeconds": 152,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0048",
+      "TimeSeconds": 153,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0049",
+      "TimeSeconds": 158,
+      "Name": "魔力錬成",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0050",
+      "TimeSeconds": 161,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0051",
+      "TimeSeconds": 162,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0053",
+      "TimeSeconds": 163,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0052",
+      "TimeSeconds": 163,
+      "Name": "魔力爆散",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0054",
+      "TimeSeconds": 164,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0055",
+      "TimeSeconds": 166,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0056",
+      "TimeSeconds": 168,
+      "Name": "ファイアボール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0057",
+      "TimeSeconds": 177,
+      "Name": "デスセンテンス",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0058",
+      "TimeSeconds": 180,
+      "Name": "プラメット",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0059",
+      "TimeSeconds": 188,
+      "Name": "エーテリックプロフュージョン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0060",
+      "TimeSeconds": 188,
+      "Name": "ツインタニア離脱",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0061",
+      "TimeSeconds": 197,
+      "Name": "天地崩壊",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0062",
+      "TimeSeconds": 202,
+      "Name": "メテオストリーム",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0063",
+      "TimeSeconds": 204,
+      "Name": "サーミオニックバースト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0064",
+      "TimeSeconds": 205,
+      "Name": "メテオストリーム",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0065",
+      "TimeSeconds": 208,
+      "Name": "サーミオニックバースト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0066",
+      "TimeSeconds": 208,
+      "Name": "ダラガブダイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0067",
+      "TimeSeconds": 210,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0068",
+      "TimeSeconds": 211,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0069",
+      "TimeSeconds": 212,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0070",
+      "TimeSeconds": 213,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0071",
+      "TimeSeconds": 214,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0072",
+      "TimeSeconds": 220,
+      "Name": "龍神の加護",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0073",
+      "TimeSeconds": 227,
+      "Name": "チェインライトニング(付与)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0074",
+      "TimeSeconds": 230,
+      "Name": "アイスボール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0075",
+      "TimeSeconds": 232,
+      "Name": "アイスボール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0076",
+      "TimeSeconds": 233,
+      "Name": "チェインライトニング(発動)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0077",
+      "TimeSeconds": 233,
+      "Name": "ルナダイナモ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0078",
+      "TimeSeconds": 234,
+      "Name": "アイスボール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0079",
+      "TimeSeconds": 236,
+      "Name": "アイアンチャリオット or サーミオニックビーム",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0080",
+      "TimeSeconds": 236,
+      "Name": "アイスボール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0081",
+      "TimeSeconds": 239,
+      "Name": "ファイアボール(1回目)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0082",
+      "TimeSeconds": 240,
+      "Name": "サルヴェーションウィング",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0083",
+      "TimeSeconds": 244,
+      "Name": "サルヴェーションウィング",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0084",
+      "TimeSeconds": 245,
+      "Name": "アイスボール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0085",
+      "TimeSeconds": 247,
+      "Name": "アイスボール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0086",
+      "TimeSeconds": 247,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0087",
+      "TimeSeconds": 248,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0089",
+      "TimeSeconds": 249,
+      "Name": "アイスボール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0088",
+      "TimeSeconds": 249,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0090",
+      "TimeSeconds": 250,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0091",
+      "TimeSeconds": 251,
+      "Name": "アイスボール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0092",
+      "TimeSeconds": 252,
+      "Name": "チェインライトニング(付与)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0093",
+      "TimeSeconds": 254,
+      "Name": "ファイアボール(2回目)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0094",
+      "TimeSeconds": 258,
+      "Name": "チェインライトニング(発動)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0095",
+      "TimeSeconds": 261,
+      "Name": "サーミオニックビーム",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0096",
+      "TimeSeconds": 264,
+      "Name": "アイアンチャリオット or ルナダイナモ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0097",
+      "TimeSeconds": 268,
+      "Name": "サルヴェーションウィング",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0099",
+      "TimeSeconds": 271,
+      "Name": "アイスボール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0098",
+      "TimeSeconds": 271,
+      "Name": "チェインライトニング(付与)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0100",
+      "TimeSeconds": 272,
+      "Name": "サルヴェーションウィング",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0101",
+      "TimeSeconds": 273,
+      "Name": "アイスボール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0102",
+      "TimeSeconds": 275,
+      "Name": "アイスボール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0103",
+      "TimeSeconds": 276,
+      "Name": "サルヴェーションウィング",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0105",
+      "TimeSeconds": 277,
+      "Name": "アイスボール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0104",
+      "TimeSeconds": 277,
+      "Name": "チェインライトニング(発動)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0106",
+      "TimeSeconds": 280,
+      "Name": "ファイアボール(3回目)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0107",
+      "TimeSeconds": 283,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0108",
+      "TimeSeconds": 284,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0109",
+      "TimeSeconds": 285,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0110",
+      "TimeSeconds": 286,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0111",
+      "TimeSeconds": 287,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0112",
+      "TimeSeconds": 292,
+      "Name": "アイスボール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0114",
+      "TimeSeconds": 294,
+      "Name": "アイスボール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0113",
+      "TimeSeconds": 294,
+      "Name": "レイヴンダイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0115",
+      "TimeSeconds": 297,
+      "Name": "アイスボール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0116",
+      "TimeSeconds": 298,
+      "Name": "アイアンチャリオット or ルナダイナモ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0117",
+      "TimeSeconds": 298,
+      "Name": "チェインライトニング(付与)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0118",
+      "TimeSeconds": 299,
+      "Name": "アイスボール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0119",
+      "TimeSeconds": 301,
+      "Name": "ファイアボール(4回目)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0121",
+      "TimeSeconds": 304,
+      "Name": "サルヴェーションウィング",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0120",
+      "TimeSeconds": 304,
+      "Name": "チェインライトニング(発動)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0122",
+      "TimeSeconds": 307,
+      "Name": "アイスボール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0123",
+      "TimeSeconds": 308,
+      "Name": "アイスボール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0124",
+      "TimeSeconds": 308,
+      "Name": "サルヴェーションウィング",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0125",
+      "TimeSeconds": 309,
+      "Name": "アイスボール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0126",
+      "TimeSeconds": 310,
+      "Name": "アイスボール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0127",
+      "TimeSeconds": 311,
+      "Name": "アイスボール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0128",
+      "TimeSeconds": 312,
+      "Name": "アイスボール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0130",
+      "TimeSeconds": 313,
+      "Name": "アイスボール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0129",
+      "TimeSeconds": 313,
+      "Name": "サルヴェーションウィング",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0131",
+      "TimeSeconds": 314,
+      "Name": "アイスボール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0132",
+      "TimeSeconds": 323,
+      "Name": "レイヴェンズビーク",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0133",
+      "TimeSeconds": 333,
+      "Name": "スーパーノヴァ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0134",
+      "TimeSeconds": 335,
+      "Name": "スーパーノヴァ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0135",
+      "TimeSeconds": 336,
+      "Name": "スーパーノヴァ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0136",
+      "TimeSeconds": 338,
+      "Name": "スーパーノヴァ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0137",
+      "TimeSeconds": 339,
+      "Name": "カータライズ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0138",
+      "TimeSeconds": 342,
+      "Name": "カータライズ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0139",
+      "TimeSeconds": 343,
+      "Name": "メテオストリーム or ダラカブダイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0140",
+      "TimeSeconds": 346,
+      "Name": "ダラガブダイブ or サーミオニックビーム",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0141",
+      "TimeSeconds": 347,
+      "Name": "カータライズ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0142",
+      "TimeSeconds": 350,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0143",
+      "TimeSeconds": 351,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0144",
+      "TimeSeconds": 352,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0145",
+      "TimeSeconds": 353,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0146",
+      "TimeSeconds": 367,
+      "Name": "チャリオット or ダイナモ or レイヴン or サーミ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0147",
+      "TimeSeconds": 370,
+      "Name": "チャリオット or ダイナモ or レイヴン or サーミ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0148",
+      "TimeSeconds": 378,
+      "Name": "チャリオット or ダイナモ or レイヴン or サーミ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0149",
+      "TimeSeconds": 381,
+      "Name": "チャリオット or ダイナモ or レイヴン or サーミ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0150",
+      "TimeSeconds": 390,
+      "Name": "レイヴェンズビーク",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0151",
+      "TimeSeconds": 397,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0152",
+      "TimeSeconds": 398,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0153",
+      "TimeSeconds": 399,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0154",
+      "TimeSeconds": 400,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0155",
+      "TimeSeconds": 410,
+      "Name": "メガフレア",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0156",
+      "TimeSeconds": 416,
+      "Name": "第七霊災",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0157",
+      "TimeSeconds": 419,
+      "Name": "災いの炎",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0158",
+      "TimeSeconds": 420,
+      "Name": "災いの炎",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0159",
+      "TimeSeconds": 421,
+      "Name": "災いの炎",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0160",
+      "TimeSeconds": 424,
+      "Name": "災いの焔",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0161",
+      "TimeSeconds": 433,
+      "Name": "フレアブレス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0162",
+      "TimeSeconds": 441,
+      "Name": "フラッテン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0163",
+      "TimeSeconds": 448,
+      "Name": "進軍の三重奏",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0166",
+      "TimeSeconds": 456,
+      "Name": "ツイスターダイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0164",
+      "TimeSeconds": 456,
+      "Name": "メガフレアダイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0165",
+      "TimeSeconds": 456,
+      "Name": "ルナダイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0167",
+      "TimeSeconds": 460,
+      "Name": "メガフレア(散開)",
+      "Type": "Spread",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0168",
+      "TimeSeconds": 462,
+      "Name": "メガフレア(AoE)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0169",
+      "TimeSeconds": 464,
+      "Name": "メガフレア(頭割り)",
+      "Type": "Stack",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0170",
+      "TimeSeconds": 467,
+      "Name": "アースシェイカー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0171",
+      "TimeSeconds": 469,
+      "Name": "テンペストウィング",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0172",
+      "TimeSeconds": 473,
+      "Name": "フレアブレス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0173",
+      "TimeSeconds": 481,
+      "Name": "フラッテン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0174",
+      "TimeSeconds": 489,
+      "Name": "黒炎の三重奏",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0175",
+      "TimeSeconds": 493,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0176",
+      "TimeSeconds": 495,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0178",
+      "TimeSeconds": 496,
+      "Name": "サーミオニックビーム",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0177",
+      "TimeSeconds": 496,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0179",
+      "TimeSeconds": 497,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0180",
+      "TimeSeconds": 497,
+      "Name": "メガフレアダイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0181",
+      "TimeSeconds": 498,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0182",
+      "TimeSeconds": 504,
+      "Name": "スーパーノヴァ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0183",
+      "TimeSeconds": 505,
+      "Name": "スーパーノヴァ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0184",
+      "TimeSeconds": 506,
+      "Name": "メガフレア(頭割り)",
+      "Type": "Stack",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0185",
+      "TimeSeconds": 507,
+      "Name": "スーパーノヴァ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0186",
+      "TimeSeconds": 507,
+      "Name": "メガフレア(塔)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0187",
+      "TimeSeconds": 508,
+      "Name": "スーパーノヴァ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0188",
+      "TimeSeconds": 514,
+      "Name": "ギガフレア",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0189",
+      "TimeSeconds": 523,
+      "Name": "フレアブレス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0190",
+      "TimeSeconds": 525,
+      "Name": "フレアブレス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0191",
+      "TimeSeconds": 527,
+      "Name": "フレアブレス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0192",
+      "TimeSeconds": 540,
+      "Name": "厄災の三重奏",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0193",
+      "TimeSeconds": 550,
+      "Name": "ルナダイナモ or レイヴンダイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0194",
+      "TimeSeconds": 553,
+      "Name": "ルナダイナモ or レイヴンダイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0196",
+      "TimeSeconds": 557,
+      "Name": "エーテリックプロフュージョン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0195",
+      "TimeSeconds": 557,
+      "Name": "テンペストウィング",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0197",
+      "TimeSeconds": 560,
+      "Name": "メテオストリーム",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0198",
+      "TimeSeconds": 565,
+      "Name": "ギガフレア",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0199",
+      "TimeSeconds": 570,
+      "Name": "フレアブレス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0200",
+      "TimeSeconds": 579,
+      "Name": "フラッテン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0201",
+      "TimeSeconds": 584,
+      "Name": "フレアブレス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0202",
+      "TimeSeconds": 593,
+      "Name": "天地の三重奏",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0204",
+      "TimeSeconds": 601,
+      "Name": "ツイスターダイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0203",
+      "TimeSeconds": 601,
+      "Name": "メガフレアダイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0205",
+      "TimeSeconds": 607,
+      "Name": "メガフレア(AoE)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0206",
+      "TimeSeconds": 609,
+      "Name": "天地崩壊",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0207",
+      "TimeSeconds": 611,
+      "Name": "メガフレア(塔)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0208",
+      "TimeSeconds": 614,
+      "Name": "スーパーノヴァ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0209",
+      "TimeSeconds": 616,
+      "Name": "サーミオニックバースト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0210",
+      "TimeSeconds": 616,
+      "Name": "スーパーノヴァ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0211",
+      "TimeSeconds": 617,
+      "Name": "スーパーノヴァ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0212",
+      "TimeSeconds": 623,
+      "Name": "ファイアボール",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0213",
+      "TimeSeconds": 628,
+      "Name": "ギガフレア",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0214",
+      "TimeSeconds": 637,
+      "Name": "フレアブレス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0215",
+      "TimeSeconds": 640,
+      "Name": "フレアブレス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0216",
+      "TimeSeconds": 642,
+      "Name": "フレアブレス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0217",
+      "TimeSeconds": 654,
+      "Name": "連撃の三重奏",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0218",
+      "TimeSeconds": 661,
+      "Name": "魔力錬成",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0219",
+      "TimeSeconds": 662,
+      "Name": "メテオストリーム",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0220",
+      "TimeSeconds": 663,
+      "Name": "メテオストリーム",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0222",
+      "TimeSeconds": 664,
+      "Name": "メテオストリーム",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0221",
+      "TimeSeconds": 664,
+      "Name": "魔力爆散",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0223",
+      "TimeSeconds": 665,
+      "Name": "メテオストリーム",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0224",
+      "TimeSeconds": 665,
+      "Name": "魔力錬成",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0225",
+      "TimeSeconds": 666,
+      "Name": "メテオストリーム",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0226",
+      "TimeSeconds": 667,
+      "Name": "メテオストリーム",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0228",
+      "TimeSeconds": 668,
+      "Name": "メテオストリーム",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0227",
+      "TimeSeconds": 668,
+      "Name": "魔力爆散",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0229",
+      "TimeSeconds": 669,
+      "Name": "メテオストリーム",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0230",
+      "TimeSeconds": 675,
+      "Name": "アースシェイカー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0231",
+      "TimeSeconds": 680,
+      "Name": "アースシェイカー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0232",
+      "TimeSeconds": 688,
+      "Name": "ギガフレア",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0233",
+      "TimeSeconds": 699,
+      "Name": "フラッテン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0234",
+      "TimeSeconds": 703,
+      "Name": "フレアブレス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0235",
+      "TimeSeconds": 711,
+      "Name": "群竜の八重奏",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0236",
+      "TimeSeconds": 723,
+      "Name": "ルナダイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0237",
+      "TimeSeconds": 730,
+      "Name": "カータライズ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0238",
+      "TimeSeconds": 734,
+      "Name": "カータライズ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0239",
+      "TimeSeconds": 736,
+      "Name": "カータライズ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0240",
+      "TimeSeconds": 740,
+      "Name": "メガフレアダイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0241",
+      "TimeSeconds": 748,
+      "Name": "メガフレア(頭割り)",
+      "Type": "Stack",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0242",
+      "TimeSeconds": 749,
+      "Name": "ツイスターダイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0243",
+      "TimeSeconds": 750,
+      "Name": "メガフレア(塔)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0244",
+      "TimeSeconds": 766,
+      "Name": "トリニティへ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0245",
+      "TimeSeconds": 766,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0246",
+      "TimeSeconds": 767,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0247",
+      "TimeSeconds": 769,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0248",
+      "TimeSeconds": 770,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0249",
+      "TimeSeconds": 772,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0250",
+      "TimeSeconds": 773,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0252",
+      "TimeSeconds": 774,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0251",
+      "TimeSeconds": 774,
+      "Name": "プラメット",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0254",
+      "TimeSeconds": 775,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0253",
+      "TimeSeconds": 775,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0255",
+      "TimeSeconds": 776,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0256",
+      "TimeSeconds": 776,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0257",
+      "TimeSeconds": 777,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0258",
+      "TimeSeconds": 777,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0259",
+      "TimeSeconds": 778,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0260",
+      "TimeSeconds": 778,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0261",
+      "TimeSeconds": 779,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0262",
+      "TimeSeconds": 779,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0263",
+      "TimeSeconds": 780,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0264",
+      "TimeSeconds": 781,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0266",
+      "TimeSeconds": 782,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0265",
+      "TimeSeconds": 782,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0267",
+      "TimeSeconds": 785,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0268",
+      "TimeSeconds": 786,
+      "Name": "魔力錬成",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0269",
+      "TimeSeconds": 787,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0270",
+      "TimeSeconds": 788,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0271",
+      "TimeSeconds": 789,
+      "Name": "魔力爆散",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0272",
+      "TimeSeconds": 790,
+      "Name": "ツイスター",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0273",
+      "TimeSeconds": 791,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0274",
+      "TimeSeconds": 792,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0275",
+      "TimeSeconds": 794,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0276",
+      "TimeSeconds": 795,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0278",
+      "TimeSeconds": 798,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0277",
+      "TimeSeconds": 798,
+      "Name": "チャリオット or ダイナモ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0279",
+      "TimeSeconds": 801,
+      "Name": "サーミ or チャリオット or レイヴン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0280",
+      "TimeSeconds": 801,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0282",
+      "TimeSeconds": 804,
+      "Name": "サーミ or レイヴン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0281",
+      "TimeSeconds": 804,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0283",
+      "TimeSeconds": 807,
+      "Name": "ツイスター",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0284",
+      "TimeSeconds": 808,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0285",
+      "TimeSeconds": 809,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0286",
+      "TimeSeconds": 811,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0287",
+      "TimeSeconds": 812,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0288",
+      "TimeSeconds": 815,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0289",
+      "TimeSeconds": 818,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0290",
+      "TimeSeconds": 818,
+      "Name": "メガフレア(全体攻撃)",
+      "Type": "Raidwide",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0291",
+      "TimeSeconds": 819,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0292",
+      "TimeSeconds": 821,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0293",
+      "TimeSeconds": 822,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0294",
+      "TimeSeconds": 826,
+      "Name": "デスセンテンス",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0295",
+      "TimeSeconds": 826,
+      "Name": "レイヴェンズビーク",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0296",
+      "TimeSeconds": 828,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0297",
+      "TimeSeconds": 829,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0299",
+      "TimeSeconds": 830,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0298",
+      "TimeSeconds": 830,
+      "Name": "プラメット",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0300",
+      "TimeSeconds": 831,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0301",
+      "TimeSeconds": 831,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0303",
+      "TimeSeconds": 832,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0302",
+      "TimeSeconds": 832,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0304",
+      "TimeSeconds": 833,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0306",
+      "TimeSeconds": 834,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0305",
+      "TimeSeconds": 834,
+      "Name": "バハムートクロウ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0307",
+      "TimeSeconds": 835,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0308",
+      "TimeSeconds": 837,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0309",
+      "TimeSeconds": 838,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0311",
+      "TimeSeconds": 840,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0310",
+      "TimeSeconds": 840,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0313",
+      "TimeSeconds": 841,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0312",
+      "TimeSeconds": 841,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0314",
+      "TimeSeconds": 842,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0316",
+      "TimeSeconds": 843,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0315",
+      "TimeSeconds": 843,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0318",
+      "TimeSeconds": 844,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0317",
+      "TimeSeconds": 844,
+      "Name": "ヘルリキッド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0319",
+      "TimeSeconds": 847,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0320",
+      "TimeSeconds": 848,
+      "Name": "魔力錬成",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0321",
+      "TimeSeconds": 849,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0322",
+      "TimeSeconds": 850,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0323",
+      "TimeSeconds": 852,
+      "Name": "魔力爆散",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0324",
+      "TimeSeconds": 853,
+      "Name": "ツイスター",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0325",
+      "TimeSeconds": 853,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0326",
+      "TimeSeconds": 854,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0327",
+      "TimeSeconds": 856,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0328",
+      "TimeSeconds": 857,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0330",
+      "TimeSeconds": 860,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0329",
+      "TimeSeconds": 860,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0331",
+      "TimeSeconds": 861,
+      "Name": "チャリオット or ダイナモ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0332",
+      "TimeSeconds": 863,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0333",
+      "TimeSeconds": 864,
+      "Name": "サーミ or チャリオット or レイヴン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0335",
+      "TimeSeconds": 867,
+      "Name": "サーミ or レイヴン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0334",
+      "TimeSeconds": 867,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0336",
+      "TimeSeconds": 870,
+      "Name": "ツイスター",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0337",
+      "TimeSeconds": 871,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0338",
+      "TimeSeconds": 872,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0339",
+      "TimeSeconds": 874,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0340",
+      "TimeSeconds": 875,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0341",
+      "TimeSeconds": 877,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0342",
+      "TimeSeconds": 878,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0343",
+      "TimeSeconds": 882,
+      "Name": "デスセンテンス",
+      "Type": "Tankbuster",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0344",
+      "TimeSeconds": 883,
+      "Name": "レイヴェンズビーク",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0345",
+      "TimeSeconds": 884,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0346",
+      "TimeSeconds": 885,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0347",
+      "TimeSeconds": 887,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0348",
+      "TimeSeconds": 888,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0349",
+      "TimeSeconds": 890,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0350",
+      "TimeSeconds": 891,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0351",
+      "TimeSeconds": 894,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0352",
+      "TimeSeconds": 895,
+      "Name": "メガフレア(全体攻撃)",
+      "Type": "Raidwide",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0353",
+      "TimeSeconds": 897,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0354",
+      "TimeSeconds": 898,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0355",
+      "TimeSeconds": 900,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0356",
+      "TimeSeconds": 901,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0357",
+      "TimeSeconds": 903,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0358",
+      "TimeSeconds": 904,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0359",
+      "TimeSeconds": 906,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0360",
+      "TimeSeconds": 907,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0361",
+      "TimeSeconds": 909,
+      "Name": "タニアAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0362",
+      "TimeSeconds": 910,
+      "Name": "ネールAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0363",
+      "TimeSeconds": 922,
+      "Name": "テラフレア",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0364",
+      "TimeSeconds": 922,
+      "Name": "テラフレア(着弾)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0365",
+      "TimeSeconds": 973,
+      "Name": "モーン・アファー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0366",
+      "TimeSeconds": 979,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0367",
+      "TimeSeconds": 981,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0368",
+      "TimeSeconds": 982,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0369",
+      "TimeSeconds": 991,
+      "Name": "エクサフレア",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0370",
+      "TimeSeconds": 1007,
+      "Name": "エクサフレア(ここまで)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0371",
+      "TimeSeconds": 1011,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0372",
+      "TimeSeconds": 1013,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0373",
+      "TimeSeconds": 1014,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0374",
+      "TimeSeconds": 1015,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0375",
+      "TimeSeconds": 1028,
+      "Name": "モーン・アファー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0376",
+      "TimeSeconds": 1040,
+      "Name": "エクサフレア",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0377",
+      "TimeSeconds": 1056,
+      "Name": "エクサフレア(ここまで)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0378",
+      "TimeSeconds": 1061,
+      "Name": "モーン・アファー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0379",
+      "TimeSeconds": 1074,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0380",
+      "TimeSeconds": 1076,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0381",
+      "TimeSeconds": 1077,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0382",
+      "TimeSeconds": 1078,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0383",
+      "TimeSeconds": 1079,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0384",
+      "TimeSeconds": 1090,
+      "Name": "エクサフレア",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0385",
+      "TimeSeconds": 1105,
+      "Name": "エクサフレア(ここまで)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0386",
+      "TimeSeconds": 1111,
+      "Name": "モーン・アファー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0387",
+      "TimeSeconds": 1123,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0388",
+      "TimeSeconds": 1125,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0389",
+      "TimeSeconds": 1126,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0390",
+      "TimeSeconds": 1127,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0391",
+      "TimeSeconds": 1128,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0392",
+      "TimeSeconds": 1130,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0393",
+      "TimeSeconds": 1141,
+      "Name": "エクサフレア",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0394",
+      "TimeSeconds": 1156,
+      "Name": "エクサフレア(ここまで)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0395",
+      "TimeSeconds": 1162,
+      "Name": "モーン・アファー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_unending_coil_of_bahamut_0396",
+      "TimeSeconds": 1174,
+      "Name": "モーン・アファー",
+      "Type": "Mechanic",
+      "Notes": ""
+    }
+  ]
+}

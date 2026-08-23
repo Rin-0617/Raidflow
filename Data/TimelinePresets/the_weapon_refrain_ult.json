@@ -1,0 +1,1905 @@
+{
+    "Id":  "the_weapon_refrain_ult",
+    "ContentName":  "絶アルテマウェポン破壊作戦",
+    "Revision":  "4.31 preset",
+    "ContentLevel":  70,
+    "Events":  [
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0001",
+                       "TimeSeconds":  8,
+                       "Name":  "スリップストリーム",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0002",
+                       "TimeSeconds":  10,
+                       "Name":  "ミストラルソング(先頭)",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0003",
+                       "TimeSeconds":  10,
+                       "Name":  "ミストラルソング(頭割り)",
+                       "Type":  "Stack",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0004",
+                       "TimeSeconds":  17,
+                       "Name":  "大旋風",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0005",
+                       "TimeSeconds":  23,
+                       "Name":  "スリップストリーム",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0006",
+                       "TimeSeconds":  27,
+                       "Name":  "サイクロン",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0007",
+                       "TimeSeconds":  27,
+                       "Name":  "ダウンバースト",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0008",
+                       "TimeSeconds":  36,
+                       "Name":  "サイクロン",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0009",
+                       "TimeSeconds":  37,
+                       "Name":  "フェザーレイン",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0010",
+                       "TimeSeconds":  41,
+                       "Name":  "ギガストーム",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0011",
+                       "TimeSeconds":  41,
+                       "Name":  "ミストラルシュリーク",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0012",
+                       "TimeSeconds":  46,
+                       "Name":  "スーパーサイクロン(覚醒1)",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0013",
+                       "TimeSeconds":  51,
+                       "Name":  "ウィンドブレード",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0014",
+                       "TimeSeconds":  51,
+                       "Name":  "スーパーサイクロン",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0015",
+                       "TimeSeconds":  52,
+                       "Name":  "スーパーサイクロン",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0016",
+                       "TimeSeconds":  57,
+                       "Name":  "ウィンドブレード",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0017",
+                       "TimeSeconds":  58,
+                       "Name":  "スーパーサイクロン(覚醒2)",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0018",
+                       "TimeSeconds":  60,
+                       "Name":  "スーパーサイクロン(覚醒3)",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0019",
+                       "TimeSeconds":  72,
+                       "Name":  "フェザーレイン",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0020",
+                       "TimeSeconds":  76,
+                       "Name":  "エリアルブラスト",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0021",
+                       "TimeSeconds":  93,
+                       "Name":  "フェザーレイン",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0022",
+                       "TimeSeconds":  99,
+                       "Name":  "ミストラルソング(先頭)",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0023",
+                       "TimeSeconds":  99,
+                       "Name":  "ミストラルソング(頭割り)",
+                       "Type":  "Stack",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0024",
+                       "TimeSeconds":  100,
+                       "Name":  "アイ・オブ・ストーム",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0025",
+                       "TimeSeconds":  100,
+                       "Name":  "ウィケッドホイール",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0026",
+                       "TimeSeconds":  104,
+                       "Name":  "フェザーレイン",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0027",
+                       "TimeSeconds":  105,
+                       "Name":  "大旋風",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0028",
+                       "TimeSeconds":  121,
+                       "Name":  "スリップストリーム",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0029",
+                       "TimeSeconds":  123,
+                       "Name":  "アイ・オブ・ストーム",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0030",
+                       "TimeSeconds":  125,
+                       "Name":  "ダウンバースト",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0031",
+                       "TimeSeconds":  125,
+                       "Name":  "メソハイ",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0032",
+                       "TimeSeconds":  126,
+                       "Name":  "スーパーサイクロン",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0033",
+                       "TimeSeconds":  126,
+                       "Name":  "スーパーサイクロン(覚醒4)",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0034",
+                       "TimeSeconds":  129,
+                       "Name":  "フェザーレイン",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0035",
+                       "TimeSeconds":  142,
+                       "Name":  "スリップストリーム",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0036",
+                       "TimeSeconds":  150,
+                       "Name":  "ウィケッドホイール",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0037",
+                       "TimeSeconds":  155,
+                       "Name":  "ダウンバースト",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0038",
+                       "TimeSeconds":  163,
+                       "Name":  "スリップストリーム",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0039",
+                       "TimeSeconds":  175,
+                       "Name":  "フェザーレイン",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0040",
+                       "TimeSeconds":  180,
+                       "Name":  "エリアルブラスト",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0041",
+                       "TimeSeconds":  180,
+                       "Name":  "ガルーダ離脱",
+                       "Type":  "Downtime",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0042",
+                       "TimeSeconds":  189,
+                       "Name":  "クリムゾンサイクロン",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0043",
+                       "TimeSeconds":  190,
+                       "Name":  "光輝の炎柱",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0044",
+                       "TimeSeconds":  196,
+                       "Name":  "地獄の火炎",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0045",
+                       "TimeSeconds":  204,
+                       "Name":  "バルカンバースト",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0046",
+                       "TimeSeconds":  207,
+                       "Name":  "インシネレート",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0047",
+                       "TimeSeconds":  210,
+                       "Name":  "インシネレート",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0048",
+                       "TimeSeconds":  214,
+                       "Name":  "インシネレート",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0049",
+                       "TimeSeconds":  218,
+                       "Name":  "イフリート：炎獄の楔召喚",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0050",
+                       "TimeSeconds":  227,
+                       "Name":  "炎獄の鎖",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0051",
+                       "TimeSeconds":  229,
+                       "Name":  "灼熱の咆吼",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0052",
+                       "TimeSeconds":  235,
+                       "Name":  "エラプション",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0053",
+                       "TimeSeconds":  237,
+                       "Name":  "エラプション",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0054",
+                       "TimeSeconds":  239,
+                       "Name":  "エラプション",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0055",
+                       "TimeSeconds":  241,
+                       "Name":  "エラプション",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0056",
+                       "TimeSeconds":  242,
+                       "Name":  "炎獄の焔(覚醒1)",
+                       "Type":  "Downtime",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0057",
+                       "TimeSeconds":  246,
+                       "Name":  "炎獄の焔(覚醒2)",
+                       "Type":  "Downtime",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0058",
+                       "TimeSeconds":  249,
+                       "Name":  "炎獄の焔(覚醒3)",
+                       "Type":  "Downtime",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0059",
+                       "TimeSeconds":  250,
+                       "Name":  "炎獄の焔(覚醒4)",
+                       "Type":  "Downtime",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0060",
+                       "TimeSeconds":  259,
+                       "Name":  "地獄の火炎",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0061",
+                       "TimeSeconds":  268,
+                       "Name":  "灼熱の咆吼",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0062",
+                       "TimeSeconds":  273,
+                       "Name":  "エラプション",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0063",
+                       "TimeSeconds":  274,
+                       "Name":  "エラプション",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0064",
+                       "TimeSeconds":  276,
+                       "Name":  "エラプション",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0065",
+                       "TimeSeconds":  278,
+                       "Name":  "エラプション",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0066",
+                       "TimeSeconds":  280,
+                       "Name":  "エラプション",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0067",
+                       "TimeSeconds":  281,
+                       "Name":  "クリムゾンサイクロン",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0068",
+                       "TimeSeconds":  286,
+                       "Name":  "灼熱の咆吼",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0069",
+                       "TimeSeconds":  296,
+                       "Name":  "フレイムクラッシュ",
+                       "Type":  "Stack",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0070",
+                       "TimeSeconds":  308,
+                       "Name":  "クリムゾンサイクロン",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0071",
+                       "TimeSeconds":  310,
+                       "Name":  "クリムゾンサイクロン",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0072",
+                       "TimeSeconds":  312,
+                       "Name":  "クリムゾンサイクロン",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0073",
+                       "TimeSeconds":  314,
+                       "Name":  "クリムゾンサイクロン",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0074",
+                       "TimeSeconds":  322,
+                       "Name":  "インシネレート",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0075",
+                       "TimeSeconds":  325,
+                       "Name":  "インシネレート",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0076",
+                       "TimeSeconds":  329,
+                       "Name":  "インシネレート",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0077",
+                       "TimeSeconds":  338,
+                       "Name":  "エラプション",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0078",
+                       "TimeSeconds":  340,
+                       "Name":  "エラプション",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0079",
+                       "TimeSeconds":  342,
+                       "Name":  "エラプション",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0080",
+                       "TimeSeconds":  344,
+                       "Name":  "エラプション",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0081",
+                       "TimeSeconds":  347,
+                       "Name":  "フレイムクラッシュ",
+                       "Type":  "Stack",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0082",
+                       "TimeSeconds":  358,
+                       "Name":  "イフリート離脱",
+                       "Type":  "Downtime",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0083",
+                       "TimeSeconds":  358,
+                       "Name":  "地獄の火炎",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0084",
+                       "TimeSeconds":  362,
+                       "Name":  "ジオクラッシュ",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0085",
+                       "TimeSeconds":  368,
+                       "Name":  "大地の怒り",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0086",
+                       "TimeSeconds":  376,
+                       "Name":  "ロックバスター",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0087",
+                       "TimeSeconds":  379,
+                       "Name":  "マウンテンバスター",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0088",
+                       "TimeSeconds":  384,
+                       "Name":  "大地の重み",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0089",
+                       "TimeSeconds":  387,
+                       "Name":  "大地の重み",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0090",
+                       "TimeSeconds":  392,
+                       "Name":  "ジオクラッシュ",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0091",
+                       "TimeSeconds":  398,
+                       "Name":  "衝撃",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0092",
+                       "TimeSeconds":  401,
+                       "Name":  "大激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0093",
+                       "TimeSeconds":  403,
+                       "Name":  "グラナイト・ジェイル",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0094",
+                       "TimeSeconds":  407,
+                       "Name":  "ランドスライド",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0095",
+                       "TimeSeconds":  412,
+                       "Name":  "ランドスライド",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0096",
+                       "TimeSeconds":  412,
+                       "Name":  "誘爆",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0097",
+                       "TimeSeconds":  414,
+                       "Name":  "激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0098",
+                       "TimeSeconds":  415,
+                       "Name":  "激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0099",
+                       "TimeSeconds":  416,
+                       "Name":  "激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0100",
+                       "TimeSeconds":  417,
+                       "Name":  "激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0101",
+                       "TimeSeconds":  418,
+                       "Name":  "激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0102",
+                       "TimeSeconds":  419,
+                       "Name":  "激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0103",
+                       "TimeSeconds":  420,
+                       "Name":  "激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0104",
+                       "TimeSeconds":  421,
+                       "Name":  "激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0105",
+                       "TimeSeconds":  429,
+                       "Name":  "大地の重み",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0106",
+                       "TimeSeconds":  430,
+                       "Name":  "大地の重み",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0107",
+                       "TimeSeconds":  433,
+                       "Name":  "大地の重み",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0108",
+                       "TimeSeconds":  435,
+                       "Name":  "ランドスライド",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0109",
+                       "TimeSeconds":  437,
+                       "Name":  "不可視ランドスライド",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0110",
+                       "TimeSeconds":  446,
+                       "Name":  "ジオクラッシュ",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0111",
+                       "TimeSeconds":  449,
+                       "Name":  "グラナイト・ジェイル",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0112",
+                       "TimeSeconds":  463,
+                       "Name":  "ランドスライド",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0113",
+                       "TimeSeconds":  465,
+                       "Name":  "不可視ランドスライド",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0114",
+                       "TimeSeconds":  468,
+                       "Name":  "激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0115",
+                       "TimeSeconds":  470,
+                       "Name":  "激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0116",
+                       "TimeSeconds":  471,
+                       "Name":  "激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0117",
+                       "TimeSeconds":  472,
+                       "Name":  "激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0118",
+                       "TimeSeconds":  473,
+                       "Name":  "激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0119",
+                       "TimeSeconds":  474,
+                       "Name":  "激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0120",
+                       "TimeSeconds":  476,
+                       "Name":  "ロックバスター",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0121",
+                       "TimeSeconds":  480,
+                       "Name":  "マウンテンバスター",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0122",
+                       "TimeSeconds":  487,
+                       "Name":  "大地の重み",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0123",
+                       "TimeSeconds":  490,
+                       "Name":  "大地の重み",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0124",
+                       "TimeSeconds":  491,
+                       "Name":  "大爆発",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0125",
+                       "TimeSeconds":  493,
+                       "Name":  "ランドスライド",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0126",
+                       "TimeSeconds":  493,
+                       "Name":  "大地の重み",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0127",
+                       "TimeSeconds":  493,
+                       "Name":  "大爆発",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0128",
+                       "TimeSeconds":  495,
+                       "Name":  "ランドスライド",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0129",
+                       "TimeSeconds":  495,
+                       "Name":  "大爆発",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0130",
+                       "TimeSeconds":  497,
+                       "Name":  "大爆発",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0131",
+                       "TimeSeconds":  501,
+                       "Name":  "ロックバスター",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0132",
+                       "TimeSeconds":  505,
+                       "Name":  "マウンテンバスター",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0133",
+                       "TimeSeconds":  510,
+                       "Name":  "大地の重み",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0134",
+                       "TimeSeconds":  513,
+                       "Name":  "大地の重み",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0135",
+                       "TimeSeconds":  516,
+                       "Name":  "大地の重み",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0136",
+                       "TimeSeconds":  518,
+                       "Name":  "激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0137",
+                       "TimeSeconds":  519,
+                       "Name":  "激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0138",
+                       "TimeSeconds":  520,
+                       "Name":  "激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0139",
+                       "TimeSeconds":  521,
+                       "Name":  "激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0140",
+                       "TimeSeconds":  522,
+                       "Name":  "激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0141",
+                       "TimeSeconds":  524,
+                       "Name":  "激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0142",
+                       "TimeSeconds":  525,
+                       "Name":  "激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0143",
+                       "TimeSeconds":  526,
+                       "Name":  "激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0144",
+                       "TimeSeconds":  541,
+                       "Name":  "タイタン離脱",
+                       "Type":  "Downtime",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0145",
+                       "TimeSeconds":  541,
+                       "Name":  "大地の怒り",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0146",
+                       "TimeSeconds":  550,
+                       "Name":  "誘爆",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0147",
+                       "TimeSeconds":  565,
+                       "Name":  "クラウダ",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0148",
+                       "TimeSeconds":  597,
+                       "Name":  "アルテマ",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0149",
+                       "TimeSeconds":  641,
+                       "Name":  "魔導フレア",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0150",
+                       "TimeSeconds":  643,
+                       "Name":  "吸着式エーテル爆雷",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0151",
+                       "TimeSeconds":  649,
+                       "Name":  "誘導レーザー",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0152",
+                       "TimeSeconds":  654,
+                       "Name":  "吸着爆雷起爆",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0153",
+                       "TimeSeconds":  660,
+                       "Name":  "追撃の究極幻想",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0154",
+                       "TimeSeconds":  675,
+                       "Name":  "ウィケッドホイール",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0155",
+                       "TimeSeconds":  675,
+                       "Name":  "クリムゾンサイクロン",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0156",
+                       "TimeSeconds":  675,
+                       "Name":  "ランドスライド",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0157",
+                       "TimeSeconds":  677,
+                       "Name":  "ウィケッドトルネード",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0158",
+                       "TimeSeconds":  677,
+                       "Name":  "クリムゾンサイクロン",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0159",
+                       "TimeSeconds":  677,
+                       "Name":  "セルレアムベント",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0160",
+                       "TimeSeconds":  677,
+                       "Name":  "ランドスライド",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0161",
+                       "TimeSeconds":  682,
+                       "Name":  "フェザーレイン",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0162",
+                       "TimeSeconds":  696,
+                       "Name":  "エラプション",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0163",
+                       "TimeSeconds":  697,
+                       "Name":  "エラプション",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0164",
+                       "TimeSeconds":  699,
+                       "Name":  "エラプション",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0165",
+                       "TimeSeconds":  701,
+                       "Name":  "エラプション",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0166",
+                       "TimeSeconds":  702,
+                       "Name":  "炎獄の鎖",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0167",
+                       "TimeSeconds":  703,
+                       "Name":  "エラプション",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0168",
+                       "TimeSeconds":  707,
+                       "Name":  "光輝の炎柱",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0169",
+                       "TimeSeconds":  708,
+                       "Name":  "光輝の炎柱",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0170",
+                       "TimeSeconds":  711,
+                       "Name":  "ランドスライド",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0171",
+                       "TimeSeconds":  712,
+                       "Name":  "ランドスライド",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0172",
+                       "TimeSeconds":  713,
+                       "Name":  "ランドスライド",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0173",
+                       "TimeSeconds":  716,
+                       "Name":  "激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0174",
+                       "TimeSeconds":  718,
+                       "Name":  "激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0175",
+                       "TimeSeconds":  719,
+                       "Name":  "吸着式エーテル爆雷",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0176",
+                       "TimeSeconds":  719,
+                       "Name":  "激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0177",
+                       "TimeSeconds":  720,
+                       "Name":  "激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0178",
+                       "TimeSeconds":  721,
+                       "Name":  "激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0179",
+                       "TimeSeconds":  722,
+                       "Name":  "激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0180",
+                       "TimeSeconds":  723,
+                       "Name":  "激震",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0181",
+                       "TimeSeconds":  724,
+                       "Name":  "ウィケッドホイール",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0182",
+                       "TimeSeconds":  726,
+                       "Name":  "ミストラルシュリーク",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0183",
+                       "TimeSeconds":  730,
+                       "Name":  "フェザーレイン",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0184",
+                       "TimeSeconds":  730,
+                       "Name":  "吸着爆雷起爆",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0185",
+                       "TimeSeconds":  731,
+                       "Name":  "誘導レーザー",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0186",
+                       "TimeSeconds":  733,
+                       "Name":  "フェザーレイン",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0187",
+                       "TimeSeconds":  739,
+                       "Name":  "爆撃の究極幻想",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0188",
+                       "TimeSeconds":  750,
+                       "Name":  "大地の重み",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0189",
+                       "TimeSeconds":  753,
+                       "Name":  "フレイムクラッシュ",
+                       "Type":  "Stack",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0190",
+                       "TimeSeconds":  754,
+                       "Name":  "アイ・オブ・ストーム",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0191",
+                       "TimeSeconds":  754,
+                       "Name":  "大地の重み",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0192",
+                       "TimeSeconds":  755,
+                       "Name":  "爆雷起爆",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0193",
+                       "TimeSeconds":  756,
+                       "Name":  "メソハイ",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0194",
+                       "TimeSeconds":  757,
+                       "Name":  "スーパーサイクロン",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0195",
+                       "TimeSeconds":  757,
+                       "Name":  "灼熱の咆吼",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0196",
+                       "TimeSeconds":  757,
+                       "Name":  "大地の重み",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0197",
+                       "TimeSeconds":  760,
+                       "Name":  "フェザーレイン",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0198",
+                       "TimeSeconds":  761,
+                       "Name":  "爆雷起爆",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0199",
+                       "TimeSeconds":  765,
+                       "Name":  "クリムゾンサイクロン",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0200",
+                       "TimeSeconds":  766,
+                       "Name":  "ランドスライド",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0201",
+                       "TimeSeconds":  767,
+                       "Name":  "クリムゾンサイクロン",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0202",
+                       "TimeSeconds":  768,
+                       "Name":  "ランドスライド",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0203",
+                       "TimeSeconds":  769,
+                       "Name":  "爆雷起爆",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0204",
+                       "TimeSeconds":  771,
+                       "Name":  "アイ・オブ・ストーム",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0205",
+                       "TimeSeconds":  773,
+                       "Name":  "メソハイ",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0206",
+                       "TimeSeconds":  773,
+                       "Name":  "爆雷起爆",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0207",
+                       "TimeSeconds":  774,
+                       "Name":  "スーパーサイクロン",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0208",
+                       "TimeSeconds":  776,
+                       "Name":  "魔導フレア",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0209",
+                       "TimeSeconds":  778,
+                       "Name":  "フェザーレイン",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0210",
+                       "TimeSeconds":  788,
+                       "Name":  "アイ・オブ・ストーム",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0211",
+                       "TimeSeconds":  791,
+                       "Name":  "誘導レーザー",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0212",
+                       "TimeSeconds":  799,
+                       "Name":  "アイ・オブ・ストーム",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0213",
+                       "TimeSeconds":  802,
+                       "Name":  "光輝の炎柱",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0214",
+                       "TimeSeconds":  805,
+                       "Name":  "拡散レーザー",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0215",
+                       "TimeSeconds":  809,
+                       "Name":  "バルカンバースト",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0216",
+                       "TimeSeconds":  811,
+                       "Name":  "アイ・オブ・ストーム",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0217",
+                       "TimeSeconds":  817,
+                       "Name":  "誘導レーザー",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0218",
+                       "TimeSeconds":  821,
+                       "Name":  "バルカンバースト",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0219",
+                       "TimeSeconds":  823,
+                       "Name":  "アイ・オブ・ストーム",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0220",
+                       "TimeSeconds":  824,
+                       "Name":  "拡散レーザー",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0221",
+                       "TimeSeconds":  831,
+                       "Name":  "乱撃の究極幻想",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0222",
+                       "TimeSeconds":  831,
+                       "Name":  "乱撃の究極幻想(HP50%以下で強制履行)",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0223",
+                       "TimeSeconds":  841,
+                       "Name":  "グラナイト・ジェイル",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0224",
+                       "TimeSeconds":  842,
+                       "Name":  "エラプション",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0225",
+                       "TimeSeconds":  844,
+                       "Name":  "エラプション",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0226",
+                       "TimeSeconds":  846,
+                       "Name":  "エラプション",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0227",
+                       "TimeSeconds":  846,
+                       "Name":  "ミストラルソング(先頭)",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0228",
+                       "TimeSeconds":  846,
+                       "Name":  "ミストラルソング(頭割り)",
+                       "Type":  "Stack",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0229",
+                       "TimeSeconds":  847,
+                       "Name":  "リヒト・ゾイレ",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0230",
+                       "TimeSeconds":  848,
+                       "Name":  "エラプション",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0231",
+                       "TimeSeconds":  850,
+                       "Name":  "フェザーレイン",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0232",
+                       "TimeSeconds":  852,
+                       "Name":  "フェザーレイン",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0233",
+                       "TimeSeconds":  853,
+                       "Name":  "魔科学レーザー",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0234",
+                       "TimeSeconds":  856,
+                       "Name":  "リヒト・ゾイレ(ここまで)",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0235",
+                       "TimeSeconds":  857,
+                       "Name":  "魔科学レーザー",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0236",
+                       "TimeSeconds":  860,
+                       "Name":  "ランドスライド",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0237",
+                       "TimeSeconds":  861,
+                       "Name":  "魔科学レーザー",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0238",
+                       "TimeSeconds":  862,
+                       "Name":  "ランドスライド",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0239",
+                       "TimeSeconds":  863,
+                       "Name":  "メソハイ",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0240",
+                       "TimeSeconds":  864,
+                       "Name":  "スーパーサイクロン",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0241",
+                       "TimeSeconds":  864,
+                       "Name":  "フレイムクラッシュ",
+                       "Type":  "Stack",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0242",
+                       "TimeSeconds":  869,
+                       "Name":  "フェザーレイン",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0243",
+                       "TimeSeconds":  869,
+                       "Name":  "魔導フレア",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0244",
+                       "TimeSeconds":  880,
+                       "Name":  "アルテマ",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0245",
+                       "TimeSeconds":  891,
+                       "Name":  "エーテル波動",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0246",
+                       "TimeSeconds":  894,
+                       "Name":  "爆雷起爆(TANK)",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0247",
+                       "TimeSeconds":  895,
+                       "Name":  "爆雷起爆",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0248",
+                       "TimeSeconds":  899,
+                       "Name":  "爆雷起爆(TANK)",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0249",
+                       "TimeSeconds":  912,
+                       "Name":  "吸着爆雷",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0250",
+                       "TimeSeconds":  921,
+                       "Name":  "大地の重み",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0251",
+                       "TimeSeconds":  924,
+                       "Name":  "大地の重み",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0252",
+                       "TimeSeconds":  925,
+                       "Name":  "吸着爆雷起爆",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0253",
+                       "TimeSeconds":  927,
+                       "Name":  "大地の重み",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0254",
+                       "TimeSeconds":  930,
+                       "Name":  "大地の怒り",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0255",
+                       "TimeSeconds":  943,
+                       "Name":  "エラプション",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0256",
+                       "TimeSeconds":  943,
+                       "Name":  "クリムゾンサイクロン",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0257",
+                       "TimeSeconds":  945,
+                       "Name":  "吸着爆雷起爆",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0258",
+                       "TimeSeconds":  951,
+                       "Name":  "地獄の火炎",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0259",
+                       "TimeSeconds":  963,
+                       "Name":  "ウィケッドホイール",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0260",
+                       "TimeSeconds":  965,
+                       "Name":  "吸着爆雷起爆",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0261",
+                       "TimeSeconds":  966,
+                       "Name":  "ウィケッドトルネード",
+                       "Type":  "Mechanic",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0262",
+                       "TimeSeconds":  970,
+                       "Name":  "エリアルブラスト",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0263",
+                       "TimeSeconds":  978,
+                       "Name":  "フェザーレイン",
+                       "Type":  "Spread",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0264",
+                       "TimeSeconds":  1003,
+                       "Name":  "シタデルシージ",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0265",
+                       "TimeSeconds":  1006,
+                       "Name":  "シタデルシージ",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0266",
+                       "TimeSeconds":  1009,
+                       "Name":  "シタデルシージ",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0267",
+                       "TimeSeconds":  1012,
+                       "Name":  "シタデルシージ",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0268",
+                       "TimeSeconds":  1015,
+                       "Name":  "シタデルシージ",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0269",
+                       "TimeSeconds":  1018,
+                       "Name":  "シタデルシージ",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0270",
+                       "TimeSeconds":  1021,
+                       "Name":  "シタデルシージ",
+                       "Type":  "Tankbuster",
+                       "Notes":  ""
+                   },
+                   {
+                       "Id":  "evt_the_weapon_refrain_ult_0271",
+                       "TimeSeconds":  1025,
+                       "Name":  "アルテマ・サビク",
+                       "Type":  "Raidwide",
+                       "Notes":  ""
+                   }
+               ]
+}

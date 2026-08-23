@@ -1,0 +1,2577 @@
+{
+  "Id": "the_epic_of_alexander",
+  "ContentName": "絶アレキサンダー討滅戦",
+  "Revision": "5.11 preset",
+  "ContentLevel": 80,
+  "Events": [
+    {
+      "Id": "evt_the_epic_of_alexander_0001",
+      "TimeSeconds": 3,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0002",
+      "TimeSeconds": 6,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0003",
+      "TimeSeconds": 9,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0004",
+      "TimeSeconds": 10,
+      "Name": "フルイドスイング",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0005",
+      "TimeSeconds": 12,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0006",
+      "TimeSeconds": 18,
+      "Name": "カスケード",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0007",
+      "TimeSeconds": 19,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0008",
+      "TimeSeconds": 22,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0009",
+      "TimeSeconds": 25,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0010",
+      "TimeSeconds": 26,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0011",
+      "TimeSeconds": 28,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0012",
+      "TimeSeconds": 29,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0013",
+      "TimeSeconds": 31,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0014",
+      "TimeSeconds": 34,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0015",
+      "TimeSeconds": 34,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0016",
+      "TimeSeconds": 35,
+      "Name": "ハンド・オブ・パーティング",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0017",
+      "TimeSeconds": 36,
+      "Name": "プロティアンウェイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0021",
+      "TimeSeconds": 37,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0018",
+      "TimeSeconds": 37,
+      "Name": "フルイドスイング",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0020",
+      "TimeSeconds": 37,
+      "Name": "フルイドストライク",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0019",
+      "TimeSeconds": 37,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0022",
+      "TimeSeconds": 38,
+      "Name": "プロティアンウェイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0023",
+      "TimeSeconds": 39,
+      "Name": "汚染蒸気",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0024",
+      "TimeSeconds": 40,
+      "Name": "ヤークトAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0025",
+      "TimeSeconds": 41,
+      "Name": "水圧充填",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0026",
+      "TimeSeconds": 42,
+      "Name": "ハンド・オブ・ペイン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0027",
+      "TimeSeconds": 42,
+      "Name": "複雑性還元",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0029",
+      "TimeSeconds": 43,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0030",
+      "TimeSeconds": 43,
+      "Name": "ヤークトAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0028",
+      "TimeSeconds": 43,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0032",
+      "TimeSeconds": 46,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0033",
+      "TimeSeconds": 46,
+      "Name": "ヤークトAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0031",
+      "TimeSeconds": 46,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0035",
+      "TimeSeconds": 49,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0036",
+      "TimeSeconds": 49,
+      "Name": "ヤークトAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0034",
+      "TimeSeconds": 49,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0037",
+      "TimeSeconds": 49,
+      "Name": "汚染蒸気",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0038",
+      "TimeSeconds": 51,
+      "Name": "複雑性還元",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0041",
+      "TimeSeconds": 53,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0040",
+      "TimeSeconds": 53,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0039",
+      "TimeSeconds": 53,
+      "Name": "複雑性還元",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0042",
+      "TimeSeconds": 55,
+      "Name": "ヤークトAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0045",
+      "TimeSeconds": 56,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0043",
+      "TimeSeconds": 56,
+      "Name": "フルイドスイング",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0046",
+      "TimeSeconds": 56,
+      "Name": "フルイドストライク",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0044",
+      "TimeSeconds": 56,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0048",
+      "TimeSeconds": 59,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0047",
+      "TimeSeconds": 59,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0049",
+      "TimeSeconds": 60,
+      "Name": "複雑性還元",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0050",
+      "TimeSeconds": 61,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0051",
+      "TimeSeconds": 62,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0052",
+      "TimeSeconds": 64,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0053",
+      "TimeSeconds": 65,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0055",
+      "TimeSeconds": 69,
+      "Name": "ハンド・オブ・ペイン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0054",
+      "TimeSeconds": 69,
+      "Name": "プロティアンウェイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0056",
+      "TimeSeconds": 71,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0057",
+      "TimeSeconds": 71,
+      "Name": "プロティアンウェイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0059",
+      "TimeSeconds": 74,
+      "Name": "スルース",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0058",
+      "TimeSeconds": 74,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0060",
+      "TimeSeconds": 74,
+      "Name": "プロティアンウェイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0062",
+      "TimeSeconds": 77,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0061",
+      "TimeSeconds": 77,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0065",
+      "TimeSeconds": 80,
+      "Name": "スプラッシュ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0064",
+      "TimeSeconds": 80,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0063",
+      "TimeSeconds": 80,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0066",
+      "TimeSeconds": 81,
+      "Name": "スプラッシュ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0067",
+      "TimeSeconds": 82,
+      "Name": "スプラッシュ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0068",
+      "TimeSeconds": 83,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0069",
+      "TimeSeconds": 84,
+      "Name": "スプラッシュ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0070",
+      "TimeSeconds": 85,
+      "Name": "スプラッシュ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0071",
+      "TimeSeconds": 86,
+      "Name": "スプラッシュ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0072",
+      "TimeSeconds": 86,
+      "Name": "ドレナージ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0073",
+      "TimeSeconds": 86,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0074",
+      "TimeSeconds": 88,
+      "Name": "ハンド・オブ・ペイン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0075",
+      "TimeSeconds": 91,
+      "Name": "カスケード",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0076",
+      "TimeSeconds": 93,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0078",
+      "TimeSeconds": 95,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0077",
+      "TimeSeconds": 95,
+      "Name": "リキッドジェイル",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0079",
+      "TimeSeconds": 96,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0080",
+      "TimeSeconds": 98,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0081",
+      "TimeSeconds": 99,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0082",
+      "TimeSeconds": 101,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0083",
+      "TimeSeconds": 102,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0084",
+      "TimeSeconds": 104,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0085",
+      "TimeSeconds": 106,
+      "Name": "プロティアンウェイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0086",
+      "TimeSeconds": 108,
+      "Name": "ハンド・オブ・ペイン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0087",
+      "TimeSeconds": 108,
+      "Name": "プロティアンウェイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0088",
+      "TimeSeconds": 111,
+      "Name": "スルース",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0090",
+      "TimeSeconds": 111,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0089",
+      "TimeSeconds": 111,
+      "Name": "プロティアンウェイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0091",
+      "TimeSeconds": 112,
+      "Name": "プロティアンウェイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0093",
+      "TimeSeconds": 114,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0092",
+      "TimeSeconds": 114,
+      "Name": "プロティアンウェイブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0094",
+      "TimeSeconds": 116,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0095",
+      "TimeSeconds": 118,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0096",
+      "TimeSeconds": 118,
+      "Name": "水圧充填",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0097",
+      "TimeSeconds": 119,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0098",
+      "TimeSeconds": 122,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0099",
+      "TimeSeconds": 123,
+      "Name": "ハンド・オブ・パーティング",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0100",
+      "TimeSeconds": 123,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0101",
+      "TimeSeconds": 126,
+      "Name": "スプラッシュ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0102",
+      "TimeSeconds": 127,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0103",
+      "TimeSeconds": 128,
+      "Name": "スプラッシュ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0104",
+      "TimeSeconds": 128,
+      "Name": "ハンド・オブ・ペイン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0105",
+      "TimeSeconds": 129,
+      "Name": "スプラッシュ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0107",
+      "TimeSeconds": 130,
+      "Name": "スプラッシュ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0106",
+      "TimeSeconds": 130,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0108",
+      "TimeSeconds": 131,
+      "Name": "スプラッシュ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0110",
+      "TimeSeconds": 132,
+      "Name": "スプラッシュ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0109",
+      "TimeSeconds": 132,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0112",
+      "TimeSeconds": 133,
+      "Name": "フルイドスイング",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0111",
+      "TimeSeconds": 133,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0113",
+      "TimeSeconds": 135,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0114",
+      "TimeSeconds": 136,
+      "Name": "リキッドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0115",
+      "TimeSeconds": 138,
+      "Name": "ハンドAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0116",
+      "TimeSeconds": 140,
+      "Name": "カスケード",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0117",
+      "TimeSeconds": 140,
+      "Name": "リビングリキッド没",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0118",
+      "TimeSeconds": 145,
+      "Name": "ホークブラスター",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0119",
+      "TimeSeconds": 148,
+      "Name": "ホークブラスター",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0120",
+      "TimeSeconds": 150,
+      "Name": "ホークブラスター",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0121",
+      "TimeSeconds": 152,
+      "Name": "ホークブラスター",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0122",
+      "TimeSeconds": 153,
+      "Name": "アルファソード",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0124",
+      "TimeSeconds": 154,
+      "Name": "スーパーブラスティ・チャージ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0123",
+      "TimeSeconds": 154,
+      "Name": "ホークブラスター",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0125",
+      "TimeSeconds": 156,
+      "Name": "ホークブラスター",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0126",
+      "TimeSeconds": 157,
+      "Name": "アルファソード",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0128",
+      "TimeSeconds": 159,
+      "Name": "スーパーブラスティ・チャージ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0127",
+      "TimeSeconds": 159,
+      "Name": "ホークブラスター",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0129",
+      "TimeSeconds": 161,
+      "Name": "ホークブラスター",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0130",
+      "TimeSeconds": 162,
+      "Name": "アルファソード",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0131",
+      "TimeSeconds": 163,
+      "Name": "ホークブラスター",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0132",
+      "TimeSeconds": 164,
+      "Name": "スーパーブラスティ・チャージ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0133",
+      "TimeSeconds": 165,
+      "Name": "ホークブラスター",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0134",
+      "TimeSeconds": 167,
+      "Name": "アルファソード",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0135",
+      "TimeSeconds": 168,
+      "Name": "スーパーブラスティ・チャージ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0136",
+      "TimeSeconds": 171,
+      "Name": "ジャスティスキック",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0137",
+      "TimeSeconds": 180,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0138",
+      "TimeSeconds": 180,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0139",
+      "TimeSeconds": 183,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0140",
+      "TimeSeconds": 184,
+      "Name": "竜巻",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0142",
+      "TimeSeconds": 187,
+      "Name": "ジャッジメントナイサイ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0141",
+      "TimeSeconds": 187,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0143",
+      "TimeSeconds": 190,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0144",
+      "TimeSeconds": 190,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0146",
+      "TimeSeconds": 193,
+      "Name": "システムリンク",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0145",
+      "TimeSeconds": 193,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0147",
+      "TimeSeconds": 196,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0148",
+      "TimeSeconds": 196,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0149",
+      "TimeSeconds": 199,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0150",
+      "TimeSeconds": 201,
+      "Name": "照準",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0151",
+      "TimeSeconds": 202,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0152",
+      "TimeSeconds": 206,
+      "Name": "ホークブラスター",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0153",
+      "TimeSeconds": 208,
+      "Name": "フォトン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0154",
+      "TimeSeconds": 215,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0155",
+      "TimeSeconds": 215,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0156",
+      "TimeSeconds": 218,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0157",
+      "TimeSeconds": 218,
+      "Name": "スピンクラッシャー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0158",
+      "TimeSeconds": 221,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0159",
+      "TimeSeconds": 221,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0161",
+      "TimeSeconds": 223,
+      "Name": "クラッシュウェーブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0160",
+      "TimeSeconds": 223,
+      "Name": "クラッシュサンダー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0162",
+      "TimeSeconds": 224,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0163",
+      "TimeSeconds": 224,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0164",
+      "TimeSeconds": 227,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0166",
+      "TimeSeconds": 230,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0167",
+      "TimeSeconds": 230,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0165",
+      "TimeSeconds": 230,
+      "Name": "ミサイル全弾発射",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0168",
+      "TimeSeconds": 233,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0169",
+      "TimeSeconds": 233,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0170",
+      "TimeSeconds": 234,
+      "Name": "アースミサイル",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0171",
+      "TimeSeconds": 236,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0173",
+      "TimeSeconds": 236,
+      "Name": "ステルス地雷散布",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0172",
+      "TimeSeconds": 236,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0174",
+      "TimeSeconds": 238,
+      "Name": "アイスミサイル",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0175",
+      "TimeSeconds": 238,
+      "Name": "カウント",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0176",
+      "TimeSeconds": 239,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0177",
+      "TimeSeconds": 239,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0178",
+      "TimeSeconds": 239,
+      "Name": "地雷爆発",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0179",
+      "TimeSeconds": 242,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0180",
+      "TimeSeconds": 242,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0181",
+      "TimeSeconds": 245,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0182",
+      "TimeSeconds": 245,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0183",
+      "TimeSeconds": 248,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0184",
+      "TimeSeconds": 248,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0185",
+      "TimeSeconds": 251,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0187",
+      "TimeSeconds": 252,
+      "Name": "クラッシュウェーブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0186",
+      "TimeSeconds": 252,
+      "Name": "クラッシュサンダー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0189",
+      "TimeSeconds": 254,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0188",
+      "TimeSeconds": 254,
+      "Name": "最後の審判：開廷",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0190",
+      "TimeSeconds": 255,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0191",
+      "TimeSeconds": 259,
+      "Name": "リミッターカット",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0193",
+      "TimeSeconds": 262,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0192",
+      "TimeSeconds": 262,
+      "Name": "大火炎放射",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0194",
+      "TimeSeconds": 265,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0195",
+      "TimeSeconds": 268,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0196",
+      "TimeSeconds": 269,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0197",
+      "TimeSeconds": 271,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0198",
+      "TimeSeconds": 273,
+      "Name": "竜巻",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0199",
+      "TimeSeconds": 274,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0200",
+      "TimeSeconds": 276,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0201",
+      "TimeSeconds": 277,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0202",
+      "TimeSeconds": 279,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0203",
+      "TimeSeconds": 280,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0205",
+      "TimeSeconds": 282,
+      "Name": "クラッシュウェーブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0204",
+      "TimeSeconds": 282,
+      "Name": "クラッシュサンダー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0206",
+      "TimeSeconds": 282,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0207",
+      "TimeSeconds": 283,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0208",
+      "TimeSeconds": 285,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0209",
+      "TimeSeconds": 286,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0211",
+      "TimeSeconds": 289,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0210",
+      "TimeSeconds": 289,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0212",
+      "TimeSeconds": 292,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0213",
+      "TimeSeconds": 293,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0214",
+      "TimeSeconds": 296,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0216",
+      "TimeSeconds": 301,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0215",
+      "TimeSeconds": 301,
+      "Name": "プロペラウィンド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0217",
+      "TimeSeconds": 303,
+      "Name": "最後の審判：結審",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0218",
+      "TimeSeconds": 304,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0219",
+      "TimeSeconds": 304,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0220",
+      "TimeSeconds": 307,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0221",
+      "TimeSeconds": 307,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0222",
+      "TimeSeconds": 310,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0223",
+      "TimeSeconds": 310,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0224",
+      "TimeSeconds": 313,
+      "Name": "フォトン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0225",
+      "TimeSeconds": 321,
+      "Name": "ダブルロケットパンチ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0226",
+      "TimeSeconds": 323,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0227",
+      "TimeSeconds": 323,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0228",
+      "TimeSeconds": 326,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0229",
+      "TimeSeconds": 328,
+      "Name": "スーパージャンプ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0230",
+      "TimeSeconds": 329,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0231",
+      "TimeSeconds": 331,
+      "Name": "アポカリプティクレイ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0232",
+      "TimeSeconds": 332,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0233",
+      "TimeSeconds": 335,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0235",
+      "TimeSeconds": 341,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0234",
+      "TimeSeconds": 341,
+      "Name": "竜巻",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0236",
+      "TimeSeconds": 342,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0237",
+      "TimeSeconds": 344,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0238",
+      "TimeSeconds": 345,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0239",
+      "TimeSeconds": 347,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0240",
+      "TimeSeconds": 349,
+      "Name": "竜巻",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0241",
+      "TimeSeconds": 350,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0242",
+      "TimeSeconds": 352,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0243",
+      "TimeSeconds": 353,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0244",
+      "TimeSeconds": 355,
+      "Name": "ジャスティスAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0245",
+      "TimeSeconds": 356,
+      "Name": "チェイサーAA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0248",
+      "TimeSeconds": 365,
+      "Name": "2体没",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0247",
+      "TimeSeconds": 365,
+      "Name": "暗黒の運命",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0246",
+      "TimeSeconds": 365,
+      "Name": "死刑判決",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0249",
+      "TimeSeconds": 380,
+      "Name": "時間停止",
+      "Type": "Downtime",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0251",
+      "TimeSeconds": 383,
+      "Name": "誓約の神判",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0250",
+      "TimeSeconds": 383,
+      "Name": "重罰の神判",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0252",
+      "TimeSeconds": 385,
+      "Name": "アルファソード",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0253",
+      "TimeSeconds": 385,
+      "Name": "大火炎放射",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0254",
+      "TimeSeconds": 386,
+      "Name": "アルファソード",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0255",
+      "TimeSeconds": 387,
+      "Name": "アルファソード",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0256",
+      "TimeSeconds": 388,
+      "Name": "大火炎放射",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0257",
+      "TimeSeconds": 401,
+      "Name": "神罰の熱線",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0258",
+      "TimeSeconds": 405,
+      "Name": "聖なる炎",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0259",
+      "TimeSeconds": 407,
+      "Name": "聖なる炎",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0260",
+      "TimeSeconds": 409,
+      "Name": "聖なる炎",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0261",
+      "TimeSeconds": 418,
+      "Name": "時空潜行のマーチ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0262",
+      "TimeSeconds": 438,
+      "Name": "審判の結晶",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0263",
+      "TimeSeconds": 441,
+      "Name": "爆雷起爆",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0264",
+      "TimeSeconds": 444,
+      "Name": "結晶破裂",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0265",
+      "TimeSeconds": 445,
+      "Name": "結晶破裂",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0266",
+      "TimeSeconds": 450,
+      "Name": "大火炎放射",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0267",
+      "TimeSeconds": 452,
+      "Name": "大火炎放射",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0268",
+      "TimeSeconds": 454,
+      "Name": "大火炎放射",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0269",
+      "TimeSeconds": 461,
+      "Name": "時空潜行",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0273",
+      "TimeSeconds": 469,
+      "Name": "十字の秘蹟",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0270",
+      "TimeSeconds": 469,
+      "Name": "誓約の神判",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0271",
+      "TimeSeconds": 469,
+      "Name": "連帯の神判",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0272",
+      "TimeSeconds": 469,
+      "Name": "重罰の神判",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0274",
+      "TimeSeconds": 475,
+      "Name": "アルファソード",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0275",
+      "TimeSeconds": 477,
+      "Name": "アルファソード",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0276",
+      "TimeSeconds": 478,
+      "Name": "アルファソード",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0277",
+      "TimeSeconds": 479,
+      "Name": "スーパージャンプ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0278",
+      "TimeSeconds": 491,
+      "Name": "神罰の熱線",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0279",
+      "TimeSeconds": 496,
+      "Name": "聖なる炎",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0280",
+      "TimeSeconds": 498,
+      "Name": "聖なる炎",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0281",
+      "TimeSeconds": 500,
+      "Name": "聖なる炎",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0282",
+      "TimeSeconds": 509,
+      "Name": "次元断絶のマーチ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0283",
+      "TimeSeconds": 518,
+      "Name": "リミッターカット",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0284",
+      "TimeSeconds": 521,
+      "Name": "システムリンク",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0285",
+      "TimeSeconds": 524,
+      "Name": "懺悔の間",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0287",
+      "TimeSeconds": 531,
+      "Name": "アルファソード",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0286",
+      "TimeSeconds": 531,
+      "Name": "スーパージャンプ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0289",
+      "TimeSeconds": 533,
+      "Name": "アポカリプティクレイ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0288",
+      "TimeSeconds": 533,
+      "Name": "スーパーブラスティ・チャージ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0290",
+      "TimeSeconds": 535,
+      "Name": "アルファソード",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0291",
+      "TimeSeconds": 536,
+      "Name": "罪の意識",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0292",
+      "TimeSeconds": 537,
+      "Name": "スーパーブラスティ・チャージ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0294",
+      "TimeSeconds": 538,
+      "Name": "アポカリプティクレイ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0293",
+      "TimeSeconds": 538,
+      "Name": "十字の秘蹟",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0295",
+      "TimeSeconds": 540,
+      "Name": "アルファソード",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0296",
+      "TimeSeconds": 540,
+      "Name": "罪の意識",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0297",
+      "TimeSeconds": 541,
+      "Name": "スーパーブラスティ・チャージ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0298",
+      "TimeSeconds": 544,
+      "Name": "アルファソード",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0299",
+      "TimeSeconds": 544,
+      "Name": "罪の意識",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0300",
+      "TimeSeconds": 545,
+      "Name": "スーパーブラスティ・チャージ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0301",
+      "TimeSeconds": 547,
+      "Name": "ミサイル全弾発射",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0302",
+      "TimeSeconds": 550,
+      "Name": "浄化の熱線",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0303",
+      "TimeSeconds": 555,
+      "Name": "カウント",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0304",
+      "TimeSeconds": 563,
+      "Name": "メガホーリー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0305",
+      "TimeSeconds": 570,
+      "Name": "メガホーリー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0306",
+      "TimeSeconds": 580,
+      "Name": "アレキサンダー召喚",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0307",
+      "TimeSeconds": 586,
+      "Name": "ジャスティスストーム",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0308",
+      "TimeSeconds": 591,
+      "Name": "ジャスティスショックウェーブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0309",
+      "TimeSeconds": 594,
+      "Name": "ジャスティスショックウェーブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0310",
+      "TimeSeconds": 597,
+      "Name": "ジャスティスショックウェーブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0311",
+      "TimeSeconds": 600,
+      "Name": "ジャスティスショックウェーブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0312",
+      "TimeSeconds": 603,
+      "Name": "ジャスティスショックウェーブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0313",
+      "TimeSeconds": 606,
+      "Name": "ジャスティスショックウェーブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0314",
+      "TimeSeconds": 609,
+      "Name": "ジャスティスショックウェーブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0315",
+      "TimeSeconds": 612,
+      "Name": "ジャスティスショックウェーブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0316",
+      "TimeSeconds": 615,
+      "Name": "ジャスティスショックウェーブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0317",
+      "TimeSeconds": 619,
+      "Name": "ジャスティスショックウェーブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0318",
+      "TimeSeconds": 622,
+      "Name": "ジャスティスショックウェーブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0319",
+      "TimeSeconds": 625,
+      "Name": "ジャスティスショックウェーブ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0320",
+      "TimeSeconds": 659,
+      "Name": "聖なる審判(詠唱完了)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0321",
+      "TimeSeconds": 674,
+      "Name": "聖なる審判",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0322",
+      "TimeSeconds": 674,
+      "Name": "聖なる審判(着弾)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0323",
+      "TimeSeconds": 746,
+      "Name": "確定判決",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0324",
+      "TimeSeconds": 753,
+      "Name": "行動命令 or 静止命令",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0325",
+      "TimeSeconds": 764,
+      "Name": "行動命令 or 静止命令",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0326",
+      "TimeSeconds": 774,
+      "Name": "照準",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0327",
+      "TimeSeconds": 776,
+      "Name": "群の断罪 or 個の断罪",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0328",
+      "TimeSeconds": 780,
+      "Name": "照準",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0329",
+      "TimeSeconds": 782,
+      "Name": "群の断罪 or 個の断罪",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0330",
+      "TimeSeconds": 795,
+      "Name": "未来観測α",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0331",
+      "TimeSeconds": 820,
+      "Name": "未来確定α",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0332",
+      "TimeSeconds": 827,
+      "Name": "行動命令 or 静止命令",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0333",
+      "TimeSeconds": 830,
+      "Name": "汚名の神判",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0337",
+      "TimeSeconds": 831,
+      "Name": "十字の秘蹟",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0336",
+      "TimeSeconds": 831,
+      "Name": "行動命令 or 静止命令",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0334",
+      "TimeSeconds": 831,
+      "Name": "連帯の神判",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0335",
+      "TimeSeconds": 831,
+      "Name": "重罰の神判",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0338",
+      "TimeSeconds": 849,
+      "Name": "加重誅罰",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0339",
+      "TimeSeconds": 850,
+      "Name": "加重誅罰",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0340",
+      "TimeSeconds": 851,
+      "Name": "加重誅罰",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0341",
+      "TimeSeconds": 855,
+      "Name": "誅罰",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0342",
+      "TimeSeconds": 870,
+      "Name": "未来観測β",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0343",
+      "TimeSeconds": 908,
+      "Name": "未来確定β",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0345",
+      "TimeSeconds": 919,
+      "Name": "誓約の神判",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0344",
+      "TimeSeconds": 919,
+      "Name": "連帯の神判",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0346",
+      "TimeSeconds": 920,
+      "Name": "ジャスティスジャンプ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0347",
+      "TimeSeconds": 924,
+      "Name": "照準",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0348",
+      "TimeSeconds": 926,
+      "Name": "群の断罪 or 個の断罪",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0349",
+      "TimeSeconds": 931,
+      "Name": "拝火の秘蹟",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0350",
+      "TimeSeconds": 948,
+      "Name": "加重誅罰",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0351",
+      "TimeSeconds": 949,
+      "Name": "加重誅罰",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0352",
+      "TimeSeconds": 950,
+      "Name": "加重誅罰",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0353",
+      "TimeSeconds": 954,
+      "Name": "誅罰",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0354",
+      "TimeSeconds": 975,
+      "Name": "聖なる大審判",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0355",
+      "TimeSeconds": 977,
+      "Name": "聖なる大審判",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0356",
+      "TimeSeconds": 979,
+      "Name": "聖なる大審判",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0357",
+      "TimeSeconds": 980,
+      "Name": "連帯刑",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0358",
+      "TimeSeconds": 993,
+      "Name": "加重誅罰",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0359",
+      "TimeSeconds": 994,
+      "Name": "加重誅罰",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0360",
+      "TimeSeconds": 995,
+      "Name": "加重誅罰",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0361",
+      "TimeSeconds": 999,
+      "Name": "誅罰",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0362",
+      "TimeSeconds": 1020,
+      "Name": "聖なる大審判",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0363",
+      "TimeSeconds": 1022,
+      "Name": "聖なる大審判",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0364",
+      "TimeSeconds": 1024,
+      "Name": "聖なる大審判",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0365",
+      "TimeSeconds": 1025,
+      "Name": "連帯刑",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0366",
+      "TimeSeconds": 1040,
+      "Name": "時空干渉",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_the_epic_of_alexander_0367",
+      "TimeSeconds": 1085,
+      "Name": "時の牢獄",
+      "Type": "Mechanic",
+      "Notes": ""
+    }
+  ]
+}

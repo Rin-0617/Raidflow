@@ -1,0 +1,883 @@
+{
+  "Id": "aac_light_heavyweight_m1_savage",
+  "ContentName": "アルカディア零式1層",
+  "Revision": "preset",
+  "ContentLevel": 100,
+  "Events": [
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0001",
+      "TimeSeconds": 10,
+      "Name": "キラーボイス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0002",
+      "TimeSeconds": 21,
+      "Name": "ハードコア",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0003",
+      "TimeSeconds": 31,
+      "Name": "ヴァンプストンプ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0004",
+      "TimeSeconds": 35,
+      "Name": "共振波 (蝙蝠)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0005",
+      "TimeSeconds": 36,
+      "Name": "共振波 (プレイヤー)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0006",
+      "TimeSeconds": 38,
+      "Name": "共振波 (蝙蝠)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0007",
+      "TimeSeconds": 39,
+      "Name": "共振波 (プレイヤー)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0008",
+      "TimeSeconds": 40,
+      "Name": "共振波 (プレイヤー)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0009",
+      "TimeSeconds": 42,
+      "Name": "共振波 (蝙蝠)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0010",
+      "TimeSeconds": 47,
+      "Name": "ブルータルレイン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0011",
+      "TimeSeconds": 48,
+      "Name": "ブルータルレイン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0012",
+      "TimeSeconds": 49,
+      "Name": "ブルータルレイン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0013",
+      "TimeSeconds": 61,
+      "Name": "サディスティック・スクリーチ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0014",
+      "TimeSeconds": 68,
+      "Name": "前進",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0015",
+      "TimeSeconds": 76,
+      "Name": "突き出る & ハーフムーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0016",
+      "TimeSeconds": 79,
+      "Name": "突き出る & ハーフムーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0017",
+      "TimeSeconds": 86,
+      "Name": "前進",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0018",
+      "TimeSeconds": 93,
+      "Name": "突き出る & ハーフムーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0019",
+      "TimeSeconds": 96,
+      "Name": "突き出る & ハーフムーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0020",
+      "TimeSeconds": 103,
+      "Name": "前進",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0021",
+      "TimeSeconds": 111,
+      "Name": "突き出る & ハーフムーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0022",
+      "TimeSeconds": 113,
+      "Name": "突き出る & ハーフムーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0023",
+      "TimeSeconds": 121,
+      "Name": "突き出る & ハーフムーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0024",
+      "TimeSeconds": 124,
+      "Name": "突き出る & ハーフムーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0025",
+      "TimeSeconds": 139,
+      "Name": "サディスティック・スクリーチ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0026",
+      "TimeSeconds": 153,
+      "Name": "クラウドキリング",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0027",
+      "TimeSeconds": 172,
+      "Name": "フィナーレ・ファターレ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0028",
+      "TimeSeconds": 177,
+      "Name": "パルピングパルス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0029",
+      "TimeSeconds": 191,
+      "Name": "エーテルレッティング (扇)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0031",
+      "TimeSeconds": 193,
+      "Name": "エーテルレッティング (マーカー)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0030",
+      "TimeSeconds": 193,
+      "Name": "エーテルレッティング (扇)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0033",
+      "TimeSeconds": 195,
+      "Name": "エーテルレッティング (マーカー)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0032",
+      "TimeSeconds": 195,
+      "Name": "エーテルレッティング (扇)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0035",
+      "TimeSeconds": 197,
+      "Name": "エーテルレッティング (マーカー)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0034",
+      "TimeSeconds": 197,
+      "Name": "エーテルレッティング (扇)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0036",
+      "TimeSeconds": 199,
+      "Name": "エーテルレッティング (マーカー)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0037",
+      "TimeSeconds": 208,
+      "Name": "エーテルレッティング (十字 or X字)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0038",
+      "TimeSeconds": 210,
+      "Name": "エーテルレッティング (十字 or X字)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0039",
+      "TimeSeconds": 212,
+      "Name": "エーテルレッティング (十字 or X字)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0040",
+      "TimeSeconds": 214,
+      "Name": "エーテルレッティング (十字 or X字)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0041",
+      "TimeSeconds": 221,
+      "Name": "ハードコア",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0042",
+      "TimeSeconds": 226,
+      "Name": "パルピングパルス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0043",
+      "TimeSeconds": 231,
+      "Name": "ヴァンプストンプ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0044",
+      "TimeSeconds": 235,
+      "Name": "共振波 (蝙蝠)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0045",
+      "TimeSeconds": 236,
+      "Name": "共振波 (プレイヤー)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0046",
+      "TimeSeconds": 237,
+      "Name": "共振波 (プレイヤー)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0047",
+      "TimeSeconds": 238,
+      "Name": "共振波 (蝙蝠)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0048",
+      "TimeSeconds": 240,
+      "Name": "共振波 (プレイヤー)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0049",
+      "TimeSeconds": 242,
+      "Name": "共振波 (蝙蝠)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0050",
+      "TimeSeconds": 247,
+      "Name": "ハーフムーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0051",
+      "TimeSeconds": 250,
+      "Name": "ハーフムーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0052",
+      "TimeSeconds": 257,
+      "Name": "ブルータルレイン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0053",
+      "TimeSeconds": 258,
+      "Name": "ブルータルレイン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0054",
+      "TimeSeconds": 259,
+      "Name": "ブルータルレイン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0055",
+      "TimeSeconds": 260,
+      "Name": "ブルータルレイン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0056",
+      "TimeSeconds": 261,
+      "Name": "ブルータルレイン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0057",
+      "TimeSeconds": 271,
+      "Name": "インセーシャブル・サースト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0058",
+      "TimeSeconds": 284,
+      "Name": "サディスティック・スクリーチ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0059",
+      "TimeSeconds": 297,
+      "Name": "落下",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0060",
+      "TimeSeconds": 306,
+      "Name": "キラーボイス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0061",
+      "TimeSeconds": 315,
+      "Name": "落下",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0062",
+      "TimeSeconds": 324,
+      "Name": "キラーボイス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0063",
+      "TimeSeconds": 333,
+      "Name": "落下",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0064",
+      "TimeSeconds": 357,
+      "Name": "サディスティック・スクリーチ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0065",
+      "TimeSeconds": 371,
+      "Name": "クラウドキリング",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0066",
+      "TimeSeconds": 390,
+      "Name": "フィナーレ・ファターレ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0067",
+      "TimeSeconds": 395,
+      "Name": "パルピングパルス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0068",
+      "TimeSeconds": 400,
+      "Name": "ヘル・イン・ア・セル",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0069",
+      "TimeSeconds": 401,
+      "Name": "ブラッディボンテージ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0070",
+      "TimeSeconds": 404,
+      "Name": "ブラッドラッシュ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0071",
+      "TimeSeconds": 407,
+      "Name": "ブラッドラッシュ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0072",
+      "TimeSeconds": 409,
+      "Name": "アグリゲートソニック or スプレッドソニック",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0073",
+      "TimeSeconds": 410,
+      "Name": "ブラッドラッシュ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0074",
+      "TimeSeconds": 413,
+      "Name": "ブラッドラッシュ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0076",
+      "TimeSeconds": 416,
+      "Name": "アグリゲートソニック or スプレッドソニック",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0075",
+      "TimeSeconds": 416,
+      "Name": "ブラッドラッシュ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0077",
+      "TimeSeconds": 423,
+      "Name": "ヘル・イン・ア・セル",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0078",
+      "TimeSeconds": 424,
+      "Name": "ブラッディボンテージ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0079",
+      "TimeSeconds": 426,
+      "Name": "ブラッドラッシュ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0080",
+      "TimeSeconds": 429,
+      "Name": "ブラッドラッシュ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0081",
+      "TimeSeconds": 432,
+      "Name": "アグリゲートソニック or スプレッドソニック",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0082",
+      "TimeSeconds": 432,
+      "Name": "ブラッドラッシュ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0083",
+      "TimeSeconds": 435,
+      "Name": "ブラッドラッシュ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0084",
+      "TimeSeconds": 438,
+      "Name": "ブラッドラッシュ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0085",
+      "TimeSeconds": 439,
+      "Name": "アグリゲートソニック or スプレッドソニック",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0086",
+      "TimeSeconds": 444,
+      "Name": "パルピングパルス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0087",
+      "TimeSeconds": 448,
+      "Name": "パルピングパルス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0088",
+      "TimeSeconds": 453,
+      "Name": "バット・デスマッチ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0089",
+      "TimeSeconds": 454,
+      "Name": "ブラッディボンテージ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0090",
+      "TimeSeconds": 461,
+      "Name": "サングインスクラッチ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0091",
+      "TimeSeconds": 463,
+      "Name": "サングインスクラッチ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0092",
+      "TimeSeconds": 465,
+      "Name": "サングインスクラッチ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0093",
+      "TimeSeconds": 468,
+      "Name": "サングインスクラッチ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0094",
+      "TimeSeconds": 470,
+      "Name": "サングインスクラッチ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0095",
+      "TimeSeconds": 474,
+      "Name": "ブレイクダウン or ブレイクビーツ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0096",
+      "TimeSeconds": 479,
+      "Name": "サングインスクラッチ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0097",
+      "TimeSeconds": 481,
+      "Name": "サングインスクラッチ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0098",
+      "TimeSeconds": 484,
+      "Name": "サングインスクラッチ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0099",
+      "TimeSeconds": 486,
+      "Name": "サングインスクラッチ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0100",
+      "TimeSeconds": 489,
+      "Name": "サングインスクラッチ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0101",
+      "TimeSeconds": 492,
+      "Name": "ブレイクダウン or ブレイクビーツ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0102",
+      "TimeSeconds": 499,
+      "Name": "ブルータルレイン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0103",
+      "TimeSeconds": 500,
+      "Name": "ブルータルレイン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0104",
+      "TimeSeconds": 501,
+      "Name": "ブルータルレイン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0105",
+      "TimeSeconds": 502,
+      "Name": "ブルータルレイン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0106",
+      "TimeSeconds": 503,
+      "Name": "ブルータルレイン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0107",
+      "TimeSeconds": 512,
+      "Name": "ヴァンプストンプ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0108",
+      "TimeSeconds": 516,
+      "Name": "共振波 (蝙蝠)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0109",
+      "TimeSeconds": 518,
+      "Name": "共振波 (プレイヤー)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0110",
+      "TimeSeconds": 519,
+      "Name": "共振波 (プレイヤー)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0111",
+      "TimeSeconds": 520,
+      "Name": "共振波 (蝙蝠)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0112",
+      "TimeSeconds": 521,
+      "Name": "共振波 (プレイヤー)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0113",
+      "TimeSeconds": 523,
+      "Name": "共振波 (蝙蝠)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0114",
+      "TimeSeconds": 528,
+      "Name": "ハーフムーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0115",
+      "TimeSeconds": 531,
+      "Name": "ハーフムーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0116",
+      "TimeSeconds": 539,
+      "Name": "ハードコア",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0117",
+      "TimeSeconds": 544,
+      "Name": "パルピングパルス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0118",
+      "TimeSeconds": 550,
+      "Name": "サングインスクラッチ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0119",
+      "TimeSeconds": 553,
+      "Name": "サングインスクラッチ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0120",
+      "TimeSeconds": 555,
+      "Name": "サングインスクラッチ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0121",
+      "TimeSeconds": 557,
+      "Name": "サングインスクラッチ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0122",
+      "TimeSeconds": 560,
+      "Name": "サングインスクラッチ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0123",
+      "TimeSeconds": 571,
+      "Name": "インセーシャブル・サースト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0124",
+      "TimeSeconds": 586,
+      "Name": "クラウドキリング",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_aac_light_heavyweight_m1_savage_0125",
+      "TimeSeconds": 605,
+      "Name": "フィナーレ・ファターレ",
+      "Type": "Mechanic",
+      "Notes": ""
+    }
+  ]
+}

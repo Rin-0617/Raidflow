@@ -1,0 +1,1555 @@
+{
+  "Id": "ultimate_futures_rewritten",
+  "ContentName": "絶もうひとつの未来",
+  "Revision": "7.11 preset",
+  "ContentLevel": 100,
+  "Events": [
+    {
+      "Id": "evt_ultimate_futures_rewritten_0001",
+      "TimeSeconds": 15,
+      "Name": "サイクロニックブレイク",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0003",
+      "TimeSeconds": 17,
+      "Name": "サイクロニックブレイク",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0002",
+      "TimeSeconds": 17,
+      "Name": "シンフレイム or シンボルト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0004",
+      "TimeSeconds": 19,
+      "Name": "サイクロニックブレイク",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0005",
+      "TimeSeconds": 21,
+      "Name": "サイクロニックブレイク",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0006",
+      "TimeSeconds": 24,
+      "Name": "連鎖爆印刻",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0007",
+      "TimeSeconds": 35,
+      "Name": "楽園絶技",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0008",
+      "TimeSeconds": 41,
+      "Name": "爆印",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0009",
+      "TimeSeconds": 49,
+      "Name": "ブラスティングゾーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0010",
+      "TimeSeconds": 50,
+      "Name": "シンファイガ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0011",
+      "TimeSeconds": 56,
+      "Name": "サイクロニックブレイク",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0013",
+      "TimeSeconds": 58,
+      "Name": "サイクロニックブレイク",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0012",
+      "TimeSeconds": 58,
+      "Name": "シンフレイム or シンボルト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0014",
+      "TimeSeconds": 61,
+      "Name": "サイクロニックブレイク",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0015",
+      "TimeSeconds": 63,
+      "Name": "サイクロニックブレイク",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0016",
+      "TimeSeconds": 64,
+      "Name": "転輪召",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0017",
+      "TimeSeconds": 65,
+      "Name": "バーンストライク",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0018",
+      "TimeSeconds": 67,
+      "Name": "バーンアウト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0019",
+      "TimeSeconds": 71,
+      "Name": "バーンストライク",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0020",
+      "TimeSeconds": 73,
+      "Name": "バーンブラスト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0021",
+      "TimeSeconds": 75,
+      "Name": "シンソイルスラスト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0022",
+      "TimeSeconds": 79,
+      "Name": "シンフレイム",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0023",
+      "TimeSeconds": 86,
+      "Name": "光焔光背",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0024",
+      "TimeSeconds": 102,
+      "Name": "シンソイルセヴァー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0025",
+      "TimeSeconds": 106,
+      "Name": "シンブレイズ or シンボルト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0026",
+      "TimeSeconds": 107,
+      "Name": "(シンボルトの場合のみ) バウショック",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0027",
+      "TimeSeconds": 109,
+      "Name": "シンブレイズ or シンボルト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0028",
+      "TimeSeconds": 110,
+      "Name": "(シンボルトの場合のみ) バウショック",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0029",
+      "TimeSeconds": 112,
+      "Name": "シンブレイズ or シンボルト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0030",
+      "TimeSeconds": 113,
+      "Name": "(シンボルトの場合のみ) バウショック",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0031",
+      "TimeSeconds": 114,
+      "Name": "シンブレイズ or シンボルト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0032",
+      "TimeSeconds": 115,
+      "Name": "(シンボルトの場合のみ) バウショック",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0033",
+      "TimeSeconds": 122,
+      "Name": "光焔光背",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0034",
+      "TimeSeconds": 130,
+      "Name": "連鎖爆印刻",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0035",
+      "TimeSeconds": 142,
+      "Name": "バーンストライク",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0036",
+      "TimeSeconds": 144,
+      "Name": "バーンブラスト or バーンアウト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0038",
+      "TimeSeconds": 146,
+      "Name": "爆印",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0037",
+      "TimeSeconds": 146,
+      "Name": "爆発",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0039",
+      "TimeSeconds": 155,
+      "Name": "光焔光背",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0040",
+      "TimeSeconds": 172,
+      "Name": "クアドラスラップ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0041",
+      "TimeSeconds": 176,
+      "Name": "クアドラスラップ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0042",
+      "TimeSeconds": 185,
+      "Name": "鏡写し",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0043",
+      "TimeSeconds": 192,
+      "Name": "ダイアモンドダスト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0045",
+      "TimeSeconds": 202,
+      "Name": "アクスキック or サイスキック",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0044",
+      "TimeSeconds": 202,
+      "Name": "光の津波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0047",
+      "TimeSeconds": 204,
+      "Name": "アイシクルインパクト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0046",
+      "TimeSeconds": 204,
+      "Name": "アイスストーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0049",
+      "TimeSeconds": 208,
+      "Name": "アイシクルインパクト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0048",
+      "TimeSeconds": 208,
+      "Name": "ヘヴンリーストライク",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0050",
+      "TimeSeconds": 211,
+      "Name": "アイスニードル",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0052",
+      "TimeSeconds": 212,
+      "Name": "アイシクルインパクト",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0051",
+      "TimeSeconds": 212,
+      "Name": "シンホーリー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0053",
+      "TimeSeconds": 214,
+      "Name": "シンホーリー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0054",
+      "TimeSeconds": 215,
+      "Name": "シンホーリー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0055",
+      "TimeSeconds": 217,
+      "Name": "シンホーリー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0056",
+      "TimeSeconds": 220,
+      "Name": "フロストアーマー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0057",
+      "TimeSeconds": 220,
+      "Name": "ブライトアーマー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0058",
+      "TimeSeconds": 240,
+      "Name": "ホーリーレイ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0059",
+      "TimeSeconds": 250,
+      "Name": "鏡の国",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0060",
+      "TimeSeconds": 264,
+      "Name": "サイスキック",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0061",
+      "TimeSeconds": 264,
+      "Name": "光の津波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0062",
+      "TimeSeconds": 274,
+      "Name": "光の津波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0063",
+      "TimeSeconds": 280,
+      "Name": "バニシュガ or ディバイデッド・バニシュガ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0064",
+      "TimeSeconds": 289,
+      "Name": "光の暴走",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0065",
+      "TimeSeconds": 297,
+      "Name": "ルミナスイロード",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0066",
+      "TimeSeconds": 299,
+      "Name": "ルミナスイロード",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0067",
+      "TimeSeconds": 300,
+      "Name": "ルミナスイロード",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0068",
+      "TimeSeconds": 300,
+      "Name": "浸食光",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0069",
+      "TimeSeconds": 302,
+      "Name": "ルミナスイロード",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0070",
+      "TimeSeconds": 303,
+      "Name": "ルミナスイロード",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0071",
+      "TimeSeconds": 306,
+      "Name": "光爆",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0072",
+      "TimeSeconds": 315,
+      "Name": "浸食光",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0073",
+      "TimeSeconds": 318,
+      "Name": "バニシュガ or ディバイデッド・バニシュガ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0074",
+      "TimeSeconds": 327,
+      "Name": "光の津波",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0075",
+      "TimeSeconds": 347,
+      "Name": "絶対零度 (HP20% 未満)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0076",
+      "TimeSeconds": 349,
+      "Name": "凍波 (凍結)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0077",
+      "TimeSeconds": 381,
+      "Name": "シンブリザガ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0078",
+      "TimeSeconds": 382,
+      "Name": "ハイマルストーム",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0079",
+      "TimeSeconds": 386,
+      "Name": "ハイマルストーム",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0080",
+      "TimeSeconds": 387,
+      "Name": "シンブリザガ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0081",
+      "TimeSeconds": 389,
+      "Name": "ハイマルストーム",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0082",
+      "TimeSeconds": 389,
+      "Name": "ハイマルレイ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0083",
+      "TimeSeconds": 391,
+      "Name": "ハイマルレイ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0084",
+      "TimeSeconds": 392,
+      "Name": "シンブリザガ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0085",
+      "TimeSeconds": 392,
+      "Name": "ハイマルストーム",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0086",
+      "TimeSeconds": 397,
+      "Name": "シンブリザガ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0087",
+      "TimeSeconds": 403,
+      "Name": "シンブリザガ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0088",
+      "TimeSeconds": 408,
+      "Name": "シンブリザガ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0089",
+      "TimeSeconds": 424,
+      "Name": "ジャンクション",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0090",
+      "TimeSeconds": 424,
+      "Name": "ジャンクション実行",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0091",
+      "TimeSeconds": 442,
+      "Name": "ヘル・ジャッジメント",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0092",
+      "TimeSeconds": 457,
+      "Name": "時間圧縮・絶",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0093",
+      "TimeSeconds": 466,
+      "Name": "スピード & スロウ & クイック",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0094",
+      "TimeSeconds": 469,
+      "Name": "ダークファイガ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0095",
+      "TimeSeconds": 469,
+      "Name": "ダークホーリー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0096",
+      "TimeSeconds": 474,
+      "Name": "シンメルトン (初弾)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0097",
+      "TimeSeconds": 478,
+      "Name": "ダークファイガ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0099",
+      "TimeSeconds": 478,
+      "Name": "ダークブリザガ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0098",
+      "TimeSeconds": 478,
+      "Name": "ダークホーリー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0100",
+      "TimeSeconds": 484,
+      "Name": "シンメルトン (初弾)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0101",
+      "TimeSeconds": 488,
+      "Name": "ダークファイガ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0102",
+      "TimeSeconds": 488,
+      "Name": "ダークホーリー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0103",
+      "TimeSeconds": 495,
+      "Name": "シンメルトン (初弾)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0106",
+      "TimeSeconds": 501,
+      "Name": "シャドウアイ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0105",
+      "TimeSeconds": 501,
+      "Name": "ダークウォタガ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0104",
+      "TimeSeconds": 501,
+      "Name": "ダークエラプション",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0107",
+      "TimeSeconds": 505,
+      "Name": "シェルクラッシャー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0108",
+      "TimeSeconds": 513,
+      "Name": "ショックウェーブ・パルサー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0109",
+      "TimeSeconds": 521,
+      "Name": "ブラックヘイロー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0110",
+      "TimeSeconds": 530,
+      "Name": "ディレイスペル・リフレイン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0111",
+      "TimeSeconds": 546,
+      "Name": "アポカリプス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0112",
+      "TimeSeconds": 549,
+      "Name": "ダークウォタガ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0113",
+      "TimeSeconds": 551,
+      "Name": "スピリットテイカー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0114",
+      "TimeSeconds": 559,
+      "Name": "アポカリプス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0115",
+      "TimeSeconds": 562,
+      "Name": "アポカリプス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0116",
+      "TimeSeconds": 562,
+      "Name": "ダークエラプション",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0117",
+      "TimeSeconds": 564,
+      "Name": "アポカリプス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0118",
+      "TimeSeconds": 566,
+      "Name": "アポカリプス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0119",
+      "TimeSeconds": 568,
+      "Name": "アポカリプス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0120",
+      "TimeSeconds": 568,
+      "Name": "ダークウォタガ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0121",
+      "TimeSeconds": 570,
+      "Name": "アポカリプス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0122",
+      "TimeSeconds": 571,
+      "Name": "暗夜の舞踏技",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0123",
+      "TimeSeconds": 573,
+      "Name": "暗夜の舞踏技",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0124",
+      "TimeSeconds": 577,
+      "Name": "ダークウォタガ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0125",
+      "TimeSeconds": 583,
+      "Name": "ショックウェーブ・パルサー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0126",
+      "TimeSeconds": 596,
+      "Name": "エンド・オブ・メモリーズ (HP20% 未満)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0127",
+      "TimeSeconds": 596,
+      "Name": "エンド・オブ・メモリーズ実行",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0128",
+      "TimeSeconds": 613,
+      "Name": "具象化",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0129",
+      "TimeSeconds": 624,
+      "Name": "ドラゴンアーマー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0130",
+      "TimeSeconds": 627,
+      "Name": "アク・ラーイ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0131",
+      "TimeSeconds": 627,
+      "Name": "シヴァ・ミトロン AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0132",
+      "TimeSeconds": 627,
+      "Name": "聖竜 AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0133",
+      "TimeSeconds": 629,
+      "Name": "忘却の彼方",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0134",
+      "TimeSeconds": 630,
+      "Name": "シヴァ・ミトロン AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0135",
+      "TimeSeconds": 630,
+      "Name": "聖竜 AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0136",
+      "TimeSeconds": 633,
+      "Name": "シヴァ・ミトロン AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0137",
+      "TimeSeconds": 633,
+      "Name": "聖竜 AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0138",
+      "TimeSeconds": 639,
+      "Name": "光と闇の竜詩",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0139",
+      "TimeSeconds": 650,
+      "Name": "浸食光",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0140",
+      "TimeSeconds": 651,
+      "Name": "光の波動",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0141",
+      "TimeSeconds": 653,
+      "Name": "スピリットテイカー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0142",
+      "TimeSeconds": 658,
+      "Name": "ダークウォタガ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0143",
+      "TimeSeconds": 658,
+      "Name": "ホーリーウィング",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0144",
+      "TimeSeconds": 661,
+      "Name": "宵闇の舞踏技",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0145",
+      "TimeSeconds": 664,
+      "Name": "宵闇の舞踏技",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0147",
+      "TimeSeconds": 668,
+      "Name": "シヴァ・ミトロン AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0146",
+      "TimeSeconds": 668,
+      "Name": "忘却の彼方",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0148",
+      "TimeSeconds": 668,
+      "Name": "聖竜 AA",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0149",
+      "TimeSeconds": 675,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0150",
+      "TimeSeconds": 676,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0151",
+      "TimeSeconds": 677,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0152",
+      "TimeSeconds": 678,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0153",
+      "TimeSeconds": 685,
+      "Name": "モーン・アファー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0154",
+      "TimeSeconds": 700,
+      "Name": "時間結晶",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0155",
+      "TimeSeconds": 706,
+      "Name": "忘却の彼方",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0156",
+      "TimeSeconds": 710,
+      "Name": "スピード & スロウ & クイック",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0157",
+      "TimeSeconds": 712,
+      "Name": "メイルシュトローム",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0158",
+      "TimeSeconds": 713,
+      "Name": "ダークウォタガ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0159",
+      "TimeSeconds": 715,
+      "Name": "ダークエアロガ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0160",
+      "TimeSeconds": 715,
+      "Name": "ダークエラプション",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0161",
+      "TimeSeconds": 715,
+      "Name": "ダークブリザガ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0162",
+      "TimeSeconds": 715,
+      "Name": "聖竜気",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0164",
+      "TimeSeconds": 718,
+      "Name": "ダークホーリー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0163",
+      "TimeSeconds": 718,
+      "Name": "メイルシュトローム",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0165",
+      "TimeSeconds": 722,
+      "Name": "光の大波 (1方向目開始)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0166",
+      "TimeSeconds": 723,
+      "Name": "メイルシュトローム",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0167",
+      "TimeSeconds": 725,
+      "Name": "聖竜気",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0168",
+      "TimeSeconds": 728,
+      "Name": "光の大波 (2方向目開始)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0169",
+      "TimeSeconds": 732,
+      "Name": "クワイタス",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0170",
+      "TimeSeconds": 738,
+      "Name": "スピリットテイカー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0171",
+      "TimeSeconds": 743,
+      "Name": "ホーリーウィング",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0172",
+      "TimeSeconds": 748,
+      "Name": "ホーリーウィング",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0173",
+      "TimeSeconds": 758,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0174",
+      "TimeSeconds": 759,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0175",
+      "TimeSeconds": 760,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0176",
+      "TimeSeconds": 761,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0177",
+      "TimeSeconds": 766,
+      "Name": "忘却の彼方",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0178",
+      "TimeSeconds": 768,
+      "Name": "モーン・アファー",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0181",
+      "TimeSeconds": 780,
+      "Name": "シヴァ・ミトロン & 闇の巫女 没",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0180",
+      "TimeSeconds": 781,
+      "Name": "エンド・オブ・メモリーズ",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0179",
+      "TimeSeconds": 781,
+      "Name": "絶対零度",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0182",
+      "TimeSeconds": 870,
+      "Name": "光塵の剣",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0183",
+      "TimeSeconds": 881,
+      "Name": "光塵の剣 (1箇所目開始)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0184",
+      "TimeSeconds": 885,
+      "Name": "光塵の剣 (2箇所目開始)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0185",
+      "TimeSeconds": 889,
+      "Name": "光塵の剣 (3箇所目開始)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0186",
+      "TimeSeconds": 897,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0187",
+      "TimeSeconds": 900,
+      "Name": "攻撃",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0188",
+      "TimeSeconds": 905,
+      "Name": "パラダイス・リゲインド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0189",
+      "TimeSeconds": 915,
+      "Name": "爆発",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0190",
+      "TimeSeconds": 916,
+      "Name": "光と闇の片翼",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0192",
+      "TimeSeconds": 919,
+      "Name": "光と闇の片翼",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0191",
+      "TimeSeconds": 919,
+      "Name": "爆発",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0193",
+      "TimeSeconds": 922,
+      "Name": "爆発",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0194",
+      "TimeSeconds": 936,
+      "Name": "星霊の剣",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0195",
+      "TimeSeconds": 937,
+      "Name": "光の重波動 & 闇の重波動",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0196",
+      "TimeSeconds": 941,
+      "Name": "光の重波動 & 闇の重波動",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0197",
+      "TimeSeconds": 946,
+      "Name": "光の重波動 & 闇の重波動",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0198",
+      "TimeSeconds": 951,
+      "Name": "光の重波動 & 闇の重波動",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0199",
+      "TimeSeconds": 970,
+      "Name": "パンドラの櫃",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0200",
+      "TimeSeconds": 983,
+      "Name": "光塵の剣",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0201",
+      "TimeSeconds": 994,
+      "Name": "光塵の剣 (1箇所目開始)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0202",
+      "TimeSeconds": 998,
+      "Name": "光塵の剣 (2箇所目開始)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0203",
+      "TimeSeconds": 1002,
+      "Name": "光塵の剣 (3箇所目開始)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0204",
+      "TimeSeconds": 1010,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0205",
+      "TimeSeconds": 1022,
+      "Name": "パラダイス・リゲインド",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0207",
+      "TimeSeconds": 1032,
+      "Name": "光と闇の片翼",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0206",
+      "TimeSeconds": 1032,
+      "Name": "爆発",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0208",
+      "TimeSeconds": 1036,
+      "Name": "爆発",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0209",
+      "TimeSeconds": 1037,
+      "Name": "光と闇の片翼",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0210",
+      "TimeSeconds": 1039,
+      "Name": "爆発",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0211",
+      "TimeSeconds": 1048,
+      "Name": "星霊の剣",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0212",
+      "TimeSeconds": 1049,
+      "Name": "光の重波動 & 闇の重波動",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0213",
+      "TimeSeconds": 1053,
+      "Name": "光の重波動 & 闇の重波動",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0214",
+      "TimeSeconds": 1058,
+      "Name": "光の重波動 & 闇の重波動",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0215",
+      "TimeSeconds": 1063,
+      "Name": "光の重波動 & 闇の重波動",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0216",
+      "TimeSeconds": 1073,
+      "Name": "光塵の剣",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0217",
+      "TimeSeconds": 1084,
+      "Name": "光塵の剣 (箇所目開始)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0218",
+      "TimeSeconds": 1088,
+      "Name": "光塵の剣 (箇所目開始)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0219",
+      "TimeSeconds": 1092,
+      "Name": "光塵の剣 (箇所目開始)",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0220",
+      "TimeSeconds": 1100,
+      "Name": "アク・モーン",
+      "Type": "Mechanic",
+      "Notes": ""
+    },
+    {
+      "Id": "evt_ultimate_futures_rewritten_0221",
+      "TimeSeconds": 1130,
+      "Name": "パラダイス・ロスト",
+      "Type": "Mechanic",
+      "Notes": ""
+    }
+  ]
+}
