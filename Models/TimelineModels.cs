@@ -42,24 +42,6 @@ public sealed class RaidFlowDocument
             new() { Slot = PartySlot.D4, Job = "RDM" },
         ];
 
-        plan.Events =
-        [
-            new()
-            {
-                Id = "evt_0001",
-                TimeSeconds = 30,
-                Name = "最初の全体攻撃",
-                Type = TimelineEventType.Raidwide,
-            },
-            new()
-            {
-                Id = "evt_0002",
-                TimeSeconds = 75,
-                Name = "タンク強攻撃",
-                Type = TimelineEventType.Tankbuster,
-            },
-        ];
-
         return plan;
     }
 

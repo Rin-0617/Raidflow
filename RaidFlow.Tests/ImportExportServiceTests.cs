@@ -13,7 +13,8 @@ public sealed class ImportExportServiceTests
         source.ContentName = "Test Duty";
         source.Revision = "v2";
         source.ContentLevel = 100;
-        source.Events[0].Assignments.Add(new MitigationAssignment
+        var sourceEvent = AddTimelineEvent(source);
+        sourceEvent.Assignments.Add(new MitigationAssignment
         {
             Slot = PartySlot.MT,
             Job = "PLD",
@@ -40,11 +41,12 @@ public sealed class ImportExportServiceTests
     public void PersonalExportMergesOnlySelectedSlotAssignments()
     {
         var plan = RaidFlowDocument.CreateDefault();
-        var targetEventId = plan.Events[0].Id;
+        var planEvent = AddTimelineEvent(plan);
+        var targetEventId = planEvent.Id;
         var exportedSlot = plan.Party.First(member => member.Slot == PartySlot.ST);
         exportedSlot.PlayerName = "Rin";
         exportedSlot.Job = "DRK";
-        plan.Events[0].Assignments.Add(new MitigationAssignment
+        planEvent.Assignments.Add(new MitigationAssignment
         {
             Slot = PartySlot.ST,
             Job = "DRK",
@@ -52,7 +54,7 @@ public sealed class ImportExportServiceTests
             UseOffsetSeconds = -2,
             Note = "tank helper",
         });
-        plan.Events[0].Assignments.Add(new MitigationAssignment
+        planEvent.Assignments.Add(new MitigationAssignment
         {
             Slot = PartySlot.MT,
             Job = "PLD",
@@ -62,7 +64,7 @@ public sealed class ImportExportServiceTests
 
         var json = ImportExportService.ExportPersonal(plan, PartySlot.ST);
         var receivingPlan = RaidFlowDocument.CreateDefault();
-        receivingPlan.Events.First(item => item.Id == targetEventId).Assignments.Add(new MitigationAssignment
+        AddTimelineEvent(receivingPlan, targetEventId).Assignments.Add(new MitigationAssignment
         {
             Slot = PartySlot.MT,
             Job = "PLD",
@@ -97,5 +99,19 @@ public sealed class ImportExportServiceTests
         Assert.DoesNotContain('?', fullName);
         Assert.DoesNotContain(".radflow", fullName);
         Assert.Contains("MT", personalName);
+    }
+
+    private static TimelineEvent AddTimelineEvent(RaidFlowDocument plan, string id = "evt_test")
+    {
+        var timelineEvent = new TimelineEvent
+        {
+            Id = id,
+            TimeSeconds = 30,
+            Name = "テストイベント",
+            Type = TimelineEventType.Raidwide,
+        };
+
+        plan.Events.Add(timelineEvent);
+        return timelineEvent;
     }
 }
