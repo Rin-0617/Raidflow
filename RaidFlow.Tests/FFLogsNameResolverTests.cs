@@ -16,7 +16,7 @@ public sealed class FFLogsNameResolverTests
 
     [Theory]
     [InlineData("Blizzard III Blowout")]
-    [InlineData("ホーリー")]
+    [InlineData("Japanese action name")]
     public void NormalNamesAreUsableAbilityNames(string name)
     {
         Assert.False(FFLogsNameResolver.IsRsvName(name));
@@ -24,20 +24,20 @@ public sealed class FFLogsNameResolverTests
     }
 
     [Fact]
-    public void ResolveAbilityNamePrefersTranslatedMetadataName()
+    public void ResolveAbilityNamePrefersLocalizedGameDataName()
     {
         var localizedNames = new Dictionary<uint, string>
         {
-            [47866] = "ゲームデータ名",
+            [47866] = "Lumina Japanese Name",
         };
 
         var name = FFLogsNameResolver.ResolveAbilityName(
             47866,
-            "FFLogsイベント英語名",
+            "FFLogs Event English Name",
             localizedNames,
-            "FFLogs翻訳名");
+            "FFLogs Metadata English Name");
 
-        Assert.Equal("FFLogs翻訳名", name);
+        Assert.Equal("Lumina Japanese Name", name);
     }
 
     [Fact]
@@ -45,7 +45,7 @@ public sealed class FFLogsNameResolverTests
     {
         var localizedNames = new Dictionary<uint, string>
         {
-            [47866] = "ゲームデータ名",
+            [47866] = "Lumina Japanese Name",
         };
 
         var name = FFLogsNameResolver.ResolveAbilityName(
@@ -54,7 +54,19 @@ public sealed class FFLogsNameResolverTests
             localizedNames,
             "_rsv_47866_-1_0_0_0_SE2DC5B04_EE2DC5B04");
 
-        Assert.Equal("ゲームデータ名", name);
+        Assert.Equal("Lumina Japanese Name", name);
+    }
+
+    [Fact]
+    public void ResolveAbilityNameFallsBackToTranslatedMetadataWhenLuminaIsUnavailable()
+    {
+        var name = FFLogsNameResolver.ResolveAbilityName(
+            47866,
+            "FFLogs Event English Name",
+            new Dictionary<uint, string>(),
+            "FFLogs Metadata Name");
+
+        Assert.Equal("FFLogs Metadata Name", name);
     }
 
     [Fact]

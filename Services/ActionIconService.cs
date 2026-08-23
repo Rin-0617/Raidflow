@@ -1,3 +1,4 @@
+using Dalamud.Game;
 using Dalamud.Interface.Textures;
 using Dalamud.Plugin.Services;
 using RaidFlow.Models;
@@ -33,28 +34,48 @@ public sealed class ActionIconService
         }
 
         var names = new Dictionary<uint, string>();
+        this.AddActionNames(names, ClientLanguage.Japanese, overwrite: true);
+        if (names.Count == 0)
+        {
+            this.AddActionNames(names, null, overwrite: true);
+        }
+
+        this.localizedActionNames = names;
+        return this.localizedActionNames;
+    }
+
+    private void AddActionNames(Dictionary<uint, string> names, ClientLanguage? language, bool overwrite)
+    {
         try
         {
-            var sheet = this.dataManager.GetExcelSheet<LuminaAction>();
-            if (sheet is not null)
+            var sheet = this.dataManager.GetExcelSheet<LuminaAction>(language);
+            if (sheet is null)
             {
-                foreach (var action in sheet)
+                return;
+            }
+
+            foreach (var action in sheet)
+            {
+                var name = action.Name.ToString();
+                if (action.RowId == 0 || string.IsNullOrWhiteSpace(name))
                 {
-                    var name = action.Name.ToString();
-                    if (action.RowId != 0 && !string.IsNullOrWhiteSpace(name))
-                    {
-                        names[(uint)action.RowId] = name;
-                    }
+                    continue;
+                }
+
+                var actionId = (uint)action.RowId;
+                if (overwrite || !names.ContainsKey(actionId))
+                {
+                    names[actionId] = name;
                 }
             }
         }
         catch
         {
-            names.Clear();
+            if (overwrite)
+            {
+                names.Clear();
+            }
         }
-
-        this.localizedActionNames = names;
-        return this.localizedActionNames;
     }
 
     public bool TryGetIcon(MitigationActionDefinition action, out ISharedImmediateTexture texture)

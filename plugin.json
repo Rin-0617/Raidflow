@@ -2,7 +2,7 @@
   "Author": "Rin",
   "Name": "RaidFlow",
   "InternalName": "RaidFlow",
-  "AssemblyVersion": "0.1.5.0",
+  "AssemblyVersion": "0.1.6.0",
   "MinimumDalamudVersion": "15.0.0.0",
   "Punchline": "固定攻略向けのタイムラインメモ/軽減計画ツール",
   "Description": "タイムライン作成、PTスロット別の軽減割り当て、ギミックメモのオーバーレイ表示、個人プランのエクスポートと固定用プランへの合成ができます。",

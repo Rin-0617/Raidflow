@@ -8,15 +8,14 @@ public static class FFLogsNameResolver
         IReadOnlyDictionary<uint, string> localizedActionNames,
         string translatedMetadataName)
     {
+        if (TryGetLocalizedActionName(abilityId, localizedActionNames, out var localizedName))
+        {
+            return localizedName;
+        }
+
         if (IsUsableAbilityName(translatedMetadataName))
         {
             return translatedMetadataName;
-        }
-
-        if (IsRsvName(translatedMetadataName) &&
-            TryGetLocalizedActionName(abilityId, localizedActionNames, out var localizedName))
-        {
-            return localizedName;
         }
 
         if (IsUsableAbilityName(eventName))
@@ -24,9 +23,7 @@ public static class FFLogsNameResolver
             return eventName;
         }
 
-        return TryGetLocalizedActionName(abilityId, localizedActionNames, out localizedName)
-            ? localizedName
-            : string.Empty;
+        return string.Empty;
     }
 
     public static bool IsUsableAbilityName(string value)
