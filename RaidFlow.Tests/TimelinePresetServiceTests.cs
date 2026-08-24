@@ -11,11 +11,16 @@ public sealed class TimelinePresetServiceTests
     {
         var summaries = TimelinePresetService.LoadSummaries();
 
-        Assert.Contains(summaries, preset => preset.ContentName == "アルカディア零式：ライトヘビー級1層");
-        Assert.Contains(summaries, preset => preset.ContentName == "アルカディア零式：ライトヘビー級2層");
-        Assert.Contains(summaries, preset => preset.ContentName == "アルカディア零式：ライトヘビー級3層");
-        Assert.Contains(summaries, preset => preset.ContentName == "アルカディア零式：ライトヘビー級4層 前半");
-        Assert.Contains(summaries, preset => preset.ContentName == "アルカディア零式：ライトヘビー級4層 後半");
+        Assert.Contains(summaries, preset => preset.ContentName == "アルカディア零式：ヘビー級1層");
+        Assert.Contains(summaries, preset => preset.ContentName == "アルカディア零式：ヘビー級2層");
+        Assert.Contains(summaries, preset => preset.ContentName == "アルカディア零式：ヘビー級3層");
+        Assert.Contains(summaries, preset => preset.ContentName == "アルカディア零式：ヘビー級4層 前半");
+        Assert.Contains(summaries, preset => preset.ContentName == "アルカディア零式：ヘビー級4層 後半");
+        Assert.Contains(summaries, preset => preset.Id == "aac_heavyweight_m1_savage");
+        Assert.Contains(summaries, preset => preset.Id == "aac_heavyweight_m2_savage");
+        Assert.Contains(summaries, preset => preset.Id == "aac_heavyweight_m3_savage");
+        Assert.Contains(summaries, preset => preset.Id == "aac_heavyweight_m4_savage_phase1");
+        Assert.Contains(summaries, preset => preset.Id == "aac_heavyweight_m4_savage_phase2");
         Assert.Contains(summaries, preset => preset.ContentName == "絶アルテマウェポン破壊作戦");
         Assert.All(summaries, preset => Assert.True(preset.EventCount > 0));
     }

@@ -1,1082 +1,1082 @@
 {
-  "Id": "aac_light_heavyweight_m3_savage",
-  "ContentName": "アルカディア零式：ライトヘビー級3層",
+  "Id": "aac_heavyweight_m3_savage",
+  "ContentName": "アルカディア零式：ヘビー級3層",
   "Revision": "preset",
   "ContentLevel": 100,
   "Events": [
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0001",
+      "Id": "evt_aac_heavyweight_m3_savage_0001",
       "TimeSeconds": 11,
       "Name": "キング・オブ・アルカディア",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0002",
+      "Id": "evt_aac_heavyweight_m3_savage_0002",
       "TimeSeconds": 18,
       "Name": "ウェポンジェネレート：バスター",
       "Type": "Tankbuster",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0003",
+      "Id": "evt_aac_heavyweight_m3_savage_0003",
       "TimeSeconds": 25,
       "Name": "ウェポンバスター",
       "Type": "Tankbuster",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0004",
+      "Id": "evt_aac_heavyweight_m3_savage_0004",
       "TimeSeconds": 25,
       "Name": "重斬撃 or 衝撃",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0005",
+      "Id": "evt_aac_heavyweight_m3_savage_0005",
       "TimeSeconds": 39,
       "Name": "トロフィーウェポンズ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0006",
+      "Id": "evt_aac_heavyweight_m3_savage_0006",
       "TimeSeconds": 48,
       "Name": "ウェポンアサルト (移動開始)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0008",
+      "Id": "evt_aac_heavyweight_m3_savage_0008",
       "TimeSeconds": 50,
       "Name": "ウェポンアサルト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0007",
+      "Id": "evt_aac_heavyweight_m3_savage_0007",
       "TimeSeconds": 50,
       "Name": "重打撃 or 斬波 or 重斬波",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0010",
+      "Id": "evt_aac_heavyweight_m3_savage_0010",
       "TimeSeconds": 55,
       "Name": "ウェポンアサルト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0009",
+      "Id": "evt_aac_heavyweight_m3_savage_0009",
       "TimeSeconds": 55,
       "Name": "重打撃 or 斬波 or 重斬波",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0012",
+      "Id": "evt_aac_heavyweight_m3_savage_0012",
       "TimeSeconds": 61,
       "Name": "ウェポンアサルト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0011",
+      "Id": "evt_aac_heavyweight_m3_savage_0011",
       "TimeSeconds": 61,
       "Name": "重打撃 or 斬波 or 重斬波",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0013",
+      "Id": "evt_aac_heavyweight_m3_savage_0013",
       "TimeSeconds": 73,
       "Name": "トロフィーウェポンズ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0014",
+      "Id": "evt_aac_heavyweight_m3_savage_0014",
       "TimeSeconds": 80,
       "Name": "コメットレイン",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0015",
+      "Id": "evt_aac_heavyweight_m3_savage_0015",
       "TimeSeconds": 84,
       "Name": "プチコメット",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0016",
+      "Id": "evt_aac_heavyweight_m3_savage_0016",
       "TimeSeconds": 86,
       "Name": "プチコメット",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0017",
+      "Id": "evt_aac_heavyweight_m3_savage_0017",
       "TimeSeconds": 88,
       "Name": "プチコメット",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0018",
+      "Id": "evt_aac_heavyweight_m3_savage_0018",
       "TimeSeconds": 90,
       "Name": "コメット or ヘビーコメット",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0019",
+      "Id": "evt_aac_heavyweight_m3_savage_0019",
       "TimeSeconds": 93,
       "Name": "ウェポンアサルト (移動開始)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0021",
+      "Id": "evt_aac_heavyweight_m3_savage_0021",
       "TimeSeconds": 95,
       "Name": "ウェポンアサルト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0020",
+      "Id": "evt_aac_heavyweight_m3_savage_0020",
       "TimeSeconds": 95,
       "Name": "重打撃 or 斬波 or 重斬波",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0022",
+      "Id": "evt_aac_heavyweight_m3_savage_0022",
       "TimeSeconds": 100,
       "Name": "重打撃 or 斬波 or 重斬波",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0023",
+      "Id": "evt_aac_heavyweight_m3_savage_0023",
       "TimeSeconds": 101,
       "Name": "ウェポンアサルト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0025",
+      "Id": "evt_aac_heavyweight_m3_savage_0025",
       "TimeSeconds": 106,
       "Name": "ウェポンアサルト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0024",
+      "Id": "evt_aac_heavyweight_m3_savage_0024",
       "TimeSeconds": 106,
       "Name": "重打撃 or 斬波 or 重斬波",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0026",
+      "Id": "evt_aac_heavyweight_m3_savage_0026",
       "TimeSeconds": 111,
       "Name": "プチコメット",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0027",
+      "Id": "evt_aac_heavyweight_m3_savage_0027",
       "TimeSeconds": 113,
       "Name": "プチコメット",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0028",
+      "Id": "evt_aac_heavyweight_m3_savage_0028",
       "TimeSeconds": 115,
       "Name": "プチコメット",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0029",
+      "Id": "evt_aac_heavyweight_m3_savage_0029",
       "TimeSeconds": 117,
       "Name": "コメット or ヘビーコメット",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0030",
+      "Id": "evt_aac_heavyweight_m3_savage_0030",
       "TimeSeconds": 123,
       "Name": "キング・オブ・アルカディア",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0031",
+      "Id": "evt_aac_heavyweight_m3_savage_0031",
       "TimeSeconds": 135,
       "Name": "ウェポンジェネレート：ドミネーション",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0032",
+      "Id": "evt_aac_heavyweight_m3_savage_0032",
       "TimeSeconds": 142,
       "Name": "ダンス・オブ・ドミネーション",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0033",
+      "Id": "evt_aac_heavyweight_m3_savage_0033",
       "TimeSeconds": 143,
       "Name": "ダンス・オブ・ドミネーション",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0034",
+      "Id": "evt_aac_heavyweight_m3_savage_0034",
       "TimeSeconds": 144,
       "Name": "ダンス・オブ・ドミネーション",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0035",
+      "Id": "evt_aac_heavyweight_m3_savage_0035",
       "TimeSeconds": 145,
       "Name": "ダンス・オブ・ドミネーション",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0036",
+      "Id": "evt_aac_heavyweight_m3_savage_0036",
       "TimeSeconds": 146,
       "Name": "ダンス・オブ・ドミネーション",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0037",
+      "Id": "evt_aac_heavyweight_m3_savage_0037",
       "TimeSeconds": 151,
       "Name": "ザ・ハリケーン",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0038",
+      "Id": "evt_aac_heavyweight_m3_savage_0038",
       "TimeSeconds": 151,
       "Name": "爆発",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0039",
+      "Id": "evt_aac_heavyweight_m3_savage_0039",
       "TimeSeconds": 157,
       "Name": "ウェポンジェネレート：バスター",
       "Type": "Tankbuster",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0040",
+      "Id": "evt_aac_heavyweight_m3_savage_0040",
       "TimeSeconds": 163,
       "Name": "ウェポンバスター",
       "Type": "Tankbuster",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0041",
+      "Id": "evt_aac_heavyweight_m3_savage_0041",
       "TimeSeconds": 164,
       "Name": "重斬撃 or 衝撃",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0042",
+      "Id": "evt_aac_heavyweight_m3_savage_0042",
       "TimeSeconds": 180,
       "Name": "ザ・ミールストーム",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0043",
+      "Id": "evt_aac_heavyweight_m3_savage_0043",
       "TimeSeconds": 186,
       "Name": "アルティメット・トロフィーウェポンズ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0044",
+      "Id": "evt_aac_heavyweight_m3_savage_0044",
       "TimeSeconds": 193,
       "Name": "ウェポンアバランチ (移動開始)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0045",
+      "Id": "evt_aac_heavyweight_m3_savage_0045",
       "TimeSeconds": 194,
       "Name": "ウェポンアサルト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0047",
+      "Id": "evt_aac_heavyweight_m3_savage_0047",
       "TimeSeconds": 195,
       "Name": "ウェポンアサルト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0046",
+      "Id": "evt_aac_heavyweight_m3_savage_0046",
       "TimeSeconds": 195,
       "Name": "重打撃 or 斬波 or 重斬波",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0049",
+      "Id": "evt_aac_heavyweight_m3_savage_0049",
       "TimeSeconds": 201,
       "Name": "ウェポンアサルト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0048",
+      "Id": "evt_aac_heavyweight_m3_savage_0048",
       "TimeSeconds": 201,
       "Name": "重打撃 or 斬波 or 重斬波",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0051",
+      "Id": "evt_aac_heavyweight_m3_savage_0051",
       "TimeSeconds": 206,
       "Name": "ウェポンアサルト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0050",
+      "Id": "evt_aac_heavyweight_m3_savage_0050",
       "TimeSeconds": 206,
       "Name": "重打撃 or 斬波 or 重斬波",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0053",
+      "Id": "evt_aac_heavyweight_m3_savage_0053",
       "TimeSeconds": 211,
       "Name": "ウェポンアサルト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0052",
+      "Id": "evt_aac_heavyweight_m3_savage_0052",
       "TimeSeconds": 211,
       "Name": "重打撃 or 斬波 or 重斬波",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0055",
+      "Id": "evt_aac_heavyweight_m3_savage_0055",
       "TimeSeconds": 216,
       "Name": "ウェポンアサルト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0054",
+      "Id": "evt_aac_heavyweight_m3_savage_0054",
       "TimeSeconds": 216,
       "Name": "重打撃 or 斬波 or 重斬波",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0057",
+      "Id": "evt_aac_heavyweight_m3_savage_0057",
       "TimeSeconds": 221,
       "Name": "ウェポンアサルト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0056",
+      "Id": "evt_aac_heavyweight_m3_savage_0056",
       "TimeSeconds": 221,
       "Name": "重打撃 or 斬波 or 重斬波",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0059",
+      "Id": "evt_aac_heavyweight_m3_savage_0059",
       "TimeSeconds": 228,
       "Name": "イモータルレイン",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0058",
+      "Id": "evt_aac_heavyweight_m3_savage_0058",
       "TimeSeconds": 228,
       "Name": "強風",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0060",
+      "Id": "evt_aac_heavyweight_m3_savage_0060",
       "TimeSeconds": 242,
       "Name": "ワン・アンド・オンリー",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0061",
+      "Id": "evt_aac_heavyweight_m3_savage_0061",
       "TimeSeconds": 254,
       "Name": "ファイアストリーム",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0062",
+      "Id": "evt_aac_heavyweight_m3_savage_0062",
       "TimeSeconds": 257,
       "Name": "ファイアストリーム",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0063",
+      "Id": "evt_aac_heavyweight_m3_savage_0063",
       "TimeSeconds": 267,
       "Name": "オービタルライン (予兆可視化)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0065",
+      "Id": "evt_aac_heavyweight_m3_savage_0065",
       "TimeSeconds": 277,
       "Name": "オービタルライン",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0064",
+      "Id": "evt_aac_heavyweight_m3_savage_0064",
       "TimeSeconds": 277,
       "Name": "ファイア・アンド・テイル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0066",
+      "Id": "evt_aac_heavyweight_m3_savage_0066",
       "TimeSeconds": 278,
       "Name": "オービタルライン",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0067",
+      "Id": "evt_aac_heavyweight_m3_savage_0067",
       "TimeSeconds": 280,
       "Name": "オービタルライン",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0068",
+      "Id": "evt_aac_heavyweight_m3_savage_0068",
       "TimeSeconds": 281,
       "Name": "オービタルライン",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0069",
+      "Id": "evt_aac_heavyweight_m3_savage_0069",
       "TimeSeconds": 293,
       "Name": "メテオレイン",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0070",
+      "Id": "evt_aac_heavyweight_m3_savage_0070",
       "TimeSeconds": 301,
       "Name": "ビッグファイア",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0071",
+      "Id": "evt_aac_heavyweight_m3_savage_0071",
       "TimeSeconds": 303,
       "Name": "着弾",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0073",
+      "Id": "evt_aac_heavyweight_m3_savage_0073",
       "TimeSeconds": 311,
       "Name": "ビッグファイア",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0072",
+      "Id": "evt_aac_heavyweight_m3_savage_0072",
       "TimeSeconds": 311,
       "Name": "フェイタルライン",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0074",
+      "Id": "evt_aac_heavyweight_m3_savage_0074",
       "TimeSeconds": 313,
       "Name": "着弾",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0076",
+      "Id": "evt_aac_heavyweight_m3_savage_0076",
       "TimeSeconds": 321,
       "Name": "ビッグファイア",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0075",
+      "Id": "evt_aac_heavyweight_m3_savage_0075",
       "TimeSeconds": 321,
       "Name": "フェイタルライン",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0077",
+      "Id": "evt_aac_heavyweight_m3_savage_0077",
       "TimeSeconds": 323,
       "Name": "着弾",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0079",
+      "Id": "evt_aac_heavyweight_m3_savage_0079",
       "TimeSeconds": 331,
       "Name": "ビッグファイア",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0078",
+      "Id": "evt_aac_heavyweight_m3_savage_0078",
       "TimeSeconds": 331,
       "Name": "フェイタルライン",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0080",
+      "Id": "evt_aac_heavyweight_m3_savage_0080",
       "TimeSeconds": 344,
       "Name": "トライスターズ・タイラントフォール",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0081",
+      "Id": "evt_aac_heavyweight_m3_savage_0081",
       "TimeSeconds": 345,
       "Name": "衝撃波",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0082",
+      "Id": "evt_aac_heavyweight_m3_savage_0082",
       "TimeSeconds": 347,
       "Name": "衝撃波",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0083",
+      "Id": "evt_aac_heavyweight_m3_savage_0083",
       "TimeSeconds": 348,
       "Name": "衝撃波",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0084",
+      "Id": "evt_aac_heavyweight_m3_savage_0084",
       "TimeSeconds": 364,
       "Name": "フラットライナー",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0085",
+      "Id": "evt_aac_heavyweight_m3_savage_0085",
       "TimeSeconds": 378,
       "Name": "チャンピオンズ・メテオ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0086",
+      "Id": "evt_aac_heavyweight_m3_savage_0086",
       "TimeSeconds": 391,
       "Name": "爆発",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0087",
+      "Id": "evt_aac_heavyweight_m3_savage_0087",
       "TimeSeconds": 402,
       "Name": "チャンピオンズ・メテオ (AoE)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0088",
+      "Id": "evt_aac_heavyweight_m3_savage_0088",
       "TimeSeconds": 404,
       "Name": "チャンピオンズ・メテオ (AoE)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0092",
+      "Id": "evt_aac_heavyweight_m3_savage_0092",
       "TimeSeconds": 406,
       "Name": "チャンピオンズ・メテオ (AoE)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0091",
+      "Id": "evt_aac_heavyweight_m3_savage_0091",
       "TimeSeconds": 406,
       "Name": "チャンピオンズ・メテオライン",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0089",
+      "Id": "evt_aac_heavyweight_m3_savage_0089",
       "TimeSeconds": 406,
       "Name": "チャンピオンズ・メテオラース",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0090",
+      "Id": "evt_aac_heavyweight_m3_savage_0090",
       "TimeSeconds": 406,
       "Name": "ファイアブレス",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0093",
+      "Id": "evt_aac_heavyweight_m3_savage_0093",
       "TimeSeconds": 423,
       "Name": "爆発",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0094",
+      "Id": "evt_aac_heavyweight_m3_savage_0094",
       "TimeSeconds": 434,
       "Name": "チャンピオンズ・メテオ (AoE)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0095",
+      "Id": "evt_aac_heavyweight_m3_savage_0095",
       "TimeSeconds": 436,
       "Name": "チャンピオンズ・メテオ (AoE)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0099",
+      "Id": "evt_aac_heavyweight_m3_savage_0099",
       "TimeSeconds": 438,
       "Name": "チャンピオンズ・メテオ (AoE)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0098",
+      "Id": "evt_aac_heavyweight_m3_savage_0098",
       "TimeSeconds": 438,
       "Name": "チャンピオンズ・メテオライン",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0096",
+      "Id": "evt_aac_heavyweight_m3_savage_0096",
       "TimeSeconds": 438,
       "Name": "チャンピオンズ・メテオラース",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0097",
+      "Id": "evt_aac_heavyweight_m3_savage_0097",
       "TimeSeconds": 438,
       "Name": "ファイアブレス",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0100",
+      "Id": "evt_aac_heavyweight_m3_savage_0100",
       "TimeSeconds": 448,
       "Name": "ヘビーメテオ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0101",
+      "Id": "evt_aac_heavyweight_m3_savage_0101",
       "TimeSeconds": 450,
       "Name": "ヘビーメテオ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0102",
+      "Id": "evt_aac_heavyweight_m3_savage_0102",
       "TimeSeconds": 451,
       "Name": "ヘビーメテオ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0103",
+      "Id": "evt_aac_heavyweight_m3_savage_0103",
       "TimeSeconds": 453,
       "Name": "ヘビーメテオ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0104",
+      "Id": "evt_aac_heavyweight_m3_savage_0104",
       "TimeSeconds": 454,
       "Name": "ヘビーメテオ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0105",
+      "Id": "evt_aac_heavyweight_m3_savage_0105",
       "TimeSeconds": 461,
       "Name": "爆発",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0106",
+      "Id": "evt_aac_heavyweight_m3_savage_0106",
       "TimeSeconds": 472,
       "Name": "アルカディア・クラッシュ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0107",
+      "Id": "evt_aac_heavyweight_m3_savage_0107",
       "TimeSeconds": 482,
       "Name": "キング・オブ・アルカディア",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0108",
+      "Id": "evt_aac_heavyweight_m3_savage_0108",
       "TimeSeconds": 494,
       "Name": "ファイアストリーム",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0109",
+      "Id": "evt_aac_heavyweight_m3_savage_0109",
       "TimeSeconds": 497,
       "Name": "ファイアストリーム",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0110",
+      "Id": "evt_aac_heavyweight_m3_savage_0110",
       "TimeSeconds": 507,
       "Name": "オービタルライン (予兆可視化)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0112",
+      "Id": "evt_aac_heavyweight_m3_savage_0112",
       "TimeSeconds": 516,
       "Name": "オービタルライン",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0111",
+      "Id": "evt_aac_heavyweight_m3_savage_0111",
       "TimeSeconds": 516,
       "Name": "ファイア・アンド・テイル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0113",
+      "Id": "evt_aac_heavyweight_m3_savage_0113",
       "TimeSeconds": 518,
       "Name": "オービタルライン",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0114",
+      "Id": "evt_aac_heavyweight_m3_savage_0114",
       "TimeSeconds": 519,
       "Name": "オービタルライン",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0115",
+      "Id": "evt_aac_heavyweight_m3_savage_0115",
       "TimeSeconds": 521,
       "Name": "オービタルライン",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0116",
+      "Id": "evt_aac_heavyweight_m3_savage_0116",
       "TimeSeconds": 525,
       "Name": "キング・オブ・アルカディア",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0117",
+      "Id": "evt_aac_heavyweight_m3_savage_0117",
       "TimeSeconds": 537,
       "Name": "メテオスタンピード",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0118",
+      "Id": "evt_aac_heavyweight_m3_savage_0118",
       "TimeSeconds": 544,
       "Name": "ヒュージメテオ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0119",
+      "Id": "evt_aac_heavyweight_m3_savage_0119",
       "TimeSeconds": 544,
       "Name": "融解着弾",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0120",
+      "Id": "evt_aac_heavyweight_m3_savage_0120",
       "TimeSeconds": 547,
       "Name": "チャンピオンズ・メテオ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0121",
+      "Id": "evt_aac_heavyweight_m3_savage_0121",
       "TimeSeconds": 547,
       "Name": "融解着弾",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0122",
+      "Id": "evt_aac_heavyweight_m3_savage_0122",
       "TimeSeconds": 549,
       "Name": "チャンピオンズ・メテオ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0123",
+      "Id": "evt_aac_heavyweight_m3_savage_0123",
       "TimeSeconds": 550,
       "Name": "融解着弾",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0124",
+      "Id": "evt_aac_heavyweight_m3_savage_0124",
       "TimeSeconds": 551,
       "Name": "チャンピオンズ・メテオ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0125",
+      "Id": "evt_aac_heavyweight_m3_savage_0125",
       "TimeSeconds": 553,
       "Name": "チャンピオンズ・メテオ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0126",
+      "Id": "evt_aac_heavyweight_m3_savage_0126",
       "TimeSeconds": 553,
       "Name": "融解着弾",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0127",
+      "Id": "evt_aac_heavyweight_m3_savage_0127",
       "TimeSeconds": 555,
       "Name": "チャンピオンズ・メテオ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0128",
+      "Id": "evt_aac_heavyweight_m3_savage_0128",
       "TimeSeconds": 556,
       "Name": "融解着弾",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0129",
+      "Id": "evt_aac_heavyweight_m3_savage_0129",
       "TimeSeconds": 557,
       "Name": "チャンピオンズ・メテオ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0130",
+      "Id": "evt_aac_heavyweight_m3_savage_0130",
       "TimeSeconds": 559,
       "Name": "融解着弾",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0131",
+      "Id": "evt_aac_heavyweight_m3_savage_0131",
       "TimeSeconds": 560,
       "Name": "着弾",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0132",
+      "Id": "evt_aac_heavyweight_m3_savage_0132",
       "TimeSeconds": 560,
       "Name": "重着弾",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0133",
+      "Id": "evt_aac_heavyweight_m3_savage_0133",
       "TimeSeconds": 570,
       "Name": "チャンピオンズ・メテオラース",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0134",
+      "Id": "evt_aac_heavyweight_m3_savage_0134",
       "TimeSeconds": 574,
       "Name": "(ツーウェイ or フォーウェイ)・スピンファイア",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0135",
+      "Id": "evt_aac_heavyweight_m3_savage_0135",
       "TimeSeconds": 583,
       "Name": "キング・オブ・アルカディア",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0136",
+      "Id": "evt_aac_heavyweight_m3_savage_0136",
       "TimeSeconds": 596,
       "Name": "ハートブレイクキック (1 回目)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0137",
+      "Id": "evt_aac_heavyweight_m3_savage_0137",
       "TimeSeconds": 599,
       "Name": "ハートブレイクキック (1 回目)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0138",
+      "Id": "evt_aac_heavyweight_m3_savage_0138",
       "TimeSeconds": 601,
       "Name": "ハートブレイクキック (1 回目)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0139",
+      "Id": "evt_aac_heavyweight_m3_savage_0139",
       "TimeSeconds": 603,
       "Name": "ハートブレイクキック (1 回目)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0140",
+      "Id": "evt_aac_heavyweight_m3_savage_0140",
       "TimeSeconds": 605,
       "Name": "ハートブレイクキック (1 回目)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0141",
+      "Id": "evt_aac_heavyweight_m3_savage_0141",
       "TimeSeconds": 616,
       "Name": "ハートブレイクキック (2 回目)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0142",
+      "Id": "evt_aac_heavyweight_m3_savage_0142",
       "TimeSeconds": 618,
       "Name": "ハートブレイクキック (2 回目)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0143",
+      "Id": "evt_aac_heavyweight_m3_savage_0143",
       "TimeSeconds": 620,
       "Name": "ハートブレイクキック (2 回目)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0144",
+      "Id": "evt_aac_heavyweight_m3_savage_0144",
       "TimeSeconds": 622,
       "Name": "ハートブレイクキック (2 回目)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0145",
+      "Id": "evt_aac_heavyweight_m3_savage_0145",
       "TimeSeconds": 624,
       "Name": "ハートブレイクキック (2 回目)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0146",
+      "Id": "evt_aac_heavyweight_m3_savage_0146",
       "TimeSeconds": 626,
       "Name": "ハートブレイクキック (2 回目)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0147",
+      "Id": "evt_aac_heavyweight_m3_savage_0147",
       "TimeSeconds": 637,
       "Name": "ハートブレイクキック (3 回目)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0148",
+      "Id": "evt_aac_heavyweight_m3_savage_0148",
       "TimeSeconds": 639,
       "Name": "ハートブレイクキック (3 回目)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0149",
+      "Id": "evt_aac_heavyweight_m3_savage_0149",
       "TimeSeconds": 641,
       "Name": "ハートブレイクキック (3 回目)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0150",
+      "Id": "evt_aac_heavyweight_m3_savage_0150",
       "TimeSeconds": 643,
       "Name": "ハートブレイクキック (3 回目)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0151",
+      "Id": "evt_aac_heavyweight_m3_savage_0151",
       "TimeSeconds": 645,
       "Name": "ハートブレイクキック (3 回目)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0152",
+      "Id": "evt_aac_heavyweight_m3_savage_0152",
       "TimeSeconds": 647,
       "Name": "ハートブレイクキック (3 回目)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0153",
+      "Id": "evt_aac_heavyweight_m3_savage_0153",
       "TimeSeconds": 649,
       "Name": "ハートブレイクキック (3 回目)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m3_savage_0154",
+      "Id": "evt_aac_heavyweight_m3_savage_0154",
       "TimeSeconds": 662,
       "Name": "ハートブレイカー",
       "Type": "Mechanic",

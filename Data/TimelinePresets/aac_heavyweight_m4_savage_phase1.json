@@ -1,683 +1,683 @@
 {
-  "Id": "aac_light_heavyweight_m4_savage_phase1",
-  "ContentName": "アルカディア零式：ライトヘビー級4層 前半",
+  "Id": "aac_heavyweight_m4_savage_phase1",
+  "ContentName": "アルカディア零式：ヘビー級4層 前半",
   "Revision": "preset",
   "ContentLevel": 100,
   "Events": [
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0001",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0001",
       "TimeSeconds": 15,
       "Name": "フィクサー・オブ・アルカディア",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0003",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0003",
       "TimeSeconds": 41,
       "Name": "リーサルスカージ (その他)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0002",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0002",
       "TimeSeconds": 41,
       "Name": "リーサルスカージ (タンク)",
       "Type": "Tankbuster",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0005",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0005",
       "TimeSeconds": 44,
       "Name": "リーサルスカージ (その他)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0004",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0004",
       "TimeSeconds": 44,
       "Name": "リーサルスカージ (タンク)",
       "Type": "Tankbuster",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0007",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0007",
       "TimeSeconds": 47,
       "Name": "リーサルスカージ (その他)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0006",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0006",
       "TimeSeconds": 47,
       "Name": "リーサルスカージ (タンク)",
       "Type": "Tankbuster",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0009",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0009",
       "TimeSeconds": 50,
       "Name": "リーサルスカージ (その他)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0008",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0008",
       "TimeSeconds": 50,
       "Name": "リーサルスカージ (タンク)",
       "Type": "Tankbuster",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0010",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0010",
       "TimeSeconds": 70,
       "Name": "細胞付着・前期",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0011",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0011",
       "TimeSeconds": 77,
       "Name": "ラヴェナスリーチ (移動開始)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0012",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0012",
       "TimeSeconds": 79,
       "Name": "細胞落着",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0013",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0013",
       "TimeSeconds": 81,
       "Name": "細胞落着",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0014",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0014",
       "TimeSeconds": 83,
       "Name": "細胞落着",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0015",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0015",
       "TimeSeconds": 85,
       "Name": "細胞落着",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0016",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0016",
       "TimeSeconds": 88,
       "Name": "ラヴェナスリーチ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0019",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0019",
       "TimeSeconds": 88,
       "Name": "指向性衝撃波",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0017",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0017",
       "TimeSeconds": 88,
       "Name": "細胞爆発",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0018",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0018",
       "TimeSeconds": 88,
       "Name": "細胞重爆",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0020",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0020",
       "TimeSeconds": 97,
       "Name": "大爆発",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0021",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0021",
       "TimeSeconds": 98,
       "Name": "ヴィセラルバースト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0022",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0022",
       "TimeSeconds": 98,
       "Name": "細胞重爆",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0023",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0023",
       "TimeSeconds": 108,
       "Name": "フィクサー・オブ・アルカディア",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0024",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0024",
       "TimeSeconds": 120,
       "Name": "細胞付着・中期",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0025",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0025",
       "TimeSeconds": 129,
       "Name": "細胞落着",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0026",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0026",
       "TimeSeconds": 131,
       "Name": "細胞落着",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0027",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0027",
       "TimeSeconds": 133,
       "Name": "細胞落着",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0028",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0028",
       "TimeSeconds": 135,
       "Name": "クルエルコイル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0029",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0029",
       "TimeSeconds": 135,
       "Name": "細胞落着",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0030",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0030",
       "TimeSeconds": 141,
       "Name": "スキンスプリッター",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0031",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0031",
       "TimeSeconds": 147,
       "Name": "スキンスプリッター",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0032",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0032",
       "TimeSeconds": 150,
       "Name": "細胞爆発",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0033",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0033",
       "TimeSeconds": 152,
       "Name": "スキンスプリッター",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0034",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0034",
       "TimeSeconds": 153,
       "Name": "細胞変異",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0035",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0035",
       "TimeSeconds": 154,
       "Name": "細胞爆発",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0036",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0036",
       "TimeSeconds": 157,
       "Name": "スキンスプリッター",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0037",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0037",
       "TimeSeconds": 158,
       "Name": "細胞変異",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0038",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0038",
       "TimeSeconds": 158,
       "Name": "細胞爆発",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0039",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0039",
       "TimeSeconds": 160,
       "Name": "細胞変異",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0040",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0040",
       "TimeSeconds": 162,
       "Name": "スキンスプリッター",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0041",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0041",
       "TimeSeconds": 163,
       "Name": "細胞爆発",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0042",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0042",
       "TimeSeconds": 164,
       "Name": "細胞変異",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0043",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0043",
       "TimeSeconds": 165,
       "Name": "細胞爆発",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0044",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0044",
       "TimeSeconds": 167,
       "Name": "スキンスプリッター",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0045",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0045",
       "TimeSeconds": 168,
       "Name": "細胞変異",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0046",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0046",
       "TimeSeconds": 172,
       "Name": "スキンスプリッター",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0047",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0047",
       "TimeSeconds": 177,
       "Name": "コンストリクター",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0048",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0048",
       "TimeSeconds": 188,
       "Name": "スプラッターシェッド",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0049",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0049",
       "TimeSeconds": 206,
       "Name": "細胞付着・後期",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0050",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0050",
       "TimeSeconds": 211,
       "Name": "フェラルフィッション",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0051",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0051",
       "TimeSeconds": 213,
       "Name": "グランドエントランス",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0052",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0052",
       "TimeSeconds": 216,
       "Name": "ブリングダウン・ハウス",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0053",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0053",
       "TimeSeconds": 219,
       "Name": "細胞爆発",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0054",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0054",
       "TimeSeconds": 219,
       "Name": "細胞飛散",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0055",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0055",
       "TimeSeconds": 229,
       "Name": "スプリットスカージ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0056",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0056",
       "TimeSeconds": 231,
       "Name": "ドロップスカージ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0057",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0057",
       "TimeSeconds": 241,
       "Name": "フィクサー・オブ・アルカディア",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0058",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0058",
       "TimeSeconds": 253,
       "Name": "細胞付着・終期",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0060",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0060",
       "TimeSeconds": 257,
       "Name": "ラヴェナスリーチ (移動開始)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0059",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0059",
       "TimeSeconds": 257,
       "Name": "細胞落着",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0061",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0061",
       "TimeSeconds": 259,
       "Name": "細胞落着",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0062",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0062",
       "TimeSeconds": 261,
       "Name": "細胞落着",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0063",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0063",
       "TimeSeconds": 263,
       "Name": "細胞落着",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0064",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0064",
       "TimeSeconds": 265,
       "Name": "細胞落着",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0065",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0065",
       "TimeSeconds": 268,
       "Name": "ラヴェナスリーチ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0066",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0066",
       "TimeSeconds": 268,
       "Name": "細胞消失",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0067",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0067",
       "TimeSeconds": 268,
       "Name": "細胞爆発",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0068",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0068",
       "TimeSeconds": 277,
       "Name": "細胞爆発",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0069",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0069",
       "TimeSeconds": 281,
       "Name": "大爆発",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0070",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0070",
       "TimeSeconds": 290,
       "Name": "スプラッターシェッド",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0072",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0072",
       "TimeSeconds": 316,
       "Name": "リーサルスカージ (その他)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0071",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0071",
       "TimeSeconds": 316,
       "Name": "リーサルスカージ (タンク)",
       "Type": "Tankbuster",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0074",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0074",
       "TimeSeconds": 319,
       "Name": "リーサルスカージ (その他)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0073",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0073",
       "TimeSeconds": 319,
       "Name": "リーサルスカージ (タンク)",
       "Type": "Tankbuster",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0076",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0076",
       "TimeSeconds": 322,
       "Name": "リーサルスカージ (その他)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0075",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0075",
       "TimeSeconds": 322,
       "Name": "リーサルスカージ (タンク)",
       "Type": "Tankbuster",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0078",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0078",
       "TimeSeconds": 325,
       "Name": "リーサルスカージ (その他)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0077",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0077",
       "TimeSeconds": 325,
       "Name": "リーサルスカージ (タンク)",
       "Type": "Tankbuster",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0079",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0079",
       "TimeSeconds": 342,
       "Name": "スローターシェッド",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0080",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0080",
       "TimeSeconds": 351,
       "Name": "細胞爆発",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0081",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0081",
       "TimeSeconds": 351,
       "Name": "細胞重爆",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0082",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0082",
       "TimeSeconds": 352,
       "Name": "大爆発",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0083",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0083",
       "TimeSeconds": 358,
       "Name": "スカージブレス or ラプターナックル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0084",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0084",
       "TimeSeconds": 362,
       "Name": "スカージブレス or ラプターナックル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0085",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0085",
       "TimeSeconds": 371,
       "Name": "スローターシェッド",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0086",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0086",
       "TimeSeconds": 380,
       "Name": "細胞爆発",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0087",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0087",
       "TimeSeconds": 380,
       "Name": "細胞重爆",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0088",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0088",
       "TimeSeconds": 381,
       "Name": "大爆発",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0089",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0089",
       "TimeSeconds": 386,
       "Name": "スカージブレス or ラプターナックル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0090",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0090",
       "TimeSeconds": 391,
       "Name": "スカージブレス or ラプターナックル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0091",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0091",
       "TimeSeconds": 400,
       "Name": "スローターシェッド",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0094",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0094",
       "TimeSeconds": 409,
       "Name": "大爆発",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0092",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0092",
       "TimeSeconds": 409,
       "Name": "細胞爆発",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0093",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0093",
       "TimeSeconds": 409,
       "Name": "細胞重爆",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0095",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0095",
       "TimeSeconds": 416,
       "Name": "スカージブレス or ラプターナックル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0096",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0096",
       "TimeSeconds": 420,
       "Name": "スカージブレス or ラプターナックル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase1_0097",
+      "Id": "evt_aac_heavyweight_m4_savage_phase1_0097",
       "TimeSeconds": 438,
       "Name": "オーバーキュア・オーバーキル",
       "Type": "Mechanic",

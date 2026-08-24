@@ -1,1586 +1,1586 @@
 {
-  "Id": "aac_light_heavyweight_m2_savage",
-  "ContentName": "アルカディア零式：ライトヘビー級2層",
+  "Id": "aac_heavyweight_m2_savage",
+  "ContentName": "アルカディア零式：ヘビー級2層",
   "Revision": "preset",
   "ContentLevel": 100,
   "Events": [
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0001",
+      "Id": "evt_aac_heavyweight_m2_savage_0001",
       "TimeSeconds": 15,
       "Name": "ホットインパクト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0002",
+      "Id": "evt_aac_heavyweight_m2_savage_0002",
       "TimeSeconds": 31,
       "Name": "フレイムフローター",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0003",
+      "Id": "evt_aac_heavyweight_m2_savage_0003",
       "TimeSeconds": 34,
       "Name": "フレイムフローター",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0004",
+      "Id": "evt_aac_heavyweight_m2_savage_0004",
       "TimeSeconds": 37,
       "Name": "フレイムフローター",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0005",
+      "Id": "evt_aac_heavyweight_m2_savage_0005",
       "TimeSeconds": 40,
       "Name": "フレイムフローター",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0006",
+      "Id": "evt_aac_heavyweight_m2_savage_0006",
       "TimeSeconds": 54,
       "Name": "フレイムアリウープ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0007",
+      "Id": "evt_aac_heavyweight_m2_savage_0007",
       "TimeSeconds": 63,
       "Name": "フレイムカットバック",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0008",
+      "Id": "evt_aac_heavyweight_m2_savage_0008",
       "TimeSeconds": 70,
       "Name": "パイロローテーション",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0009",
+      "Id": "evt_aac_heavyweight_m2_savage_0009",
       "TimeSeconds": 72,
       "Name": "パイロローテーション",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0010",
+      "Id": "evt_aac_heavyweight_m2_savage_0010",
       "TimeSeconds": 74,
       "Name": "パイロローテーション",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0011",
+      "Id": "evt_aac_heavyweight_m2_savage_0011",
       "TimeSeconds": 83,
       "Name": "ファイティングスピリット",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0012",
+      "Id": "evt_aac_heavyweight_m2_savage_0012",
       "TimeSeconds": 97,
       "Name": "シック・スウェル (高波生成)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0013",
+      "Id": "evt_aac_heavyweight_m2_savage_0013",
       "TimeSeconds": 107,
       "Name": "シック・テイクオフ (場外移動)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0014",
+      "Id": "evt_aac_heavyweight_m2_savage_0014",
       "TimeSeconds": 116,
       "Name": "シック・スウェル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0015",
+      "Id": "evt_aac_heavyweight_m2_savage_0015",
       "TimeSeconds": 116,
       "Name": "シック・テイクオフ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0016",
+      "Id": "evt_aac_heavyweight_m2_savage_0016",
       "TimeSeconds": 118,
       "Name": "ヘビー・ハイドロスプラッシュ or ハイドロスプラッシュ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0017",
+      "Id": "evt_aac_heavyweight_m2_savage_0017",
       "TimeSeconds": 127,
       "Name": "(ダブル or リバース) アリウープ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0018",
+      "Id": "evt_aac_heavyweight_m2_savage_0018",
       "TimeSeconds": 129,
       "Name": "(ダブル or リバース) アリウープ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0019",
+      "Id": "evt_aac_heavyweight_m2_savage_0019",
       "TimeSeconds": 137,
       "Name": "ディープインパクト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0020",
+      "Id": "evt_aac_heavyweight_m2_savage_0020",
       "TimeSeconds": 144,
       "Name": "ファイティングスピリット",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0021",
+      "Id": "evt_aac_heavyweight_m2_savage_0021",
       "TimeSeconds": 170,
       "Name": "エクストリーム・スペクタクル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0022",
+      "Id": "evt_aac_heavyweight_m2_savage_0022",
       "TimeSeconds": 171,
       "Name": "エクストリーム・スペクタクル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0023",
+      "Id": "evt_aac_heavyweight_m2_savage_0023",
       "TimeSeconds": 172,
       "Name": "エクストリーム・スペクタクル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0024",
+      "Id": "evt_aac_heavyweight_m2_savage_0024",
       "TimeSeconds": 173,
       "Name": "エクストリーム・スペクタクル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0025",
+      "Id": "evt_aac_heavyweight_m2_savage_0025",
       "TimeSeconds": 174,
       "Name": "エクストリーム・スペクタクル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0026",
+      "Id": "evt_aac_heavyweight_m2_savage_0026",
       "TimeSeconds": 179,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0027",
+      "Id": "evt_aac_heavyweight_m2_savage_0027",
       "TimeSeconds": 179,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0028",
+      "Id": "evt_aac_heavyweight_m2_savage_0028",
       "TimeSeconds": 180,
       "Name": "ブラザーフッド",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0029",
+      "Id": "evt_aac_heavyweight_m2_savage_0029",
       "TimeSeconds": 182,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0030",
+      "Id": "evt_aac_heavyweight_m2_savage_0030",
       "TimeSeconds": 182,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0031",
+      "Id": "evt_aac_heavyweight_m2_savage_0031",
       "TimeSeconds": 185,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0032",
+      "Id": "evt_aac_heavyweight_m2_savage_0032",
       "TimeSeconds": 185,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0033",
+      "Id": "evt_aac_heavyweight_m2_savage_0033",
       "TimeSeconds": 195,
       "Name": "インセインエアー",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0034",
+      "Id": "evt_aac_heavyweight_m2_savage_0034",
       "TimeSeconds": 198,
       "Name": "フレイムエントリー or ハイドロエントリー",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0035",
+      "Id": "evt_aac_heavyweight_m2_savage_0035",
       "TimeSeconds": 198,
       "Name": "フレイムスナップ or ハイドロスナップ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0036",
+      "Id": "evt_aac_heavyweight_m2_savage_0036",
       "TimeSeconds": 198,
       "Name": "フレイムバーティカル or ハイドロバーティカル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0037",
+      "Id": "evt_aac_heavyweight_m2_savage_0037",
       "TimeSeconds": 203,
       "Name": "インセインエアー",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0038",
+      "Id": "evt_aac_heavyweight_m2_savage_0038",
       "TimeSeconds": 206,
       "Name": "フレイムエントリー or ハイドロエントリー",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0039",
+      "Id": "evt_aac_heavyweight_m2_savage_0039",
       "TimeSeconds": 206,
       "Name": "フレイムスナップ or ハイドロスナップ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0040",
+      "Id": "evt_aac_heavyweight_m2_savage_0040",
       "TimeSeconds": 206,
       "Name": "フレイムバーティカル or ハイドロバーティカル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0041",
+      "Id": "evt_aac_heavyweight_m2_savage_0041",
       "TimeSeconds": 210,
       "Name": "インセインエアー",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0042",
+      "Id": "evt_aac_heavyweight_m2_savage_0042",
       "TimeSeconds": 213,
       "Name": "フレイムエントリー or ハイドロエントリー",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0043",
+      "Id": "evt_aac_heavyweight_m2_savage_0043",
       "TimeSeconds": 213,
       "Name": "フレイムスナップ or ハイドロスナップ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0044",
+      "Id": "evt_aac_heavyweight_m2_savage_0044",
       "TimeSeconds": 213,
       "Name": "フレイムバーティカル or ハイドロバーティカル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0045",
+      "Id": "evt_aac_heavyweight_m2_savage_0045",
       "TimeSeconds": 217,
       "Name": "インセインエアー",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0046",
+      "Id": "evt_aac_heavyweight_m2_savage_0046",
       "TimeSeconds": 220,
       "Name": "フレイムエントリー or ハイドロエントリー",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0047",
+      "Id": "evt_aac_heavyweight_m2_savage_0047",
       "TimeSeconds": 220,
       "Name": "フレイムスナップ or ハイドロスナップ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0048",
+      "Id": "evt_aac_heavyweight_m2_savage_0048",
       "TimeSeconds": 220,
       "Name": "フレイムバーティカル or ハイドロバーティカル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0049",
+      "Id": "evt_aac_heavyweight_m2_savage_0049",
       "TimeSeconds": 222,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0050",
+      "Id": "evt_aac_heavyweight_m2_savage_0050",
       "TimeSeconds": 222,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0051",
+      "Id": "evt_aac_heavyweight_m2_savage_0051",
       "TimeSeconds": 225,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0052",
+      "Id": "evt_aac_heavyweight_m2_savage_0052",
       "TimeSeconds": 225,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0053",
+      "Id": "evt_aac_heavyweight_m2_savage_0053",
       "TimeSeconds": 230,
       "Name": "ファイティングスピリット (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0054",
+      "Id": "evt_aac_heavyweight_m2_savage_0054",
       "TimeSeconds": 230,
       "Name": "ファイティングスピリット (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0055",
+      "Id": "evt_aac_heavyweight_m2_savage_0055",
       "TimeSeconds": 233,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0056",
+      "Id": "evt_aac_heavyweight_m2_savage_0056",
       "TimeSeconds": 233,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0057",
+      "Id": "evt_aac_heavyweight_m2_savage_0057",
       "TimeSeconds": 235,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0058",
+      "Id": "evt_aac_heavyweight_m2_savage_0058",
       "TimeSeconds": 236,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0059",
+      "Id": "evt_aac_heavyweight_m2_savage_0059",
       "TimeSeconds": 239,
       "Name": "ブラザーフッド",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0060",
+      "Id": "evt_aac_heavyweight_m2_savage_0060",
       "TimeSeconds": 246,
       "Name": "ハイドロスネーキング",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0061",
+      "Id": "evt_aac_heavyweight_m2_savage_0061",
       "TimeSeconds": 246,
       "Name": "フレイムスネーキング",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0062",
+      "Id": "evt_aac_heavyweight_m2_savage_0062",
       "TimeSeconds": 248,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0063",
+      "Id": "evt_aac_heavyweight_m2_savage_0063",
       "TimeSeconds": 248,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0064",
+      "Id": "evt_aac_heavyweight_m2_savage_0064",
       "TimeSeconds": 251,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0066",
+      "Id": "evt_aac_heavyweight_m2_savage_0066",
       "TimeSeconds": 259,
       "Name": "(ダブル or リバース) アリウープ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0067",
+      "Id": "evt_aac_heavyweight_m2_savage_0067",
       "TimeSeconds": 259,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0065",
+      "Id": "evt_aac_heavyweight_m2_savage_0065",
       "TimeSeconds": 259,
       "Name": "フレイムアリウープ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0068",
+      "Id": "evt_aac_heavyweight_m2_savage_0068",
       "TimeSeconds": 260,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0069",
+      "Id": "evt_aac_heavyweight_m2_savage_0069",
       "TimeSeconds": 262,
       "Name": "(ダブル or リバース) アリウープ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0070",
+      "Id": "evt_aac_heavyweight_m2_savage_0070",
       "TimeSeconds": 264,
       "Name": "シック・スウェル (高波生成)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0071",
+      "Id": "evt_aac_heavyweight_m2_savage_0071",
       "TimeSeconds": 266,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0073",
+      "Id": "evt_aac_heavyweight_m2_savage_0073",
       "TimeSeconds": 270,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0072",
+      "Id": "evt_aac_heavyweight_m2_savage_0072",
       "TimeSeconds": 270,
       "Name": "ホットインパクト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0074",
+      "Id": "evt_aac_heavyweight_m2_savage_0074",
       "TimeSeconds": 273,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0075",
+      "Id": "evt_aac_heavyweight_m2_savage_0075",
       "TimeSeconds": 276,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0076",
+      "Id": "evt_aac_heavyweight_m2_savage_0076",
       "TimeSeconds": 278,
       "Name": "ハイドロバリエル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0077",
+      "Id": "evt_aac_heavyweight_m2_savage_0077",
       "TimeSeconds": 280,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0079",
+      "Id": "evt_aac_heavyweight_m2_savage_0079",
       "TimeSeconds": 281,
       "Name": "フレイムアリウープ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0078",
+      "Id": "evt_aac_heavyweight_m2_savage_0078",
       "TimeSeconds": 281,
       "Name": "ヘビー・ハイドロスプラッシュ or ハイドロスプラッシュ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0080",
+      "Id": "evt_aac_heavyweight_m2_savage_0080",
       "TimeSeconds": 285,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0081",
+      "Id": "evt_aac_heavyweight_m2_savage_0081",
       "TimeSeconds": 288,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0082",
+      "Id": "evt_aac_heavyweight_m2_savage_0082",
       "TimeSeconds": 291,
       "Name": "フレイムエアリアル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0084",
+      "Id": "evt_aac_heavyweight_m2_savage_0084",
       "TimeSeconds": 293,
       "Name": "シック・テイクオフ (場外移動)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0083",
+      "Id": "evt_aac_heavyweight_m2_savage_0083",
       "TimeSeconds": 293,
       "Name": "フレイムエアリアル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0085",
+      "Id": "evt_aac_heavyweight_m2_savage_0085",
       "TimeSeconds": 295,
       "Name": "フレイムエアリアル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0086",
+      "Id": "evt_aac_heavyweight_m2_savage_0086",
       "TimeSeconds": 297,
       "Name": "フレイムエアリアル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0087",
+      "Id": "evt_aac_heavyweight_m2_savage_0087",
       "TimeSeconds": 302,
       "Name": "シック・スウェル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0088",
+      "Id": "evt_aac_heavyweight_m2_savage_0088",
       "TimeSeconds": 302,
       "Name": "シック・テイクオフ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0089",
+      "Id": "evt_aac_heavyweight_m2_savage_0089",
       "TimeSeconds": 305,
       "Name": "ヘビー・ハイドロスプラッシュ or ハイドロスプラッシュ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0090",
+      "Id": "evt_aac_heavyweight_m2_savage_0090",
       "TimeSeconds": 306,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0091",
+      "Id": "evt_aac_heavyweight_m2_savage_0091",
       "TimeSeconds": 308,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0092",
+      "Id": "evt_aac_heavyweight_m2_savage_0092",
       "TimeSeconds": 309,
       "Name": "フレイムカットバック",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0093",
+      "Id": "evt_aac_heavyweight_m2_savage_0093",
       "TimeSeconds": 311,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0094",
+      "Id": "evt_aac_heavyweight_m2_savage_0094",
       "TimeSeconds": 314,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0095",
+      "Id": "evt_aac_heavyweight_m2_savage_0095",
       "TimeSeconds": 315,
       "Name": "ディープインパクト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0096",
+      "Id": "evt_aac_heavyweight_m2_savage_0096",
       "TimeSeconds": 317,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0097",
+      "Id": "evt_aac_heavyweight_m2_savage_0097",
       "TimeSeconds": 322,
       "Name": "ファイティングスピリット (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0098",
+      "Id": "evt_aac_heavyweight_m2_savage_0098",
       "TimeSeconds": 322,
       "Name": "ファイティングスピリット (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0099",
+      "Id": "evt_aac_heavyweight_m2_savage_0099",
       "TimeSeconds": 324,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0100",
+      "Id": "evt_aac_heavyweight_m2_savage_0100",
       "TimeSeconds": 325,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0101",
+      "Id": "evt_aac_heavyweight_m2_savage_0101",
       "TimeSeconds": 327,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0102",
+      "Id": "evt_aac_heavyweight_m2_savage_0102",
       "TimeSeconds": 328,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0103",
+      "Id": "evt_aac_heavyweight_m2_savage_0103",
       "TimeSeconds": 328,
       "Name": "ブラザーフッド",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0104",
+      "Id": "evt_aac_heavyweight_m2_savage_0104",
       "TimeSeconds": 330,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0105",
+      "Id": "evt_aac_heavyweight_m2_savage_0105",
       "TimeSeconds": 331,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0106",
+      "Id": "evt_aac_heavyweight_m2_savage_0106",
       "TimeSeconds": 334,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0108",
+      "Id": "evt_aac_heavyweight_m2_savage_0108",
       "TimeSeconds": 337,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0107",
+      "Id": "evt_aac_heavyweight_m2_savage_0107",
       "TimeSeconds": 337,
       "Name": "ハイドロエアリアル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0109",
+      "Id": "evt_aac_heavyweight_m2_savage_0109",
       "TimeSeconds": 339,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0110",
+      "Id": "evt_aac_heavyweight_m2_savage_0110",
       "TimeSeconds": 348,
       "Name": "エクストリームウェーブ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0111",
+      "Id": "evt_aac_heavyweight_m2_savage_0111",
       "TimeSeconds": 350,
       "Name": "ミックスエクスプロージョン",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0112",
+      "Id": "evt_aac_heavyweight_m2_savage_0112",
       "TimeSeconds": 353,
       "Name": "ミックスバースト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0113",
+      "Id": "evt_aac_heavyweight_m2_savage_0113",
       "TimeSeconds": 356,
       "Name": "エクストリームウェーブ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0114",
+      "Id": "evt_aac_heavyweight_m2_savage_0114",
       "TimeSeconds": 358,
       "Name": "ミックスエクスプロージョン",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0115",
+      "Id": "evt_aac_heavyweight_m2_savage_0115",
       "TimeSeconds": 365,
       "Name": "エクストリームウェーブ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0116",
+      "Id": "evt_aac_heavyweight_m2_savage_0116",
       "TimeSeconds": 367,
       "Name": "ミックスエクスプロージョン",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0117",
+      "Id": "evt_aac_heavyweight_m2_savage_0117",
       "TimeSeconds": 374,
       "Name": "エクストリームウェーブ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0118",
+      "Id": "evt_aac_heavyweight_m2_savage_0118",
       "TimeSeconds": 375,
       "Name": "ミックスエクスプロージョン",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0119",
+      "Id": "evt_aac_heavyweight_m2_savage_0119",
       "TimeSeconds": 382,
       "Name": "エクストリームウェーブ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0120",
+      "Id": "evt_aac_heavyweight_m2_savage_0120",
       "TimeSeconds": 384,
       "Name": "ミックスエクスプロージョン",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0121",
+      "Id": "evt_aac_heavyweight_m2_savage_0121",
       "TimeSeconds": 391,
       "Name": "エクストリームウェーブ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0122",
+      "Id": "evt_aac_heavyweight_m2_savage_0122",
       "TimeSeconds": 393,
       "Name": "ミックスエクスプロージョン",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0123",
+      "Id": "evt_aac_heavyweight_m2_savage_0123",
       "TimeSeconds": 401,
       "Name": "ファイティングスピリット (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0124",
+      "Id": "evt_aac_heavyweight_m2_savage_0124",
       "TimeSeconds": 401,
       "Name": "ファイティングスピリット (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0125",
+      "Id": "evt_aac_heavyweight_m2_savage_0125",
       "TimeSeconds": 403,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0126",
+      "Id": "evt_aac_heavyweight_m2_savage_0126",
       "TimeSeconds": 403,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0127",
+      "Id": "evt_aac_heavyweight_m2_savage_0127",
       "TimeSeconds": 406,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0128",
+      "Id": "evt_aac_heavyweight_m2_savage_0128",
       "TimeSeconds": 406,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0129",
+      "Id": "evt_aac_heavyweight_m2_savage_0129",
       "TimeSeconds": 407,
       "Name": "ブラザーフッド",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0130",
+      "Id": "evt_aac_heavyweight_m2_savage_0130",
       "TimeSeconds": 410,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0131",
+      "Id": "evt_aac_heavyweight_m2_savage_0131",
       "TimeSeconds": 410,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0132",
+      "Id": "evt_aac_heavyweight_m2_savage_0132",
       "TimeSeconds": 413,
       "Name": "シック・スウェル (高波生成)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0133",
+      "Id": "evt_aac_heavyweight_m2_savage_0133",
       "TimeSeconds": 416,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0134",
+      "Id": "evt_aac_heavyweight_m2_savage_0134",
       "TimeSeconds": 417,
       "Name": "フレイムフローター",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0135",
+      "Id": "evt_aac_heavyweight_m2_savage_0135",
       "TimeSeconds": 419,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0136",
+      "Id": "evt_aac_heavyweight_m2_savage_0136",
       "TimeSeconds": 419,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0137",
+      "Id": "evt_aac_heavyweight_m2_savage_0137",
       "TimeSeconds": 422,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0138",
+      "Id": "evt_aac_heavyweight_m2_savage_0138",
       "TimeSeconds": 426,
       "Name": "フレイムアリウープ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0139",
+      "Id": "evt_aac_heavyweight_m2_savage_0139",
       "TimeSeconds": 432,
       "Name": "(ダブル or リバース) アリウープ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0140",
+      "Id": "evt_aac_heavyweight_m2_savage_0140",
       "TimeSeconds": 434,
       "Name": "(ダブル or リバース) アリウープ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0141",
+      "Id": "evt_aac_heavyweight_m2_savage_0141",
       "TimeSeconds": 436,
       "Name": "ミックスバースト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0142",
+      "Id": "evt_aac_heavyweight_m2_savage_0142",
       "TimeSeconds": 438,
       "Name": "シック・テイクオフ (場外移動)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0144",
+      "Id": "evt_aac_heavyweight_m2_savage_0144",
       "TimeSeconds": 439,
       "Name": "フリーキー・パイロローテーション",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0143",
+      "Id": "evt_aac_heavyweight_m2_savage_0143",
       "TimeSeconds": 439,
       "Name": "ミックスバースト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0145",
+      "Id": "evt_aac_heavyweight_m2_savage_0145",
       "TimeSeconds": 444,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0146",
+      "Id": "evt_aac_heavyweight_m2_savage_0146",
       "TimeSeconds": 447,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0147",
+      "Id": "evt_aac_heavyweight_m2_savage_0147",
       "TimeSeconds": 447,
       "Name": "シック・スウェル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0148",
+      "Id": "evt_aac_heavyweight_m2_savage_0148",
       "TimeSeconds": 447,
       "Name": "シック・テイクオフ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0149",
+      "Id": "evt_aac_heavyweight_m2_savage_0149",
       "TimeSeconds": 450,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0150",
+      "Id": "evt_aac_heavyweight_m2_savage_0150",
       "TimeSeconds": 450,
       "Name": "ヘビー・ハイドロスプラッシュ or ハイドロスプラッシュ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0151",
+      "Id": "evt_aac_heavyweight_m2_savage_0151",
       "TimeSeconds": 452,
       "Name": "ミックスバースト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0154",
+      "Id": "evt_aac_heavyweight_m2_savage_0154",
       "TimeSeconds": 455,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0152",
+      "Id": "evt_aac_heavyweight_m2_savage_0152",
       "TimeSeconds": 455,
       "Name": "ファイティングスピリット (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0153",
+      "Id": "evt_aac_heavyweight_m2_savage_0153",
       "TimeSeconds": 455,
       "Name": "ファイティングスピリット (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0155",
+      "Id": "evt_aac_heavyweight_m2_savage_0155",
       "TimeSeconds": 458,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0156",
+      "Id": "evt_aac_heavyweight_m2_savage_0156",
       "TimeSeconds": 458,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0157",
+      "Id": "evt_aac_heavyweight_m2_savage_0157",
       "TimeSeconds": 461,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0158",
+      "Id": "evt_aac_heavyweight_m2_savage_0158",
       "TimeSeconds": 463,
       "Name": "ブラザーフッド",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0159",
+      "Id": "evt_aac_heavyweight_m2_savage_0159",
       "TimeSeconds": 470,
       "Name": "エクストリーム・ハイドロスネーキング",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0160",
+      "Id": "evt_aac_heavyweight_m2_savage_0160",
       "TimeSeconds": 470,
       "Name": "エクストリーム・フレイムスネーキング",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0161",
+      "Id": "evt_aac_heavyweight_m2_savage_0161",
       "TimeSeconds": 473,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0162",
+      "Id": "evt_aac_heavyweight_m2_savage_0162",
       "TimeSeconds": 473,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0163",
+      "Id": "evt_aac_heavyweight_m2_savage_0163",
       "TimeSeconds": 485,
       "Name": "インセインエアー",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0164",
+      "Id": "evt_aac_heavyweight_m2_savage_0164",
       "TimeSeconds": 488,
       "Name": "フレイムエントリー or ハイドロエントリー",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0165",
+      "Id": "evt_aac_heavyweight_m2_savage_0165",
       "TimeSeconds": 488,
       "Name": "フレイムスナップ or ハイドロスナップ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0166",
+      "Id": "evt_aac_heavyweight_m2_savage_0166",
       "TimeSeconds": 488,
       "Name": "フレイムバーティカル or ハイドロバーティカル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0167",
+      "Id": "evt_aac_heavyweight_m2_savage_0167",
       "TimeSeconds": 490,
       "Name": "ベイルアウト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0168",
+      "Id": "evt_aac_heavyweight_m2_savage_0168",
       "TimeSeconds": 496,
       "Name": "インセインエアー",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0169",
+      "Id": "evt_aac_heavyweight_m2_savage_0169",
       "TimeSeconds": 499,
       "Name": "フレイムエントリー or ハイドロエントリー",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0170",
+      "Id": "evt_aac_heavyweight_m2_savage_0170",
       "TimeSeconds": 499,
       "Name": "フレイムスナップ or ハイドロスナップ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0171",
+      "Id": "evt_aac_heavyweight_m2_savage_0171",
       "TimeSeconds": 499,
       "Name": "フレイムバーティカル or ハイドロバーティカル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0172",
+      "Id": "evt_aac_heavyweight_m2_savage_0172",
       "TimeSeconds": 500,
       "Name": "ベイルアウト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0173",
+      "Id": "evt_aac_heavyweight_m2_savage_0173",
       "TimeSeconds": 506,
       "Name": "インセインエアー",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0174",
+      "Id": "evt_aac_heavyweight_m2_savage_0174",
       "TimeSeconds": 509,
       "Name": "フレイムエントリー or ハイドロエントリー",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0175",
+      "Id": "evt_aac_heavyweight_m2_savage_0175",
       "TimeSeconds": 509,
       "Name": "フレイムスナップ or ハイドロスナップ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0176",
+      "Id": "evt_aac_heavyweight_m2_savage_0176",
       "TimeSeconds": 509,
       "Name": "フレイムバーティカル or ハイドロバーティカル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0177",
+      "Id": "evt_aac_heavyweight_m2_savage_0177",
       "TimeSeconds": 511,
       "Name": "ベイルアウト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0178",
+      "Id": "evt_aac_heavyweight_m2_savage_0178",
       "TimeSeconds": 516,
       "Name": "インセインエアー",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0179",
+      "Id": "evt_aac_heavyweight_m2_savage_0179",
       "TimeSeconds": 519,
       "Name": "フレイムエントリー or ハイドロエントリー",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0180",
+      "Id": "evt_aac_heavyweight_m2_savage_0180",
       "TimeSeconds": 519,
       "Name": "フレイムスナップ or ハイドロスナップ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0181",
+      "Id": "evt_aac_heavyweight_m2_savage_0181",
       "TimeSeconds": 519,
       "Name": "フレイムバーティカル or ハイドロバーティカル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0182",
+      "Id": "evt_aac_heavyweight_m2_savage_0182",
       "TimeSeconds": 521,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0183",
+      "Id": "evt_aac_heavyweight_m2_savage_0183",
       "TimeSeconds": 521,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0184",
+      "Id": "evt_aac_heavyweight_m2_savage_0184",
       "TimeSeconds": 521,
       "Name": "ベイルアウト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0185",
+      "Id": "evt_aac_heavyweight_m2_savage_0185",
       "TimeSeconds": 524,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0186",
+      "Id": "evt_aac_heavyweight_m2_savage_0186",
       "TimeSeconds": 524,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0187",
+      "Id": "evt_aac_heavyweight_m2_savage_0187",
       "TimeSeconds": 529,
       "Name": "ファイティングスピリット (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0188",
+      "Id": "evt_aac_heavyweight_m2_savage_0188",
       "TimeSeconds": 529,
       "Name": "ファイティングスピリット (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0189",
+      "Id": "evt_aac_heavyweight_m2_savage_0189",
       "TimeSeconds": 532,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0190",
+      "Id": "evt_aac_heavyweight_m2_savage_0190",
       "TimeSeconds": 533,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0191",
+      "Id": "evt_aac_heavyweight_m2_savage_0191",
       "TimeSeconds": 535,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0192",
+      "Id": "evt_aac_heavyweight_m2_savage_0192",
       "TimeSeconds": 536,
       "Name": "ブラザーフッド",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0194",
+      "Id": "evt_aac_heavyweight_m2_savage_0194",
       "TimeSeconds": 538,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0193",
+      "Id": "evt_aac_heavyweight_m2_savage_0193",
       "TimeSeconds": 538,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0195",
+      "Id": "evt_aac_heavyweight_m2_savage_0195",
       "TimeSeconds": 541,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0196",
+      "Id": "evt_aac_heavyweight_m2_savage_0196",
       "TimeSeconds": 545,
       "Name": "(ダブル or リバース) アリウープ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0198",
+      "Id": "evt_aac_heavyweight_m2_savage_0198",
       "TimeSeconds": 548,
       "Name": "(ダブル or リバース) アリウープ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0199",
+      "Id": "evt_aac_heavyweight_m2_savage_0199",
       "TimeSeconds": 548,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0197",
+      "Id": "evt_aac_heavyweight_m2_savage_0197",
       "TimeSeconds": 548,
       "Name": "フレイムアリウープ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0200",
+      "Id": "evt_aac_heavyweight_m2_savage_0200",
       "TimeSeconds": 551,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0201",
+      "Id": "evt_aac_heavyweight_m2_savage_0201",
       "TimeSeconds": 551,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0202",
+      "Id": "evt_aac_heavyweight_m2_savage_0202",
       "TimeSeconds": 553,
       "Name": "ミックスバースト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0204",
+      "Id": "evt_aac_heavyweight_m2_savage_0204",
       "TimeSeconds": 557,
       "Name": "ディープインパクト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0203",
+      "Id": "evt_aac_heavyweight_m2_savage_0203",
       "TimeSeconds": 557,
       "Name": "パイロローテーション",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0205",
+      "Id": "evt_aac_heavyweight_m2_savage_0205",
       "TimeSeconds": 558,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0206",
+      "Id": "evt_aac_heavyweight_m2_savage_0206",
       "TimeSeconds": 559,
       "Name": "パイロローテーション",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0207",
+      "Id": "evt_aac_heavyweight_m2_savage_0207",
       "TimeSeconds": 560,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0209",
+      "Id": "evt_aac_heavyweight_m2_savage_0209",
       "TimeSeconds": 561,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0208",
+      "Id": "evt_aac_heavyweight_m2_savage_0208",
       "TimeSeconds": 561,
       "Name": "パイロローテーション",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0210",
+      "Id": "evt_aac_heavyweight_m2_savage_0210",
       "TimeSeconds": 563,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0211",
+      "Id": "evt_aac_heavyweight_m2_savage_0211",
       "TimeSeconds": 564,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0212",
+      "Id": "evt_aac_heavyweight_m2_savage_0212",
       "TimeSeconds": 570,
       "Name": "ファイティングスピリット (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0213",
+      "Id": "evt_aac_heavyweight_m2_savage_0213",
       "TimeSeconds": 570,
       "Name": "ファイティングスピリット (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0214",
+      "Id": "evt_aac_heavyweight_m2_savage_0214",
       "TimeSeconds": 571,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0215",
+      "Id": "evt_aac_heavyweight_m2_savage_0215",
       "TimeSeconds": 573,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0218",
+      "Id": "evt_aac_heavyweight_m2_savage_0218",
       "TimeSeconds": 579,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0216",
+      "Id": "evt_aac_heavyweight_m2_savage_0216",
       "TimeSeconds": 579,
       "Name": "ファイティングスピリット (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0217",
+      "Id": "evt_aac_heavyweight_m2_savage_0217",
       "TimeSeconds": 579,
       "Name": "ファイティングスピリット (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0220",
+      "Id": "evt_aac_heavyweight_m2_savage_0220",
       "TimeSeconds": 582,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0219",
+      "Id": "evt_aac_heavyweight_m2_savage_0219",
       "TimeSeconds": 582,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0222",
+      "Id": "evt_aac_heavyweight_m2_savage_0222",
       "TimeSeconds": 585,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0221",
+      "Id": "evt_aac_heavyweight_m2_savage_0221",
       "TimeSeconds": 585,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0224",
+      "Id": "evt_aac_heavyweight_m2_savage_0224",
       "TimeSeconds": 588,
       "Name": "AA (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0223",
+      "Id": "evt_aac_heavyweight_m2_savage_0223",
       "TimeSeconds": 588,
       "Name": "AA (Red)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0225",
+      "Id": "evt_aac_heavyweight_m2_savage_0225",
       "TimeSeconds": 600,
       "Name": "オーバー・ザ・フォール (Blue)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m2_savage_0226",
+      "Id": "evt_aac_heavyweight_m2_savage_0226",
       "TimeSeconds": 600,
       "Name": "オーバー・ザ・フォール (Red)",
       "Type": "Mechanic",

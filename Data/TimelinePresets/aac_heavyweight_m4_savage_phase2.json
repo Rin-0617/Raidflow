@@ -1,662 +1,662 @@
 {
-  "Id": "aac_light_heavyweight_m4_savage_phase2",
-  "ContentName": "アルカディア零式：ライトヘビー級4層 後半",
+  "Id": "aac_heavyweight_m4_savage_phase2",
+  "ContentName": "アルカディア零式：ヘビー級4層 後半",
   "Revision": "preset",
   "ContentLevel": 100,
   "Events": [
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0001",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0001",
       "TimeSeconds": 16,
       "Name": "アルカディアン・フレイム",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0002",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0002",
       "TimeSeconds": 28,
       "Name": "レプリケーション",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0003",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0003",
       "TimeSeconds": 40,
       "Name": "トップティアスラム",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0005",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0005",
       "TimeSeconds": 41,
       "Name": "ウィングドスカージ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0004",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0004",
       "TimeSeconds": 41,
       "Name": "マイティマジック",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0006",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0006",
       "TimeSeconds": 46,
       "Name": "スネークキック",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0007",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0007",
       "TimeSeconds": 61,
       "Name": "トップティアスラム",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0009",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0009",
       "TimeSeconds": 62,
       "Name": "ウィングドスカージ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0008",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0008",
       "TimeSeconds": 62,
       "Name": "マイティマジック",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0010",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0010",
       "TimeSeconds": 70,
       "Name": "ダブルソバット",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0011",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0011",
       "TimeSeconds": 75,
       "Name": "ダブルソバット",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0012",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0012",
       "TimeSeconds": 77,
       "Name": "マナコンビネーション",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0013",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0013",
       "TimeSeconds": 92,
       "Name": "模倣細胞",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0014",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0014",
       "TimeSeconds": 106,
       "Name": "レプリケーション",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0015",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0015",
       "TimeSeconds": 128,
       "Name": "ファイアフォール・スプラッシュ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0016",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0016",
       "TimeSeconds": 129,
       "Name": "炎波",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0017",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0017",
       "TimeSeconds": 130,
       "Name": "マナバースト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0018",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0018",
       "TimeSeconds": 136,
       "Name": "ヘビースラム",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0019",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0019",
       "TimeSeconds": 138,
       "Name": "指向性衝撃波",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0020",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0020",
       "TimeSeconds": 141,
       "Name": "スネークキック",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0021",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0021",
       "TimeSeconds": 152,
       "Name": "リエナクトメント",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0022",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0022",
       "TimeSeconds": 160,
       "Name": "ネザーレイジ・(ファー or ニア)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0023",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0023",
       "TimeSeconds": 161,
       "Name": "ネザーレイジ・ウェーブ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0024",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0024",
       "TimeSeconds": 161,
       "Name": "指向性衝撃波",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0025",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0025",
       "TimeSeconds": 166,
       "Name": "ヘビースラム",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0026",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0026",
       "TimeSeconds": 166,
       "Name": "マナバースト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0027",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0027",
       "TimeSeconds": 169,
       "Name": "炎波",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0028",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0028",
       "TimeSeconds": 174,
       "Name": "ヘビースラム",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0029",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0029",
       "TimeSeconds": 174,
       "Name": "マナバースト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0030",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0030",
       "TimeSeconds": 184,
       "Name": "変異細胞",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0031",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0031",
       "TimeSeconds": 190,
       "Name": "マナスフィア",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0033",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0033",
       "TimeSeconds": 202,
       "Name": "魔力放散 (その他)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0032",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0032",
       "TimeSeconds": 202,
       "Name": "魔力放散 (タンク)",
       "Type": "Tankbuster",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0034",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0034",
       "TimeSeconds": 218,
       "Name": "マナスフィア・アウェイク",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0037",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0037",
       "TimeSeconds": 219,
       "Name": "バーチカルサンダラ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0035",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0035",
       "TimeSeconds": 219,
       "Name": "ホリゾンタルファイラ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0038",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0038",
       "TimeSeconds": 219,
       "Name": "リンドブルム・ウォタガ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0036",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0036",
       "TimeSeconds": 219,
       "Name": "リンドブルム・エアロガ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0041",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0041",
       "TimeSeconds": 224,
       "Name": "バーチカルサンダラ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0039",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0039",
       "TimeSeconds": 224,
       "Name": "ホリゾンタルファイラ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0042",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0042",
       "TimeSeconds": 224,
       "Name": "リンドブルム・ウォタガ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0040",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0040",
       "TimeSeconds": 224,
       "Name": "リンドブルム・エアロガ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0043",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0043",
       "TimeSeconds": 229,
       "Name": "ネザーワールド・(ファー or ニア)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0044",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0044",
       "TimeSeconds": 230,
       "Name": "ネザーワールド・ウェーブ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0045",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0045",
       "TimeSeconds": 233,
       "Name": "細胞爆発",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0046",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0046",
       "TimeSeconds": 237,
       "Name": "アルカディアン・フレイム",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0047",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0047",
       "TimeSeconds": 247,
       "Name": "ダブルソバット",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0048",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0048",
       "TimeSeconds": 251,
       "Name": "ダブルソバット",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0049",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0049",
       "TimeSeconds": 254,
       "Name": "マナコンビネーション",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0050",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0050",
       "TimeSeconds": 270,
       "Name": "アルカディアン・ドリーム",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0051",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0051",
       "TimeSeconds": 276,
       "Name": "模倣細胞",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0052",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0052",
       "TimeSeconds": 291,
       "Name": "心象投影 (裏へ)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0053",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0053",
       "TimeSeconds": 297,
       "Name": "レプリケーション",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0054",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0054",
       "TimeSeconds": 310,
       "Name": "心象投影 (表へ)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0056",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0056",
       "TimeSeconds": 311,
       "Name": "スネークキック (予兆のみ)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0055",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0055",
       "TimeSeconds": 311,
       "Name": "パワーガッシャー (予兆のみ)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0057",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0057",
       "TimeSeconds": 316,
       "Name": "レプリケーション",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0058",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0058",
       "TimeSeconds": 336,
       "Name": "心象投影 (裏へ)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0059",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0059",
       "TimeSeconds": 340,
       "Name": "スネークキック",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0060",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0060",
       "TimeSeconds": 340,
       "Name": "パワーガッシャー",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0061",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0061",
       "TimeSeconds": 344,
       "Name": "リンドブルム・メテオ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0062",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0062",
       "TimeSeconds": 350,
       "Name": "ダウンフォール",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0063",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0063",
       "TimeSeconds": 358,
       "Name": "アルカディアン・アルケイナム",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0064",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0064",
       "TimeSeconds": 364,
       "Name": "心象投影 (表へ)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0065",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0065",
       "TimeSeconds": 371,
       "Name": "マナバースト or ヘビースラム",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0066",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0066",
       "TimeSeconds": 377,
       "Name": "マナバースト or ヘビースラム",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0067",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0067",
       "TimeSeconds": 381,
       "Name": "マナバースト or ヘビースラム",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0068",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0068",
       "TimeSeconds": 387,
       "Name": "マナバースト or ヘビースラム",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0069",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0069",
       "TimeSeconds": 395,
       "Name": "心象投影 (裏へ)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0070",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0070",
       "TimeSeconds": 399,
       "Name": "着弾",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0071",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0071",
       "TimeSeconds": 400,
       "Name": "リンドブルム・ダーラ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0072",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0072",
       "TimeSeconds": 405,
       "Name": "リンドブルム・ストンガ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0073",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0073",
       "TimeSeconds": 410,
       "Name": "リンドブルム・グレア",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0074",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0074",
       "TimeSeconds": 410,
       "Name": "リンドブルム・サンダラ",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0075",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0075",
       "TimeSeconds": 418,
       "Name": "空間裂断",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0076",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0076",
       "TimeSeconds": 431,
       "Name": "心象投影 (表へ)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0077",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0077",
       "TimeSeconds": 437,
       "Name": "リエナクトメント",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0079",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0079",
       "TimeSeconds": 441,
       "Name": "ヘビースラム",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0078",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0078",
       "TimeSeconds": 441,
       "Name": "マナバースト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0080",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0080",
       "TimeSeconds": 446,
       "Name": "心象投影 (裏へ)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0081",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0081",
       "TimeSeconds": 451,
       "Name": "スネークキック",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0082",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0082",
       "TimeSeconds": 451,
       "Name": "パワーガッシャー",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0083",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0083",
       "TimeSeconds": 454,
       "Name": "心象投影 (表へ)",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0085",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0085",
       "TimeSeconds": 462,
       "Name": "ヘビースラム",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0084",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0084",
       "TimeSeconds": 462,
       "Name": "マナバースト",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0086",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0086",
       "TimeSeconds": 467,
       "Name": "パワーガッシャー",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0087",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0087",
       "TimeSeconds": 472,
       "Name": "アルカディアン・ドリーム",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0088",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0088",
       "TimeSeconds": 481,
       "Name": "ダブルソバット",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0089",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0089",
       "TimeSeconds": 486,
       "Name": "ダブルソバット",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0090",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0090",
       "TimeSeconds": 488,
       "Name": "マナコンビネーション",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0091",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0091",
       "TimeSeconds": 502,
       "Name": "レプリケーション",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0092",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0092",
       "TimeSeconds": 515,
       "Name": "アルカディアン・ヘル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0093",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0093",
       "TimeSeconds": 531,
       "Name": "アルカディアン・ヘル",
       "Type": "Mechanic",
       "Notes": ""
     },
     {
-      "Id": "evt_aac_light_heavyweight_m4_savage_phase2_0094",
+      "Id": "evt_aac_heavyweight_m4_savage_phase2_0094",
       "TimeSeconds": 554,
       "Name": "アルカディアン・ヘル",
       "Type": "Mechanic",
