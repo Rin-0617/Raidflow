@@ -60,7 +60,8 @@ public static class MitigationCatalog
         ]),
         Action(7498, "心眼", "心眼", "SAM", PartyRole.Melee, 4, 15, false, -1, requiredLevel: 6),
         Action(2241, "残影", "残影", "NIN", PartyRole.Melee, 20, 120, false, requiredLevel: 2),
-        Action(7542, "マントラ", "マントラ", "MNK", PartyRole.Melee, 15, 90, true, requiredLevel: 42),
+        Action(65, "マントラ", "マントラ", "MNK", PartyRole.Melee, 15, 90, true, requiredLevel: 42),
+        Action(24404, "アルケインクレスト", "クレスト", "RPR", PartyRole.Melee, 5, 30, false, requiredLevel: 40),
 
         Action(16889, "タクティシャン", "タクティ", "MCH", PartyRole.PhysicalRanged, 15, 90, true, requiredLevel: 88, variants:
         [

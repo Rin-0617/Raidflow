@@ -37,7 +37,7 @@ public sealed class Plugin : IDalamudPlugin
         this.configuration.Initialize(pluginInterface);
 
         this.actionIconService = new ActionIconService(dataManager, textureProvider);
-        this.overlayWindow = new OverlayWindow(this.configuration, this.pullTimer);
+        this.overlayWindow = new OverlayWindow(this.configuration, this.pullTimer, this.actionIconService);
         this.combatSyncService = new CombatSyncService(
             this.configuration,
             this.pullTimer,

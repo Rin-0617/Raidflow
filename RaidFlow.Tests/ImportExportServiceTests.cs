@@ -38,6 +38,38 @@ public sealed class ImportExportServiceTests
     }
 
     [Fact]
+    public void FullPlanImportPreservesExistingAssignmentsOnMatchingEvents()
+    {
+        var source = RaidFlowDocument.CreateDefault();
+        source.ContentName = "Shared Duty";
+        var eventId = AddTimelineEvent(source).Id;
+        source.Events[0].Assignments.Add(new MitigationAssignment
+        {
+            Slot = PartySlot.ST,
+            Job = "DRK",
+            ActionId = 7393,
+            UseOffsetSeconds = -2,
+        });
+
+        var target = RaidFlowDocument.CreateDefault();
+        AddTimelineEvent(target, eventId).Assignments.Add(new MitigationAssignment
+        {
+            Slot = PartySlot.MT,
+            Job = "PLD",
+            ActionId = 7531,
+            UseOffsetSeconds = -3,
+        });
+
+        var result = ImportExportService.ImportInto(target, ImportExportService.ExportFullPlan(source));
+
+        Assert.True(result.Success, result.Message);
+        var assignments = target.Events.Single(timelineEvent => timelineEvent.Id == eventId).Assignments;
+        Assert.Equal(2, assignments.Count);
+        Assert.Contains(assignments, assignment => assignment.Slot == PartySlot.ST && assignment.ActionId == 7393);
+        Assert.Contains(assignments, assignment => assignment.Slot == PartySlot.MT && assignment.ActionId == 7531);
+    }
+
+    [Fact]
     public void PersonalExportMergesOnlySelectedSlotAssignments()
     {
         var plan = RaidFlowDocument.CreateDefault();

@@ -11,12 +11,14 @@ public sealed class OverlayWindow : Window
 {
     private readonly Configuration configuration;
     private readonly PullTimerService pullTimer;
+    private readonly ActionIconService actionIconService;
 
-    public OverlayWindow(Configuration configuration, PullTimerService pullTimer)
+    public OverlayWindow(Configuration configuration, PullTimerService pullTimer, ActionIconService actionIconService)
         : base(VersionInfo.WindowTitle("RaidFlow オーバーレイ", "RaidFlowOverlay"), ImGuiWindowFlags.NoScrollbar | ImGuiWindowFlags.NoCollapse, true)
     {
         this.configuration = configuration;
         this.pullTimer = pullTimer;
+        this.actionIconService = actionIconService;
 
         this.IsOpen = false;
         this.Size = new Vector2(360, 220);
@@ -197,32 +199,102 @@ public sealed class OverlayWindow : Window
             var assignment = item.Assignment;
             var action = item.Action;
             var useTime = timelineEvent.TimeSeconds + assignment.UseOffsetSeconds;
-            var label = $"{assignment.Slot}:{action?.ShortName ?? assignment.ActionId.ToString()} @{PlannerValidator.FormatTimestamp(useTime)}";
-            var line = string.IsNullOrWhiteSpace(assignment.Note)
-                ? $"[{label}]"
-                : $"[{label}] {assignment.Note}";
-
-            ImGui.PushTextWrapPos(0);
-            if (assignment.Slot == selectedSlot)
-            {
-                ImGui.TextColored(new Vector4(0.45f, 0.9f, 1f, 1f), line);
-            }
-            else if (settings.ShowOnlySelectedSlot && action?.IsRaidMitigation == true)
-            {
-                ImGui.TextColored(new Vector4(0.8f, 0.82f, 0.86f, 1f), line);
-            }
-            else
-            {
-                ImGui.TextUnformatted(line);
-            }
-
-            ImGui.PopTextWrapPos();
+            this.DrawAssignmentIconBlock(assignment, action, useTime, assignment.Slot == selectedSlot);
         }
+    }
+
+    private void DrawAssignmentIconBlock(
+        MitigationAssignment assignment,
+        MitigationActionDefinition? action,
+        float useTime,
+        bool isSelectedSlot)
+    {
+        const float iconSize = 34f;
+        const float blockWidth = 74f;
+        const float blockHeight = 74f;
+        const float gap = 6f;
+
+        var start = ImGui.GetCursorScreenPos();
+        var drawList = ImGui.GetWindowDrawList();
+        var bgColor = ImGui.GetColorU32(isSelectedSlot
+            ? new Vector4(0.10f, 0.45f, 0.60f, 0.48f)
+            : new Vector4(0.08f, 0.08f, 0.08f, 0.34f));
+        var borderColor = ImGui.GetColorU32(isSelectedSlot
+            ? new Vector4(0.45f, 0.9f, 1f, 0.95f)
+            : new Vector4(0.45f, 0.45f, 0.45f, 0.35f));
+
+        drawList.AddRectFilled(start, start + new Vector2(blockWidth, blockHeight), bgColor, 4f);
+        drawList.AddRect(start, start + new Vector2(blockWidth, blockHeight), borderColor, 4f);
+
+        var blockCursorX = ImGui.GetCursorPosX();
+        ImGui.BeginGroup();
+        var actionLabel = action?.ShortName ?? assignment.ActionId.ToString();
+        DrawCenteredText(actionLabel, blockCursorX, blockWidth);
+
+        var iconStartX = blockCursorX + ((blockWidth - iconSize) * 0.5f);
+        ImGui.SetCursorPosX(iconStartX);
+        if (action is not null && this.actionIconService.TryGetIcon(action, out var texture))
+        {
+            var wrap = texture.GetWrapOrEmpty();
+            ImGui.Image(wrap.Handle, new Vector2(iconSize, iconSize));
+        }
+        else
+        {
+            var pos = ImGui.GetCursorScreenPos();
+            drawList.AddRectFilled(pos, pos + new Vector2(iconSize, iconSize), ImGui.GetColorU32(new Vector4(0.18f, 0.18f, 0.18f, 0.85f)), 3f);
+            drawList.AddRect(pos, pos + new Vector2(iconSize, iconSize), ImGui.GetColorU32(new Vector4(0.75f, 0.75f, 0.75f, 0.45f)), 3f);
+            ImGui.Dummy(new Vector2(iconSize, iconSize));
+        }
+
+        DrawCenteredText(assignment.Slot.ToString(), blockCursorX, blockWidth);
+        ImGui.EndGroup();
+
+        if (ImGui.IsItemHovered())
+        {
+            var tooltip = $"{actionLabel}\n担当: {assignment.Slot}\n使用: {PlannerValidator.FormatTimestamp(useTime)}";
+            if (!string.IsNullOrWhiteSpace(assignment.Note))
+            {
+                tooltip += $"\n{assignment.Note}";
+            }
+
+            ImGui.SetTooltip(tooltip);
+        }
+
+        var windowRight = ImGui.GetWindowPos().X + ImGui.GetWindowContentRegionMax().X;
+        if (start.X + blockWidth + gap + blockWidth < windowRight)
+        {
+            ImGui.SameLine(0, gap);
+        }
+    }
+
+    private static void DrawCenteredText(string text, float baseX, float width)
+    {
+        var clipped = FitText(text, width - 8f);
+        var textWidth = ImGui.CalcTextSize(clipped).X;
+        ImGui.SetCursorPosX(baseX + Math.Max(0f, (width - textWidth) * 0.5f));
+        ImGui.TextUnformatted(clipped);
+    }
+
+    private static string FitText(string text, float maxWidth)
+    {
+        if (ImGui.CalcTextSize(text).X <= maxWidth)
+        {
+            return text;
+        }
+
+        var clipped = text;
+        while (clipped.Length > 1 && ImGui.CalcTextSize($"{clipped}.").X > maxWidth)
+        {
+            clipped = clipped[..^1];
+        }
+
+        return $"{clipped}.";
     }
 
     private static string FormatDelta(float seconds)
     {
-        var sign = seconds < 0 ? "T+" : "T-";
-        return $"{sign}{PlannerValidator.FormatTimestamp(Math.Abs(seconds))}";
+        return seconds < 0
+            ? $"+{PlannerValidator.FormatTimestamp(Math.Abs(seconds))}"
+            : PlannerValidator.FormatTimestamp(seconds);
     }
 }

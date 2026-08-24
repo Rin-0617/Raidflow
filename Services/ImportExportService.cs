@@ -149,18 +149,50 @@ public static class ImportExportService
             return ImportResult.Failed("全体プランのエクスポート内容が空です。");
         }
 
+        var preservedAssignments = currentPlan.Events
+            .Where(timelineEvent => timelineEvent.Assignments.Count > 0)
+            .ToDictionary(
+                timelineEvent => timelineEvent.Id,
+                timelineEvent => timelineEvent.Assignments
+                    .Select(CloneAssignment)
+                    .ToList());
+        var preserved = 0;
+
         currentPlan.TimelineId = export.Plan.TimelineId;
         currentPlan.ContentName = export.Plan.ContentName;
         currentPlan.Revision = export.Plan.Revision;
         currentPlan.UpdatedAtUtc = export.Plan.UpdatedAtUtc;
         currentPlan.Party = export.Plan.Party;
         currentPlan.Events = export.Plan.Events;
+
+        foreach (var timelineEvent in currentPlan.Events)
+        {
+            if (!preservedAssignments.TryGetValue(timelineEvent.Id, out var assignments))
+            {
+                continue;
+            }
+
+            foreach (var assignment in assignments)
+            {
+                if (HasEquivalentAssignment(timelineEvent.Assignments, assignment))
+                {
+                    continue;
+                }
+
+                timelineEvent.Assignments.Add(assignment);
+                preserved++;
+            }
+        }
+
         currentPlan.Normalize();
 
         return new ImportResult
         {
             Success = true,
-            Message = $"{currentPlan.ContentName} の全体プランをインポートしました。",
+            AddedAssignments = preserved,
+            Message = preserved > 0
+                ? $"{currentPlan.ContentName} の全体プランをインポートしました。既存の軽減 {preserved}件を保持しました。"
+                : $"{currentPlan.ContentName} の全体プランをインポートしました。",
         };
     }
 
@@ -227,5 +259,27 @@ public static class ImportExportService
             ReplacedAssignments = replaced,
             Message = $"{message}{export.Slot}/{export.Job} を合成: 追加 {added}件、更新 {replaced}件。",
         };
+    }
+
+    private static MitigationAssignment CloneAssignment(MitigationAssignment assignment)
+    {
+        return new MitigationAssignment
+        {
+            Id = assignment.Id,
+            Slot = assignment.Slot,
+            Job = assignment.Job,
+            ActionId = assignment.ActionId,
+            UseOffsetSeconds = assignment.UseOffsetSeconds,
+            Note = assignment.Note,
+        };
+    }
+
+    private static bool HasEquivalentAssignment(IEnumerable<MitigationAssignment> assignments, MitigationAssignment candidate)
+    {
+        return assignments.Any(assignment =>
+            assignment.Slot == candidate.Slot &&
+            assignment.ActionId == candidate.ActionId &&
+            Math.Abs(assignment.UseOffsetSeconds - candidate.UseOffsetSeconds) < 0.001f &&
+            string.Equals(assignment.Note, candidate.Note, StringComparison.Ordinal));
     }
 }
