@@ -351,21 +351,21 @@
       "Id": "evt_ultimate_omega_protocol_0050",
       "TimeSeconds": 124,
       "Name": "アトミックレイ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_ultimate_omega_protocol_0051",
       "TimeSeconds": 124,
       "Name": "オメガ没",
-      "Type": "Mechanic",
+      "Type": "Downtime",
       "Notes": ""
     },
     {
       "Id": "evt_ultimate_omega_protocol_0052",
       "TimeSeconds": 127,
       "Name": "ターゲット可",
-      "Type": "Mechanic",
+      "Type": "Downtime",
       "Notes": ""
     },
     {
@@ -379,7 +379,7 @@
       "Id": "evt_ultimate_omega_protocol_0054",
       "TimeSeconds": 139,
       "Name": "ソーラレイ",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -477,7 +477,7 @@
       "Id": "evt_ultimate_omega_protocol_0068",
       "TimeSeconds": 180,
       "Name": "ディスチャージャー",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -589,7 +589,7 @@
       "Id": "evt_ultimate_omega_protocol_0083",
       "TimeSeconds": 221,
       "Name": "ブレードダンス・オメガ",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -603,35 +603,35 @@
       "Id": "evt_ultimate_omega_protocol_0087",
       "TimeSeconds": 235,
       "Name": "パイルピッチ",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
       "Id": "evt_ultimate_omega_protocol_0086",
       "TimeSeconds": 235,
       "Name": "メテオ・オメガ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_ultimate_omega_protocol_0088",
       "TimeSeconds": 246,
       "Name": "コスモメモリー",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_ultimate_omega_protocol_0090",
       "TimeSeconds": 274,
       "Name": "オメガM&オメガF没",
-      "Type": "Mechanic",
+      "Type": "Downtime",
       "Notes": ""
     },
     {
       "Id": "evt_ultimate_omega_protocol_0089",
       "TimeSeconds": 274,
       "Name": "レーザーシャワー",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -680,7 +680,7 @@
       "Id": "evt_ultimate_omega_protocol_0098",
       "TimeSeconds": 301,
       "Name": "コロッサスブロー",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -694,21 +694,21 @@
       "Id": "evt_ultimate_omega_protocol_0102",
       "TimeSeconds": 303,
       "Name": "コロッサスブロー",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
       "Id": "evt_ultimate_omega_protocol_0099",
       "TimeSeconds": 303,
       "Name": "狙撃式波動砲",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
       "Id": "evt_ultimate_omega_protocol_0100",
       "TimeSeconds": 303,
       "Name": "狙撃式高出力波動砲",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -981,7 +981,7 @@
       "Id": "evt_ultimate_omega_protocol_0140",
       "TimeSeconds": 425,
       "Name": "クリティカルエラー",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -995,21 +995,21 @@
       "Id": "evt_ultimate_omega_protocol_0142",
       "TimeSeconds": 461,
       "Name": "イオンエフラクス",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_ultimate_omega_protocol_0143",
       "TimeSeconds": 461,
       "Name": "ファイナルオメガ没",
-      "Type": "Mechanic",
+      "Type": "Downtime",
       "Notes": ""
     },
     {
       "Id": "evt_ultimate_omega_protocol_0144",
       "TimeSeconds": 468,
       "Name": "ターゲット可",
-      "Type": "Mechanic",
+      "Type": "Downtime",
       "Notes": ""
     },
     {
@@ -1114,28 +1114,28 @@
       "Id": "evt_ultimate_omega_protocol_0159",
       "TimeSeconds": 523,
       "Name": "ブルースクリーン(HP 20% 未満)",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_ultimate_omega_protocol_0160",
       "TimeSeconds": 540,
       "Name": "ターゲット可",
-      "Type": "Mechanic",
+      "Type": "Downtime",
       "Notes": ""
     },
     {
       "Id": "evt_ultimate_omega_protocol_0161",
       "TimeSeconds": 547,
       "Name": "ソーラレイ",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
       "Id": "evt_ultimate_omega_protocol_0162",
       "TimeSeconds": 550,
       "Name": "ソーラレイ",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -1177,14 +1177,14 @@
       "Id": "evt_ultimate_omega_protocol_0168",
       "TimeSeconds": 595,
       "Name": "ハイパーパルス",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_ultimate_omega_protocol_0170",
       "TimeSeconds": 597,
       "Name": "パイルピッチ",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
@@ -1254,14 +1254,14 @@
       "Id": "evt_ultimate_omega_protocol_0179",
       "TimeSeconds": 629,
       "Name": "ソーラレイ",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
       "Id": "evt_ultimate_omega_protocol_0180",
       "TimeSeconds": 632,
       "Name": "ソーラレイ",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -1282,7 +1282,7 @@
       "Id": "evt_ultimate_omega_protocol_0183",
       "TimeSeconds": 668,
       "Name": "ハイパーパルス",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -1296,7 +1296,7 @@
       "Id": "evt_ultimate_omega_protocol_0185",
       "TimeSeconds": 676,
       "Name": "ディスチャージャー",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -1317,7 +1317,7 @@
       "Id": "evt_ultimate_omega_protocol_0188",
       "TimeSeconds": 703,
       "Name": "ハイパーパルス",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -1366,14 +1366,14 @@
       "Id": "evt_ultimate_omega_protocol_0195",
       "TimeSeconds": 718,
       "Name": "ソーラレイ",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
       "Id": "evt_ultimate_omega_protocol_0196",
       "TimeSeconds": 721,
       "Name": "ソーラレイ",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -1527,14 +1527,14 @@
       "Id": "evt_ultimate_omega_protocol_0218",
       "TimeSeconds": 802,
       "Name": "ソーラレイ",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
       "Id": "evt_ultimate_omega_protocol_0219",
       "TimeSeconds": 805,
       "Name": "ソーラレイ",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -1548,21 +1548,21 @@
       "Id": "evt_ultimate_omega_protocol_0221",
       "TimeSeconds": 825,
       "Name": "ブラインド・フェイス着弾",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_ultimate_omega_protocol_0222",
       "TimeSeconds": 882,
       "Name": "ターゲット可",
-      "Type": "Mechanic",
+      "Type": "Downtime",
       "Notes": ""
     },
     {
       "Id": "evt_ultimate_omega_protocol_0223",
       "TimeSeconds": 893,
       "Name": "コスモメモリー",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -1639,7 +1639,7 @@
       "Id": "evt_ultimate_omega_protocol_0234",
       "TimeSeconds": 970,
       "Name": "波動砲(先頭)",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -1688,7 +1688,7 @@
       "Id": "evt_ultimate_omega_protocol_0241",
       "TimeSeconds": 1004,
       "Name": "波動砲(先頭)",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -1793,14 +1793,14 @@
       "Id": "evt_ultimate_omega_protocol_0256",
       "TimeSeconds": 1093,
       "Name": "マジックナンバー",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_ultimate_omega_protocol_0257",
       "TimeSeconds": 1109,
       "Name": "マジックナンバー",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {

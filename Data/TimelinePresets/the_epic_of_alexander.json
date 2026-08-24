@@ -29,7 +29,7 @@
       "Id": "evt_the_epic_of_alexander_0004",
       "TimeSeconds": 10,
       "Name": "フルイドスイング",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -43,7 +43,7 @@
       "Id": "evt_the_epic_of_alexander_0006",
       "TimeSeconds": 18,
       "Name": "カスケード",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -120,7 +120,7 @@
       "Id": "evt_the_epic_of_alexander_0017",
       "TimeSeconds": 36,
       "Name": "プロティアンウェイブ",
-      "Type": "Mechanic",
+      "Type": "Spread",
       "Notes": ""
     },
     {
@@ -134,14 +134,14 @@
       "Id": "evt_the_epic_of_alexander_0018",
       "TimeSeconds": 37,
       "Name": "フルイドスイング",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0020",
       "TimeSeconds": 37,
       "Name": "フルイドストライク",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -155,7 +155,7 @@
       "Id": "evt_the_epic_of_alexander_0022",
       "TimeSeconds": 38,
       "Name": "プロティアンウェイブ",
-      "Type": "Mechanic",
+      "Type": "Spread",
       "Notes": ""
     },
     {
@@ -183,7 +183,7 @@
       "Id": "evt_the_epic_of_alexander_0026",
       "TimeSeconds": 42,
       "Name": "ハンド・オブ・ペイン",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -309,14 +309,14 @@
       "Id": "evt_the_epic_of_alexander_0043",
       "TimeSeconds": 56,
       "Name": "フルイドスイング",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0046",
       "TimeSeconds": 56,
       "Name": "フルイドストライク",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -379,14 +379,14 @@
       "Id": "evt_the_epic_of_alexander_0055",
       "TimeSeconds": 69,
       "Name": "ハンド・オブ・ペイン",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0054",
       "TimeSeconds": 69,
       "Name": "プロティアンウェイブ",
-      "Type": "Mechanic",
+      "Type": "Spread",
       "Notes": ""
     },
     {
@@ -400,7 +400,7 @@
       "Id": "evt_the_epic_of_alexander_0057",
       "TimeSeconds": 71,
       "Name": "プロティアンウェイブ",
-      "Type": "Mechanic",
+      "Type": "Spread",
       "Notes": ""
     },
     {
@@ -421,7 +421,7 @@
       "Id": "evt_the_epic_of_alexander_0060",
       "TimeSeconds": 74,
       "Name": "プロティアンウェイブ",
-      "Type": "Mechanic",
+      "Type": "Spread",
       "Notes": ""
     },
     {
@@ -442,7 +442,7 @@
       "Id": "evt_the_epic_of_alexander_0065",
       "TimeSeconds": 80,
       "Name": "スプラッシュ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -463,14 +463,14 @@
       "Id": "evt_the_epic_of_alexander_0066",
       "TimeSeconds": 81,
       "Name": "スプラッシュ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0067",
       "TimeSeconds": 82,
       "Name": "スプラッシュ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -484,21 +484,21 @@
       "Id": "evt_the_epic_of_alexander_0069",
       "TimeSeconds": 84,
       "Name": "スプラッシュ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0070",
       "TimeSeconds": 85,
       "Name": "スプラッシュ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0071",
       "TimeSeconds": 86,
       "Name": "スプラッシュ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -519,14 +519,14 @@
       "Id": "evt_the_epic_of_alexander_0074",
       "TimeSeconds": 88,
       "Name": "ハンド・オブ・ペイン",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0075",
       "TimeSeconds": 91,
       "Name": "カスケード",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -596,21 +596,21 @@
       "Id": "evt_the_epic_of_alexander_0085",
       "TimeSeconds": 106,
       "Name": "プロティアンウェイブ",
-      "Type": "Mechanic",
+      "Type": "Spread",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0086",
       "TimeSeconds": 108,
       "Name": "ハンド・オブ・ペイン",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0087",
       "TimeSeconds": 108,
       "Name": "プロティアンウェイブ",
-      "Type": "Mechanic",
+      "Type": "Spread",
       "Notes": ""
     },
     {
@@ -631,14 +631,14 @@
       "Id": "evt_the_epic_of_alexander_0089",
       "TimeSeconds": 111,
       "Name": "プロティアンウェイブ",
-      "Type": "Mechanic",
+      "Type": "Spread",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0091",
       "TimeSeconds": 112,
       "Name": "プロティアンウェイブ",
-      "Type": "Mechanic",
+      "Type": "Spread",
       "Notes": ""
     },
     {
@@ -652,7 +652,7 @@
       "Id": "evt_the_epic_of_alexander_0092",
       "TimeSeconds": 114,
       "Name": "プロティアンウェイブ",
-      "Type": "Mechanic",
+      "Type": "Spread",
       "Notes": ""
     },
     {
@@ -708,7 +708,7 @@
       "Id": "evt_the_epic_of_alexander_0101",
       "TimeSeconds": 126,
       "Name": "スプラッシュ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -722,28 +722,28 @@
       "Id": "evt_the_epic_of_alexander_0103",
       "TimeSeconds": 128,
       "Name": "スプラッシュ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0104",
       "TimeSeconds": 128,
       "Name": "ハンド・オブ・ペイン",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0105",
       "TimeSeconds": 129,
       "Name": "スプラッシュ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0107",
       "TimeSeconds": 130,
       "Name": "スプラッシュ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -757,14 +757,14 @@
       "Id": "evt_the_epic_of_alexander_0108",
       "TimeSeconds": 131,
       "Name": "スプラッシュ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0110",
       "TimeSeconds": 132,
       "Name": "スプラッシュ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -778,7 +778,7 @@
       "Id": "evt_the_epic_of_alexander_0112",
       "TimeSeconds": 133,
       "Name": "フルイドスイング",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -813,42 +813,42 @@
       "Id": "evt_the_epic_of_alexander_0116",
       "TimeSeconds": 140,
       "Name": "カスケード",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0117",
       "TimeSeconds": 140,
       "Name": "リビングリキッド没",
-      "Type": "Mechanic",
+      "Type": "Downtime",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0118",
       "TimeSeconds": 145,
       "Name": "ホークブラスター",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0119",
       "TimeSeconds": 148,
       "Name": "ホークブラスター",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0120",
       "TimeSeconds": 150,
       "Name": "ホークブラスター",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0121",
       "TimeSeconds": 152,
       "Name": "ホークブラスター",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -869,14 +869,14 @@
       "Id": "evt_the_epic_of_alexander_0123",
       "TimeSeconds": 154,
       "Name": "ホークブラスター",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0125",
       "TimeSeconds": 156,
       "Name": "ホークブラスター",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -897,14 +897,14 @@
       "Id": "evt_the_epic_of_alexander_0127",
       "TimeSeconds": 159,
       "Name": "ホークブラスター",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0129",
       "TimeSeconds": 161,
       "Name": "ホークブラスター",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -918,7 +918,7 @@
       "Id": "evt_the_epic_of_alexander_0131",
       "TimeSeconds": 163,
       "Name": "ホークブラスター",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -932,7 +932,7 @@
       "Id": "evt_the_epic_of_alexander_0133",
       "TimeSeconds": 165,
       "Name": "ホークブラスター",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -1051,7 +1051,7 @@
       "Id": "evt_the_epic_of_alexander_0150",
       "TimeSeconds": 201,
       "Name": "照準",
-      "Type": "Mechanic",
+      "Type": "Spread",
       "Notes": ""
     },
     {
@@ -1065,7 +1065,7 @@
       "Id": "evt_the_epic_of_alexander_0152",
       "TimeSeconds": 206,
       "Name": "ホークブラスター",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -1100,7 +1100,7 @@
       "Id": "evt_the_epic_of_alexander_0157",
       "TimeSeconds": 218,
       "Name": "スピンクラッシャー",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -1170,7 +1170,7 @@
       "Id": "evt_the_epic_of_alexander_0165",
       "TimeSeconds": 230,
       "Name": "ミサイル全弾発射",
-      "Type": "Mechanic",
+      "Type": "Spread",
       "Notes": ""
     },
     {
@@ -1352,7 +1352,7 @@
       "Id": "evt_the_epic_of_alexander_0192",
       "TimeSeconds": 262,
       "Name": "大火炎放射",
-      "Type": "Mechanic",
+      "Type": "Spread",
       "Notes": ""
     },
     {
@@ -1576,7 +1576,7 @@
       "Id": "evt_the_epic_of_alexander_0225",
       "TimeSeconds": 321,
       "Name": "ダブルロケットパンチ",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -1618,7 +1618,7 @@
       "Id": "evt_the_epic_of_alexander_0231",
       "TimeSeconds": 331,
       "Name": "アポカリプティクレイ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -1723,14 +1723,14 @@
       "Id": "evt_the_epic_of_alexander_0248",
       "TimeSeconds": 365,
       "Name": "2体没",
-      "Type": "Mechanic",
+      "Type": "Downtime",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0247",
       "TimeSeconds": 365,
       "Name": "暗黒の運命",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -1772,7 +1772,7 @@
       "Id": "evt_the_epic_of_alexander_0253",
       "TimeSeconds": 385,
       "Name": "大火炎放射",
-      "Type": "Mechanic",
+      "Type": "Spread",
       "Notes": ""
     },
     {
@@ -1793,7 +1793,7 @@
       "Id": "evt_the_epic_of_alexander_0256",
       "TimeSeconds": 388,
       "Name": "大火炎放射",
-      "Type": "Mechanic",
+      "Type": "Spread",
       "Notes": ""
     },
     {
@@ -1863,21 +1863,21 @@
       "Id": "evt_the_epic_of_alexander_0266",
       "TimeSeconds": 450,
       "Name": "大火炎放射",
-      "Type": "Mechanic",
+      "Type": "Spread",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0267",
       "TimeSeconds": 452,
       "Name": "大火炎放射",
-      "Type": "Mechanic",
+      "Type": "Spread",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0268",
       "TimeSeconds": 454,
       "Name": "大火炎放射",
-      "Type": "Mechanic",
+      "Type": "Spread",
       "Notes": ""
     },
     {
@@ -1905,7 +1905,7 @@
       "Id": "evt_the_epic_of_alexander_0271",
       "TimeSeconds": 469,
       "Name": "連帯の神判",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
@@ -2017,7 +2017,7 @@
       "Id": "evt_the_epic_of_alexander_0289",
       "TimeSeconds": 533,
       "Name": "アポカリプティクレイ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -2052,7 +2052,7 @@
       "Id": "evt_the_epic_of_alexander_0294",
       "TimeSeconds": 538,
       "Name": "アポカリプティクレイ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -2108,7 +2108,7 @@
       "Id": "evt_the_epic_of_alexander_0301",
       "TimeSeconds": 547,
       "Name": "ミサイル全弾発射",
-      "Type": "Mechanic",
+      "Type": "Spread",
       "Notes": ""
     },
     {
@@ -2129,133 +2129,133 @@
       "Id": "evt_the_epic_of_alexander_0304",
       "TimeSeconds": 563,
       "Name": "メガホーリー",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0305",
       "TimeSeconds": 570,
       "Name": "メガホーリー",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0306",
       "TimeSeconds": 580,
       "Name": "アレキサンダー召喚",
-      "Type": "Mechanic",
+      "Type": "Downtime",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0307",
       "TimeSeconds": 586,
       "Name": "ジャスティスストーム",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0308",
       "TimeSeconds": 591,
       "Name": "ジャスティスショックウェーブ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0309",
       "TimeSeconds": 594,
       "Name": "ジャスティスショックウェーブ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0310",
       "TimeSeconds": 597,
       "Name": "ジャスティスショックウェーブ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0311",
       "TimeSeconds": 600,
       "Name": "ジャスティスショックウェーブ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0312",
       "TimeSeconds": 603,
       "Name": "ジャスティスショックウェーブ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0313",
       "TimeSeconds": 606,
       "Name": "ジャスティスショックウェーブ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0314",
       "TimeSeconds": 609,
       "Name": "ジャスティスショックウェーブ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0315",
       "TimeSeconds": 612,
       "Name": "ジャスティスショックウェーブ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0316",
       "TimeSeconds": 615,
       "Name": "ジャスティスショックウェーブ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0317",
       "TimeSeconds": 619,
       "Name": "ジャスティスショックウェーブ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0318",
       "TimeSeconds": 622,
       "Name": "ジャスティスショックウェーブ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0319",
       "TimeSeconds": 625,
       "Name": "ジャスティスショックウェーブ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0320",
       "TimeSeconds": 659,
       "Name": "聖なる審判(詠唱完了)",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0321",
       "TimeSeconds": 674,
       "Name": "聖なる審判",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0322",
       "TimeSeconds": 674,
       "Name": "聖なる審判(着弾)",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -2283,7 +2283,7 @@
       "Id": "evt_the_epic_of_alexander_0326",
       "TimeSeconds": 774,
       "Name": "照準",
-      "Type": "Mechanic",
+      "Type": "Spread",
       "Notes": ""
     },
     {
@@ -2297,7 +2297,7 @@
       "Id": "evt_the_epic_of_alexander_0328",
       "TimeSeconds": 780,
       "Name": "照準",
-      "Type": "Mechanic",
+      "Type": "Spread",
       "Notes": ""
     },
     {
@@ -2353,7 +2353,7 @@
       "Id": "evt_the_epic_of_alexander_0334",
       "TimeSeconds": 831,
       "Name": "連帯の神判",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
@@ -2416,7 +2416,7 @@
       "Id": "evt_the_epic_of_alexander_0344",
       "TimeSeconds": 919,
       "Name": "連帯の神判",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
@@ -2430,7 +2430,7 @@
       "Id": "evt_the_epic_of_alexander_0347",
       "TimeSeconds": 924,
       "Name": "照準",
-      "Type": "Mechanic",
+      "Type": "Spread",
       "Notes": ""
     },
     {
@@ -2479,28 +2479,28 @@
       "Id": "evt_the_epic_of_alexander_0354",
       "TimeSeconds": 975,
       "Name": "聖なる大審判",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0355",
       "TimeSeconds": 977,
       "Name": "聖なる大審判",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0356",
       "TimeSeconds": 979,
       "Name": "聖なる大審判",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0357",
       "TimeSeconds": 980,
       "Name": "連帯刑",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
@@ -2535,28 +2535,28 @@
       "Id": "evt_the_epic_of_alexander_0362",
       "TimeSeconds": 1020,
       "Name": "聖なる大審判",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0363",
       "TimeSeconds": 1022,
       "Name": "聖なる大審判",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0364",
       "TimeSeconds": 1024,
       "Name": "聖なる大審判",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_the_epic_of_alexander_0365",
       "TimeSeconds": 1025,
       "Name": "連帯刑",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {

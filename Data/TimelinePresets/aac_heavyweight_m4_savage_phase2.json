@@ -8,7 +8,7 @@
       "Id": "evt_aac_heavyweight_m4_savage_phase2_0001",
       "TimeSeconds": 16,
       "Name": "アルカディアン・フレイム",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -323,7 +323,7 @@
       "Id": "evt_aac_heavyweight_m4_savage_phase2_0046",
       "TimeSeconds": 237,
       "Name": "アルカディアン・フレイム",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {

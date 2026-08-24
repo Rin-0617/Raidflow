@@ -43,7 +43,7 @@
       "Id": "evt_dragonsongs_reprise_0006",
       "TimeSeconds": 9,
       "Name": "ホリエストホーリー",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -78,7 +78,7 @@
       "Id": "evt_dragonsongs_reprise_0078",
       "TimeSeconds": 15,
       "Name": "アスカロンマイト",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -92,7 +92,7 @@
       "Id": "evt_dragonsongs_reprise_0079",
       "TimeSeconds": 17,
       "Name": "アスカロンマイト",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -106,7 +106,7 @@
       "Id": "evt_dragonsongs_reprise_0080",
       "TimeSeconds": 18,
       "Name": "アスカロンマイト",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -120,7 +120,7 @@
       "Id": "evt_dragonsongs_reprise_0013",
       "TimeSeconds": 23,
       "Name": "ホーリーシールドバッシュ",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -211,7 +211,7 @@
       "Id": "evt_dragonsongs_reprise_0082",
       "TimeSeconds": 42,
       "Name": "百雷",
-      "Type": "Mechanic",
+      "Type": "Spread",
       "Notes": ""
     },
     {
@@ -267,7 +267,7 @@
       "Id": "evt_dragonsongs_reprise_0088",
       "TimeSeconds": 58,
       "Name": "ホーリーシールドバッシュ",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -281,7 +281,7 @@
       "Id": "evt_dragonsongs_reprise_0028",
       "TimeSeconds": 60,
       "Name": "ホリエストホーリー",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -400,7 +400,7 @@
       "Id": "evt_dragonsongs_reprise_0095",
       "TimeSeconds": 79,
       "Name": "ヘヴンリーヒール",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -421,7 +421,7 @@
       "Id": "evt_dragonsongs_reprise_0096",
       "TimeSeconds": 83,
       "Name": "アスカロンマイト",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -435,7 +435,7 @@
       "Id": "evt_dragonsongs_reprise_0097",
       "TimeSeconds": 84,
       "Name": "アスカロンマイト",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -449,7 +449,7 @@
       "Id": "evt_dragonsongs_reprise_0098",
       "TimeSeconds": 86,
       "Name": "アスカロンマイト",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -505,7 +505,7 @@
       "Id": "evt_dragonsongs_reprise_0049",
       "TimeSeconds": 101,
       "Name": "ホリエストホーリー",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -547,21 +547,21 @@
       "Id": "evt_dragonsongs_reprise_0101",
       "TimeSeconds": 111,
       "Name": "セイクリッドセイバー",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_dragonsongs_reprise_0102",
       "TimeSeconds": 112,
       "Name": "セイクリッドセイバー",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_dragonsongs_reprise_0103",
       "TimeSeconds": 114,
       "Name": "セイクリッドセイバー",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -582,7 +582,7 @@
       "Id": "evt_dragonsongs_reprise_0104",
       "TimeSeconds": 116,
       "Name": "セイクリッドセイバー",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -603,7 +603,7 @@
       "Id": "evt_dragonsongs_reprise_0056",
       "TimeSeconds": 121,
       "Name": "ホリエストホーリー",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -799,7 +799,7 @@
       "Id": "evt_dragonsongs_reprise_0075",
       "TimeSeconds": 157,
       "Name": "ピュア・オブ・ハート",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -813,7 +813,7 @@
       "Id": "evt_dragonsongs_reprise_0116",
       "TimeSeconds": 164,
       "Name": "アルティメットエンド",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -834,21 +834,21 @@
       "Id": "evt_dragonsongs_reprise_0119",
       "TimeSeconds": 190,
       "Name": "エーテルバースト",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_dragonsongs_reprise_0120",
       "TimeSeconds": 190,
       "Name": "トールダン没",
-      "Type": "Mechanic",
+      "Type": "Downtime",
       "Notes": ""
     },
     {
       "Id": "evt_dragonsongs_reprise_0121",
       "TimeSeconds": 198,
       "Name": "終焉の竜詩",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -1016,14 +1016,14 @@
       "Id": "evt_dragonsongs_reprise_0145",
       "TimeSeconds": 317,
       "Name": "最後の咆哮",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_dragonsongs_reprise_0146",
       "TimeSeconds": 346,
       "Name": "苦悶の咆哮",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -1072,21 +1072,21 @@
       "Id": "evt_dragonsongs_reprise_0153",
       "TimeSeconds": 407,
       "Name": "憤怒の波動",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_dragonsongs_reprise_0154",
       "TimeSeconds": 426,
       "Name": "最後の咆哮",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_dragonsongs_reprise_0155",
       "TimeSeconds": 426,
       "Name": "邪眼没",
-      "Type": "Mechanic",
+      "Type": "Downtime",
       "Notes": ""
     },
     {
@@ -1310,7 +1310,7 @@
       "Id": "evt_dragonsongs_reprise_0187",
       "TimeSeconds": 480,
       "Name": "ピュア・オブ・ハート",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -1345,7 +1345,7 @@
       "Id": "evt_dragonsongs_reprise_0193",
       "TimeSeconds": 484,
       "Name": "オルシュファン救出",
-      "Type": "Mechanic",
+      "Type": "Downtime",
       "Notes": ""
     },
     {
@@ -1380,7 +1380,7 @@
       "Id": "evt_dragonsongs_reprise_0197",
       "TimeSeconds": 552,
       "Name": "チェインライトニング",
-      "Type": "Mechanic",
+      "Type": "Spread",
       "Notes": ""
     },
     {
@@ -1422,7 +1422,7 @@
       "Id": "evt_dragonsongs_reprise_0202",
       "TimeSeconds": 561,
       "Name": "レベレーション・アスカロンメルシー",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -1443,7 +1443,7 @@
       "Id": "evt_dragonsongs_reprise_0206",
       "TimeSeconds": 564,
       "Name": "アルターフレア",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -1457,7 +1457,7 @@
       "Id": "evt_dragonsongs_reprise_0209",
       "TimeSeconds": 566,
       "Name": "アルターフレア",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -1471,7 +1471,7 @@
       "Id": "evt_dragonsongs_reprise_0211",
       "TimeSeconds": 568,
       "Name": "アルターフレア",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -1492,7 +1492,7 @@
       "Id": "evt_dragonsongs_reprise_0213",
       "TimeSeconds": 569,
       "Name": "アルターフレア",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -1506,28 +1506,28 @@
       "Id": "evt_dragonsongs_reprise_0215",
       "TimeSeconds": 586,
       "Name": "ヘヴンリーヒール",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
       "Id": "evt_dragonsongs_reprise_0216",
       "TimeSeconds": 590,
       "Name": "アスカロンマイト",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
       "Id": "evt_dragonsongs_reprise_0217",
       "TimeSeconds": 591,
       "Name": "アスカロンマイト",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
       "Id": "evt_dragonsongs_reprise_0218",
       "TimeSeconds": 592,
       "Name": "アスカロンマイト",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -1583,7 +1583,7 @@
       "Id": "evt_dragonsongs_reprise_0222",
       "TimeSeconds": 620,
       "Name": "百雷",
-      "Type": "Mechanic",
+      "Type": "Spread",
       "Notes": ""
     },
     {
@@ -1639,42 +1639,42 @@
       "Id": "evt_dragonsongs_reprise_0234",
       "TimeSeconds": 676,
       "Name": "ヘヴンリーヒール",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
       "Id": "evt_dragonsongs_reprise_0235",
       "TimeSeconds": 679,
       "Name": "アスカロンマイト",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
       "Id": "evt_dragonsongs_reprise_0236",
       "TimeSeconds": 680,
       "Name": "アスカロンマイト",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
       "Id": "evt_dragonsongs_reprise_0237",
       "TimeSeconds": 681,
       "Name": "アスカロンマイト",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
       "Id": "evt_dragonsongs_reprise_0238",
       "TimeSeconds": 693,
       "Name": "エーテルバースト",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_dragonsongs_reprise_0239",
       "TimeSeconds": 693,
       "Name": "トールダン逃走",
-      "Type": "Mechanic",
+      "Type": "Downtime",
       "Notes": ""
     },
     {
@@ -1730,7 +1730,7 @@
       "Id": "evt_dragonsongs_reprise_0247",
       "TimeSeconds": 724,
       "Name": "スタッガーブレス",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -1793,7 +1793,7 @@
       "Id": "evt_dragonsongs_reprise_0256",
       "TimeSeconds": 743,
       "Name": "アク・アファー",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
@@ -1870,7 +1870,7 @@
       "Id": "evt_dragonsongs_reprise_0267",
       "TimeSeconds": 782,
       "Name": "アク・モーン",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
@@ -1884,21 +1884,21 @@
       "Id": "evt_dragonsongs_reprise_0269",
       "TimeSeconds": 783,
       "Name": "アク・モーン",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
       "Id": "evt_dragonsongs_reprise_0270",
       "TimeSeconds": 785,
       "Name": "アク・モーン",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
       "Id": "evt_dragonsongs_reprise_0271",
       "TimeSeconds": 786,
       "Name": "アク・モーン",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
@@ -1982,7 +1982,7 @@
       "Id": "evt_dragonsongs_reprise_0283",
       "TimeSeconds": 812,
       "Name": "アク・アファー",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
@@ -2052,7 +2052,7 @@
       "Id": "evt_dragonsongs_reprise_0295",
       "TimeSeconds": 844,
       "Name": "スタッガーブレス",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -2129,21 +2129,21 @@
       "Id": "evt_dragonsongs_reprise_0305",
       "TimeSeconds": 890,
       "Name": "二天竜没",
-      "Type": "Mechanic",
+      "Type": "Downtime",
       "Notes": ""
     },
     {
       "Id": "evt_dragonsongs_reprise_0304",
       "TimeSeconds": 890,
       "Name": "最後の咆哮",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_dragonsongs_reprise_0306",
       "TimeSeconds": 907,
       "Name": "苦悶の咆哮",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -2157,7 +2157,7 @@
       "Id": "evt_dragonsongs_reprise_0308",
       "TimeSeconds": 940,
       "Name": "アルティメットエンド・オルタナ",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -2213,7 +2213,7 @@
       "Id": "evt_dragonsongs_reprise_0315",
       "TimeSeconds": 981,
       "Name": "騎竜剣アク・モーン(DPS)",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
@@ -2227,7 +2227,7 @@
       "Id": "evt_dragonsongs_reprise_0318",
       "TimeSeconds": 983,
       "Name": "騎竜剣アク・モーン(DPS)",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
@@ -2241,7 +2241,7 @@
       "Id": "evt_dragonsongs_reprise_0320",
       "TimeSeconds": 984,
       "Name": "騎竜剣アク・モーン(DPS)",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
@@ -2255,7 +2255,7 @@
       "Id": "evt_dragonsongs_reprise_0322",
       "TimeSeconds": 985,
       "Name": "騎竜剣アク・モーン(DPS)",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
@@ -2269,7 +2269,7 @@
       "Id": "evt_dragonsongs_reprise_0324",
       "TimeSeconds": 986,
       "Name": "騎竜剣アク・モーン(DPS)",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
@@ -2318,21 +2318,21 @@
       "Id": "evt_dragonsongs_reprise_0330",
       "TimeSeconds": 1008,
       "Name": "騎竜剣ギガフレア",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_dragonsongs_reprise_0332",
       "TimeSeconds": 1012,
       "Name": "騎竜剣ギガフレア",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_dragonsongs_reprise_0333",
       "TimeSeconds": 1016,
       "Name": "騎竜剣ギガフレア",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -2416,7 +2416,7 @@
       "Id": "evt_dragonsongs_reprise_0344",
       "TimeSeconds": 1060,
       "Name": "騎竜剣アク・モーン(DPS)",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
@@ -2430,7 +2430,7 @@
       "Id": "evt_dragonsongs_reprise_0347",
       "TimeSeconds": 1062,
       "Name": "騎竜剣アク・モーン(DPS)",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
@@ -2444,7 +2444,7 @@
       "Id": "evt_dragonsongs_reprise_0349",
       "TimeSeconds": 1063,
       "Name": "騎竜剣アク・モーン(DPS)",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
@@ -2458,7 +2458,7 @@
       "Id": "evt_dragonsongs_reprise_0351",
       "TimeSeconds": 1064,
       "Name": "騎竜剣アク・モーン(DPS)",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
@@ -2472,7 +2472,7 @@
       "Id": "evt_dragonsongs_reprise_0353",
       "TimeSeconds": 1065,
       "Name": "騎竜剣アク・モーン(DPS)",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
@@ -2486,7 +2486,7 @@
       "Id": "evt_dragonsongs_reprise_0355",
       "TimeSeconds": 1066,
       "Name": "騎竜剣アク・モーン(DPS)",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
@@ -2535,21 +2535,21 @@
       "Id": "evt_dragonsongs_reprise_0361",
       "TimeSeconds": 1088,
       "Name": "騎竜剣ギガフレア",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_dragonsongs_reprise_0363",
       "TimeSeconds": 1092,
       "Name": "騎竜剣ギガフレア",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_dragonsongs_reprise_0364",
       "TimeSeconds": 1096,
       "Name": "騎竜剣ギガフレア",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -2633,7 +2633,7 @@
       "Id": "evt_dragonsongs_reprise_0375",
       "TimeSeconds": 1140,
       "Name": "騎竜剣アク・モーン(DPS)",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
@@ -2647,7 +2647,7 @@
       "Id": "evt_dragonsongs_reprise_0378",
       "TimeSeconds": 1142,
       "Name": "騎竜剣アク・モーン(DPS)",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
@@ -2661,7 +2661,7 @@
       "Id": "evt_dragonsongs_reprise_0380",
       "TimeSeconds": 1143,
       "Name": "騎竜剣アク・モーン(DPS)",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
@@ -2675,7 +2675,7 @@
       "Id": "evt_dragonsongs_reprise_0382",
       "TimeSeconds": 1144,
       "Name": "騎竜剣アク・モーン(DPS)",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
@@ -2689,7 +2689,7 @@
       "Id": "evt_dragonsongs_reprise_0384",
       "TimeSeconds": 1145,
       "Name": "騎竜剣アク・モーン(DPS)",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
@@ -2703,7 +2703,7 @@
       "Id": "evt_dragonsongs_reprise_0386",
       "TimeSeconds": 1146,
       "Name": "騎竜剣アク・モーン(DPS)",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
@@ -2717,7 +2717,7 @@
       "Id": "evt_dragonsongs_reprise_0388",
       "TimeSeconds": 1147,
       "Name": "騎竜剣アク・モーン(DPS)",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
@@ -2759,21 +2759,21 @@
       "Id": "evt_dragonsongs_reprise_0394",
       "TimeSeconds": 1171,
       "Name": "騎竜剣モーン・アファー",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
       "Id": "evt_dragonsongs_reprise_0395",
       "TimeSeconds": 1174,
       "Name": "騎竜剣モーン・アファー",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
       "Id": "evt_dragonsongs_reprise_0396",
       "TimeSeconds": 1177,
       "Name": "騎竜剣モーン・アファー",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     }
   ]

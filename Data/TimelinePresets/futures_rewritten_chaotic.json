@@ -8,14 +8,14 @@
                        "Id":  "evt_futures_rewritten_chaotic_0001",
                        "TimeSeconds":  16,
                        "Name":  "ばりばりルインガ",
-                       "Type":  "Mechanic",
+                       "Type":  "Tankbuster",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0002",
                        "TimeSeconds":  19,
                        "Name":  "ばりばりルインガ",
-                       "Type":  "Mechanic",
+                       "Type":  "Tankbuster",
                        "Notes":  ""
                    },
                    {
@@ -78,7 +78,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0011",
                        "TimeSeconds":  50,
                        "Name":  "つぎつぎトラップ (着弾)",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
@@ -106,7 +106,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0015",
                        "TimeSeconds":  63,
                        "Name":  "裁きの光",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
@@ -148,28 +148,28 @@
                        "Id":  "evt_futures_rewritten_chaotic_0021",
                        "TimeSeconds":  88,
                        "Name":  "重力弾",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0022",
                        "TimeSeconds":  92,
                        "Name":  "岩石弾",
-                       "Type":  "Mechanic",
+                       "Type":  "Spread",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0023",
                        "TimeSeconds":  97,
                        "Name":  "ばりばりルインガ",
-                       "Type":  "Mechanic",
+                       "Type":  "Tankbuster",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0024",
                        "TimeSeconds":  100,
                        "Name":  "ばりばりルインガ",
-                       "Type":  "Mechanic",
+                       "Type":  "Tankbuster",
                        "Notes":  ""
                    },
                    {
@@ -183,14 +183,14 @@
                        "Id":  "evt_futures_rewritten_chaotic_0026",
                        "TimeSeconds":  106,
                        "Name":  "重力弾",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0027",
                        "TimeSeconds":  110,
                        "Name":  "岩石弾",
-                       "Type":  "Mechanic",
+                       "Type":  "Spread",
                        "Notes":  ""
                    },
                    {
@@ -204,21 +204,21 @@
                        "Id":  "evt_futures_rewritten_chaotic_0029",
                        "TimeSeconds":  118,
                        "Name":  "つぎつぎトラップ (着弾)",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0030",
                        "TimeSeconds":  122,
                        "Name":  "グラビガ",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0031",
                        "TimeSeconds":  132,
                        "Name":  "裁きの光",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
@@ -274,7 +274,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0039",
                        "TimeSeconds":  165,
                        "Name":  "つぎつぎトラップ (着弾)",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
@@ -323,42 +323,42 @@
                        "Id":  "evt_futures_rewritten_chaotic_0046",
                        "TimeSeconds":  197,
                        "Name":  "ケフカ (HP15% 以下)",
-                       "Type":  "Mechanic",
+                       "Type":  "Downtime",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0047",
                        "TimeSeconds":  197,
                        "Name":  "裁きの光 (詠唱開始)",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0048",
                        "TimeSeconds":  202,
                        "Name":  "裁きの光",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0049",
                        "TimeSeconds":  208,
                        "Name":  "ゴッドケフカ ターゲット可",
-                       "Type":  "Mechanic",
+                       "Type":  "Downtime",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0050",
                        "TimeSeconds":  221,
                        "Name":  "終末の双腕",
-                       "Type":  "Mechanic",
+                       "Type":  "Tankbuster",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0051",
                        "TimeSeconds":  236,
                        "Name":  "ミッシング",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
@@ -617,7 +617,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0088",
                        "TimeSeconds":  343,
                        "Name":  "裁きの光",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
@@ -666,21 +666,21 @@
                        "Id":  "evt_futures_rewritten_chaotic_0095",
                        "TimeSeconds":  378,
                        "Name":  "終末の双腕",
-                       "Type":  "Mechanic",
+                       "Type":  "Tankbuster",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0096",
                        "TimeSeconds":  382,
                        "Name":  "ゴッドケフカ離脱",
-                       "Type":  "Mechanic",
+                       "Type":  "Downtime",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0097",
                        "TimeSeconds":  383,
                        "Name":  "裁きの光 (詠唱開始)",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
@@ -694,35 +694,35 @@
                        "Id":  "evt_futures_rewritten_chaotic_0099",
                        "TimeSeconds":  387,
                        "Name":  "裁きの光",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0100",
                        "TimeSeconds":  388,
                        "Name":  "ムービー開始",
-                       "Type":  "Mechanic",
+                       "Type":  "Downtime",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0101",
                        "TimeSeconds":  420,
                        "Name":  "ムービー終了",
-                       "Type":  "Mechanic",
+                       "Type":  "Downtime",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0102",
                        "TimeSeconds":  425,
                        "Name":  "再構築",
-                       "Type":  "Mechanic",
+                       "Type":  "Downtime",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0103",
                        "TimeSeconds":  427,
                        "Name":  "ターゲット可",
-                       "Type":  "Mechanic",
+                       "Type":  "Downtime",
                        "Notes":  ""
                    },
                    {
@@ -806,7 +806,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0115",
                        "TimeSeconds":  450,
                        "Name":  "バウル・オブ・アゴニー",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
@@ -890,7 +890,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0127",
                        "TimeSeconds":  469,
                        "Name":  "サンダガ",
-                       "Type":  "Mechanic",
+                       "Type":  "Spread",
                        "Notes":  ""
                    },
                    {
@@ -932,7 +932,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0133",
                        "TimeSeconds":  478,
                        "Name":  "サンダガ",
-                       "Type":  "Mechanic",
+                       "Type":  "Tankbuster",
                        "Notes":  ""
                    },
                    {
@@ -946,7 +946,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0135",
                        "TimeSeconds":  481,
                        "Name":  "サンダガ",
-                       "Type":  "Mechanic",
+                       "Type":  "Spread",
                        "Notes":  ""
                    },
                    {
@@ -1086,56 +1086,56 @@
                        "Id":  "evt_futures_rewritten_chaotic_0155",
                        "TimeSeconds":  507,
                        "Name":  "アルテマブラスター",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0156",
                        "TimeSeconds":  509,
                        "Name":  "アルテマブラスター",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0157",
                        "TimeSeconds":  511,
                        "Name":  "アルテマブラスター",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0158",
                        "TimeSeconds":  511,
                        "Name":  "アンブラスマッシュ",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0159",
                        "TimeSeconds":  513,
                        "Name":  "アルテマブラスター",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0160",
                        "TimeSeconds":  514,
                        "Name":  "真空波",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0161",
                        "TimeSeconds":  515,
                        "Name":  "アルテマブラスター",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0162",
                        "TimeSeconds":  517,
                        "Name":  "アルテマブラスター",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
@@ -1149,7 +1149,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0164",
                        "TimeSeconds":  519,
                        "Name":  "アルテマブラスター",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
@@ -1163,7 +1163,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0166",
                        "TimeSeconds":  521,
                        "Name":  "アルテマブラスター",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
@@ -1205,14 +1205,14 @@
                        "Id":  "evt_futures_rewritten_chaotic_0172",
                        "TimeSeconds":  529,
                        "Name":  "アルテマブラスター",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0173",
                        "TimeSeconds":  530,
                        "Name":  "アルテマブラスター",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
@@ -1226,7 +1226,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0175",
                        "TimeSeconds":  531,
                        "Name":  "アルテマブラスター",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
@@ -1247,7 +1247,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0178",
                        "TimeSeconds":  537,
                        "Name":  "サンダガ",
-                       "Type":  "Mechanic",
+                       "Type":  "Tankbuster",
                        "Notes":  ""
                    },
                    {
@@ -1268,7 +1268,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0181",
                        "TimeSeconds":  540,
                        "Name":  "サンダガ",
-                       "Type":  "Mechanic",
+                       "Type":  "Spread",
                        "Notes":  ""
                    },
                    {
@@ -1324,7 +1324,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0189",
                        "TimeSeconds":  554,
                        "Name":  "サンダガ",
-                       "Type":  "Mechanic",
+                       "Type":  "Tankbuster",
                        "Notes":  ""
                    },
                    {
@@ -1338,7 +1338,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0191",
                        "TimeSeconds":  557,
                        "Name":  "サンダガ",
-                       "Type":  "Mechanic",
+                       "Type":  "Spread",
                        "Notes":  ""
                    },
                    {
@@ -1380,7 +1380,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0197",
                        "TimeSeconds":  569,
                        "Name":  "じしん",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
@@ -1401,7 +1401,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0200",
                        "TimeSeconds":  573,
                        "Name":  "じしん",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
@@ -1422,14 +1422,14 @@
                        "Id":  "evt_futures_rewritten_chaotic_0203",
                        "TimeSeconds":  575,
                        "Name":  "びんびんビンタ",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0204",
                        "TimeSeconds":  576,
                        "Name":  "びんびんビンタ",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
@@ -1443,14 +1443,14 @@
                        "Id":  "evt_futures_rewritten_chaotic_0206",
                        "TimeSeconds":  577,
                        "Name":  "びんびんビンタ",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0207",
                        "TimeSeconds":  578,
                        "Name":  "びんびんビンタ",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
@@ -1464,7 +1464,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0209",
                        "TimeSeconds":  578,
                        "Name":  "重衝撃 or 衝撃波",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
@@ -1548,14 +1548,14 @@
                        "Id":  "evt_futures_rewritten_chaotic_0221",
                        "TimeSeconds":  596,
                        "Name":  "サンダガ",
-                       "Type":  "Mechanic",
+                       "Type":  "Tankbuster",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0222",
                        "TimeSeconds":  599,
                        "Name":  "サンダガ",
-                       "Type":  "Mechanic",
+                       "Type":  "Spread",
                        "Notes":  ""
                    },
                    {
@@ -1583,7 +1583,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0226",
                        "TimeSeconds":  605,
                        "Name":  "びんびんビンタ",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
@@ -1604,14 +1604,14 @@
                        "Id":  "evt_futures_rewritten_chaotic_0229",
                        "TimeSeconds":  606,
                        "Name":  "びんびんビンタ",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0230",
                        "TimeSeconds":  607,
                        "Name":  "びんびんビンタ",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
@@ -1632,14 +1632,14 @@
                        "Id":  "evt_futures_rewritten_chaotic_0233",
                        "TimeSeconds":  609,
                        "Name":  "びんびんビンタ",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0234",
                        "TimeSeconds":  609,
                        "Name":  "重衝撃 or 衝撃波",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
@@ -1674,7 +1674,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0239",
                        "TimeSeconds":  618,
                        "Name":  "じしん",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
@@ -1695,7 +1695,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0242",
                        "TimeSeconds":  623,
                        "Name":  "じしん",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
@@ -1716,7 +1716,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0245",
                        "TimeSeconds":  628,
                        "Name":  "じしん",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
@@ -1751,7 +1751,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0250",
                        "TimeSeconds":  637,
                        "Name":  "サンダガ",
-                       "Type":  "Mechanic",
+                       "Type":  "Tankbuster",
                        "Notes":  ""
                    },
                    {
@@ -1772,7 +1772,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0253",
                        "TimeSeconds":  640,
                        "Name":  "サンダガ",
-                       "Type":  "Mechanic",
+                       "Type":  "Spread",
                        "Notes":  ""
                    },
                    {
@@ -1828,7 +1828,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0261",
                        "TimeSeconds":  652,
                        "Name":  "じしん",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
@@ -1849,7 +1849,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0264",
                        "TimeSeconds":  657,
                        "Name":  "じしん",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
@@ -1870,7 +1870,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0267",
                        "TimeSeconds":  662,
                        "Name":  "じしん",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
@@ -1898,7 +1898,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0271",
                        "TimeSeconds":  674,
                        "Name":  "びんびんビンタ",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
@@ -1912,7 +1912,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0273",
                        "TimeSeconds":  675,
                        "Name":  "びんびんビンタ",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
@@ -1926,14 +1926,14 @@
                        "Id":  "evt_futures_rewritten_chaotic_0275",
                        "TimeSeconds":  677,
                        "Name":  "びんびんビンタ",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0276",
                        "TimeSeconds":  677,
                        "Name":  "重衝撃 or 衝撃波",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
@@ -1968,7 +1968,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0281",
                        "TimeSeconds":  685,
                        "Name":  "じしん",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
@@ -1989,7 +1989,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0284",
                        "TimeSeconds":  692,
                        "Name":  "じしん",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
@@ -2213,7 +2213,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0316",
                        "TimeSeconds":  734,
                        "Name":  "バウル・オブ・アゴニー",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
@@ -2227,7 +2227,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0318",
                        "TimeSeconds":  739,
                        "Name":  "ケフカターゲット可",
-                       "Type":  "Mechanic",
+                       "Type":  "Downtime",
                        "Notes":  ""
                    },
                    {
@@ -2262,14 +2262,14 @@
                        "Id":  "evt_futures_rewritten_chaotic_0323",
                        "TimeSeconds":  763,
                        "Name":  "グランドクロス",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0324",
                        "TimeSeconds":  769,
                        "Name":  "ほのお or つなみ",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
@@ -2297,14 +2297,14 @@
                        "Id":  "evt_futures_rewritten_chaotic_0328",
                        "TimeSeconds":  778,
                        "Name":  "グランドクロス",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0329",
                        "TimeSeconds":  783,
                        "Name":  "ほのお or つなみ",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
@@ -2332,7 +2332,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0333",
                        "TimeSeconds":  793,
                        "Name":  "グランドクロス",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
@@ -2402,7 +2402,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0343",
                        "TimeSeconds":  833,
                        "Name":  "どきどきアルテマ",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
@@ -2472,63 +2472,63 @@
                        "Id":  "evt_futures_rewritten_chaotic_0353",
                        "TimeSeconds":  862,
                        "Name":  "ケフカ (HP25% 以下)",
-                       "Type":  "Mechanic",
+                       "Type":  "Downtime",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0354",
                        "TimeSeconds":  863,
                        "Name":  "ターゲット不可",
-                       "Type":  "Mechanic",
+                       "Type":  "Downtime",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0355",
                        "TimeSeconds":  868,
                        "Name":  "裁きの光",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0356",
                        "TimeSeconds":  872,
                        "Name":  "どきどきアルテマ",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0357",
                        "TimeSeconds":  903,
                        "Name":  "ターゲット可",
-                       "Type":  "Mechanic",
+                       "Type":  "Downtime",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0358",
                        "TimeSeconds":  911,
                        "Name":  "連続アルテマ",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0359",
                        "TimeSeconds":  912,
                        "Name":  "連続アルテマ",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0360",
                        "TimeSeconds":  913,
                        "Name":  "連続アルテマ",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0361",
                        "TimeSeconds":  916,
                        "Name":  "魔撃 (その他)",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
@@ -2542,7 +2542,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0363",
                        "TimeSeconds":  919,
                        "Name":  "魔撃 (その他)",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
@@ -2556,7 +2556,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0365",
                        "TimeSeconds":  922,
                        "Name":  "魔撃 (その他)",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
@@ -2626,56 +2626,56 @@
                        "Id":  "evt_futures_rewritten_chaotic_0375",
                        "TimeSeconds":  940,
                        "Name":  "狂気のオーケストラ",
-                       "Type":  "Mechanic",
+                       "Type":  "Tankbuster",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0376",
                        "TimeSeconds":  941,
                        "Name":  "フレア",
-                       "Type":  "Mechanic",
+                       "Type":  "Spread",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0377",
                        "TimeSeconds":  941,
                        "Name":  "ホーリー",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0378",
                        "TimeSeconds":  945,
                        "Name":  "カオティックフレア",
-                       "Type":  "Mechanic",
+                       "Type":  "Spread",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0379",
                        "TimeSeconds":  945,
                        "Name":  "ホーリー",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0380",
                        "TimeSeconds":  948,
                        "Name":  "カオティックホーリー",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0381",
                        "TimeSeconds":  948,
                        "Name":  "フレアディフュージョン",
-                       "Type":  "Mechanic",
+                       "Type":  "Spread",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0382",
                        "TimeSeconds":  953,
                        "Name":  "魔撃 (その他)",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
@@ -2689,7 +2689,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0384",
                        "TimeSeconds":  956,
                        "Name":  "魔撃 (その他)",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
@@ -2710,7 +2710,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0387",
                        "TimeSeconds":  971,
                        "Name":  "サンダガ",
-                       "Type":  "Mechanic",
+                       "Type":  "Spread",
                        "Notes":  ""
                    },
                    {
@@ -2745,7 +2745,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0392",
                        "TimeSeconds":  977,
                        "Name":  "サンダガ",
-                       "Type":  "Mechanic",
+                       "Type":  "Spread",
                        "Notes":  ""
                    },
                    {
@@ -2766,7 +2766,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0395",
                        "TimeSeconds":  983,
                        "Name":  "サンダガ",
-                       "Type":  "Mechanic",
+                       "Type":  "Spread",
                        "Notes":  ""
                    },
                    {
@@ -2801,28 +2801,28 @@
                        "Id":  "evt_futures_rewritten_chaotic_0400",
                        "TimeSeconds":  993,
                        "Name":  "連続アルテマ",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0401",
                        "TimeSeconds":  994,
                        "Name":  "連続アルテマ",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0402",
                        "TimeSeconds":  995,
                        "Name":  "連続アルテマ",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0403",
                        "TimeSeconds":  998,
                        "Name":  "魔撃 (その他)",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
@@ -2836,7 +2836,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0405",
                        "TimeSeconds":  1001,
                        "Name":  "魔撃 (その他)",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
@@ -2871,56 +2871,56 @@
                        "Id":  "evt_futures_rewritten_chaotic_0410",
                        "TimeSeconds":  1033,
                        "Name":  "フレア",
-                       "Type":  "Mechanic",
+                       "Type":  "Spread",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0411",
                        "TimeSeconds":  1033,
                        "Name":  "ホーリー",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0412",
                        "TimeSeconds":  1033,
                        "Name":  "狂気のオーケストラ",
-                       "Type":  "Mechanic",
+                       "Type":  "Tankbuster",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0413",
                        "TimeSeconds":  1037,
                        "Name":  "カオティックフレア",
-                       "Type":  "Mechanic",
+                       "Type":  "Spread",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0414",
                        "TimeSeconds":  1037,
                        "Name":  "ホーリー",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0415",
                        "TimeSeconds":  1040,
                        "Name":  "カオティックホーリー",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0416",
                        "TimeSeconds":  1040,
                        "Name":  "フレアディフュージョン",
-                       "Type":  "Mechanic",
+                       "Type":  "Spread",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0417",
                        "TimeSeconds":  1045,
                        "Name":  "魔撃 (その他)",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
@@ -2934,7 +2934,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0419",
                        "TimeSeconds":  1048,
                        "Name":  "魔撃 (その他)",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
@@ -2948,7 +2948,7 @@
                        "Id":  "evt_futures_rewritten_chaotic_0421",
                        "TimeSeconds":  1051,
                        "Name":  "魔撃 (その他)",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
@@ -2962,84 +2962,84 @@
                        "Id":  "evt_futures_rewritten_chaotic_0423",
                        "TimeSeconds":  1062,
                        "Name":  "ミッシング",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0424",
                        "TimeSeconds":  1067,
                        "Name":  "ミッシング・グラウンド",
-                       "Type":  "Mechanic",
+                       "Type":  "Spread",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0425",
                        "TimeSeconds":  1067,
                        "Name":  "ミッシング・ボンド",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0426",
                        "TimeSeconds":  1070,
                        "Name":  "ミッシング",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0427",
                        "TimeSeconds":  1076,
                        "Name":  "ミッシング・グラウンド",
-                       "Type":  "Mechanic",
+                       "Type":  "Spread",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0428",
                        "TimeSeconds":  1076,
                        "Name":  "ミッシング・ボンド",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0429",
                        "TimeSeconds":  1079,
                        "Name":  "ミッシング",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0430",
                        "TimeSeconds":  1084,
                        "Name":  "ミッシング・グラウンド",
-                       "Type":  "Mechanic",
+                       "Type":  "Spread",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0431",
                        "TimeSeconds":  1084,
                        "Name":  "ミッシング・ボンド",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0432",
                        "TimeSeconds":  1087,
                        "Name":  "ミッシング",
-                       "Type":  "Mechanic",
+                       "Type":  "Raidwide",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0433",
                        "TimeSeconds":  1092,
                        "Name":  "ミッシング・グラウンド",
-                       "Type":  "Mechanic",
+                       "Type":  "Spread",
                        "Notes":  ""
                    },
                    {
                        "Id":  "evt_futures_rewritten_chaotic_0434",
                        "TimeSeconds":  1092,
                        "Name":  "ミッシング・ボンド",
-                       "Type":  "Mechanic",
+                       "Type":  "Stack",
                        "Notes":  ""
                    },
                    {

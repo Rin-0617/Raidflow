@@ -55,6 +55,68 @@ public sealed class TimelinePresetServiceTests
     }
 
     [Fact]
+    public void ChaoticFuturesPresetClassifiesKeyMitigationEvents()
+    {
+        var plan = RaidFlowDocument.CreateDefault();
+
+        var result = TimelinePresetService.ApplyPreset(plan, "futures_rewritten_chaotic");
+
+        Assert.True(result.Success);
+        Assert.All(
+            plan.Events.Where(timelineEvent => timelineEvent.Name == "ばりばりルインガ"),
+            timelineEvent => Assert.Equal(TimelineEventType.Tankbuster, timelineEvent.Type));
+        Assert.Contains(plan.Events, timelineEvent =>
+            timelineEvent.Name == "裁きの光" &&
+            timelineEvent.Type == TimelineEventType.Raidwide);
+        Assert.Contains(plan.Events, timelineEvent =>
+            timelineEvent.Name == "終末の双腕" &&
+            timelineEvent.Type == TimelineEventType.Tankbuster);
+        Assert.Contains(plan.Events, timelineEvent =>
+            timelineEvent.Name == "びんびんビンタ" &&
+            timelineEvent.Type == TimelineEventType.Stack);
+        Assert.Contains(plan.Events, timelineEvent =>
+            timelineEvent.Name == "狂気のオーケストラ" &&
+            timelineEvent.Type == TimelineEventType.Tankbuster);
+    }
+
+    [Theory]
+    [InlineData("aac_heavyweight_m1_savage", "キラーボイス", TimelineEventType.Raidwide)]
+    [InlineData("aac_heavyweight_m1_savage", "ブルータルレイン", TimelineEventType.Stack)]
+    [InlineData("aac_heavyweight_m2_savage", "ディープインパクト", TimelineEventType.Tankbuster)]
+    [InlineData("aac_heavyweight_m2_savage", "ファイティングスピリット", TimelineEventType.Raidwide)]
+    [InlineData("aac_heavyweight_m3_savage", "キング・オブ・アルカディア", TimelineEventType.Raidwide)]
+    [InlineData("aac_heavyweight_m4_savage_phase2", "アルカディアン・フレイム", TimelineEventType.Raidwide)]
+    [InlineData("the_unending_coil_of_bahamut", "フラッテン", TimelineEventType.Tankbuster)]
+    [InlineData("the_unending_coil_of_bahamut", "ギガフレア", TimelineEventType.Raidwide)]
+    [InlineData("the_unending_coil_of_bahamut", "アク・モーン", TimelineEventType.Stack)]
+    [InlineData("the_epic_of_alexander", "カスケード", TimelineEventType.Raidwide)]
+    [InlineData("the_epic_of_alexander", "フルイドスイング", TimelineEventType.Tankbuster)]
+    [InlineData("the_epic_of_alexander", "プロティアンウェイブ", TimelineEventType.Spread)]
+    [InlineData("dragonsongs_reprise", "騎竜剣ギガフレア", TimelineEventType.Raidwide)]
+    [InlineData("dragonsongs_reprise", "アスカロンマイト", TimelineEventType.Tankbuster)]
+    [InlineData("dragonsongs_reprise", "騎竜剣アク・モーン(DPS)", TimelineEventType.Stack)]
+    [InlineData("ultimate_futures_rewritten", "絶対零度", TimelineEventType.Raidwide)]
+    [InlineData("ultimate_futures_rewritten", "ブラックヘイロー", TimelineEventType.Tankbuster)]
+    [InlineData("ultimate_futures_rewritten", "アク・モーン", TimelineEventType.Stack)]
+    [InlineData("ultimate_omega_protocol", "ソーラレイ", TimelineEventType.Tankbuster)]
+    [InlineData("ultimate_omega_protocol", "コスモメモリー", TimelineEventType.Raidwide)]
+    [InlineData("ultimate_omega_protocol", "パイルピッチ", TimelineEventType.Stack)]
+    public void BundledPresetsClassifyRepresentativeMitigationEvents(
+        string presetId,
+        string eventName,
+        TimelineEventType expectedType)
+    {
+        var plan = RaidFlowDocument.CreateDefault();
+
+        var result = TimelinePresetService.ApplyPreset(plan, presetId);
+
+        Assert.True(result.Success);
+        Assert.Contains(plan.Events, timelineEvent =>
+            timelineEvent.Name == eventName &&
+            timelineEvent.Type == expectedType);
+    }
+
+    [Fact]
     public void ApplyPresetReplacesTimelineAndKeepsParty()
     {
         var summaries = TimelinePresetService.LoadSummaries();

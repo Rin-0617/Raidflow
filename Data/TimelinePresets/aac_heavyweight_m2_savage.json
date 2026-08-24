@@ -78,7 +78,7 @@
       "Id": "evt_aac_heavyweight_m2_savage_0011",
       "TimeSeconds": 83,
       "Name": "ファイティングスピリット",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -134,49 +134,49 @@
       "Id": "evt_aac_heavyweight_m2_savage_0019",
       "TimeSeconds": 137,
       "Name": "ディープインパクト",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
       "Id": "evt_aac_heavyweight_m2_savage_0020",
       "TimeSeconds": 144,
       "Name": "ファイティングスピリット",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_aac_heavyweight_m2_savage_0021",
       "TimeSeconds": 170,
       "Name": "エクストリーム・スペクタクル",
-      "Type": "Mechanic",
+      "Type": "Downtime",
       "Notes": ""
     },
     {
       "Id": "evt_aac_heavyweight_m2_savage_0022",
       "TimeSeconds": 171,
       "Name": "エクストリーム・スペクタクル",
-      "Type": "Mechanic",
+      "Type": "Downtime",
       "Notes": ""
     },
     {
       "Id": "evt_aac_heavyweight_m2_savage_0023",
       "TimeSeconds": 172,
       "Name": "エクストリーム・スペクタクル",
-      "Type": "Mechanic",
+      "Type": "Downtime",
       "Notes": ""
     },
     {
       "Id": "evt_aac_heavyweight_m2_savage_0024",
       "TimeSeconds": 173,
       "Name": "エクストリーム・スペクタクル",
-      "Type": "Mechanic",
+      "Type": "Downtime",
       "Notes": ""
     },
     {
       "Id": "evt_aac_heavyweight_m2_savage_0025",
       "TimeSeconds": 174,
       "Name": "エクストリーム・スペクタクル",
-      "Type": "Mechanic",
+      "Type": "Downtime",
       "Notes": ""
     },
     {
@@ -372,14 +372,14 @@
       "Id": "evt_aac_heavyweight_m2_savage_0053",
       "TimeSeconds": 230,
       "Name": "ファイティングスピリット (Blue)",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_aac_heavyweight_m2_savage_0054",
       "TimeSeconds": 230,
       "Name": "ファイティングスピリット (Red)",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -666,7 +666,7 @@
       "Id": "evt_aac_heavyweight_m2_savage_0095",
       "TimeSeconds": 315,
       "Name": "ディープインパクト",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -680,14 +680,14 @@
       "Id": "evt_aac_heavyweight_m2_savage_0097",
       "TimeSeconds": 322,
       "Name": "ファイティングスピリット (Blue)",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_aac_heavyweight_m2_savage_0098",
       "TimeSeconds": 322,
       "Name": "ファイティングスピリット (Red)",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -862,14 +862,14 @@
       "Id": "evt_aac_heavyweight_m2_savage_0123",
       "TimeSeconds": 401,
       "Name": "ファイティングスピリット (Blue)",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_aac_heavyweight_m2_savage_0124",
       "TimeSeconds": 401,
       "Name": "ファイティングスピリット (Red)",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -1072,14 +1072,14 @@
       "Id": "evt_aac_heavyweight_m2_savage_0152",
       "TimeSeconds": 455,
       "Name": "ファイティングスピリット (Blue)",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_aac_heavyweight_m2_savage_0153",
       "TimeSeconds": 455,
       "Name": "ファイティングスピリット (Red)",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -1310,14 +1310,14 @@
       "Id": "evt_aac_heavyweight_m2_savage_0187",
       "TimeSeconds": 529,
       "Name": "ファイティングスピリット (Blue)",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_aac_heavyweight_m2_savage_0188",
       "TimeSeconds": 529,
       "Name": "ファイティングスピリット (Red)",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -1422,7 +1422,7 @@
       "Id": "evt_aac_heavyweight_m2_savage_0204",
       "TimeSeconds": 557,
       "Name": "ディープインパクト",
-      "Type": "Mechanic",
+      "Type": "Tankbuster",
       "Notes": ""
     },
     {
@@ -1485,14 +1485,14 @@
       "Id": "evt_aac_heavyweight_m2_savage_0212",
       "TimeSeconds": 570,
       "Name": "ファイティングスピリット (Blue)",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_aac_heavyweight_m2_savage_0213",
       "TimeSeconds": 570,
       "Name": "ファイティングスピリット (Red)",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -1520,14 +1520,14 @@
       "Id": "evt_aac_heavyweight_m2_savage_0216",
       "TimeSeconds": 579,
       "Name": "ファイティングスピリット (Blue)",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
       "Id": "evt_aac_heavyweight_m2_savage_0217",
       "TimeSeconds": 579,
       "Name": "ファイティングスピリット (Red)",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {

@@ -8,7 +8,7 @@
       "Id": "evt_aac_heavyweight_m3_savage_0001",
       "TimeSeconds": 11,
       "Name": "キング・オブ・アルカディア",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -99,7 +99,7 @@
       "Id": "evt_aac_heavyweight_m3_savage_0014",
       "TimeSeconds": 80,
       "Name": "コメットレイン",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -211,7 +211,7 @@
       "Id": "evt_aac_heavyweight_m3_savage_0030",
       "TimeSeconds": 123,
       "Name": "キング・オブ・アルカディア",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -407,7 +407,7 @@
       "Id": "evt_aac_heavyweight_m3_savage_0059",
       "TimeSeconds": 228,
       "Name": "イモータルレイン",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -421,7 +421,7 @@
       "Id": "evt_aac_heavyweight_m3_savage_0060",
       "TimeSeconds": 242,
       "Name": "ワン・アンド・オンリー",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -484,7 +484,7 @@
       "Id": "evt_aac_heavyweight_m3_savage_0069",
       "TimeSeconds": 293,
       "Name": "メテオレイン",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -750,7 +750,7 @@
       "Id": "evt_aac_heavyweight_m3_savage_0107",
       "TimeSeconds": 482,
       "Name": "キング・オブ・アルカディア",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -813,7 +813,7 @@
       "Id": "evt_aac_heavyweight_m3_savage_0116",
       "TimeSeconds": 525,
       "Name": "キング・オブ・アルカディア",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -946,7 +946,7 @@
       "Id": "evt_aac_heavyweight_m3_savage_0135",
       "TimeSeconds": 583,
       "Name": "キング・オブ・アルカディア",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {

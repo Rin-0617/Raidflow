@@ -8,7 +8,7 @@
       "Id": "evt_aac_heavyweight_m1_savage_0001",
       "TimeSeconds": 10,
       "Name": "キラーボイス",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -71,21 +71,21 @@
       "Id": "evt_aac_heavyweight_m1_savage_0010",
       "TimeSeconds": 47,
       "Name": "ブルータルレイン",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
       "Id": "evt_aac_heavyweight_m1_savage_0011",
       "TimeSeconds": 48,
       "Name": "ブルータルレイン",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
       "Id": "evt_aac_heavyweight_m1_savage_0012",
       "TimeSeconds": 49,
       "Name": "ブルータルレイン",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
@@ -365,35 +365,35 @@
       "Id": "evt_aac_heavyweight_m1_savage_0052",
       "TimeSeconds": 257,
       "Name": "ブルータルレイン",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
       "Id": "evt_aac_heavyweight_m1_savage_0053",
       "TimeSeconds": 258,
       "Name": "ブルータルレイン",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
       "Id": "evt_aac_heavyweight_m1_savage_0054",
       "TimeSeconds": 259,
       "Name": "ブルータルレイン",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
       "Id": "evt_aac_heavyweight_m1_savage_0055",
       "TimeSeconds": 260,
       "Name": "ブルータルレイン",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
       "Id": "evt_aac_heavyweight_m1_savage_0056",
       "TimeSeconds": 261,
       "Name": "ブルータルレイン",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
@@ -421,7 +421,7 @@
       "Id": "evt_aac_heavyweight_m1_savage_0060",
       "TimeSeconds": 306,
       "Name": "キラーボイス",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -435,7 +435,7 @@
       "Id": "evt_aac_heavyweight_m1_savage_0062",
       "TimeSeconds": 324,
       "Name": "キラーボイス",
-      "Type": "Mechanic",
+      "Type": "Raidwide",
       "Notes": ""
     },
     {
@@ -715,35 +715,35 @@
       "Id": "evt_aac_heavyweight_m1_savage_0102",
       "TimeSeconds": 499,
       "Name": "ブルータルレイン",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
       "Id": "evt_aac_heavyweight_m1_savage_0103",
       "TimeSeconds": 500,
       "Name": "ブルータルレイン",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
       "Id": "evt_aac_heavyweight_m1_savage_0104",
       "TimeSeconds": 501,
       "Name": "ブルータルレイン",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
       "Id": "evt_aac_heavyweight_m1_savage_0105",
       "TimeSeconds": 502,
       "Name": "ブルータルレイン",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
       "Id": "evt_aac_heavyweight_m1_savage_0106",
       "TimeSeconds": 503,
       "Name": "ブルータルレイン",
-      "Type": "Mechanic",
+      "Type": "Stack",
       "Notes": ""
     },
     {
