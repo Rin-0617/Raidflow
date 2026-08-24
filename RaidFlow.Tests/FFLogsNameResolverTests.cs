@@ -14,6 +14,15 @@ public sealed class FFLogsNameResolverTests
         Assert.False(FFLogsNameResolver.IsUsableAbilityName(name));
     }
 
+    [Fact]
+    public void TryGetActionIdFromRsvNameExtractsEmbeddedActionId()
+    {
+        Assert.True(FFLogsNameResolver.TryGetActionIdFromRsvName(
+            "_rsv_47866_-1_0_0_0_SE2DC5B04_EE2DC5B04",
+            out var actionId));
+        Assert.Equal<uint>(47866, actionId);
+    }
+
     [Theory]
     [InlineData("Blizzard III Blowout")]
     [InlineData("Japanese action name")]
@@ -70,6 +79,23 @@ public sealed class FFLogsNameResolverTests
             "Blizzard III Blowout",
             localizedNames,
             "_rsv_47866_-1_0_0_0_SE2DC5B04_EE2DC5B04");
+
+        Assert.Equal("ばりばりルインガ", name);
+    }
+
+    [Fact]
+    public void ResolveAbilityNameUsesActionIdEmbeddedInRsvNameWhenAbilityIdIsMissing()
+    {
+        var localizedNames = new Dictionary<uint, string>
+        {
+            [47866] = "ばりばりルインガ",
+        };
+
+        var name = FFLogsNameResolver.ResolveAbilityName(
+            0,
+            "_rsv_47866_-1_0_0_0_SE2DC5B04_EE2DC5B04",
+            localizedNames,
+            string.Empty);
 
         Assert.Equal("ばりばりルインガ", name);
     }

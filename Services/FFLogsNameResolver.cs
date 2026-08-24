@@ -8,7 +8,8 @@ public static class FFLogsNameResolver
         IReadOnlyDictionary<uint, string> localizedActionNames,
         string translatedMetadataName)
     {
-        var hasLocalizedName = TryGetLocalizedActionName(abilityId, localizedActionNames, out var localizedName);
+        var resolvedAbilityId = ResolveAbilityId(abilityId, eventName, translatedMetadataName);
+        var hasLocalizedName = TryGetLocalizedActionName(resolvedAbilityId, localizedActionNames, out var localizedName);
         var hasEventName = IsUsableAbilityName(eventName);
         var hasMetadataName = IsUsableAbilityName(translatedMetadataName);
 
@@ -48,6 +49,45 @@ public static class FFLogsNameResolver
     public static bool IsRsvName(string value)
     {
         return value.TrimStart().StartsWith("_rsv_", StringComparison.OrdinalIgnoreCase);
+    }
+
+    public static bool TryGetActionIdFromRsvName(string value, out uint actionId)
+    {
+        actionId = 0;
+        var trimmed = value.TrimStart();
+        const string prefix = "_rsv_";
+        if (!trimmed.StartsWith(prefix, StringComparison.OrdinalIgnoreCase))
+        {
+            return false;
+        }
+
+        var start = prefix.Length;
+        var end = start;
+        while (end < trimmed.Length && char.IsDigit(trimmed[end]))
+        {
+            end++;
+        }
+
+        return end > start &&
+               uint.TryParse(trimmed[start..end], out actionId) &&
+               actionId > 0;
+    }
+
+    private static uint ResolveAbilityId(uint abilityId, string eventName, string translatedMetadataName)
+    {
+        if (abilityId > 0)
+        {
+            return abilityId;
+        }
+
+        if (TryGetActionIdFromRsvName(eventName, out var eventActionId))
+        {
+            return eventActionId;
+        }
+
+        return TryGetActionIdFromRsvName(translatedMetadataName, out var metadataActionId)
+            ? metadataActionId
+            : 0;
     }
 
     private static bool TryGetLocalizedActionName(
