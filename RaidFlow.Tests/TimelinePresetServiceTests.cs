@@ -11,11 +11,11 @@ public sealed class TimelinePresetServiceTests
     {
         var summaries = TimelinePresetService.LoadSummaries();
 
-        Assert.Contains(summaries, preset => preset.ContentName == "アルカディア零式1層");
-        Assert.Contains(summaries, preset => preset.ContentName == "アルカディア零式2層");
-        Assert.Contains(summaries, preset => preset.ContentName == "アルカディア零式3層");
-        Assert.Contains(summaries, preset => preset.ContentName == "アルカディア零式4層 前半");
-        Assert.Contains(summaries, preset => preset.ContentName == "アルカディア零式4層 後半");
+        Assert.Contains(summaries, preset => preset.ContentName == "アルカディア零式：ヘビー級1層");
+        Assert.Contains(summaries, preset => preset.ContentName == "アルカディア零式：ヘビー級2層");
+        Assert.Contains(summaries, preset => preset.ContentName == "アルカディア零式：ヘビー級3層");
+        Assert.Contains(summaries, preset => preset.ContentName == "アルカディア零式：ヘビー級4層 前半");
+        Assert.Contains(summaries, preset => preset.ContentName == "アルカディア零式：ヘビー級4層 後半");
         Assert.Contains(summaries, preset => preset.ContentName == "絶アルテマウェポン破壊作戦");
         Assert.All(summaries, preset => Assert.True(preset.EventCount > 0));
     }
