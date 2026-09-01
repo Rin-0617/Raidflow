@@ -9,9 +9,15 @@ namespace RaidFlow.Windows;
 
 public sealed class OverlayWindow : Window
 {
+    private static readonly Vector2 DefaultSize = new(360, 220);
+
     private readonly Configuration configuration;
     private readonly PullTimerService pullTimer;
     private readonly ActionIconService actionIconService;
+    private DateTimeOffset nextPlacementSaveAtUtc;
+    private Vector2? lastWindowPosition;
+    private Vector2? lastWindowSize;
+    private bool placementRestored;
 
     public OverlayWindow(Configuration configuration, PullTimerService pullTimer, ActionIconService actionIconService)
         : base(VersionInfo.WindowTitle("RaidFlow オーバーレイ", "RaidFlowOverlay"), ImGuiWindowFlags.NoScrollbar | ImGuiWindowFlags.NoCollapse, true)
@@ -21,10 +27,11 @@ public sealed class OverlayWindow : Window
         this.actionIconService = actionIconService;
 
         this.IsOpen = false;
-        this.Size = new Vector2(360, 220);
+        this.Size = DefaultSize;
         this.SizeCondition = ImGuiCond.FirstUseEver;
         this.AllowClickthrough = true;
         this.RespectCloseHotkey = false;
+        this.RestoreWindowPlacement();
     }
 
     public override void PreDraw()
@@ -41,6 +48,7 @@ public sealed class OverlayWindow : Window
         this.BgAlpha = Math.Clamp(settings.BackgroundAlpha, 0.2f, 1f);
         this.ShowCloseButton = !settings.LockOverlay;
         this.IsClickthrough = settings.LockOverlay && settings.ClickThroughWhenLocked;
+        this.RestoreWindowPlacement();
     }
 
     public override void OnOpen()
@@ -51,6 +59,7 @@ public sealed class OverlayWindow : Window
 
     public override void OnClose()
     {
+        this.FlushWindowPlacement();
         this.configuration.Overlay.IsOpen = false;
         this.configuration.Save();
     }
@@ -58,6 +67,7 @@ public sealed class OverlayWindow : Window
     public override void Draw()
     {
         this.configuration.Plan.Normalize();
+        this.CaptureWindowPlacement(false);
 
         var currentTime = this.pullTimer.CurrentTimeSeconds;
         var settings = this.configuration.Overlay;
@@ -101,6 +111,100 @@ public sealed class OverlayWindow : Window
         {
             this.DrawCompactEvent(timelineEvent, currentTime);
         }
+    }
+
+    private void RestoreWindowPlacement()
+    {
+        if (this.placementRestored)
+        {
+            return;
+        }
+
+        var settings = this.configuration.Overlay;
+        var position = new Vector2(settings.WindowX, settings.WindowY);
+        var size = new Vector2(settings.WindowWidth, settings.WindowHeight);
+        if (!settings.HasWindowPlacement || !IsUsablePlacement(position, size))
+        {
+            return;
+        }
+
+        this.Position = position;
+        this.PositionCondition = ImGuiCond.Once;
+        this.Size = size;
+        this.SizeCondition = ImGuiCond.Once;
+        this.placementRestored = true;
+    }
+
+    private void CaptureWindowPlacement(bool forceSave)
+    {
+        var position = ImGui.GetWindowPos();
+        var size = ImGui.GetWindowSize();
+        if (!IsUsablePlacement(position, size))
+        {
+            return;
+        }
+
+        this.lastWindowPosition = position;
+        this.lastWindowSize = size;
+        this.SaveWindowPlacement(position, size, forceSave);
+    }
+
+    private void FlushWindowPlacement()
+    {
+        if (this.lastWindowPosition is not { } position || this.lastWindowSize is not { } size)
+        {
+            return;
+        }
+
+        this.SaveWindowPlacement(position, size, true);
+    }
+
+    private void SaveWindowPlacement(Vector2 position, Vector2 size, bool forceSave)
+    {
+        var settings = this.configuration.Overlay;
+        if (settings.HasWindowPlacement &&
+            NearlyEqual(settings.WindowX, position.X) &&
+            NearlyEqual(settings.WindowY, position.Y) &&
+            NearlyEqual(settings.WindowWidth, size.X) &&
+            NearlyEqual(settings.WindowHeight, size.Y))
+        {
+            return;
+        }
+
+        settings.HasWindowPlacement = true;
+        settings.WindowX = position.X;
+        settings.WindowY = position.Y;
+        settings.WindowWidth = size.X;
+        settings.WindowHeight = size.Y;
+
+        var now = DateTimeOffset.UtcNow;
+        if (!forceSave && now < this.nextPlacementSaveAtUtc)
+        {
+            return;
+        }
+
+        this.nextPlacementSaveAtUtc = now.AddMilliseconds(750);
+        this.configuration.Save();
+    }
+
+    private static bool IsUsablePlacement(Vector2 position, Vector2 size)
+    {
+        return IsFinite(position.X) &&
+            IsFinite(position.Y) &&
+            IsFinite(size.X) &&
+            IsFinite(size.Y) &&
+            size.X >= 120f &&
+            size.Y >= 80f;
+    }
+
+    private static bool IsFinite(float value)
+    {
+        return !float.IsNaN(value) && !float.IsInfinity(value);
+    }
+
+    private static bool NearlyEqual(float left, float right)
+    {
+        return Math.Abs(left - right) < 0.5f;
     }
 
     private void DrawTimerHeader(float currentTime)

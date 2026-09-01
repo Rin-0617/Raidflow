@@ -35,4 +35,14 @@ public sealed class OverlaySettings
     public float RecentSeconds { get; set; } = 8;
 
     public float BackgroundAlpha { get; set; } = 0.82f;
+
+    public bool HasWindowPlacement { get; set; }
+
+    public float WindowX { get; set; }
+
+    public float WindowY { get; set; }
+
+    public float WindowWidth { get; set; } = 360;
+
+    public float WindowHeight { get; set; } = 220;
 }
