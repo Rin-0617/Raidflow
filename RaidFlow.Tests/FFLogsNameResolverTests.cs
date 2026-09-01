@@ -101,6 +101,43 @@ public sealed class FFLogsNameResolverTests
     }
 
     [Fact]
+    public void ResolveAbilityNameUsesRsvActionIdWhenAbilityIdDoesNotResolveToJapanese()
+    {
+        var localizedNames = new Dictionary<uint, string>
+        {
+            [11111] = "Blizzard III Blowout",
+            [47866] = "ぼりぼりブリザガ",
+        };
+
+        var name = FFLogsNameResolver.ResolveAbilityName(
+            11111,
+            "Blizzard III Blowout",
+            localizedNames,
+            "_rsv_47866_-1_0_0_0_SE2DC5B04_EE2DC5B04");
+
+        Assert.Equal("ぼりぼりブリザガ", name);
+    }
+
+    [Fact]
+    public void ResolveAbilityNameUsesEnglishNameMappingWhenActionIdDoesNotResolve()
+    {
+        var localizedNames = new Dictionary<uint, string>();
+        var englishToLocalizedNames = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
+        {
+            ["Blizzard III Blowout"] = "ぼりぼりブリザガ",
+        };
+
+        var name = FFLogsNameResolver.ResolveAbilityName(
+            11111,
+            "Blizzard III Blowout",
+            localizedNames,
+            "Blizzard III Blowout",
+            englishToLocalizedNames);
+
+        Assert.Equal("ぼりぼりブリザガ", name);
+    }
+
+    [Fact]
     public void ResolveAbilityNameFallsBackToEventNameWhenLuminaIsUnavailable()
     {
         var name = FFLogsNameResolver.ResolveAbilityName(

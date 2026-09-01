@@ -16,6 +16,8 @@ public sealed class FFLogsSettings
 
     public bool ReplaceTimelineOnImport { get; set; } = true;
 
+    public bool ImportMitigationAssignments { get; set; } = true;
+
     public int MaxImportedEvents { get; set; } = 250;
 }
 
@@ -33,7 +35,16 @@ public sealed class FFLogsImportRequest
 
     public int FightId { get; init; }
 
+    public int ContentLevel { get; init; } = 100;
+
+    public IReadOnlyList<PartyMemberProfile> Party { get; init; } = [];
+
+    public bool ImportMitigationAssignments { get; init; } = true;
+
     public IReadOnlyDictionary<uint, string> LocalizedActionNames { get; init; } = new Dictionary<uint, string>();
+
+    public IReadOnlyDictionary<string, string> EnglishToLocalizedActionNames { get; init; } =
+        new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
 }
 
 public sealed class FFLogsImportResult
@@ -47,6 +58,8 @@ public sealed class FFLogsImportResult
     public string FightName { get; init; } = string.Empty;
 
     public int FightId { get; init; }
+
+    public int ImportedMitigationAssignments { get; init; }
 
     public string? AccessToken { get; init; }
 

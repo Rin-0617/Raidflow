@@ -6,16 +6,35 @@ public static class FFLogsNameResolver
         uint abilityId,
         string eventName,
         IReadOnlyDictionary<uint, string> localizedActionNames,
-        string translatedMetadataName)
+        string translatedMetadataName,
+        IReadOnlyDictionary<string, string>? englishToLocalizedActionNames = null)
     {
-        var resolvedAbilityId = ResolveAbilityId(abilityId, eventName, translatedMetadataName);
-        var hasLocalizedName = TryGetLocalizedActionName(resolvedAbilityId, localizedActionNames, out var localizedName);
+        var localizedNames = ResolveAbilityIds(abilityId, eventName, translatedMetadataName)
+            .Select(actionId => TryGetLocalizedActionName(actionId, localizedActionNames, out var localizedName)
+                ? localizedName
+                : string.Empty)
+            .Where(IsUsableAbilityName)
+            .Distinct(StringComparer.Ordinal)
+            .ToList();
         var hasEventName = IsUsableAbilityName(eventName);
         var hasMetadataName = IsUsableAbilityName(translatedMetadataName);
 
-        if (hasLocalizedName && ContainsJapaneseText(localizedName))
+        var localizedJapaneseName = localizedNames.FirstOrDefault(ContainsJapaneseText);
+        if (!string.IsNullOrWhiteSpace(localizedJapaneseName))
         {
-            return localizedName;
+            return localizedJapaneseName;
+        }
+
+        if (TryGetLocalizedNameFromEnglishName(eventName, englishToLocalizedActionNames, out var eventLocalizedName) &&
+            ContainsJapaneseText(eventLocalizedName))
+        {
+            return eventLocalizedName;
+        }
+
+        if (TryGetLocalizedNameFromEnglishName(translatedMetadataName, englishToLocalizedActionNames, out var metadataLocalizedName) &&
+            ContainsJapaneseText(metadataLocalizedName))
+        {
+            return metadataLocalizedName;
         }
 
         if (hasEventName && ContainsJapaneseText(eventName))
@@ -28,9 +47,10 @@ public static class FFLogsNameResolver
             return translatedMetadataName;
         }
 
-        if (hasLocalizedName)
+        var firstLocalizedName = localizedNames.FirstOrDefault();
+        if (!string.IsNullOrWhiteSpace(firstLocalizedName))
         {
-            return localizedName;
+            return firstLocalizedName;
         }
 
         if (hasEventName)
@@ -73,21 +93,24 @@ public static class FFLogsNameResolver
                actionId > 0;
     }
 
-    private static uint ResolveAbilityId(uint abilityId, string eventName, string translatedMetadataName)
+    private static IEnumerable<uint> ResolveAbilityIds(uint abilityId, string eventName, string translatedMetadataName)
     {
         if (abilityId > 0)
         {
-            return abilityId;
+            yield return abilityId;
         }
 
-        if (TryGetActionIdFromRsvName(eventName, out var eventActionId))
+        if (TryGetActionIdFromRsvName(eventName, out var eventActionId) && eventActionId != abilityId)
         {
-            return eventActionId;
+            yield return eventActionId;
         }
 
-        return TryGetActionIdFromRsvName(translatedMetadataName, out var metadataActionId)
-            ? metadataActionId
-            : 0;
+        if (TryGetActionIdFromRsvName(translatedMetadataName, out var metadataActionId) &&
+            metadataActionId != abilityId &&
+            metadataActionId != eventActionId)
+        {
+            yield return metadataActionId;
+        }
     }
 
     private static bool TryGetLocalizedActionName(
@@ -98,6 +121,24 @@ public static class FFLogsNameResolver
         localizedName = string.Empty;
         if (abilityId == 0 ||
             !localizedActionNames.TryGetValue(abilityId, out var candidate) ||
+            !IsUsableAbilityName(candidate))
+        {
+            return false;
+        }
+
+        localizedName = candidate;
+        return true;
+    }
+
+    private static bool TryGetLocalizedNameFromEnglishName(
+        string abilityName,
+        IReadOnlyDictionary<string, string>? englishToLocalizedActionNames,
+        out string localizedName)
+    {
+        localizedName = string.Empty;
+        if (englishToLocalizedActionNames is null ||
+            string.IsNullOrWhiteSpace(abilityName) ||
+            !englishToLocalizedActionNames.TryGetValue(abilityName.Trim(), out var candidate) ||
             !IsUsableAbilityName(candidate))
         {
             return false;

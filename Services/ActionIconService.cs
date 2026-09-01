@@ -13,6 +13,7 @@ public sealed class ActionIconService
     private readonly Dictionary<uint, ActionGameData> actionCache = [];
     private readonly Dictionary<uint, ISharedImmediateTexture?> textureCache = [];
     private IReadOnlyDictionary<uint, string>? localizedActionNames;
+    private IReadOnlyDictionary<string, string>? englishToLocalizedActionNames;
 
     public ActionIconService(IDataManager dataManager, ITextureProvider textureProvider)
     {
@@ -42,6 +43,35 @@ public sealed class ActionIconService
 
         this.localizedActionNames = names;
         return this.localizedActionNames;
+    }
+
+    public IReadOnlyDictionary<string, string> GetEnglishToLocalizedActionNames()
+    {
+        if (this.englishToLocalizedActionNames is not null)
+        {
+            return this.englishToLocalizedActionNames;
+        }
+
+        var localizedNames = this.GetLocalizedActionNames();
+        var englishNames = new Dictionary<uint, string>();
+        this.AddActionNames(englishNames, ClientLanguage.English, overwrite: true);
+
+        var mappedNames = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
+        foreach (var (actionId, englishName) in englishNames)
+        {
+            if (string.IsNullOrWhiteSpace(englishName) ||
+                !localizedNames.TryGetValue(actionId, out var localizedName) ||
+                string.IsNullOrWhiteSpace(localizedName) ||
+                string.Equals(englishName, localizedName, StringComparison.OrdinalIgnoreCase))
+            {
+                continue;
+            }
+
+            mappedNames[englishName.Trim()] = localizedName;
+        }
+
+        this.englishToLocalizedActionNames = mappedNames;
+        return this.englishToLocalizedActionNames;
     }
 
     private void AddActionNames(Dictionary<uint, string> names, ClientLanguage? language, bool overwrite)

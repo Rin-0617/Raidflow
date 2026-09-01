@@ -20,6 +20,7 @@ public sealed class MainWindow : Window
     private bool showFFLogsAccessToken;
     private string fflogsImportStatus = string.Empty;
     private string importStatus = string.Empty;
+    private string timelineStatus = string.Empty;
     private readonly IReadOnlyList<TimelinePresetSummary> timelinePresets = TimelinePresetService.LoadSummaries();
     private string timelinePresetStatus = string.Empty;
     private int selectedTimelinePresetIndex;
@@ -427,6 +428,14 @@ public sealed class MainWindow : Window
             ImGui.OpenPopup("ClearTimelineConfirm");
         }
 
+        this.DrawSelectedSlotMacroButtons();
+
+        if (!string.IsNullOrWhiteSpace(this.timelineStatus))
+        {
+            ImGui.Spacing();
+            ImGui.TextUnformatted(this.timelineStatus);
+        }
+
         if (ImGui.BeginPopup("ClearTimelineConfirm"))
         {
             ImGui.TextUnformatted($"タイムラインのイベント {this.configuration.Plan.Events.Count} 件と担当軽減をすべて削除します。");
@@ -465,6 +474,26 @@ public sealed class MainWindow : Window
         }
 
         ImGui.EndChild();
+    }
+
+    private void DrawSelectedSlotMacroButtons()
+    {
+        var macros = MitigationMacroService.BuildSlotMacros(this.configuration.Plan, this.configuration.SelectedSlot);
+        if (macros.Count == 0)
+        {
+            return;
+        }
+
+        for (var index = 0; index < macros.Count; index++)
+        {
+            ImGui.SameLine();
+            if (ImGui.Button($"マクロ{index + 1}"))
+            {
+                ImGui.SetClipboardText(macros[index]);
+                var lineCount = macros[index].Split(Environment.NewLine).Length;
+                this.timelineStatus = $"{this.configuration.SelectedSlot} マクロ{index + 1}をコピーしました ({lineCount}行)";
+            }
+        }
     }
 
     private void DrawEventList()
@@ -1012,6 +1041,13 @@ public sealed class MainWindow : Window
             this.configuration.Save();
         }
 
+        var importMitigations = settings.ImportMitigationAssignments;
+        if (ImGui.Checkbox("FFLogsの軽減使用も取り込む", ref importMitigations))
+        {
+            settings.ImportMitigationAssignments = importMitigations;
+            this.configuration.Save();
+        }
+
         ImGui.Separator();
 
         ImGui.TextUnformatted("FFLogs API認証");
@@ -1100,7 +1136,18 @@ public sealed class MainWindow : Window
             AccessTokenExpiresAtUtc = settings.AccessTokenExpiresAtUtc,
             ReportUrl = settings.ReportUrl,
             FightId = settings.FightId,
+            ContentLevel = this.configuration.Plan.ContentLevel,
+            Party = this.configuration.Plan.Party
+                .Select(member => new PartyMemberProfile
+                {
+                    Slot = member.Slot,
+                    PlayerName = member.PlayerName,
+                    Job = member.Job,
+            })
+                .ToList(),
+            ImportMitigationAssignments = settings.ImportMitigationAssignments,
             LocalizedActionNames = this.actionIconService.GetLocalizedActionNames(),
+            EnglishToLocalizedActionNames = this.actionIconService.GetEnglishToLocalizedActionNames(),
         });
     }
 

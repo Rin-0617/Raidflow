@@ -2,6 +2,7 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json;
 using System.Text.RegularExpressions;
+using RaidFlow.Data;
 using RaidFlow.Models;
 
 namespace RaidFlow.Services;
@@ -11,6 +12,8 @@ public static partial class FFLogsImportService
     private const string TokenEndpoint = "https://www.fflogs.com/oauth/token";
     private const string GraphQlEndpoint = "https://www.fflogs.com/api/v2/client";
     private const string AcceptLanguage = "ja-JP,ja;q=0.9,en;q=0.8";
+    private const float MitigationPositiveOffsetWindowSeconds = 12f;
+    private const float MitigationCoveragePaddingSeconds = 6f;
     private static readonly HttpClient HttpClient = new() { Timeout = TimeSpan.FromSeconds(45) };
     private static readonly JsonSerializerOptions JsonOptions = new(JsonSerializerDefaults.Web);
 
@@ -56,6 +59,7 @@ public static partial class FFLogsImportService
                 fight,
                 metadata,
                 request.LocalizedActionNames,
+                request.EnglishToLocalizedActionNames,
                 damageEventsByAbility,
                 cancellationToken)
             .ConfigureAwait(false);
@@ -65,13 +69,33 @@ public static partial class FFLogsImportService
             return FFLogsImportResult.Failed("敵のcastイベントを見つけられませんでした。レポートURL/fight/API権限を確認してください。");
         }
 
+        var importedMitigations = 0;
+        if (request.ImportMitigationAssignments)
+        {
+            var mitigationEvents = await TryGetFriendlyMitigationEventsAsync(
+                    reportCode,
+                    tokenResult.AccessToken,
+                    fight,
+                    metadata,
+                    request.ContentLevel,
+                    cancellationToken)
+                .ConfigureAwait(false);
+            importedMitigations = ApplyMitigationAssignments(
+                events,
+                mitigationEvents,
+                metadata.Actors,
+                request.Party,
+                request.ContentLevel);
+        }
+
         return new FFLogsImportResult
         {
             Success = true,
-            Message = $"{report.Title} / {fight.Name} から {events.Count} 件のcastを取り込みました。名前解決 {events.Count(item => !item.Name.StartsWith("Enemy Cast ", StringComparison.Ordinal))}件、種別推定 {events.Count(item => item.Type != TimelineEventType.Mechanic)}件。",
+            Message = $"{report.Title} / {fight.Name} から {events.Count} 件のcastを取り込みました。名前解決 {events.Count(item => !item.Name.StartsWith("Enemy Cast ", StringComparison.Ordinal))}件、種別推定 {events.Count(item => item.Type != TimelineEventType.Mechanic)}件、軽減 {importedMitigations}件。",
             ReportTitle = report.Title,
             FightName = fight.Name,
             FightId = fight.Id,
+            ImportedMitigationAssignments = importedMitigations,
             AccessToken = tokenResult.AccessToken,
             AccessTokenExpiresAtUtc = tokenResult.ExpiresAtUtc,
             Events = events,
@@ -398,6 +422,7 @@ public static partial class FFLogsImportService
         ReportFight fight,
         ReportMetadata metadata,
         IReadOnlyDictionary<uint, string> localizedActionNames,
+        IReadOnlyDictionary<string, string> englishToLocalizedActionNames,
         IReadOnlyDictionary<uint, List<DamageEvent>> damageEventsByAbility,
         CancellationToken cancellationToken)
     {
@@ -440,6 +465,7 @@ public static partial class FFLogsImportService
                     fight,
                     metadata,
                     localizedActionNames,
+                    englishToLocalizedActionNames,
                     damageEventsByAbility,
                     requireDamageSummary);
             }
@@ -616,6 +642,435 @@ public static partial class FFLogsImportService
         return damageEvents;
     }
 
+    private static async Task<List<FriendlyMitigationEvent>> TryGetFriendlyMitigationEventsAsync(
+        string reportCode,
+        string accessToken,
+        ReportFight fight,
+        ReportMetadata metadata,
+        int contentLevel,
+        CancellationToken cancellationToken)
+    {
+        try
+        {
+            return await GetFriendlyMitigationEventsAsync(
+                    reportCode,
+                    accessToken,
+                    fight,
+                    metadata,
+                    contentLevel,
+                    cancellationToken)
+                .ConfigureAwait(false);
+        }
+        catch
+        {
+            return [];
+        }
+    }
+
+    private static async Task<List<FriendlyMitigationEvent>> GetFriendlyMitigationEventsAsync(
+        string reportCode,
+        string accessToken,
+        ReportFight fight,
+        ReportMetadata metadata,
+        int contentLevel,
+        CancellationToken cancellationToken)
+    {
+        var mitigationEvents = new List<FriendlyMitigationEvent>();
+        var seen = new HashSet<string>(StringComparer.Ordinal);
+        var pageStartTime = fight.StartTime;
+        var pageGuard = 0;
+
+        while (pageStartTime < fight.EndTime && pageGuard++ < 500)
+        {
+            var query = $$"""
+                query ReportFriendlyCasts($code: String!) {
+                  reportData {
+                    report(code: $code) {
+                      events(
+                        fightIDs: [{{fight.Id}}],
+                        startTime: {{pageStartTime}},
+                        endTime: {{fight.EndTime}},
+                        dataType: Casts,
+                        hostilityType: Friendlies,
+                        limit: 10000
+                      ) {
+                        data
+                        nextPageTimestamp
+                      }
+                    }
+                  }
+                }
+                """;
+
+            using var document = await SendGraphQlAsync(
+                    accessToken,
+                    query,
+                    new Dictionary<string, object?> { ["code"] = reportCode },
+                    cancellationToken)
+                .ConfigureAwait(false);
+
+            var eventsElement = document.RootElement
+                .GetProperty("data")
+                .GetProperty("reportData")
+                .GetProperty("report")
+                .GetProperty("events");
+
+            if (TryGetProperty(eventsElement, "data", out var dataElement))
+            {
+                AddFriendlyMitigationEvents(
+                    mitigationEvents,
+                    seen,
+                    dataElement,
+                    fight,
+                    metadata,
+                    contentLevel);
+            }
+
+            var nextPageTimestamp = GetLong(eventsElement, "nextPageTimestamp");
+            if (nextPageTimestamp <= pageStartTime || nextPageTimestamp >= fight.EndTime)
+            {
+                break;
+            }
+
+            pageStartTime = nextPageTimestamp;
+        }
+
+        return mitigationEvents
+            .OrderBy(mitigationEvent => mitigationEvent.Timestamp)
+            .ThenBy(mitigationEvent => mitigationEvent.SourceId)
+            .ToList();
+    }
+
+    private static void AddFriendlyMitigationEvents(
+        List<FriendlyMitigationEvent> mitigationEvents,
+        HashSet<string> seen,
+        JsonElement dataElement,
+        ReportFight fight,
+        ReportMetadata metadata,
+        int contentLevel)
+    {
+        if (dataElement.ValueKind == JsonValueKind.String)
+        {
+            using var parsed = JsonDocument.Parse(dataElement.GetString() ?? "[]");
+            AddFriendlyMitigationEvents(
+                mitigationEvents,
+                seen,
+                parsed.RootElement,
+                fight,
+                metadata,
+                contentLevel);
+            return;
+        }
+
+        if (dataElement.ValueKind != JsonValueKind.Array)
+        {
+            return;
+        }
+
+        foreach (var eventElement in dataElement.EnumerateArray())
+        {
+            var eventType = GetString(eventElement, "type");
+            if (!string.IsNullOrWhiteSpace(eventType) &&
+                !string.Equals(eventType, "cast", StringComparison.OrdinalIgnoreCase) &&
+                !string.Equals(eventType, "begincast", StringComparison.OrdinalIgnoreCase))
+            {
+                continue;
+            }
+
+            var timestamp = GetLong(eventElement, "timestamp");
+            var abilityId = GetUInt(eventElement, "abilityGameID");
+            if (TryGetProperty(eventElement, "ability", out var abilityElement))
+            {
+                abilityId = abilityId == 0 ? GetUInt(abilityElement, "guid") : abilityId;
+            }
+
+            var sourceId = GetInt(eventElement, "sourceID");
+            if (timestamp <= 0 || abilityId == 0 || sourceId <= 0)
+            {
+                continue;
+            }
+
+            var action = MitigationCatalog.FindAction(abilityId, contentLevel);
+            if (action is null)
+            {
+                continue;
+            }
+
+            var dedupeKey = $"{sourceId}:{action.CanonicalActionId}:{timestamp / 250}";
+            if (!seen.Add(dedupeKey))
+            {
+                continue;
+            }
+
+            metadata.Actors.TryGetValue(sourceId, out var sourceActor);
+            var sourceName = sourceActor?.Name ?? string.Empty;
+            var job = NormalizeJobName(sourceActor?.SubType ?? string.Empty);
+            if (string.IsNullOrWhiteSpace(job) && !IsRoleJob(action.Job))
+            {
+                job = action.Job;
+            }
+
+            mitigationEvents.Add(new FriendlyMitigationEvent(
+                timestamp,
+                Math.Max(0, (timestamp - fight.StartTime) / 1000f),
+                sourceId,
+                sourceName,
+                job,
+                action));
+        }
+    }
+
+    private static int ApplyMitigationAssignments(
+        IReadOnlyList<TimelineEvent> timelineEvents,
+        IReadOnlyList<FriendlyMitigationEvent> mitigationEvents,
+        IReadOnlyDictionary<int, ReportActor> actors,
+        IReadOnlyList<PartyMemberProfile> party,
+        int contentLevel)
+    {
+        if (timelineEvents.Count == 0 || mitigationEvents.Count == 0)
+        {
+            return 0;
+        }
+
+        var assignedSlotsByActor = new Dictionary<int, PartySlot>();
+        var imported = 0;
+        foreach (var mitigationEvent in mitigationEvents)
+        {
+            var targetEvent = FindMitigationTargetEvent(timelineEvents, mitigationEvent);
+            if (targetEvent is null)
+            {
+                continue;
+            }
+
+            var slot = ResolvePartySlot(mitigationEvent, actors, party, assignedSlotsByActor);
+            var job = string.IsNullOrWhiteSpace(mitigationEvent.Job)
+                ? mitigationEvent.Action.Job
+                : mitigationEvent.Job;
+            var useOffset = (float)Math.Round(mitigationEvent.TimeSeconds - targetEvent.TimeSeconds, 1);
+            if (HasEquivalentAssignment(targetEvent, slot, mitigationEvent.Action, contentLevel))
+            {
+                continue;
+            }
+
+            targetEvent.Assignments.Add(new MitigationAssignment
+            {
+                Id = $"asg_fflogs_{mitigationEvent.SourceId}_{mitigationEvent.Action.CanonicalActionId}_{mitigationEvent.Timestamp}",
+                Slot = slot,
+                Job = job,
+                ActionId = mitigationEvent.Action.ActionId,
+                UseOffsetSeconds = useOffset,
+                Note = string.IsNullOrWhiteSpace(mitigationEvent.SourceName)
+                    ? "FFLogs"
+                    : $"FFLogs: {mitigationEvent.SourceName}",
+            });
+            imported++;
+        }
+
+        return imported;
+    }
+
+    private static TimelineEvent? FindMitigationTargetEvent(
+        IReadOnlyList<TimelineEvent> timelineEvents,
+        FriendlyMitigationEvent mitigationEvent)
+    {
+        var beforeWindow = Math.Max(12f, mitigationEvent.Action.DurationSeconds + MitigationCoveragePaddingSeconds);
+
+        return timelineEvents
+            .Where(timelineEvent => CanAssignMitigationToEvent(timelineEvent.Type, mitigationEvent.Action))
+            .Select(timelineEvent => new
+            {
+                Event = timelineEvent,
+                Offset = mitigationEvent.TimeSeconds - timelineEvent.TimeSeconds,
+            })
+            .Where(candidate =>
+                candidate.Offset >= -beforeWindow &&
+                candidate.Offset <= MitigationPositiveOffsetWindowSeconds)
+            .OrderBy(candidate => ScoreMitigationTargetEvent(candidate.Event.Type, mitigationEvent.Action, candidate.Offset))
+            .ThenBy(candidate => candidate.Event.TimeSeconds)
+            .Select(candidate => candidate.Event)
+            .FirstOrDefault();
+    }
+
+    private static float ScoreMitigationTargetEvent(
+        TimelineEventType eventType,
+        MitigationActionDefinition action,
+        float offsetSeconds)
+    {
+        var score = Math.Abs(offsetSeconds);
+        if (offsetSeconds > 0)
+        {
+            score += 2f;
+        }
+
+        if (action.IsRaidMitigation && eventType == TimelineEventType.Raidwide)
+        {
+            score -= 4f;
+        }
+
+        if (!action.IsRaidMitigation && eventType == TimelineEventType.Tankbuster)
+        {
+            score -= 4f;
+        }
+
+        if (eventType == TimelineEventType.Mechanic)
+        {
+            score += 2f;
+        }
+
+        return score;
+    }
+
+    private static bool CanAssignMitigationToEvent(TimelineEventType eventType, MitigationActionDefinition action)
+    {
+        if (eventType is TimelineEventType.Downtime or TimelineEventType.Burst)
+        {
+            return false;
+        }
+
+        if (action.IsRaidMitigation)
+        {
+            return true;
+        }
+
+        return action.Role is PartyRole.Tank or PartyRole.Healer &&
+            eventType == TimelineEventType.Tankbuster;
+    }
+
+    private static bool HasEquivalentAssignment(
+        TimelineEvent timelineEvent,
+        PartySlot slot,
+        MitigationActionDefinition action,
+        int contentLevel)
+    {
+        var canonicalActionId = action.CanonicalActionId == 0 ? action.ActionId : action.CanonicalActionId;
+        return timelineEvent.Assignments.Any(assignment =>
+        {
+            var existingAction = MitigationCatalog.FindAction(assignment.ActionId, contentLevel);
+            var existingCanonicalActionId = existingAction?.CanonicalActionId == 0
+                ? existingAction.ActionId
+                : existingAction?.CanonicalActionId ?? assignment.ActionId;
+
+            return assignment.Slot == slot && existingCanonicalActionId == canonicalActionId;
+        });
+    }
+
+    private static PartySlot ResolvePartySlot(
+        FriendlyMitigationEvent mitigationEvent,
+        IReadOnlyDictionary<int, ReportActor> actors,
+        IReadOnlyList<PartyMemberProfile> party,
+        IDictionary<int, PartySlot> assignedSlotsByActor)
+    {
+        if (assignedSlotsByActor.TryGetValue(mitigationEvent.SourceId, out var assignedSlot))
+        {
+            return assignedSlot;
+        }
+
+        if (!string.IsNullOrWhiteSpace(mitigationEvent.SourceName))
+        {
+            var namedProfile = party.FirstOrDefault(member =>
+                !string.IsNullOrWhiteSpace(member.PlayerName) &&
+                string.Equals(member.PlayerName.Trim(), mitigationEvent.SourceName.Trim(), StringComparison.OrdinalIgnoreCase));
+            if (namedProfile is not null)
+            {
+                assignedSlotsByActor[mitigationEvent.SourceId] = namedProfile.Slot;
+                return namedProfile.Slot;
+            }
+        }
+
+        if (actors.TryGetValue(mitigationEvent.SourceId, out var actor) &&
+            !string.IsNullOrWhiteSpace(actor.SubType))
+        {
+            var actorJob = NormalizeJobName(actor.SubType);
+            if (!string.IsNullOrWhiteSpace(actorJob))
+            {
+                var matchingProfile = FindAvailableConfiguredJobSlot(actorJob, party, assignedSlotsByActor.Values);
+                if (matchingProfile is not null)
+                {
+                    assignedSlotsByActor[mitigationEvent.SourceId] = matchingProfile.Slot;
+                    return matchingProfile.Slot;
+                }
+            }
+        }
+
+        var slot = FirstAvailableSlotForJob(mitigationEvent.Job, assignedSlotsByActor.Values);
+        assignedSlotsByActor[mitigationEvent.SourceId] = slot;
+        return slot;
+    }
+
+    private static PartyMemberProfile? FindAvailableConfiguredJobSlot(
+        string job,
+        IReadOnlyList<PartyMemberProfile> party,
+        IEnumerable<PartySlot> usedSlots)
+    {
+        var usedSlotSet = usedSlots.ToHashSet();
+        return SlotCandidatesForJob(job)
+            .Select(slot => party.FirstOrDefault(member => member.Slot == slot))
+            .FirstOrDefault(member =>
+                member is not null &&
+                !usedSlotSet.Contains(member.Slot) &&
+                string.Equals(member.Job, job, StringComparison.OrdinalIgnoreCase));
+    }
+
+    private static PartySlot FirstAvailableSlotForJob(string job, IEnumerable<PartySlot> usedSlots)
+    {
+        var usedSlotSet = usedSlots.ToHashSet();
+        var candidates = SlotCandidatesForJob(job);
+        return candidates.FirstOrDefault(slot => !usedSlotSet.Contains(slot), candidates[0]);
+    }
+
+    private static IReadOnlyList<PartySlot> SlotCandidatesForJob(string job)
+    {
+        return NormalizeJobName(job) switch
+        {
+            "PLD" or "WAR" or "DRK" or "GNB" or "TANK" => [PartySlot.MT, PartySlot.ST],
+            "WHM" or "SCH" or "AST" or "SGE" or "HEALER" => [PartySlot.H1, PartySlot.H2],
+            "MNK" or "DRG" or "NIN" or "SAM" or "RPR" or "VPR" or "MELEE" => [PartySlot.D1, PartySlot.D2],
+            "BRD" or "MCH" or "DNC" or "PHYSICALRANGED" => [PartySlot.D3, PartySlot.D2, PartySlot.D1, PartySlot.D4],
+            "BLM" or "SMN" or "RDM" or "PCT" or "CASTER" => [PartySlot.D4, PartySlot.D2, PartySlot.D1, PartySlot.D3],
+            _ => [PartySlot.D1, PartySlot.D2, PartySlot.D3, PartySlot.D4],
+        };
+    }
+
+    private static bool IsRoleJob(string job)
+    {
+        return NormalizeJobName(job) is "TANK" or "HEALER" or "MELEE" or "PHYSICALRANGED" or "CASTER";
+    }
+
+    private static string NormalizeJobName(string value)
+    {
+        var normalized = value.Replace(" ", string.Empty, StringComparison.OrdinalIgnoreCase).Trim();
+        return normalized.ToUpperInvariant() switch
+        {
+            "PALADIN" or "PLD" or "ナイト" => "PLD",
+            "WARRIOR" or "WAR" or "戦士" => "WAR",
+            "DARKKNIGHT" or "DRK" or "暗黒騎士" => "DRK",
+            "GUNBREAKER" or "GNB" or "ガンブレイカー" => "GNB",
+            "WHITEMAGE" or "WHM" or "白魔道士" => "WHM",
+            "SCHOLAR" or "SCH" or "学者" => "SCH",
+            "ASTROLOGIAN" or "AST" or "占星術師" => "AST",
+            "SAGE" or "SGE" or "賢者" => "SGE",
+            "MONK" or "MNK" or "モンク" => "MNK",
+            "DRAGOON" or "DRG" or "竜騎士" => "DRG",
+            "NINJA" or "NIN" or "忍者" => "NIN",
+            "SAMURAI" or "SAM" or "侍" => "SAM",
+            "REAPER" or "RPR" or "リーパー" => "RPR",
+            "VIPER" or "VPR" or "ヴァイパー" => "VPR",
+            "BARD" or "BRD" or "吟遊詩人" => "BRD",
+            "MACHINIST" or "MCH" or "機工士" => "MCH",
+            "DANCER" or "DNC" or "踊り子" => "DNC",
+            "BLACKMAGE" or "BLM" or "黒魔道士" => "BLM",
+            "SUMMONER" or "SMN" or "召喚士" => "SMN",
+            "REDMAGE" or "RDM" or "赤魔道士" => "RDM",
+            "PICTOMANCER" or "PCT" or "ピクトマンサー" => "PCT",
+            "TANK" => "TANK",
+            "HEALER" => "HEALER",
+            "MELEE" => "MELEE",
+            "PHYSICALRANGED" or "PHYSICALRANGE" or "RANGED" => "PHYSICALRANGED",
+            "CASTER" => "CASTER",
+            _ => normalized.ToUpperInvariant(),
+        };
+    }
+
     private static async Task<JsonDocument> SendGraphQlAsync(
         string accessToken,
         string query,
@@ -663,6 +1118,7 @@ public static partial class FFLogsImportService
         ReportFight fight,
         ReportMetadata metadata,
         IReadOnlyDictionary<uint, string> localizedActionNames,
+        IReadOnlyDictionary<string, string> englishToLocalizedActionNames,
         IReadOnlyDictionary<uint, List<DamageEvent>> damageEventsByAbility,
         bool requireDamageSummary)
     {
@@ -677,6 +1133,7 @@ public static partial class FFLogsImportService
                 fight,
                 metadata,
                 localizedActionNames,
+                englishToLocalizedActionNames,
                 damageEventsByAbility,
                 requireDamageSummary);
             return;
@@ -711,7 +1168,12 @@ public static partial class FFLogsImportService
                 abilityId = abilityId == 0 ? GetUInt(abilityElement, "guid") : abilityId;
             }
 
-            abilityName = ResolveAbilityName(abilityId, abilityName, localizedActionNames, metadata.Abilities);
+            abilityName = ResolveAbilityName(
+                abilityId,
+                abilityName,
+                localizedActionNames,
+                englishToLocalizedActionNames,
+                metadata.Abilities);
             if (string.IsNullOrWhiteSpace(abilityName))
             {
                 abilityName = abilityId == 0 ? "Enemy Cast" : $"Enemy Cast {abilityId}";
@@ -781,6 +1243,7 @@ public static partial class FFLogsImportService
         uint abilityId,
         string eventAbilityName,
         IReadOnlyDictionary<uint, string> localizedActionNames,
+        IReadOnlyDictionary<string, string> englishToLocalizedActionNames,
         IReadOnlyDictionary<uint, ReportAbility> abilities)
     {
         var metadataName = abilityId != 0 && abilities.TryGetValue(abilityId, out var ability)
@@ -791,7 +1254,8 @@ public static partial class FFLogsImportService
             abilityId,
             eventAbilityName,
             localizedActionNames,
-            metadataName);
+            metadataName,
+            englishToLocalizedActionNames);
     }
 
     private static DamageSummary? FindDamageSummary(
@@ -1079,6 +1543,14 @@ public static partial class FFLogsImportService
     private sealed record DamageEvent(long Timestamp, uint AbilityGameId, int TargetId);
 
     private sealed record DamageSummary(int TargetCount, int TankTargetCount);
+
+    private sealed record FriendlyMitigationEvent(
+        long Timestamp,
+        float TimeSeconds,
+        int SourceId,
+        string SourceName,
+        string Job,
+        MitigationActionDefinition Action);
 
     private sealed record EventsPage(JsonDocument Document, bool TranslationUnavailable);
 }
