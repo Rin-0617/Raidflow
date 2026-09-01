@@ -4,7 +4,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
-    <Version>0.1.13.0</Version>
+    <Version>0.1.14.0</Version>
     <Author>Rin</Author>
     <Name>RaidFlow</Name>
     <MinimumDalamudVersion>15.0.0.0</MinimumDalamudVersion>
