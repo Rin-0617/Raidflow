@@ -67,11 +67,28 @@ public sealed class ActionIconService
                 continue;
             }
 
-            mappedNames[englishName.Trim()] = localizedName;
+            AddEnglishToLocalizedActionName(mappedNames, englishName.Trim(), localizedName);
+            AddEnglishToLocalizedActionName(
+                mappedNames,
+                FFLogsNameResolver.NormalizeAbilityNameLookupKey(englishName),
+                localizedName);
         }
 
         this.englishToLocalizedActionNames = mappedNames;
         return this.englishToLocalizedActionNames;
+    }
+
+    private static void AddEnglishToLocalizedActionName(
+        Dictionary<string, string> mappedNames,
+        string englishName,
+        string localizedName)
+    {
+        if (string.IsNullOrWhiteSpace(englishName) || mappedNames.ContainsKey(englishName))
+        {
+            return;
+        }
+
+        mappedNames[englishName] = localizedName;
     }
 
     private void AddActionNames(Dictionary<uint, string> names, ClientLanguage? language, bool overwrite)

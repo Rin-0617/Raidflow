@@ -138,6 +138,25 @@ public sealed class FFLogsNameResolverTests
     }
 
     [Fact]
+    public void ResolveAbilityNameUsesNormalizedEnglishNameMapping()
+    {
+        var localizedNames = new Dictionary<uint, string>();
+        var englishToLocalizedNames = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
+        {
+            [FFLogsNameResolver.NormalizeAbilityNameLookupKey("Blizzard III Blowout")] = "ぼりぼりブリザガ",
+        };
+
+        var name = FFLogsNameResolver.ResolveAbilityName(
+            11111,
+            "Blizzard-III: Blowout!",
+            localizedNames,
+            "Blizzard III Blowout",
+            englishToLocalizedNames);
+
+        Assert.Equal("ぼりぼりブリザガ", name);
+    }
+
+    [Fact]
     public void ResolveAbilityNameFallsBackToEventNameWhenLuminaIsUnavailable()
     {
         var name = FFLogsNameResolver.ResolveAbilityName(

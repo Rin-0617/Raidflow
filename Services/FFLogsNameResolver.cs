@@ -1,3 +1,5 @@
+using System.Text;
+
 namespace RaidFlow.Services;
 
 public static class FFLogsNameResolver
@@ -93,6 +95,21 @@ public static class FFLogsNameResolver
                actionId > 0;
     }
 
+    public static string NormalizeAbilityNameLookupKey(string value)
+    {
+        var normalized = value.Normalize(NormalizationForm.FormKC);
+        var builder = new StringBuilder(normalized.Length);
+        foreach (var character in normalized)
+        {
+            if (char.IsLetterOrDigit(character))
+            {
+                builder.Append(char.ToLowerInvariant(character));
+            }
+        }
+
+        return builder.ToString();
+    }
+
     private static IEnumerable<uint> ResolveAbilityIds(uint abilityId, string eventName, string translatedMetadataName)
     {
         if (abilityId > 0)
@@ -137,14 +154,28 @@ public static class FFLogsNameResolver
     {
         localizedName = string.Empty;
         if (englishToLocalizedActionNames is null ||
-            string.IsNullOrWhiteSpace(abilityName) ||
-            !englishToLocalizedActionNames.TryGetValue(abilityName.Trim(), out var candidate) ||
-            !IsUsableAbilityName(candidate))
+            string.IsNullOrWhiteSpace(abilityName))
         {
             return false;
         }
 
-        localizedName = candidate;
+        var trimmedName = abilityName.Trim();
+        if (englishToLocalizedActionNames.TryGetValue(trimmedName, out var exactCandidate) &&
+            IsUsableAbilityName(exactCandidate))
+        {
+            localizedName = exactCandidate;
+            return true;
+        }
+
+        var normalizedName = NormalizeAbilityNameLookupKey(trimmedName);
+        if (normalizedName.Length == 0 ||
+            !englishToLocalizedActionNames.TryGetValue(normalizedName, out var normalizedCandidate) ||
+            !IsUsableAbilityName(normalizedCandidate))
+        {
+            return false;
+        }
+
+        localizedName = normalizedCandidate;
         return true;
     }
 
