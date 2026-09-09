@@ -104,6 +104,16 @@ FFLogs APIを使うため、Access Token、またはClient ID / Client Secretの
 
 Rin
 
+## 開発の支援
+
+RaidFlowを気に入っていただけた場合は、OFUSEから開発を応援できます。
+
+```text
+https://ofuse.me/rin0617
+```
+
+メイン画面のタイトルバーにある♡ボタンからも開けます。
+
 ## 注意
 
 このプラグインは開発中です。

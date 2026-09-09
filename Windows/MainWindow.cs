@@ -43,6 +43,7 @@ public sealed class MainWindow : Window
         this.Size = new Vector2(1120, 720);
         this.SizeCondition = ImGuiCond.FirstUseEver;
         this.IsOpen = false;
+        this.TitleBarButtons.Add(SupportLink.CreateTitleBarButton());
     }
 
     public override void Draw()
