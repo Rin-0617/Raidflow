@@ -29,11 +29,13 @@ FFXIV Dalamud向けのレイド攻略支援プラグインです。
 カスタムプラグインリポジトリ:
 
 ```text
-https://raw.githubusercontent.com/Rin-0617/Raidflow/master/pluginmaster.json
+https://raw.githubusercontent.com/Rin-0617/RinPlugins/main/pluginmaster.json
 ```
 
 Dalamud設定の試験的機能からCustom Plugin Repositoriesへ上記URLを追加してください。
-リリース版はGitHub Releasesのzipを参照します。
+PartySieveなど、Rinの他のプラグインも同じURLから導入できます。
+
+以前の `https://raw.githubusercontent.com/Rin-0617/Raidflow/master/pluginmaster.json` を登録している場合は、上記URLに入れ替えてください。両方を登録すると、RaidFlowが2つ表示されます。
 
 ## 初回設定
 
