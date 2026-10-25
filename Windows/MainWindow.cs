@@ -27,6 +27,10 @@ public sealed class MainWindow : Window
     private int selectedTimelinePresetIndex;
     private int selectedEventIndex;
     private float timerSetSeconds;
+    private int tab;
+
+    private static readonly string[] NavLabels =
+        ["タイムライン", "PT設定", "警告", "オーバーレイ", "インポート/エクスポート", "FFLogs読込"];
 
     public MainWindow(
         Configuration configuration,
@@ -67,47 +71,33 @@ public sealed class MainWindow : Window
 
         this.DrawHeader();
 
-        if (ImGui.BeginTabBar("RaidFlowTabs"))
+        this.tab = Sidebar.Draw("RaidFlow", $"v{VersionInfo.DisplayVersion}", NavLabels, this.tab, SupportLink.OfuseUrl);
+        if (ImGui.BeginChild("##content", Vector2.Zero, true))
         {
-            if (ImGui.BeginTabItem("タイムライン"))
+            switch (this.tab)
             {
-                this.DrawTimelineTab();
-                ImGui.EndTabItem();
+                case 1:
+                    this.DrawPartyTab();
+                    break;
+                case 2:
+                    this.DrawWarningsTab();
+                    break;
+                case 3:
+                    this.DrawOverlayTab();
+                    break;
+                case 4:
+                    this.DrawImportExportTab();
+                    break;
+                case 5:
+                    this.DrawFFLogsTab();
+                    break;
+                default:
+                    this.DrawTimelineTab();
+                    break;
             }
-
-            if (ImGui.BeginTabItem("PT設定"))
-            {
-                this.DrawPartyTab();
-                ImGui.EndTabItem();
-            }
-
-            if (ImGui.BeginTabItem("警告"))
-            {
-                this.DrawWarningsTab();
-                ImGui.EndTabItem();
-            }
-
-            if (ImGui.BeginTabItem("オーバーレイ"))
-            {
-                this.DrawOverlayTab();
-                ImGui.EndTabItem();
-            }
-
-            if (ImGui.BeginTabItem("インポート/エクスポート"))
-            {
-                this.DrawImportExportTab();
-                ImGui.EndTabItem();
-            }
-
-            if (ImGui.BeginTabItem("FFLogs読込"))
-            {
-                this.DrawFFLogsTab();
-                ImGui.EndTabItem();
-            }
-
-            ImGui.EndTabBar();
         }
 
+        ImGui.EndChild();
         this.fileDialogManager.Draw();
     }
 
