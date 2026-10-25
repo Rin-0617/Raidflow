@@ -5,6 +5,7 @@ using Dalamud.Interface.Windowing;
 using RaidFlow.Data;
 using RaidFlow.Models;
 using RaidFlow.Services;
+using RinUi;
 
 namespace RaidFlow.Windows;
 
@@ -47,6 +48,19 @@ public sealed class MainWindow : Window
     }
 
     public override void Draw()
+    {
+        Theme.Push();
+        try
+        {
+            this.DrawBody();
+        }
+        finally
+        {
+            Theme.Pop();
+        }
+    }
+
+    private void DrawBody()
     {
         this.configuration.Plan.Normalize();
         this.UpdateFFLogsImportTask();
